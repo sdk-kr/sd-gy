@@ -33,6 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"wrangler": "^4.60.0"
+		"wrangler": "^3.99.0"
 	}
 }
