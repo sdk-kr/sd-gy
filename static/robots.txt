@@ -1,0 +1,5 @@
+# SD.gy - Online Calculators
+User-agent: *
+Allow: /
+
+Sitemap: https://sd.gy/sitemap.xml
