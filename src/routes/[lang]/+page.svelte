@@ -38,10 +38,22 @@
 			color: 'bg-pink-500/10 text-pink-500 dark:bg-pink-500/20'
 		},
 		{
+			key: 'anniversary-calculator',
+			href: 'anniversary-calculator',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>`,
+			color: 'bg-red-500/10 text-red-500 dark:bg-red-500/20'
+		},
+		{
 			key: 'bmi-calculator',
 			href: 'bmi-calculator',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" /></svg>`,
 			color: 'bg-green-500/10 text-green-500 dark:bg-green-500/20'
+		},
+		{
+			key: 'calorie-calculator',
+			href: 'calorie-calculator',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" /><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" /></svg>`,
+			color: 'bg-orange-500/10 text-orange-500 dark:bg-orange-500/20'
 		},
 		{
 			key: 'tip-calculator',
@@ -54,6 +66,49 @@
 			href: 'loan-calculator',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`,
 			color: 'bg-emerald-500/10 text-emerald-500 dark:bg-emerald-500/20'
+		},
+		{
+			key: 'compound-interest',
+			href: 'compound-interest',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>`,
+			color: 'bg-cyan-500/10 text-cyan-500 dark:bg-cyan-500/20'
+		},
+		{
+			key: 'currency-converter',
+			href: 'currency-converter',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>`,
+			color: 'bg-yellow-500/10 text-yellow-500 dark:bg-yellow-500/20'
+		},
+		{
+			key: 'tax-calculator',
+			href: 'tax-calculator',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z" /></svg>`,
+			color: 'bg-slate-500/10 text-slate-500 dark:bg-slate-500/20'
+		},
+		{
+			key: 'career-calculator',
+			href: 'career-calculator',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>`,
+			color: 'bg-amber-500/10 text-amber-500 dark:bg-amber-500/20'
+		},
+		{
+			key: 'ladder-game',
+			href: 'ladder-game',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5v14M20 5v14M8 5v14M16 5v14M4 9h4M16 9h4M4 13h4M16 13h4M4 17h4M16 17h4M8 7h8M8 11h8M8 15h8" /></svg>`,
+			color: 'bg-fuchsia-500/10 text-fuchsia-500 dark:bg-fuchsia-500/20'
+		}
+	];
+
+	const services = [
+		{
+			name: 'image',
+			url: 'https://img.sd.gy',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>`
+		},
+		{
+			name: 'qr',
+			url: 'https://qr.sd.gy',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" /></svg>`
 		}
 	];
 </script>
@@ -92,6 +147,36 @@
 				</p>
 			</a>
 		{/each}
+	</div>
+
+	<!-- Related Services -->
+	<div class="mt-16">
+		<h2 class="text-2xl font-bold text-gray-900 dark:text-dark-100 text-center mb-8">
+			{t('services.title')}
+		</h2>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+			{#each services as service}
+				<a
+					href={service.url}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="group flex items-center gap-4 p-6 bg-gradient-to-br from-violet-50 to-purple-50 dark:from-dark-800 dark:to-dark-700 border border-violet-200 dark:border-dark-600 rounded-2xl hover:shadow-lg hover:shadow-violet-500/10 transition-all"
+				>
+					<div class="w-14 h-14 rounded-xl bg-violet-500/10 dark:bg-violet-500/20 text-violet-500 flex items-center justify-center">
+						{@html service.icon}
+					</div>
+					<div>
+						<h3 class="text-lg font-semibold text-gray-900 dark:text-dark-100 group-hover:text-violet-500 transition-colors">
+							{t(`services.${service.name}`)}
+						</h3>
+						<p class="text-sm text-gray-600 dark:text-dark-400">
+							{t(`services.${service.name}Desc`)}
+						</p>
+						<span class="text-xs text-violet-500 mt-1 inline-block">{service.url.replace('https://', '')}</span>
+					</div>
+				</a>
+			{/each}
+		</div>
 	</div>
 
 	<!-- Features Section -->

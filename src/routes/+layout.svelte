@@ -15,6 +15,22 @@
 	$: basePath = `/${currentLang}`;
 
 	let showLangMenu = false;
+	let showServicesMenu = false;
+
+	const services = [
+		{
+			name: { en: 'Image Tools', ko: '이미지 도구', ja: '画像ツール', zh: '图片工具' },
+			desc: { en: 'Compress, resize, convert', ko: '압축, 리사이즈, 변환', ja: '圧縮、リサイズ、変換', zh: '压缩、调整、转换' },
+			url: 'https://img.sd.gy',
+			icon: 'image'
+		},
+		{
+			name: { en: 'QR Generator', ko: 'QR코드 생성', ja: 'QRコード生成', zh: 'QR码生成' },
+			desc: { en: 'Create custom QR codes', ko: '맞춤 QR코드 생성', ja: 'カスタムQRコード作成', zh: '创建自定义QR码' },
+			url: 'https://qr.sd.gy',
+			icon: 'qr'
+		}
+	];
 
 	onMount(() => {
 		theme.init();
@@ -34,6 +50,9 @@
 		const target = e.target as HTMLElement;
 		if (showLangMenu && !target.closest('.lang-menu')) {
 			showLangMenu = false;
+		}
+		if (showServicesMenu && !target.closest('.services-menu')) {
+			showServicesMenu = false;
 		}
 	}
 </script>
@@ -60,9 +79,47 @@
 				<a href="{basePath}/percentage" class="hidden sm:inline text-gray-600 dark:text-dark-300 hover:text-violet-500 dark:hover:text-violet-400 transition-colors text-sm">
 					{$locale === 'ko' ? '퍼센트' : $locale === 'ja' ? 'パーセント' : $locale === 'zh' ? '百分比' : 'Percentage'}
 				</a>
-				<a href="{basePath}/unit-converter" class="hidden sm:inline text-gray-600 dark:text-dark-300 hover:text-violet-500 dark:hover:text-violet-400 transition-colors text-sm">
-					{$locale === 'ko' ? '단위변환' : $locale === 'ja' ? '単位変換' : $locale === 'zh' ? '单位转换' : 'Unit'}
-				</a>
+
+				<!-- Services Dropdown -->
+				<div class="relative services-menu">
+					<button
+						on:click={() => showServicesMenu = !showServicesMenu}
+						class="flex items-center gap-1 text-gray-600 dark:text-dark-300 hover:text-violet-500 dark:hover:text-violet-400 transition-colors text-sm"
+					>
+						<span>{$locale === 'ko' ? '서비스' : $locale === 'ja' ? 'サービス' : $locale === 'zh' ? '服务' : 'Services'}</span>
+						<span class="text-xs">▼</span>
+					</button>
+
+					{#if showServicesMenu}
+						<div class="absolute right-0 top-full mt-2 bg-white dark:bg-dark-800 border border-gray-200 dark:border-dark-700 rounded-xl shadow-xl py-2 min-w-[200px]">
+							{#each services as service}
+								<a
+									href={service.url}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 dark:hover:bg-dark-700 transition-colors"
+									on:click={() => showServicesMenu = false}
+								>
+									<div class="w-8 h-8 rounded-lg bg-violet-100 dark:bg-violet-500/20 text-violet-500 flex items-center justify-center">
+										{#if service.icon === 'image'}
+											<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+											</svg>
+										{:else}
+											<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+											</svg>
+										{/if}
+									</div>
+									<div>
+										<p class="text-sm font-medium text-gray-900 dark:text-dark-100">{service.name[$locale] || service.name.en}</p>
+										<p class="text-xs text-gray-500 dark:text-dark-400">{service.desc[$locale] || service.desc.en}</p>
+									</div>
+								</a>
+							{/each}
+						</div>
+					{/if}
+				</div>
 
 				<!-- Theme Toggle -->
 				<button
@@ -119,6 +176,25 @@
 
 	<footer class="bg-gray-50 dark:bg-dark-900 border-t border-gray-200 dark:border-dark-700 px-4 py-8">
 		<div class="max-w-7xl mx-auto">
+			<!-- SDKLABS Services -->
+			<div class="mb-8 pb-8 border-b border-gray-200 dark:border-dark-700">
+				<p class="text-xs text-gray-400 dark:text-dark-500 uppercase tracking-wider mb-4">SDKLABS Services</p>
+				<div class="flex flex-wrap gap-6">
+					<a href="https://sd.gy" class="group flex items-center gap-2">
+						<span class="text-lg font-bold text-violet-500">SD.gy</span>
+						<span class="text-xs text-gray-400 dark:text-dark-500 group-hover:text-violet-400">{$locale === 'ko' ? '계산기' : $locale === 'ja' ? '電卓' : $locale === 'zh' ? '计算器' : 'Calculators'}</span>
+					</a>
+					<a href="https://img.sd.gy" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-2">
+						<span class="text-lg font-bold text-gray-600 dark:text-dark-300 group-hover:text-violet-500">img.sd.gy</span>
+						<span class="text-xs text-gray-400 dark:text-dark-500 group-hover:text-violet-400">{$locale === 'ko' ? '이미지' : $locale === 'ja' ? '画像' : $locale === 'zh' ? '图片' : 'Images'}</span>
+					</a>
+					<a href="https://qr.sd.gy" target="_blank" rel="noopener noreferrer" class="group flex items-center gap-2">
+						<span class="text-lg font-bold text-gray-600 dark:text-dark-300 group-hover:text-violet-500">qr.sd.gy</span>
+						<span class="text-xs text-gray-400 dark:text-dark-500 group-hover:text-violet-400">QR Code</span>
+					</a>
+				</div>
+			</div>
+
 			<div class="flex flex-col md:flex-row justify-between items-center gap-4">
 				<p class="text-gray-500 dark:text-dark-400 text-sm">{t('footer.copyright')}</p>
 				<div class="flex items-center gap-6 text-sm">

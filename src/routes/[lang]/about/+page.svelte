@@ -29,6 +29,10 @@
 			contact: {
 				title: 'Contact',
 				text: 'For questions or feedback, please contact us at hello@sd.gy'
+			},
+			operator: {
+				title: 'Operated by',
+				text: 'SDKLABS'
 			}
 		},
 		ko: {
@@ -55,6 +59,10 @@
 			contact: {
 				title: '연락처',
 				text: '문의사항이나 피드백은 hello@sd.gy로 연락해 주세요.'
+			},
+			operator: {
+				title: '운영',
+				text: 'SDKLABS'
 			}
 		},
 		ja: {
@@ -81,6 +89,10 @@
 			contact: {
 				title: 'お問い合わせ',
 				text: 'ご質問やフィードバックは hello@sd.gy までご連絡ください。'
+			},
+			operator: {
+				title: '運営',
+				text: 'SDKLABS'
 			}
 		},
 		zh: {
@@ -107,6 +119,10 @@
 			contact: {
 				title: '联系我们',
 				text: '如有问题或反馈，请联系 hello@sd.gy'
+			},
+			operator: {
+				title: '运营商',
+				text: 'SDKLABS'
 			}
 		}
 	};
@@ -148,8 +164,13 @@
 		<p class="text-gray-700 dark:text-dark-300">{t.privacy.text}</p>
 	</section>
 
-	<section>
+	<section class="mb-10">
 		<h2 class="text-2xl font-semibold text-gray-900 dark:text-dark-100 mb-4">{t.contact.title}</h2>
 		<p class="text-gray-700 dark:text-dark-300">{t.contact.text}</p>
+	</section>
+
+	<section>
+		<h2 class="text-2xl font-semibold text-gray-900 dark:text-dark-100 mb-4">{t.operator.title}</h2>
+		<p class="text-gray-700 dark:text-dark-300 font-medium">{t.operator.text}</p>
 	</section>
 </div>
