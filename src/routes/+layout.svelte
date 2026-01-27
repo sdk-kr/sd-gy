@@ -79,6 +79,9 @@
 				<a href="{basePath}/percentage" class="hidden sm:inline text-gray-600 dark:text-dark-300 hover:text-violet-500 dark:hover:text-violet-400 transition-colors text-sm">
 					{$locale === 'ko' ? '퍼센트' : $locale === 'ja' ? 'パーセント' : $locale === 'zh' ? '百分比' : 'Percentage'}
 				</a>
+				<a href="{basePath}/blog" class="text-gray-600 dark:text-dark-300 hover:text-violet-500 dark:hover:text-violet-400 transition-colors text-sm">
+					Blog
+				</a>
 
 				<!-- Services Dropdown -->
 				<div class="relative services-menu">
