@@ -92,6 +92,12 @@
 			color: 'bg-amber-500/10 text-amber-500 dark:bg-amber-500/20'
 		},
 		{
+			key: 'salary-calculator',
+			href: 'salary-calculator',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>`,
+			color: 'bg-lime-500/10 text-lime-500 dark:bg-lime-500/20'
+		},
+		{
 			key: 'ladder-game',
 			href: 'ladder-game',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5v14M20 5v14M8 5v14M16 5v14M4 9h4M16 9h4M4 13h4M16 13h4M4 17h4M16 17h4M8 7h8M8 11h8M8 15h8" /></svg>`,
