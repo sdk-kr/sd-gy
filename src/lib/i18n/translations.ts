@@ -43,6 +43,8 @@ export const common: Record<Locale, Record<string, string>> = {
 		'home.anniversary-calculator.desc': 'Calculate anniversary dates',
 		'home.ladder-game.title': 'Ladder Game',
 		'home.ladder-game.desc': 'Random selection ladder game',
+		'home.presentation-timer.title': 'Presentation Timer',
+		'home.presentation-timer.desc': 'Calculate speech duration from text',
 		// Calculator Tool
 		'calculator.title': 'Calculator',
 		'calculator.desc': 'A simple calculator for basic arithmetic operations.',
@@ -315,6 +317,8 @@ export const common: Record<Locale, Record<string, string>> = {
 		'home.anniversary-calculator.desc': '기념일 및 D-day 계산',
 		'home.ladder-game.title': '사다리 게임',
 		'home.ladder-game.desc': '공정한 랜덤 선택 게임',
+		'home.presentation-timer.title': '발표시간 계산기',
+		'home.presentation-timer.desc': '텍스트로 발표 시간 계산',
 		// Calculator Tool
 		'calculator.title': '계산기',
 		'calculator.desc': '기본 사칙연산을 위한 간단한 계산기입니다.',
@@ -587,6 +591,8 @@ export const common: Record<Locale, Record<string, string>> = {
 		'home.anniversary-calculator.desc': '記念日とD-dayを計算',
 		'home.ladder-game.title': 'はしごゲーム',
 		'home.ladder-game.desc': '公平なランダム選択ゲーム',
+		'home.presentation-timer.title': 'プレゼン時間計算',
+		'home.presentation-timer.desc': 'テキストからスピーチ時間を計算',
 		// Calculator Tool
 		'calculator.title': '電卓',
 		'calculator.desc': '基本的な四則演算のためのシンプルな電卓です。',
@@ -859,6 +865,8 @@ export const common: Record<Locale, Record<string, string>> = {
 		'home.anniversary-calculator.desc': '计算纪念日和特殊日期',
 		'home.ladder-game.title': '抽签游戏',
 		'home.ladder-game.desc': '公平的随机选择游戏',
+		'home.presentation-timer.title': '演讲时间计算器',
+		'home.presentation-timer.desc': '从文本计算演讲时间',
 		// Calculator Tool
 		'calculator.title': '计算器',
 		'calculator.desc': '用于基本四则运算的简单计算器。',

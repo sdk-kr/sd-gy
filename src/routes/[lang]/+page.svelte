@@ -102,6 +102,12 @@
 			href: 'ladder-game',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5v14M20 5v14M8 5v14M16 5v14M4 9h4M16 9h4M4 13h4M16 13h4M4 17h4M16 17h4M8 7h8M8 11h8M8 15h8" /></svg>`,
 			color: 'bg-fuchsia-500/10 text-fuchsia-500 dark:bg-fuchsia-500/20'
+		},
+		{
+			key: 'presentation-timer',
+			href: 'presentation-timer',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`,
+			color: 'bg-rose-500/10 text-rose-500 dark:bg-rose-500/20'
 		}
 	];
 

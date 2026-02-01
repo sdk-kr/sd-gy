@@ -22,6 +22,7 @@ const PAGES = [
 	'/career-calculator',
 	'/anniversary-calculator',
 	'/ladder-game',
+	'/presentation-timer',
 	'/about',
 	'/privacy',
 	'/terms',
