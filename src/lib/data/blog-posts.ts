@@ -1,10 +1,10 @@
-import type { Locale } from '$lib/i18n';
+import type { L10nString } from '$lib/i18n';
 
 export interface BlogPost {
 	slug: string;
-	title: Record<Locale, string>;
-	description: Record<Locale, string>;
-	content: Record<Locale, string>;
+	title: L10nString;
+	description: L10nString;
+	content: L10nString;
 	date: string;
 	category: string;
 }

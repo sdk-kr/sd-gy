@@ -2,16 +2,24 @@ import { writable } from 'svelte/store';
 import { browser } from '$app/environment';
 import { safeGetItem, safeSetItem } from '$lib/utils/storage';
 
-export type Locale = 'en' | 'ko' | 'ja' | 'zh';
+export type Locale = 'en' | 'ko' | 'ja' | 'zh' | 'es' | 'pt' | 'de' | 'fr' | 'hi';
 
-export const locales: Locale[] = ['en', 'ko', 'ja', 'zh'];
+export const locales: Locale[] = ['en', 'ko', 'ja', 'zh', 'es', 'pt', 'de', 'fr', 'hi'];
 
 export const localeNames: Record<Locale, string> = {
 	en: 'English',
 	ko: '한국어',
 	ja: '日本語',
-	zh: '中文'
+	zh: '中文',
+	es: 'Español',
+	pt: 'Português',
+	de: 'Deutsch',
+	fr: 'Français',
+	hi: 'हिन्दी'
 };
+
+/** Localized string with English required, others optional */
+export type L10nString = Partial<Record<Locale, string>> & { en: string };
 
 // 브라우저 언어 감지
 function detectLocale(): Locale {
