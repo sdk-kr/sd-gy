@@ -8,6 +8,7 @@
 	import { common } from '$lib/i18n/translations';
 	import { theme } from '$lib/stores/theme';
 	import AdSense from '$lib/components/AdSense.svelte';
+	import CookieConsent from '$lib/components/CookieConsent.svelte';
 
 	$: t = (key: string) => common[$locale]?.[key] || common['en'][key] || key;
 
@@ -38,7 +39,7 @@
 
 	function selectLocale(loc: Locale) {
 		const currentPath = $page.url.pathname;
-		const pathWithoutLang = currentPath.replace(/^\/(en|ko|ja|zh)/, '');
+		const pathWithoutLang = currentPath.replace(/^\/(en|ko|ja|zh|es|pt|de|fr|hi)/, '');
 		const newPath = `/${loc}${pathWithoutLang || ''}`;
 
 		locale.set(loc);
@@ -61,9 +62,9 @@
 	<!-- Canonical -->
 	<link rel="canonical" href="https://sd.gy{$page.url.pathname}" />
 	{#each locales as loc}
-		<link rel="alternate" hreflang={loc} href="https://sd.gy/{loc}{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
+		<link rel="alternate" hreflang={loc} href="https://sd.gy/{loc}{$page.url.pathname.replace(/^\/(en|ko|ja|zh|es|pt|de|fr|hi)/, '')}" />
 	{/each}
-	<link rel="alternate" hreflang="x-default" href="https://sd.gy/en{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
+	<link rel="alternate" hreflang="x-default" href="https://sd.gy/en{$page.url.pathname.replace(/^\/(en|ko|ja|zh|es|pt|de|fr|hi)/, '')}" />
 	<!-- JSON-LD -->
 	{@html `<script type="application/ld+json">${JSON.stringify({
 		"@context": "https://schema.org",
@@ -74,7 +75,7 @@
 				"url": "https://sd.gy",
 				"name": "SD.gy",
 				"description": "Free online calculators and tools",
-				"inLanguage": ["en", "ko", "ja", "zh"],
+				"inLanguage": ["en", "ko", "ja", "zh", "es", "pt", "de", "fr", "hi"],
 				"publisher": { "@id": "https://sd.gy/#organization" }
 			},
 			{
@@ -251,5 +252,7 @@
 		</div>
 	</footer>
 </div>
+
+<CookieConsent />
 
 <svelte:window on:click={handleClickOutside} />
