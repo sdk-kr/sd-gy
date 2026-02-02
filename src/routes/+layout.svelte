@@ -58,10 +58,40 @@
 </script>
 
 <svelte:head>
+	<!-- Canonical -->
+	<link rel="canonical" href="https://sd.gy{$page.url.pathname}" />
 	{#each locales as loc}
 		<link rel="alternate" hreflang={loc} href="https://sd.gy/{loc}{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
 	{/each}
 	<link rel="alternate" hreflang="x-default" href="https://sd.gy/en{$page.url.pathname.replace(/^\/(en|ko|ja|zh)/, '')}" />
+	<!-- JSON-LD -->
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": "https://sd.gy/#website",
+				"url": "https://sd.gy",
+				"name": "SD.gy",
+				"description": "Free online calculators and tools",
+				"inLanguage": ["en", "ko", "ja", "zh"],
+				"publisher": { "@id": "https://sd.gy/#organization" }
+			},
+			{
+				"@type": "Organization",
+				"@id": "https://sd.gy/#organization",
+				"name": "SDKLABS",
+				"url": "https://sd.gy",
+				"sameAs": ["https://sdk.ac", "https://javascript.ac"]
+			},
+			{
+				"@type": "WebPage",
+				"@id": `https://sd.gy${$page.url.pathname}#webpage`,
+				"url": `https://sd.gy${$page.url.pathname}`,
+				"isPartOf": { "@id": "https://sd.gy/#website" }
+			}
+		]
+	})}</script>`}
 </svelte:head>
 
 <div class="min-h-screen flex flex-col bg-white dark:bg-dark-950 transition-colors">
