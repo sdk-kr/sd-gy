@@ -89,6 +89,15 @@
 <svelte:head>
 	<title>{t('tax.title')} - SD.gy</title>
 	<meta name="description" content={t('tax.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/tax-calculator" />
+	<meta property="og:title" content="{t('tax.title')} - SD.gy" />
+	<meta property="og:description" content={t('tax.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/tax-calculator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('tax.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('tax.desc')} />
 </svelte:head>
 
 <div class="max-w-2xl mx-auto px-4 py-8">

@@ -128,6 +128,15 @@
 <svelte:head>
 	<title>SD.gy - {t('home.title')}</title>
 	<meta name="description" content={t('home.subtitle')} />
+	<link rel="canonical" href="https://sd.gy/{lang}" />
+	<meta property="og:title" content="SD.gy - {t('home.title')}" />
+	<meta property="og:description" content={t('home.subtitle')} />
+	<meta property="og:url" content="https://sd.gy/{lang}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="SD.gy - {t('home.title')}" />
+	<meta name="twitter:description" content={t('home.subtitle')} />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 py-12">

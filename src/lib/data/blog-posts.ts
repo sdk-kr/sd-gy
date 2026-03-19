@@ -2538,6 +2538,3190 @@ Use our Date Calculator to track your important anniversaries.`,
 		},
 		date: '2025-01-11',
 		category: 'lifestyle'
+	},
+	{
+		slug: 'how-to-calculate-compound-interest',
+		title: {
+			en: 'How to Calculate Compound Interest: A Step-by-Step Guide',
+			ko: '복리 이자 계산 방법: 단계별 가이드',
+			ja: '複利の計算方法：ステップバイステップガイド',
+			zh: '如何计算复利：分步指南',
+			es: 'Cómo calcular el interés compuesto: guía paso a paso'
+		},
+		description: {
+			en: 'Learn exactly how compound interest works, how to calculate it manually, and strategies to maximize your returns over time.',
+			ko: '복리가 정확히 어떻게 작동하는지, 수동으로 계산하는 방법, 시간이 지남에 따라 수익을 극대화하는 전략을 알아보세요.',
+			ja: '複利の仕組み、手動での計算方法、長期的にリターンを最大化する戦略を学びましょう。',
+			zh: '了解复利的确切运作方式、手动计算方法以及随时间推移最大化回报的策略。',
+			es: 'Aprenda exactamente cómo funciona el interés compuesto, cómo calcularlo manualmente y estrategias para maximizar sus rendimientos.'
+		},
+		content: {
+			en: `Compound interest is the single most powerful force in personal finance. Understanding how to calculate it gives you a major advantage in planning your financial future.
+
+## What Makes Compound Interest Different?
+
+Simple interest is calculated only on the original principal. Compound interest, however, is calculated on the principal PLUS all previously accumulated interest. This creates an exponential growth curve that accelerates over time.
+
+**Simple Interest Example**: $10,000 at 5% for 10 years = $10,000 + ($500 x 10) = $15,000
+
+**Compound Interest Example**: $10,000 at 5% compounded annually for 10 years = $16,288.95
+
+That is $1,288.95 more, just from earning interest on your interest.
+
+## The Compound Interest Formula Explained
+
+**A = P(1 + r/n)^(nt)**
+
+Let us break down each variable:
+
+- **A** = the future value of the investment
+- **P** = the principal (initial deposit)
+- **r** = the annual interest rate (as a decimal, so 5% = 0.05)
+- **n** = number of times interest compounds per year (12 for monthly, 4 for quarterly, 1 for annually)
+- **t** = number of years
+
+## Step-by-Step Calculation
+
+Suppose you invest $5,000 at 6% annual interest, compounded monthly, for 15 years.
+
+1. Convert the rate: r = 0.06
+2. Identify compounding frequency: n = 12
+3. Calculate r/n: 0.06/12 = 0.005
+4. Calculate nt: 12 x 15 = 180
+5. Calculate (1 + r/n)^nt: (1.005)^180 = 2.4541
+6. Multiply by P: $5,000 x 2.4541 = **$12,270.47**
+
+Your $5,000 more than doubled, earning $7,270.47 in interest alone.
+
+## How Compounding Frequency Matters
+
+The more frequently interest compounds, the more you earn. Here is $10,000 at 8% for 20 years:
+
+| Compounding | Final Amount | Interest Earned |
+|-------------|-------------|-----------------|
+| Annually | $46,609.57 | $36,609.57 |
+| Quarterly | $48,010.21 | $38,010.21 |
+| Monthly | $48,754.39 | $38,754.39 |
+| Daily | $49,530.32 | $39,530.32 |
+
+## Five Strategies to Maximize Compound Interest
+
+1. **Start as early as possible** - Even small amounts grow dramatically over decades
+2. **Increase your contributions regularly** - Add to your principal whenever you can
+3. **Choose higher compounding frequencies** - Monthly or daily compounding beats annual
+4. **Reinvest all dividends and interest** - Do not withdraw your earnings
+5. **Be patient and consistent** - The biggest gains come in the later years
+
+## The Impact of Starting Early
+
+Consider two people who both invest at 7% annually:
+
+- **Person A** starts at age 25, invests $200/month until age 65 = **$525,415**
+- **Person B** starts at age 35, invests $200/month until age 65 = **$244,692**
+
+Person A invested only $24,000 more but ended up with $280,723 more. That is the power of an extra decade of compounding.
+
+## Common Mistakes to Avoid
+
+- Ignoring inflation when calculating real returns
+- Not accounting for taxes on investment gains
+- Withdrawing interest instead of reinvesting
+- Waiting for the "perfect time" to start investing
+
+Use our [Compound Interest Calculator](/en/compound-interest) to run your own scenarios and see how your money can grow over time.`,
+			ko: `복리는 개인 재무에서 가장 강력한 힘입니다. 복리를 계산하는 방법을 이해하면 재정 미래를 계획하는 데 큰 이점이 됩니다.
+
+## 복리가 다른 점은 무엇인가요?
+
+단리는 원금에 대해서만 계산됩니다. 그러나 복리는 원금에 이전에 누적된 모든 이자를 더한 금액에 대해 계산됩니다. 이로 인해 시간이 지남에 따라 가속화되는 지수 성장 곡선이 만들어집니다.
+
+**단리 예시**: 1,000만원을 5%로 10년간 = 1,000만원 + (50만원 x 10) = 1,500만원
+
+**복리 예시**: 1,000만원을 연 5% 복리로 10년간 = 1,628만 8,950원
+
+이자에 대한 이자를 받는 것만으로 128만 8,950원이 더 늘어납니다.
+
+## 복리 계산 공식 설명
+
+**A = P(1 + r/n)^(nt)**
+
+각 변수를 살펴봅시다:
+
+- **A** = 투자의 미래 가치
+- **P** = 원금 (초기 예치금)
+- **r** = 연이율 (소수로, 5% = 0.05)
+- **n** = 연간 이자 복리 횟수 (월별 12, 분기별 4, 연별 1)
+- **t** = 년수
+
+## 단계별 계산
+
+500만원을 연 6% 이자, 월 복리로 15년간 투자한다고 가정합시다.
+
+1. 이율 변환: r = 0.06
+2. 복리 빈도 확인: n = 12
+3. r/n 계산: 0.06/12 = 0.005
+4. nt 계산: 12 x 15 = 180
+5. (1 + r/n)^nt 계산: (1.005)^180 = 2.4541
+6. P를 곱하기: 500만원 x 2.4541 = **1,227만 470원**
+
+500만원이 두 배 이상으로 늘어나, 이자만으로 727만 470원을 벌었습니다.
+
+## 복리 빈도가 중요한 이유
+
+이자가 더 자주 복리 될수록 더 많이 벌 수 있습니다. 1,000만원을 8%로 20년간:
+
+| 복리 빈도 | 최종 금액 | 이자 수익 |
+|-----------|----------|----------|
+| 연 복리 | 4,660만원 | 3,660만원 |
+| 분기 복리 | 4,801만원 | 3,801만원 |
+| 월 복리 | 4,875만원 | 3,875만원 |
+| 일 복리 | 4,953만원 | 3,953만원 |
+
+## 복리를 극대화하는 5가지 전략
+
+1. **가능한 한 일찍 시작하세요** - 작은 금액도 수십 년에 걸쳐 극적으로 성장합니다
+2. **정기적으로 기여금을 늘리세요** - 가능할 때마다 원금에 추가하세요
+3. **더 높은 복리 빈도를 선택하세요** - 월별 또는 일별 복리가 연별보다 유리합니다
+4. **모든 배당금과 이자를 재투자하세요** - 수익을 인출하지 마세요
+5. **인내심을 갖고 꾸준히 하세요** - 가장 큰 이익은 후반에 옵니다
+
+## 일찍 시작하는 것의 영향
+
+연 7%로 투자하는 두 사람을 비교해봅시다:
+
+- **사람 A** 25세에 시작, 월 20만원씩 65세까지 = **약 5억 2,500만원**
+- **사람 B** 35세에 시작, 월 20만원씩 65세까지 = **약 2억 4,500만원**
+
+사람 A는 2,400만원만 더 투자했지만 약 2억 8,000만원이나 더 많은 결과를 얻었습니다. 이것이 10년 추가 복리의 힘입니다.
+
+[복리 계산기](/ko/compound-interest)를 사용하여 직접 시나리오를 실행하고 돈이 시간에 따라 어떻게 성장하는지 확인하세요.`,
+			ja: `複利は個人財務において最も強力な力です。複利の計算方法を理解することで、財務計画において大きなアドバンテージを得ることができます。
+
+## 複利の何が違うのか？
+
+単利は元本に対してのみ計算されます。しかし、複利は元本に以前に蓄積されたすべての利息を加えた金額に対して計算されます。これにより、時間とともに加速する指数関数的成長曲線が生まれます。
+
+**単利の例**: 100万円を5%で10年間 = 100万円 + (5万円 x 10) = 150万円
+
+**複利の例**: 100万円を年5%複利で10年間 = 162万8,895円
+
+利息に対する利息を得るだけで、12万8,895円多くなります。
+
+## 複利計算式の説明
+
+**A = P(1 + r/n)^(nt)**
+
+各変数を見てみましょう：
+
+- **A** = 投資の将来価値
+- **P** = 元本（初期預金）
+- **r** = 年利率（小数で、5% = 0.05）
+- **n** = 年間の複利回数（月次12、四半期4、年次1）
+- **t** = 年数
+
+## ステップバイステップの計算
+
+50万円を年利6%、月次複利で15年間投資するとします。
+
+1. 利率の変換: r = 0.06
+2. 複利頻度の確認: n = 12
+3. r/nの計算: 0.06/12 = 0.005
+4. ntの計算: 12 x 15 = 180
+5. (1 + r/n)^ntの計算: (1.005)^180 = 2.4541
+6. Pを掛ける: 50万円 x 2.4541 = **122万7,047円**
+
+50万円が2倍以上に増え、利息だけで72万7,047円を得ました。
+
+## 複利頻度が重要な理由
+
+利息がより頻繁に複利計算されるほど、より多く稼げます。100万円を8%で20年間：
+
+| 複利頻度 | 最終金額 | 利息収入 |
+|---------|---------|---------|
+| 年次複利 | 466万円 | 366万円 |
+| 四半期複利 | 480万円 | 380万円 |
+| 月次複利 | 487万円 | 387万円 |
+| 日次複利 | 495万円 | 395万円 |
+
+## 複利を最大化する5つの戦略
+
+1. **できるだけ早く始める** - 少額でも数十年で劇的に成長します
+2. **定期的に拠出金を増やす** - できるときに元本に追加しましょう
+3. **より高い複利頻度を選ぶ** - 月次や日次の複利が年次より有利です
+4. **すべての配当金と利息を再投資する** - 収益を引き出さないでください
+5. **忍耐強く一貫性を持つ** - 最大の利益は後半に訪れます
+
+[複利計算機](/ja/compound-interest)を使って、ご自身のシナリオを実行し、お金が時間とともにどのように成長するか確認してみてください。`,
+			zh: `复利是个人理财中最强大的力量。了解如何计算复利将为您规划财务未来提供巨大优势。
+
+## 复利有什么不同？
+
+单利仅根据原始本金计算。然而，复利是根据本金加上所有先前累积的利息来计算的。这创造了一条随时间加速的指数增长曲线。
+
+**单利示例**：10,000元以5%利率投资10年 = 10,000 + (500 x 10) = 15,000元
+
+**复利示例**：10,000元以年化5%复利投资10年 = 16,288.95元
+
+仅仅通过赚取利息的利息，就多出了1,288.95元。
+
+## 复利公式详解
+
+**A = P(1 + r/n)^(nt)**
+
+让我们分解每个变量：
+
+- **A** = 投资的未来价值
+- **P** = 本金（初始存款）
+- **r** = 年利率（以小数表示，5% = 0.05）
+- **n** = 每年复利次数（月度12，季度4，年度1）
+- **t** = 年数
+
+## 逐步计算
+
+假设您投资5,000元，年利率6%，按月复利，期限15年。
+
+1. 转换利率：r = 0.06
+2. 确定复利频率：n = 12
+3. 计算r/n：0.06/12 = 0.005
+4. 计算nt：12 x 15 = 180
+5. 计算(1 + r/n)^nt：(1.005)^180 = 2.4541
+6. 乘以P：5,000 x 2.4541 = **12,270.47元**
+
+您的5,000元翻了一倍多，仅利息就赚了7,270.47元。
+
+## 复利频率的重要性
+
+利息复利的频率越高，您赚得越多。10,000元以8%利率投资20年：
+
+| 复利方式 | 最终金额 | 利息收入 |
+|---------|---------|---------|
+| 年度复利 | 46,609元 | 36,609元 |
+| 季度复利 | 48,010元 | 38,010元 |
+| 月度复利 | 48,754元 | 38,754元 |
+| 日度复利 | 49,530元 | 39,530元 |
+
+## 最大化复利的5个策略
+
+1. **尽早开始** - 即使是小额资金，经过几十年也会显著增长
+2. **定期增加投入** - 尽可能增加本金
+3. **选择更高的复利频率** - 月度或日度复利优于年度
+4. **将所有股息和利息再投资** - 不要提取收益
+5. **保持耐心和一致性** - 最大的收益来自后期
+
+使用我们的[复利计算器](/zh/compound-interest)运行您自己的方案，看看您的钱如何随时间增长。`,
+			es: `El interés compuesto es la fuerza más poderosa en las finanzas personales. Comprender cómo calcularlo le da una gran ventaja para planificar su futuro financiero.
+
+## ¿Qué hace diferente al interés compuesto?
+
+El interés simple se calcula solo sobre el capital original. Sin embargo, el interés compuesto se calcula sobre el capital MÁS todos los intereses acumulados anteriormente. Esto crea una curva de crecimiento exponencial que se acelera con el tiempo.
+
+**Ejemplo de interés simple**: $10,000 al 5% durante 10 años = $10,000 + ($500 x 10) = $15,000
+
+**Ejemplo de interés compuesto**: $10,000 al 5% compuesto anualmente durante 10 años = $16,288.95
+
+Eso es $1,288.95 más, solo por ganar intereses sobre sus intereses.
+
+## La fórmula del interés compuesto explicada
+
+**A = P(1 + r/n)^(nt)**
+
+Desglosemos cada variable:
+
+- **A** = el valor futuro de la inversión
+- **P** = el capital (depósito inicial)
+- **r** = la tasa de interés anual (como decimal, 5% = 0.05)
+- **n** = número de veces que el interés se capitaliza por año
+- **t** = número de años
+
+## Cálculo paso a paso
+
+Suponga que invierte $5,000 al 6% de interés anual, capitalizado mensualmente, durante 15 años.
+
+1. Convertir la tasa: r = 0.06
+2. Identificar frecuencia de capitalización: n = 12
+3. Calcular r/n: 0.06/12 = 0.005
+4. Calcular nt: 12 x 15 = 180
+5. Calcular (1 + r/n)^nt: (1.005)^180 = 2.4541
+6. Multiplicar por P: $5,000 x 2.4541 = **$12,270.47**
+
+## Cinco estrategias para maximizar el interés compuesto
+
+1. **Comience lo antes posible** - Incluso cantidades pequeñas crecen dramáticamente
+2. **Aumente sus contribuciones regularmente** - Agregue al capital cuando pueda
+3. **Elija frecuencias de capitalización más altas** - Mensual supera a anual
+4. **Reinvierta todos los dividendos e intereses** - No retire sus ganancias
+5. **Sea paciente y consistente** - Las mayores ganancias vienen en los años posteriores
+
+Use nuestra [Calculadora de Interés Compuesto](/es/compound-interest) para ejecutar sus propios escenarios.`
+		},
+		date: '2025-02-15',
+		category: 'finance'
+	},
+	{
+		slug: 'understanding-bmi-healthy-weight',
+		title: {
+			en: 'Understanding BMI and Healthy Weight Ranges',
+			ko: 'BMI와 건강한 체중 범위 이해하기',
+			ja: 'BMIと健康的な体重範囲を理解する',
+			zh: '了解BMI和健康体重范围',
+			es: 'Comprender el IMC y los rangos de peso saludable'
+		},
+		description: {
+			en: 'A comprehensive guide to Body Mass Index: what it measures, its limitations, and how to use it as one tool for health assessment.',
+			ko: '체질량지수에 대한 종합 가이드: 측정 내용, 한계점, 건강 평가 도구로 활용하는 방법.',
+			ja: '体格指数の包括的ガイド：何を測定するか、その限界、健康評価ツールとしての活用法。',
+			zh: '体质指数综合指南：它衡量什么、局限性以及如何将其作为健康评估工具。',
+			es: 'Una guía completa del Índice de Masa Corporal: qué mide, sus limitaciones y cómo usarlo.'
+		},
+		content: {
+			en: `Body Mass Index (BMI) is one of the most widely used health metrics in the world. But how well do you understand what it really tells you?
+
+## What is BMI?
+
+BMI is a simple mathematical formula that estimates body fat based on your height and weight:
+
+**BMI = weight (kg) / height (m)^2**
+
+Or in imperial units:
+
+**BMI = (weight (lbs) x 703) / height (inches)^2**
+
+## BMI Categories
+
+The World Health Organization defines these categories:
+
+| BMI Range | Category |
+|-----------|----------|
+| Below 18.5 | Underweight |
+| 18.5 - 24.9 | Normal weight |
+| 25.0 - 29.9 | Overweight |
+| 30.0 - 34.9 | Obese (Class I) |
+| 35.0 - 39.9 | Obese (Class II) |
+| 40.0 and above | Obese (Class III) |
+
+## How to Calculate Your BMI
+
+**Example**: You weigh 75 kg and are 1.75 m tall.
+
+1. Square your height: 1.75 x 1.75 = 3.0625
+2. Divide weight by squared height: 75 / 3.0625 = 24.49
+3. Your BMI is 24.49 (Normal weight)
+
+## What BMI Does Well
+
+- **Quick screening tool**: Takes seconds to calculate
+- **Population-level trends**: Excellent for studying health trends across large groups
+- **Accessible**: Requires only basic measurements
+- **Standardized**: Used worldwide with consistent categories
+- **Correlated with health risks**: Higher BMI generally correlates with increased risk of heart disease, diabetes, and certain cancers
+
+## Important Limitations of BMI
+
+BMI is a useful starting point, but it has significant limitations:
+
+### It does not distinguish between muscle and fat
+A muscular athlete might have a BMI of 28 (overweight) while having very low body fat. This is because muscle is denser than fat.
+
+### It ignores fat distribution
+Where you carry fat matters enormously. Visceral fat (around organs) is much more dangerous than subcutaneous fat (under skin). Two people with identical BMIs can have very different health risks.
+
+### Age and gender differences
+BMI does not account for the fact that women naturally carry more body fat than men, or that body composition changes with age.
+
+### Ethnic variations
+Research shows that health risks associated with BMI vary by ethnicity. For example, Asian populations may face higher health risks at lower BMI levels.
+
+## Better Health Metrics to Use Alongside BMI
+
+- **Waist circumference**: A waist over 40 inches (men) or 35 inches (women) indicates higher risk
+- **Waist-to-hip ratio**: Measures fat distribution
+- **Body fat percentage**: More accurate but harder to measure
+- **Waist-to-height ratio**: Your waist should be less than half your height
+
+## Practical Tips for Healthy Weight Management
+
+1. **Focus on habits, not numbers** - Regular exercise and balanced nutrition matter more than any single metric
+2. **Track trends, not daily fluctuations** - Weight can vary 2-3 kg in a single day
+3. **Consider body composition** - Building muscle while losing fat may not change your weight
+4. **Set realistic goals** - Aim for 0.5-1 kg per week for sustainable weight loss
+5. **Consult professionals** - Talk to a doctor or dietitian for personalized advice
+
+## When to Be Concerned About Your BMI
+
+While BMI alone should not cause alarm, consider consulting a healthcare provider if:
+
+- Your BMI is below 18.5 or above 30
+- Your BMI has changed significantly in a short period
+- You have other risk factors like family history of diabetes or heart disease
+- You experience unexplained weight changes
+
+Use our [BMI Calculator](/en/bmi-calculator) to quickly calculate your BMI and understand where you fall in the healthy range.`,
+			ko: `체질량지수(BMI)는 세계에서 가장 널리 사용되는 건강 지표 중 하나입니다. 하지만 BMI가 실제로 무엇을 알려주는지 잘 이해하고 계신가요?
+
+## BMI란?
+
+BMI는 키와 체중을 기반으로 체지방을 추정하는 간단한 수학 공식입니다:
+
+**BMI = 체중 (kg) / 키 (m)^2**
+
+## BMI 카테고리
+
+세계보건기구는 다음과 같이 정의합니다:
+
+| BMI 범위 | 카테고리 |
+|---------|---------|
+| 18.5 미만 | 저체중 |
+| 18.5 - 24.9 | 정상 체중 |
+| 25.0 - 29.9 | 과체중 |
+| 30.0 - 34.9 | 비만 (1단계) |
+| 35.0 - 39.9 | 비만 (2단계) |
+| 40.0 이상 | 비만 (3단계) |
+
+## BMI 계산 방법
+
+**예시**: 체중 75kg, 키 175cm인 경우
+
+1. 키를 제곱합니다: 1.75 x 1.75 = 3.0625
+2. 체중을 키의 제곱으로 나눕니다: 75 / 3.0625 = 24.49
+3. BMI는 24.49 (정상 체중)
+
+## BMI의 장점
+
+- **빠른 선별 도구**: 계산하는 데 몇 초밖에 걸리지 않습니다
+- **인구 수준 트렌드**: 대규모 그룹의 건강 추세를 연구하는 데 탁월합니다
+- **접근성**: 기본 측정값만 필요합니다
+- **표준화**: 전 세계적으로 일관된 카테고리로 사용됩니다
+
+## BMI의 중요한 한계
+
+### 근육과 지방을 구별하지 못합니다
+근육질인 운동선수는 체지방이 매우 낮으면서도 BMI가 28(과체중)일 수 있습니다.
+
+### 지방 분포를 무시합니다
+지방이 어디에 있는지가 매우 중요합니다. 내장 지방(장기 주변)은 피하 지방(피부 아래)보다 훨씬 위험합니다.
+
+### 연령과 성별 차이
+여성이 남성보다 자연적으로 더 많은 체지방을 가지고 있다는 사실이나 나이에 따른 체성분 변화를 고려하지 않습니다.
+
+## BMI와 함께 사용할 수 있는 더 나은 건강 지표
+
+- **허리 둘레**: 남성 102cm, 여성 88cm 이상이면 위험이 높습니다
+- **허리-엉덩이 비율**: 지방 분포를 측정합니다
+- **체지방률**: 더 정확하지만 측정이 어렵습니다
+- **허리-키 비율**: 허리가 키의 절반 미만이어야 합니다
+
+## 건강한 체중 관리를 위한 실용적 팁
+
+1. **숫자가 아닌 습관에 집중하세요** - 규칙적인 운동과 균형 잡힌 영양이 더 중요합니다
+2. **일일 변동이 아닌 추세를 추적하세요** - 체중은 하루에 2-3kg까지 변할 수 있습니다
+3. **체성분을 고려하세요** - 근육을 만들면서 지방을 잃으면 체중이 변하지 않을 수 있습니다
+4. **현실적인 목표를 설정하세요** - 지속 가능한 체중 감량을 위해 주당 0.5-1kg을 목표로 하세요
+5. **전문가와 상담하세요** - 개인화된 조언을 위해 의사나 영양사와 상담하세요
+
+[BMI 계산기](/ko/bmi-calculator)를 사용하여 빠르게 BMI를 계산하고 건강한 범위에 있는지 확인하세요.`,
+			ja: `体格指数（BMI）は世界で最も広く使用されている健康指標の一つです。しかし、BMIが実際に何を示しているか、よく理解していますか？
+
+## BMIとは？
+
+BMIは身長と体重に基づいて体脂肪を推定する簡単な数学的公式です：
+
+**BMI = 体重 (kg) / 身長 (m)^2**
+
+## BMIカテゴリー
+
+世界保健機関は以下のように定義しています：
+
+| BMI範囲 | カテゴリー |
+|---------|----------|
+| 18.5未満 | 低体重 |
+| 18.5 - 24.9 | 正常体重 |
+| 25.0 - 29.9 | 過体重 |
+| 30.0以上 | 肥満 |
+
+## BMI計算方法
+
+**例**: 体重75kg、身長175cmの場合
+
+1. 身長を二乗: 1.75 x 1.75 = 3.0625
+2. 体重を身長の二乗で割る: 75 / 3.0625 = 24.49
+3. BMIは24.49（正常体重）
+
+## BMIの利点
+
+- **迅速なスクリーニングツール**: 計算に数秒しかかかりません
+- **集団レベルのトレンド**: 大規模グループの健康傾向の研究に優れています
+- **アクセシブル**: 基本的な測定値のみ必要
+- **標準化**: 世界中で一貫したカテゴリーで使用されています
+
+## BMIの重要な限界
+
+### 筋肉と脂肪を区別しない
+筋肉質のアスリートは体脂肪が非常に低くてもBMIが28（過体重）になることがあります。
+
+### 脂肪分布を無視する
+脂肪がどこにあるかは非常に重要です。内臓脂肪（臓器周辺）は皮下脂肪（皮膚の下）よりもはるかに危険です。
+
+## BMIと併用すべきより良い健康指標
+
+- **ウエスト周囲径**: 男性102cm、女性88cm以上はリスクが高い
+- **ウエスト・ヒップ比**: 脂肪分布を測定
+- **体脂肪率**: より正確だが測定が困難
+- **ウエスト・身長比**: ウエストは身長の半分未満であるべき
+
+## 健康的な体重管理のための実用的なヒント
+
+1. **数字ではなく習慣に焦点を当てる** - 定期的な運動とバランスの取れた栄養がより重要
+2. **日々の変動ではなくトレンドを追跡する** - 体重は1日で2-3kg変動する可能性があります
+3. **体組成を考慮する** - 筋肉をつけながら脂肪を落とすと体重が変わらないことがあります
+4. **現実的な目標を設定する** - 持続可能な減量のために週0.5-1kgを目標に
+5. **専門家に相談する** - 個人的なアドバイスについては医師や栄養士に相談を
+
+[BMI計算機](/ja/bmi-calculator)を使って、素早くBMIを計算し、健康的な範囲にあるか確認してください。`,
+			zh: `体质指数（BMI）是世界上使用最广泛的健康指标之一。但您真的了解它告诉您什么吗？
+
+## 什么是BMI？
+
+BMI是一个基于身高和体重估算体脂的简单数学公式：
+
+**BMI = 体重 (kg) / 身高 (m)^2**
+
+## BMI分类
+
+世界卫生组织定义了以下类别：
+
+| BMI范围 | 类别 |
+|---------|------|
+| 低于18.5 | 体重不足 |
+| 18.5 - 24.9 | 正常体重 |
+| 25.0 - 29.9 | 超重 |
+| 30.0以上 | 肥胖 |
+
+## 如何计算BMI
+
+**示例**：体重75公斤，身高175厘米
+
+1. 身高平方：1.75 x 1.75 = 3.0625
+2. 体重除以身高平方：75 / 3.0625 = 24.49
+3. BMI为24.49（正常体重）
+
+## BMI的优点
+
+- **快速筛查工具**：计算只需几秒钟
+- **人群趋势**：适合研究大规模群体的健康趋势
+- **易于获取**：只需基本测量值
+- **标准化**：全球使用统一类别
+
+## BMI的重要局限性
+
+### 不区分肌肉和脂肪
+肌肉发达的运动员可能体脂很低但BMI为28（超重）。
+
+### 忽视脂肪分布
+脂肪的位置非常重要。内脏脂肪（器官周围）比皮下脂肪（皮肤下）危险得多。
+
+## 应与BMI配合使用的更好健康指标
+
+- **腰围**：男性超过102厘米、女性超过88厘米表示风险较高
+- **腰臀比**：衡量脂肪分布
+- **体脂百分比**：更准确但更难测量
+- **腰围身高比**：腰围应少于身高的一半
+
+## 健康体重管理的实用建议
+
+1. **关注习惯而非数字** - 规律运动和均衡营养比任何单一指标都重要
+2. **跟踪趋势而非日常波动** - 体重一天内可能变化2-3公斤
+3. **考虑身体成分** - 增肌减脂可能不会改变体重
+4. **设定现实目标** - 可持续减重目标为每周0.5-1公斤
+5. **咨询专业人士** - 向医生或营养师寻求个性化建议
+
+使用我们的[BMI计算器](/zh/bmi-calculator)快速计算您的BMI，了解您是否在健康范围内。`,
+			es: `El Índice de Masa Corporal (IMC) es una de las métricas de salud más utilizadas en el mundo. Pero, ¿qué tan bien entiende lo que realmente le dice?
+
+## ¿Qué es el IMC?
+
+El IMC es una fórmula matemática simple que estima la grasa corporal basándose en su altura y peso:
+
+**IMC = peso (kg) / altura (m)^2**
+
+## Categorías de IMC
+
+La Organización Mundial de la Salud define estas categorías:
+
+| Rango de IMC | Categoría |
+|-------------|-----------|
+| Menos de 18.5 | Bajo peso |
+| 18.5 - 24.9 | Peso normal |
+| 25.0 - 29.9 | Sobrepeso |
+| 30.0 o más | Obesidad |
+
+## Cómo calcular su IMC
+
+**Ejemplo**: Pesa 75 kg y mide 1.75 m.
+
+1. Eleve al cuadrado su altura: 1.75 x 1.75 = 3.0625
+2. Divida el peso entre la altura al cuadrado: 75 / 3.0625 = 24.49
+3. Su IMC es 24.49 (Peso normal)
+
+## Limitaciones importantes del IMC
+
+### No distingue entre músculo y grasa
+Un atleta musculoso podría tener un IMC de 28 (sobrepeso) con muy poca grasa corporal.
+
+### Ignora la distribución de grasa
+La grasa visceral (alrededor de los órganos) es mucho más peligrosa que la grasa subcutánea.
+
+## Consejos prácticos para el manejo saludable del peso
+
+1. **Enfóquese en hábitos, no en números** - El ejercicio regular y la nutrición equilibrada importan más
+2. **Rastree tendencias, no fluctuaciones diarias** - El peso puede variar 2-3 kg en un solo día
+3. **Considere la composición corporal** - Ganar músculo mientras pierde grasa puede no cambiar su peso
+4. **Establezca metas realistas** - Apunte a 0.5-1 kg por semana
+5. **Consulte profesionales** - Hable con un médico para consejos personalizados
+
+Use nuestra [Calculadora de IMC](/es/bmi-calculator) para calcular rápidamente su IMC.`
+		},
+		date: '2025-02-20',
+		category: 'health'
+	},
+	{
+		slug: 'personal-loan-management-tips',
+		title: {
+			en: 'Tips for Managing Personal Loans Effectively',
+			ko: '개인 대출을 효과적으로 관리하는 팁',
+			ja: '個人ローンを効果的に管理するためのヒント',
+			zh: '有效管理个人贷款的技巧',
+			es: 'Consejos para gestionar préstamos personales eficazmente'
+		},
+		description: {
+			en: 'Learn smart strategies for managing personal loans, understanding interest rates, and paying off debt faster.',
+			ko: '개인 대출 관리, 이자율 이해, 빚을 더 빨리 갚기 위한 스마트한 전략을 배워보세요.',
+			ja: '個人ローンの管理、金利の理解、借金をより早く返済するためのスマートな戦略を学びましょう。',
+			zh: '学习管理个人贷款、了解利率和更快还清债务的智慧策略。',
+			es: 'Aprenda estrategias inteligentes para gestionar préstamos personales y pagar deudas más rápido.'
+		},
+		content: {
+			en: `Personal loans can be powerful financial tools when used wisely, or devastating traps when mismanaged. Here is everything you need to know about managing them effectively.
+
+## Understanding Loan Interest Rates
+
+The interest rate on your loan determines how much extra you pay beyond the borrowed amount. There are two key types:
+
+### Fixed vs. Variable Rates
+
+- **Fixed rate**: Stays the same throughout the loan term. Predictable monthly payments.
+- **Variable rate**: Can change based on market conditions. May start lower but carries risk of increasing.
+
+### APR vs. Interest Rate
+
+The **Annual Percentage Rate (APR)** includes the interest rate PLUS fees and other costs. Always compare APR, not just interest rates, when shopping for loans.
+
+## How Monthly Payments Are Calculated
+
+For a fixed-rate loan, the monthly payment formula is:
+
+**M = P[r(1+r)^n] / [(1+r)^n - 1]**
+
+Where:
+- M = monthly payment
+- P = principal (loan amount)
+- r = monthly interest rate (annual rate / 12)
+- n = total number of payments
+
+**Example**: $20,000 loan at 8% APR for 5 years
+- Monthly rate: 0.08/12 = 0.00667
+- Number of payments: 60
+- Monthly payment: **$405.53**
+- Total paid: $24,331.80
+- Total interest: $4,331.80
+
+## Seven Strategies to Pay Off Loans Faster
+
+### 1. Make bi-weekly payments
+Instead of 12 monthly payments, make 26 half-payments per year. You end up making one extra full payment annually.
+
+### 2. Round up your payments
+If your payment is $405, pay $450 or $500. The extra goes directly to principal.
+
+### 3. Apply windfalls to your loan
+Tax refunds, bonuses, gifts - put them toward your principal.
+
+### 4. Use the debt avalanche method
+If you have multiple loans, pay minimums on all except the one with the highest interest rate. Attack that one aggressively.
+
+### 5. Refinance when rates drop
+If interest rates have fallen since you took your loan, refinancing could save thousands.
+
+### 6. Set up autopay
+Many lenders offer 0.25% rate reduction for automatic payments. Over a long loan, this adds up.
+
+### 7. Avoid extending your loan term
+When refinancing, keep the same or shorter term. A lower monthly payment with a longer term often means paying more total interest.
+
+## Warning Signs You Have Too Much Debt
+
+- More than 36% of your gross income goes to debt payments
+- You are using credit cards to pay basic expenses
+- You can only make minimum payments
+- You have no emergency savings
+- You are losing sleep over finances
+
+## Creating a Loan Payoff Plan
+
+1. **List all debts** with balances, interest rates, and minimum payments
+2. **Choose a strategy**: Avalanche (highest rate first) or Snowball (smallest balance first)
+3. **Set a timeline**: Calculate when you will be debt-free
+4. **Track your progress**: Update monthly and celebrate milestones
+5. **Build an emergency fund**: Even $1,000 prevents new debt from unexpected expenses
+
+## What to Look for in a Personal Loan
+
+- **Low APR**: Compare at least 3-5 lenders
+- **No prepayment penalties**: Ensure you can pay off early without fees
+- **Reasonable fees**: Watch for origination fees, late fees, and processing charges
+- **Flexible terms**: Choose a term that balances monthly affordability with total cost
+- **Good reputation**: Check reviews and Better Business Bureau ratings
+
+Use our [Loan Calculator](/en/loan-calculator) to model different loan scenarios and find the optimal repayment strategy for your situation.`,
+			ko: `개인 대출은 현명하게 사용하면 강력한 금융 도구가 될 수 있지만, 잘못 관리하면 파괴적인 함정이 될 수 있습니다. 효과적으로 관리하기 위해 알아야 할 모든 것을 소개합니다.
+
+## 대출 이자율 이해하기
+
+대출 이자율은 빌린 금액 외에 얼마나 더 지불하는지를 결정합니다.
+
+### 고정 금리 vs. 변동 금리
+
+- **고정 금리**: 대출 기간 내내 동일합니다. 예측 가능한 월 상환금입니다.
+- **변동 금리**: 시장 상황에 따라 변할 수 있습니다. 처음에는 낮을 수 있지만 상승 위험이 있습니다.
+
+### APR vs. 이자율
+
+**연이율(APR)**에는 이자율과 수수료 및 기타 비용이 포함됩니다. 대출을 비교할 때 이자율만이 아닌 APR을 항상 비교하세요.
+
+## 월 상환금 계산 방법
+
+**예시**: 2,000만원 대출, 연 8%, 5년 상환
+- 월 이율: 0.08/12 = 0.00667
+- 총 상환 횟수: 60
+- 월 상환금: **약 40만 5,530원**
+- 총 상환액: 2,433만 1,800원
+- 총 이자: 433만 1,800원
+
+## 대출을 더 빨리 갚는 7가지 전략
+
+### 1. 격주로 상환하기
+월 12회 대신 연간 26회 반액 상환을 하면 연간 한 번 추가 상환하는 효과가 있습니다.
+
+### 2. 상환금 올림하기
+상환금이 40만원이면 45만원이나 50만원을 내세요. 추가분은 원금으로 직접 갑니다.
+
+### 3. 임시 소득을 대출에 적용하기
+세금 환급, 보너스, 선물 등을 원금 상환에 사용하세요.
+
+### 4. 부채 눈사태 방법 사용하기
+여러 대출이 있다면 가장 높은 이자율의 대출을 집중 공격하세요.
+
+### 5. 금리가 떨어지면 리파이낸싱하기
+대출 후 금리가 하락했다면 리파이낸싱으로 수백만원을 절약할 수 있습니다.
+
+### 6. 자동이체 설정하기
+많은 대출 기관이 자동 이체 시 0.25% 금리 할인을 제공합니다.
+
+### 7. 대출 기간 연장 피하기
+리파이낸싱 시 같거나 더 짧은 기간을 유지하세요. 더 낮은 월 상환금이라도 더 긴 기간은 총 이자가 더 많을 수 있습니다.
+
+## 대출 상환 계획 만들기
+
+1. **모든 부채 목록 작성** - 잔액, 이자율, 최소 상환금 포함
+2. **전략 선택** - 눈사태(최고 이자율 먼저) 또는 눈덩이(최소 잔액 먼저)
+3. **타임라인 설정** - 빚 없는 날을 계산하세요
+4. **진행 상황 추적** - 매월 업데이트하고 마일스톤을 축하하세요
+5. **비상 자금 마련** - 100만원이라도 예상치 못한 지출로 인한 새 빚을 방지합니다
+
+[대출 계산기](/ko/loan-calculator)를 사용하여 다양한 대출 시나리오를 모델링하고 최적의 상환 전략을 찾으세요.`,
+			ja: `個人ローンは賢く使えば強力な金融ツールになりますが、管理を誤ると破壊的な罠になります。効果的に管理するために知っておくべきことをご紹介します。
+
+## ローン金利の理解
+
+ローンの金利は、借入額以上にいくら支払うかを決定します。
+
+### 固定金利 vs. 変動金利
+
+- **固定金利**: ローン期間中ずっと同じです。予測可能な月々の支払い。
+- **変動金利**: 市場状況により変動する可能性があります。
+
+### APR vs. 金利
+
+**年率（APR）** には金利に加えて手数料やその他のコストが含まれます。ローンを比較する際は、金利だけでなくAPRを比較してください。
+
+## 月々の支払い計算方法
+
+**例**: 200万円のローン、年利8%、5年返済
+- 月利: 0.08/12 = 0.00667
+- 支払い回数: 60回
+- 月々の支払い: **約40,553円**
+- 総支払額: 2,433,180円
+- 総利息: 433,180円
+
+## ローンをより早く返済する7つの戦略
+
+### 1. 隔週で支払う
+月12回の支払いの代わりに、年間26回の半額支払いをします。年間1回分の追加支払い効果があります。
+
+### 2. 支払いを切り上げる
+支払いが40,000円なら45,000円や50,000円を支払いましょう。
+
+### 3. 臨時収入をローンに充てる
+税金還付、ボーナスなどを元本返済に使いましょう。
+
+### 4. 借金雪崩方式を使う
+複数のローンがある場合、最高金利のローンに集中攻撃しましょう。
+
+### 5. 金利が下がったら借り換える
+ローンを組んだ後に金利が下がっていれば、借り換えで何万円も節約できます。
+
+### 6. 自動引き落としを設定する
+多くの金融機関が自動引き落としで0.25%の金利割引を提供しています。
+
+### 7. ローン期間の延長を避ける
+借り換え時は同じか短い期間を維持してください。
+
+## ローン返済計画の作成
+
+1. **すべての借金をリスト化** - 残高、金利、最低支払額を含む
+2. **戦略を選択** - 雪崩方式（最高金利優先）またはスノーボール方式（最小残高優先）
+3. **タイムラインを設定** - 借金ゼロの日を計算
+4. **進捗を追跡** - 毎月更新しマイルストーンを祝う
+5. **緊急資金を構築** - 10万円でも予期せぬ出費による新たな借金を防ぐ
+
+[ローン計算機](/ja/loan-calculator)を使って、さまざまなローンシナリオをシミュレーションしてください。`,
+			zh: `个人贷款如果明智使用可以成为强大的金融工具，但管理不当则可能成为毁灭性的陷阱。以下是有效管理贷款所需了解的一切。
+
+## 理解贷款利率
+
+贷款利率决定了您在借款金额之外还需支付多少。
+
+### 固定利率 vs. 浮动利率
+
+- **固定利率**：在整个贷款期限内保持不变。月供可预测。
+- **浮动利率**：可能随市场条件变化。起初可能较低但有上涨风险。
+
+### APR vs. 利率
+
+**年化百分率（APR）** 包括利率加上费用和其他成本。比较贷款时，务必比较APR而非仅仅利率。
+
+## 月供计算方法
+
+**示例**：20,000元贷款，年利率8%，5年期
+- 月利率：0.08/12 = 0.00667
+- 还款次数：60次
+- 月供：**约405.53元**
+- 总还款：24,331.80元
+- 总利息：4,331.80元
+
+## 更快还清贷款的7个策略
+
+### 1. 每两周还款一次
+年还26次半额而非月还12次，相当于每年多还一次全额。
+
+### 2. 多还一点
+月供405元就付450或500元。多出的直接抵扣本金。
+
+### 3. 将意外收入用于还贷
+退税、奖金等都用来偿还本金。
+
+### 4. 使用债务雪崩法
+多笔贷款时，集中攻击利率最高的贷款。
+
+### 5. 利率下降时再融资
+如果利率已经下降，再融资可以节省数千元。
+
+### 6. 设置自动还款
+许多贷款机构对自动还款提供0.25%的利率优惠。
+
+### 7. 避免延长贷款期限
+再融资时保持相同或更短的期限。
+
+## 创建贷款偿还计划
+
+1. **列出所有债务** - 包括余额、利率和最低还款额
+2. **选择策略** - 雪崩法（最高利率优先）或雪球法（最小余额优先）
+3. **设定时间线** - 计算何时无债一身轻
+4. **跟踪进度** - 每月更新并庆祝里程碑
+5. **建立应急基金** - 即使1,000元也能防止意外支出导致新债务
+
+使用我们的[贷款计算器](/zh/loan-calculator)模拟不同的贷款方案，找到最优还款策略。`,
+			es: `Los préstamos personales pueden ser herramientas financieras poderosas cuando se usan sabiamente, o trampas devastadoras cuando se gestionan mal.
+
+## Entender las tasas de interés
+
+### Tasa fija vs. variable
+
+- **Tasa fija**: Se mantiene igual durante todo el plazo. Pagos mensuales predecibles.
+- **Tasa variable**: Puede cambiar según las condiciones del mercado.
+
+### TAE vs. tasa de interés
+
+La **Tasa Anual Equivalente (TAE)** incluye la tasa de interés MÁS comisiones y otros costos. Compare siempre la TAE.
+
+## Siete estrategias para pagar préstamos más rápido
+
+### 1. Pagos quincenales
+En lugar de 12 pagos mensuales, haga 26 medios pagos al año.
+
+### 2. Redondee sus pagos hacia arriba
+Si su pago es de $405, pague $450 o $500.
+
+### 3. Aplique ingresos extraordinarios
+Devoluciones de impuestos, bonos - aplíquelos al capital.
+
+### 4. Use el método de avalancha
+Concentre el pago extra en el préstamo con la tasa más alta.
+
+### 5. Refinancie cuando las tasas bajen
+La refinanciación podría ahorrarle miles.
+
+### 6. Configure el pago automático
+Muchos prestamistas ofrecen 0.25% de reducción por pagos automáticos.
+
+### 7. Evite extender el plazo
+Al refinanciar, mantenga el mismo plazo o uno más corto.
+
+## Creación de un plan de pago
+
+1. **Liste todas las deudas** con saldos, tasas y pagos mínimos
+2. **Elija una estrategia**: Avalancha o Bola de nieve
+3. **Establezca un cronograma**: Calcule cuándo estará libre de deudas
+4. **Siga su progreso**: Actualice mensualmente
+5. **Construya un fondo de emergencia**: Incluso $1,000 previene nuevas deudas
+
+Use nuestra [Calculadora de Préstamos](/es/loan-calculator) para modelar diferentes escenarios.`
+		},
+		date: '2025-03-01',
+		category: 'finance'
+	},
+	{
+		slug: 'currency-conversion-tips-travelers',
+		title: {
+			en: 'Currency Conversion Tips for International Travelers',
+			ko: '해외 여행자를 위한 환전 팁',
+			ja: '海外旅行者のための通貨換算のヒント',
+			zh: '国际旅行者的货币兑换技巧',
+			es: 'Consejos de conversión de divisas para viajeros'
+		},
+		description: {
+			en: 'Save money on your next trip with these essential currency conversion tips, from finding the best exchange rates to avoiding hidden fees.',
+			ko: '최적의 환율 찾기부터 숨겨진 수수료 피하기까지, 다음 여행에서 돈을 절약하는 필수 환전 팁.',
+			ja: '最適な為替レートの見つけ方から隠れた手数料の回避まで、次の旅行で節約するための必須通貨換算のヒント。',
+			zh: '从找到最佳汇率到避免隐藏费用，为您的下次旅行省钱的必备货币兑换技巧。',
+			es: 'Ahorre dinero en su próximo viaje con estos consejos esenciales de conversión de divisas.'
+		},
+		content: {
+			en: `Currency conversion can make or break your travel budget. The difference between smart and careless currency management can easily amount to hundreds of dollars on a single trip.
+
+## Understanding Exchange Rates
+
+Exchange rates represent how much one currency is worth in terms of another. They fluctuate constantly based on:
+
+- **Economic indicators** (GDP, employment, inflation)
+- **Central bank policies** (interest rate decisions)
+- **Political events** (elections, trade agreements)
+- **Market sentiment** (investor confidence)
+
+### Bid vs. Ask Rate
+
+- **Bid rate**: What the dealer pays to buy your currency (lower)
+- **Ask rate**: What the dealer charges to sell you currency (higher)
+- **Spread**: The difference between bid and ask is the dealer's profit
+
+## Where to Exchange Currency (Best to Worst)
+
+### Best Options
+1. **Your bank's ATM abroad** - Usually offers rates close to the interbank rate with a small fee
+2. **Credit cards with no foreign transaction fees** - Excellent rates, often the mid-market rate
+3. **Your home bank** - Order foreign currency before you travel
+
+### Acceptable Options
+4. **Local banks at your destination** - Decent rates but may require an account
+5. **Reputable exchange offices in city centers** - Compare several before committing
+
+### Avoid
+6. **Airport exchange counters** - Markups of 7-15% are common
+7. **Hotel exchange services** - Convenience comes at a high price
+8. **Street money changers** - Risk of scams and counterfeit bills
+
+## Ten Money-Saving Tips
+
+### 1. Know the mid-market rate before you go
+Check our currency converter or sites like XE.com. Any rate more than 2-3% away is a bad deal.
+
+### 2. Use a no-fee travel credit card
+Cards like those offering no foreign transaction fees save 3% on every purchase abroad.
+
+### 3. Always pay in local currency
+When a merchant asks "pay in your currency or local?", ALWAYS choose local currency. Paying in your home currency triggers Dynamic Currency Conversion (DCC), which adds 3-7% markup.
+
+### 4. Withdraw larger amounts less frequently
+ATM fees are often flat-rate ($3-5 per transaction). Withdrawing $300 once is cheaper than three $100 withdrawals.
+
+### 5. Notify your bank before traveling
+Avoid having your card frozen by alerting your bank about your travel dates and destinations.
+
+### 6. Keep some cash for emergencies
+Not everywhere accepts cards. Keep a small reserve of local currency.
+
+### 7. Use exchange rate apps
+Monitor rates and set alerts for favorable movements before your trip.
+
+### 8. Avoid exchanging at the last minute
+Airport rates are the worst. Plan ahead and exchange at better venues.
+
+### 9. Compare total cost, not just rates
+A "commission-free" exchange often hides costs in a worse exchange rate. Calculate the total amount you receive.
+
+### 10. Consider multi-currency accounts
+Services like Wise (TransferWise) or Revolut offer near-interbank rates and multi-currency cards.
+
+## Understanding Hidden Fees
+
+| Fee Type | Typical Cost | How to Avoid |
+|----------|-------------|--------------|
+| Foreign transaction fee | 1-3% | Use no-fee cards |
+| ATM withdrawal fee | $2-5 flat | Withdraw larger amounts |
+| DCC markup | 3-7% | Always pay in local currency |
+| Exchange commission | 2-10% | Compare multiple providers |
+| Poor exchange rate | 3-15% markup | Check mid-market rate first |
+
+## Regional Tips
+
+- **Europe**: Euros are widely accepted across the Eurozone; ATMs are everywhere
+- **Japan**: Still very cash-oriented; stock up at 7-Eleven ATMs which accept foreign cards
+- **Southeast Asia**: Negotiate exchange rates at local shops; avoid airport counters
+- **South America**: US dollars are widely accepted as backup; local ATMs offer best rates
+
+Use our [Currency Converter](/en/currency-converter) to check current exchange rates before your trip and track rate movements.`,
+			ko: `환전은 여행 예산을 좌우할 수 있습니다. 현명한 환전 관리와 부주의한 관리의 차이는 한 번의 여행에서 수십만 원에 이를 수 있습니다.
+
+## 환율 이해하기
+
+환율은 한 통화가 다른 통화로 얼마의 가치가 있는지를 나타냅니다. 다음에 따라 끊임없이 변동합니다:
+
+- **경제 지표** (GDP, 고용, 인플레이션)
+- **중앙은행 정책** (금리 결정)
+- **정치적 사건** (선거, 무역 협정)
+- **시장 심리** (투자자 신뢰도)
+
+## 환전 장소 (최고에서 최악)
+
+### 최고의 옵션
+1. **해외에서 국내 은행 ATM 사용** - 은행간 환율에 가까운 환율과 적은 수수료
+2. **해외 거래 수수료 없는 신용카드** - 우수한 환율
+3. **출국 전 국내 은행** - 여행 전 외화를 주문하세요
+
+### 괜찮은 옵션
+4. **목적지의 현지 은행** - 괜찮은 환율이지만 계좌가 필요할 수 있음
+5. **시내 중심가의 신뢰할 수 있는 환전소** - 여러 곳을 비교하세요
+
+### 피해야 할 곳
+6. **공항 환전 카운터** - 7-15% 마크업이 일반적
+7. **호텔 환전 서비스** - 편리함에 높은 대가
+8. **길거리 환전상** - 사기와 위조 지폐 위험
+
+## 10가지 절약 팁
+
+### 1. 출국 전 중간 시장 환율을 확인하세요
+환율 계산기를 확인하세요. 2-3% 이상 차이나면 나쁜 거래입니다.
+
+### 2. 해외 수수료 없는 여행 신용카드 사용
+해외 거래 수수료가 없는 카드로 모든 해외 구매에서 3%를 절약하세요.
+
+### 3. 항상 현지 통화로 결제하세요
+상점에서 "원화로 결제하시겠습니까, 현지 통화로 결제하시겠습니까?"라고 물으면 항상 현지 통화를 선택하세요. 원화 결제는 3-7%의 마크업이 붙는 DCC가 적용됩니다.
+
+### 4. 더 큰 금액을 덜 자주 인출하세요
+ATM 수수료는 건당 고정(3,000-5,000원)인 경우가 많습니다.
+
+### 5. 여행 전 은행에 알리세요
+카드가 정지되는 것을 방지하기 위해 여행 일정과 목적지를 은행에 알려주세요.
+
+### 6. 비상 현금을 보유하세요
+모든 곳에서 카드를 받는 것은 아닙니다.
+
+### 7. 환율 앱을 사용하세요
+여행 전 유리한 환율 변동을 모니터링하세요.
+
+### 8. 마지막 순간에 환전하지 마세요
+공항 환율이 가장 나쁩니다. 미리 계획하세요.
+
+### 9. 환율뿐만 아니라 총 비용을 비교하세요
+"수수료 무료" 환전은 더 나쁜 환율에 비용을 숨기는 경우가 많습니다.
+
+### 10. 다중 통화 계좌를 고려하세요
+Wise나 Revolut 같은 서비스는 은행간 환율에 가까운 환율을 제공합니다.
+
+[환율 계산기](/ko/currency-converter)를 사용하여 여행 전 현재 환율을 확인하세요.`,
+			ja: `通貨換算は旅行予算を左右する可能性があります。賢い通貨管理と不注意な管理の違いは、1回の旅行で数万円にもなり得ます。
+
+## 為替レートの理解
+
+為替レートは、ある通貨が別の通貨でいくらの価値があるかを表します。以下に基づいて常に変動します：
+
+- **経済指標**（GDP、雇用、インフレーション）
+- **中央銀行の政策**（金利決定）
+- **政治的イベント**（選挙、貿易協定）
+- **市場心理**（投資家の信頼度）
+
+## 通貨を交換する場所（最良から最悪）
+
+### 最良のオプション
+1. **海外での国内銀行ATM** - 銀行間レートに近い為替レートと少額の手数料
+2. **海外取引手数料なしのクレジットカード** - 優れたレート
+3. **出発前の国内銀行** - 旅行前に外貨を注文
+
+### まずまずのオプション
+4. **目的地の現地銀行** - まずまずのレート
+5. **市内中心部の信頼できる両替所** - 複数を比較
+
+### 避けるべき場所
+6. **空港の両替カウンター** - 7-15%のマークアップが一般的
+7. **ホテルの両替サービス** - 便利さには高い代価
+8. **街頭の両替商** - 詐欺や偽札のリスク
+
+## 10の節約のヒント
+
+### 1. 出発前にミッドマーケットレートを確認
+為替レート計算機をチェックしましょう。2-3%以上の差は悪い取引です。
+
+### 2. 手数料無料のトラベルクレジットカードを使用
+海外取引手数料なしのカードで、海外でのすべての購入で3%節約できます。
+
+### 3. 必ず現地通貨で支払う
+商店で「自国通貨で支払いますか、現地通貨ですか？」と聞かれたら、必ず現地通貨を選んでください。自国通貨での支払いはDCC（3-7%のマークアップ）が適用されます。
+
+### 4. より大きな金額をより少ない回数で引き出す
+ATM手数料は1回あたり固定（300-500円）の場合が多いです。
+
+### 5. 旅行前に銀行に通知する
+カードが凍結されるのを防ぐために、旅行日程と目的地を銀行に知らせましょう。
+
+[通貨換算ツール](/ja/currency-converter)を使って、旅行前に現在の為替レートを確認してください。`,
+			zh: `货币兑换可以决定您的旅行预算。明智和不小心的货币管理之间的差异，在一次旅行中很容易就达到数百美元。
+
+## 理解汇率
+
+汇率表示一种货币相对于另一种货币的价值。它们根据以下因素不断波动：
+
+- **经济指标**（GDP、就业、通胀）
+- **央行政策**（利率决定）
+- **政治事件**（选举、贸易协定）
+- **市场情绪**（投资者信心）
+
+## 兑换货币的地点（从最好到最差）
+
+### 最佳选择
+1. **在国外使用本国银行ATM** - 通常提供接近银行间汇率的费率
+2. **无境外交易费的信用卡** - 优秀的汇率
+3. **出发前在本国银行兑换** - 旅行前订购外币
+
+### 可接受的选择
+4. **目的地的当地银行** - 还不错的汇率
+5. **市中心信誉良好的兑换处** - 多家比较
+
+### 避免
+6. **机场兑换柜台** - 加价7-15%很常见
+7. **酒店兑换服务** - 便利性代价高
+8. **街头换汇者** - 有诈骗和假币风险
+
+## 十个省钱技巧
+
+### 1. 出发前了解中间市场汇率
+使用汇率计算器查看。偏差超过2-3%就是不好的交易。
+
+### 2. 使用无手续费的旅行信用卡
+无境外交易费的卡片可在每次海外消费中节省3%。
+
+### 3. 始终以当地货币支付
+当商家问"用您的货币还是当地货币支付？"时，始终选择当地货币。
+
+### 4. 每次取更多金额，减少取款次数
+ATM手续费通常是固定的。
+
+### 5. 旅行前通知银行
+避免卡被冻结。
+
+使用我们的[货币转换器](/zh/currency-converter)在旅行前查看当前汇率。`,
+			es: `La conversión de divisas puede hacer o deshacer su presupuesto de viaje. La diferencia entre una gestión inteligente y descuidada puede suponer fácilmente cientos de dólares en un solo viaje.
+
+## Entender los tipos de cambio
+
+Los tipos de cambio representan cuánto vale una moneda en términos de otra.
+
+## Dónde cambiar divisas (de mejor a peor)
+
+### Mejores opciones
+1. **ATM de su banco en el extranjero** - Tasas cercanas al interbancario
+2. **Tarjetas de crédito sin comisión por transacción extranjera** - Excelentes tasas
+3. **Su banco antes de viajar** - Pida moneda extranjera con anticipación
+
+### Opciones aceptables
+4. **Bancos locales en su destino** - Tasas decentes
+5. **Oficinas de cambio en el centro** - Compare varias
+
+### Evitar
+6. **Mostradores de cambio del aeropuerto** - Márgenes del 7-15%
+7. **Servicios de cambio del hotel** - La conveniencia tiene un alto precio
+
+## Diez consejos para ahorrar
+
+### 1. Conozca la tasa del mercado medio antes de ir
+### 2. Use una tarjeta de crédito sin comisiones
+### 3. Siempre pague en moneda local
+### 4. Retire cantidades mayores con menos frecuencia
+### 5. Notifique a su banco antes de viajar
+### 6. Tenga efectivo para emergencias
+### 7. Use aplicaciones de tipos de cambio
+### 8. Evite cambiar a última hora
+### 9. Compare el costo total, no solo las tasas
+### 10. Considere cuentas multidivisa
+
+Use nuestro [Convertidor de Divisas](/es/currency-converter) para verificar las tasas actuales antes de su viaje.`
+		},
+		date: '2025-03-05',
+		category: 'travel'
+	},
+	{
+		slug: 'calculate-real-hourly-wage',
+		title: {
+			en: 'How to Calculate Your Real Hourly Wage',
+			ko: '실제 시급을 계산하는 방법',
+			ja: '実質時給の計算方法',
+			zh: '如何计算您的实际时薪',
+			es: 'Cómo calcular su salario real por hora'
+		},
+		description: {
+			en: 'Your real hourly wage is probably lower than you think. Learn how to calculate it by factoring in commute, preparation, and work-related expenses.',
+			ko: '실제 시급은 생각보다 낮을 수 있습니다. 통근, 준비, 업무 관련 비용을 포함하여 계산하는 방법을 알아보세요.',
+			ja: '実質時給は思っているより低いかもしれません。通勤、準備、仕事関連の経費を考慮した計算方法を学びましょう。',
+			zh: '您的实际时薪可能比您想的要低。了解如何将通勤、准备和工作相关费用纳入计算。',
+			es: 'Su salario real por hora probablemente es menor de lo que piensa. Aprenda a calcularlo.'
+		},
+		content: {
+			en: `Most people know their salary or hourly rate, but very few know their REAL hourly wage - the amount they actually earn for each hour of their life devoted to work. This concept, popularized by Vicki Robin in "Your Money or Your Life," can fundamentally change how you think about spending.
+
+## The Concept of Real Hourly Wage
+
+Your employer pays you for the hours you work. But work consumes far more of your time than just the hours at your desk. When you account for ALL the time and money that work requires, your effective hourly rate is often 30-50% lower than your nominal rate.
+
+## Step 1: Calculate Your Total Work-Related Time
+
+Start with your paid hours, then add ALL the additional time work requires:
+
+| Activity | Weekly Hours |
+|----------|-------------|
+| Paid work hours | 40 |
+| Commuting (round trip) | 5 |
+| Getting ready for work | 2.5 |
+| Decompressing after work | 2.5 |
+| Work-related errands | 1 |
+| Extra unpaid work (emails, etc.) | 3 |
+| **Total work-related hours** | **54** |
+
+## Step 2: Calculate Your True Take-Home Pay
+
+Start with your gross salary, then subtract ALL work-related expenses:
+
+| Item | Annual Cost |
+|------|-----------|
+| Gross annual salary | $60,000 |
+| Minus: Income taxes (federal + state) | -$12,000 |
+| Minus: Commuting costs (gas, parking, transit) | -$3,600 |
+| Minus: Work wardrobe | -$1,200 |
+| Minus: Lunches out / convenience food | -$2,400 |
+| Minus: Childcare premium (above at-home cost) | -$4,800 |
+| Minus: Stress relief spending | -$1,200 |
+| Minus: Work-related technology | -$600 |
+| **Actual take-home from work** | **$34,200** |
+
+## Step 3: Calculate Your Real Hourly Wage
+
+**Real hourly wage = Adjusted income / Total work hours per year**
+
+- Total work hours: 54 hours/week x 50 weeks = 2,700 hours/year
+- Real hourly wage: $34,200 / 2,700 = **$12.67/hour**
+
+Compare this to the nominal rate: $60,000 / 2,080 = $28.85/hour. Your real hourly wage is less than half your perceived rate.
+
+## Why This Matters
+
+### Better purchasing decisions
+When you know your real hourly wage, you can translate any purchase into work-hours:
+- A $50 dinner out = 3.9 hours of your life
+- A $1,200 phone = 94.7 hours of your life
+- A $30,000 car = 2,368 hours of your life
+
+### Career evaluation
+Compare jobs not by salary but by real hourly wage. A $80,000 job with a 2-hour commute and high stress may pay less per real hour than a $55,000 job you can walk to.
+
+### Side income perspective
+That freelance project paying $30/hour might actually be more lucrative than your day job when you factor in no commute, no work wardrobe, and flexible hours.
+
+## How to Increase Your Real Hourly Wage
+
+1. **Reduce commute time** - Work remotely, move closer, or negotiate flexible hours
+2. **Cut work-related expenses** - Pack lunches, simplify your wardrobe, carpool
+3. **Negotiate a raise** - Even 5% significantly impacts your real hourly wage
+4. **Reduce unpaid work time** - Set boundaries on after-hours emails
+5. **Optimize taxes** - Maximize deductions and retirement contributions
+6. **Simplify your life** - Less stress spending means more of your income stays yours
+
+## Action Steps
+
+1. Track ALL your work-related time for one week
+2. List ALL your work-related expenses for one month
+3. Calculate your real hourly wage
+4. Start evaluating purchases in terms of work-hours
+
+Use our [Salary Calculator](/en/salary-calculator) to convert between different pay periods and better understand your compensation.`,
+			ko: `대부분의 사람들은 자신의 급여나 시급을 알고 있지만, 실제 시급 - 일에 바치는 삶의 매 시간에 실제로 버는 금액 - 을 아는 사람은 극소수입니다.
+
+## 실제 시급의 개념
+
+고용주는 일하는 시간에 대해 급여를 지급합니다. 하지만 일은 책상 앞에 앉아 있는 시간 이상으로 훨씬 더 많은 시간을 소비합니다. 일이 요구하는 모든 시간과 비용을 계산하면, 실효 시급은 명목 시급보다 30-50% 낮은 경우가 많습니다.
+
+## 1단계: 총 업무 관련 시간 계산
+
+급여 시간에서 시작하여 일이 요구하는 모든 추가 시간을 더합니다:
+
+| 활동 | 주당 시간 |
+|-----|---------|
+| 유급 근무 시간 | 40 |
+| 통근 (왕복) | 5 |
+| 출근 준비 | 2.5 |
+| 퇴근 후 휴식 | 2.5 |
+| 업무 관련 심부름 | 1 |
+| 추가 무급 업무 (이메일 등) | 3 |
+| **총 업무 관련 시간** | **54** |
+
+## 2단계: 실제 순수입 계산
+
+총 급여에서 모든 업무 관련 비용을 빼세요:
+
+| 항목 | 연간 비용 |
+|-----|---------|
+| 연봉 | 5,000만원 |
+| 소득세 | -800만원 |
+| 통근 비용 | -240만원 |
+| 업무 의류 | -100만원 |
+| 외식/간편식 | -200만원 |
+| 스트레스 해소 지출 | -100만원 |
+| **실제 업무 순수입** | **3,560만원** |
+
+## 3단계: 실제 시급 계산
+
+**실제 시급 = 조정 소득 / 연간 총 업무 시간**
+
+- 총 업무 시간: 54시간/주 x 50주 = 2,700시간/년
+- 실제 시급: 3,560만원 / 2,700 = **약 13,185원/시간**
+
+명목 시급 비교: 5,000만원 / 2,080 = 24,038원/시간. 실제 시급은 인식된 시급의 절반 수준입니다.
+
+## 왜 중요한가
+
+### 더 나은 구매 결정
+실제 시급을 알면 모든 구매를 근무 시간으로 환산할 수 있습니다:
+- 5만원짜리 외식 = 3.8시간의 삶
+- 150만원짜리 핸드폰 = 113.8시간의 삶
+
+### 직업 평가
+급여가 아닌 실제 시급으로 직업을 비교하세요. 통근 2시간에 스트레스 높은 8,000만원 직업이 걸어서 갈 수 있는 5,500만원 직업보다 실제 시급이 낮을 수 있습니다.
+
+## 실제 시급을 높이는 방법
+
+1. **통근 시간 줄이기** - 재택근무, 가까이 이사, 유연 근무 협상
+2. **업무 관련 비용 줄이기** - 도시락 싸기, 옷장 단순화
+3. **급여 인상 협상** - 5%만으로도 실제 시급에 큰 영향
+4. **무급 업무 시간 줄이기** - 퇴근 후 이메일에 경계 설정
+5. **세금 최적화** - 공제와 퇴직 기여금 극대화
+
+[급여 계산기](/ko/salary-calculator)를 사용하여 다양한 급여 기간 간 변환하고 보상을 더 잘 이해하세요.`,
+			ja: `ほとんどの人は自分の給料や時給を知っていますが、実質時給 - 仕事に費やす人生の各時間に実際に稼いでいる金額 - を知っている人はごく少数です。
+
+## 実質時給の概念
+
+雇用主は働いた時間に対して給料を支払います。しかし、仕事はデスクにいる時間以上に多くの時間を消費します。仕事が要求するすべての時間とお金を計算すると、実効時給は名目時給より30-50%低いことが多いです。
+
+## ステップ1：総業務関連時間の計算
+
+給与時間から始めて、仕事が要求するすべての追加時間を加えます：
+
+| 活動 | 週間時間 |
+|-----|---------|
+| 有給勤務時間 | 40 |
+| 通勤（往復） | 5 |
+| 出勤準備 | 2.5 |
+| 退勤後のリラックス | 2.5 |
+| 業務関連の用事 | 1 |
+| 追加の無給業務 | 3 |
+| **総業務関連時間** | **54** |
+
+## ステップ2：実際の手取りの計算
+
+年収からすべての業務関連費用を差し引きます：
+
+| 項目 | 年間コスト |
+|-----|----------|
+| 年収 | 600万円 |
+| 所得税・住民税 | -120万円 |
+| 通勤費 | -36万円 |
+| 仕事用衣類 | -12万円 |
+| 外食・コンビニ食 | -24万円 |
+| ストレス解消支出 | -12万円 |
+| **実際の業務純収入** | **396万円** |
+
+## ステップ3：実質時給の計算
+
+**実質時給 = 調整後収入 / 年間総業務時間**
+
+- 総業務時間: 54時間/週 x 50週 = 2,700時間/年
+- 実質時給: 396万円 / 2,700 = **約1,467円/時間**
+
+名目時給との比較: 600万円 / 2,080 = 2,885円/時間。実質時給は認識している時給の約半分です。
+
+## なぜ重要なのか
+
+実質時給を知ると、すべての購入を労働時間に換算できます：
+- 5,000円の外食 = 3.4時間の人生
+- 15万円のスマートフォン = 102.2時間の人生
+
+## 実質時給を上げる方法
+
+1. **通勤時間を減らす** - リモートワーク、近くに引っ越す
+2. **業務関連経費を削減** - 弁当を持参、服装をシンプルに
+3. **昇給を交渉** - 5%でも実質時給に大きく影響
+4. **無給業務時間を減らす** - 業務時間外のメールに境界を設ける
+
+[給与計算機](/ja/salary-calculator)を使って、異なる給与期間間の換算を行ってください。`,
+			zh: `大多数人知道自己的薪水或时薪，但很少有人知道自己的实际时薪——为工作付出的每个小时实际赚到的金额。
+
+## 实际时薪的概念
+
+雇主为您工作的时间支付报酬。但工作消耗的时间远不止您在办公桌前的时间。当您计算工作所需的所有时间和金钱时，您的实际时薪通常比名义时薪低30-50%。
+
+## 第一步：计算总工作相关时间
+
+从带薪工时开始，加上工作所需的所有额外时间：
+
+| 活动 | 每周小时 |
+|-----|---------|
+| 带薪工作时间 | 40 |
+| 通勤（往返） | 5 |
+| 上班准备 | 2.5 |
+| 下班后减压 | 2.5 |
+| 工作相关事务 | 1 |
+| 额外无薪工作 | 3 |
+| **总工作相关时间** | **54** |
+
+## 第二步：计算实际净收入
+
+从总薪资中减去所有工作相关费用。
+
+## 第三步：计算实际时薪
+
+**实际时薪 = 调整后收入 / 年总工作时间**
+
+## 为什么这很重要
+
+### 更好的购买决策
+知道实际时薪后，您可以将任何购买转换为工作小时数。
+
+### 职业评估
+不要按薪水而是按实际时薪比较工作。
+
+## 如何提高实际时薪
+
+1. **减少通勤时间** - 远程工作、搬近一点
+2. **削减工作相关费用** - 带午餐、简化衣橱
+3. **谈判加薪** - 即使5%也会显著影响实际时薪
+4. **减少无薪工作时间** - 对下班后的邮件设定界限
+5. **优化税务** - 最大化扣除额和退休金缴款
+
+使用我们的[薪资计算器](/zh/salary-calculator)在不同薪资周期之间转换。`,
+			es: `La mayoría de las personas conocen su salario, pero muy pocas conocen su salario REAL por hora. Este concepto puede cambiar fundamentalmente cómo piensa sobre el gasto.
+
+## El concepto del salario real por hora
+
+Su empleador le paga por las horas que trabaja. Pero el trabajo consume mucho más tiempo que solo las horas en su escritorio. Cuando considera TODO el tiempo y dinero que el trabajo requiere, su tarifa efectiva por hora es a menudo 30-50% más baja.
+
+## Paso 1: Calcule su tiempo total relacionado con el trabajo
+
+| Actividad | Horas semanales |
+|-----------|----------------|
+| Horas pagadas | 40 |
+| Desplazamiento (ida y vuelta) | 5 |
+| Prepararse para el trabajo | 2.5 |
+| Descompresión después del trabajo | 2.5 |
+| Recados relacionados | 1 |
+| Trabajo extra no remunerado | 3 |
+| **Total** | **54** |
+
+## Paso 2: Calcule su ingreso neto real
+
+Reste TODOS los gastos relacionados con el trabajo de su salario bruto.
+
+## Paso 3: Calcule su salario real por hora
+
+**Salario real = Ingreso ajustado / Horas totales de trabajo al año**
+
+## Por qué esto importa
+
+Cuando conoce su salario real por hora, puede traducir cualquier compra en horas de trabajo.
+
+## Cómo aumentar su salario real
+
+1. **Reduzca el tiempo de desplazamiento** - Trabaje remotamente
+2. **Recorte gastos relacionados** - Lleve almuerzo, simplifique vestuario
+3. **Negocie un aumento** - Incluso 5% impacta significativamente
+4. **Reduzca trabajo no remunerado** - Establezca límites con emails
+5. **Optimice impuestos** - Maximice deducciones
+
+Use nuestra [Calculadora de Salario](/es/salary-calculator) para convertir entre diferentes períodos de pago.`
+		},
+		date: '2025-03-10',
+		category: 'career'
+	},
+	{
+		slug: 'tax-planning-basics-everyone',
+		title: {
+			en: 'Tax Planning Basics Everyone Should Know',
+			ko: '모든 사람이 알아야 할 세금 계획 기본',
+			ja: '誰もが知っておくべき税金計画の基本',
+			zh: '每个人都应该知道的税务规划基础',
+			es: 'Fundamentos de planificación fiscal que todos deberían conocer'
+		},
+		description: {
+			en: 'Understand the fundamentals of tax planning to keep more of your hard-earned money, from deductions to tax-advantaged accounts.',
+			ko: '공제부터 세금 우대 계좌까지, 힘들게 번 돈을 더 많이 지키기 위한 세금 계획의 기본을 이해하세요.',
+			ja: '控除から税制優遇口座まで、稼いだお金をより多く手元に残すための税金計画の基本を理解しましょう。',
+			zh: '从扣除到税收优惠账户，了解税务规划的基础知识，保留更多辛苦赚来的钱。',
+			es: 'Comprenda los fundamentos de la planificación fiscal para conservar más de su dinero.'
+		},
+		content: {
+			en: `Tax planning is not just for the wealthy. Everyone can benefit from understanding basic tax concepts and strategies to legally minimize their tax burden.
+
+## Understanding Tax Brackets
+
+A common misconception is that moving to a higher tax bracket means all your income is taxed at that rate. In reality, taxes are marginal - only the income within each bracket is taxed at that bracket's rate.
+
+**Example (2024 US Single Filer):**
+
+| Bracket | Rate | Tax |
+|---------|------|-----|
+| $0 - $11,600 | 10% | $1,160 |
+| $11,601 - $47,150 | 12% | $4,266 |
+| $47,151 - $100,525 | 22% | $11,742 |
+| $100,526 - $191,950 | 24% | $21,942 |
+
+If you earn $80,000, you do not pay 22% on everything. You pay 10% on the first $11,600, 12% on the next $35,550, and 22% only on income above $47,150.
+
+## Key Tax Reduction Strategies
+
+### 1. Maximize retirement contributions
+- **401(k)**: Up to $23,000 in 2024 ($30,500 if 50+)
+- **Traditional IRA**: Up to $7,000 ($8,000 if 50+)
+- Every dollar contributed reduces your taxable income by that amount
+
+### 2. Use the standard deduction wisely
+For 2024: $14,600 (single), $29,200 (married filing jointly). Only itemize if your deductions exceed this.
+
+### 3. Harvest tax losses
+Sell underperforming investments to offset capital gains. You can deduct up to $3,000 in net losses against ordinary income.
+
+### 4. Contribute to an HSA
+Health Savings Accounts are triple tax-advantaged:
+- Contributions are tax-deductible
+- Growth is tax-free
+- Withdrawals for medical expenses are tax-free
+
+### 5. Time your income and deductions
+If you expect to be in a lower bracket next year, defer income. If higher, accelerate deductions into this year.
+
+## Common Tax Deductions and Credits
+
+### Deductions (reduce taxable income)
+- **Mortgage interest** on loans up to $750,000
+- **State and local taxes (SALT)** up to $10,000
+- **Charitable contributions**
+- **Student loan interest** up to $2,500
+- **Home office** if self-employed
+
+### Credits (directly reduce tax owed)
+- **Child Tax Credit**: Up to $2,000 per child
+- **Earned Income Tax Credit**: Up to $7,430 for families
+- **Education Credits**: Up to $2,500 (American Opportunity) or $2,000 (Lifetime Learning)
+- **Energy Credits**: For solar panels, EVs, and energy improvements
+
+## Tax-Advantaged Accounts Comparison
+
+| Account | Tax on Contributions | Tax on Growth | Tax on Withdrawal |
+|---------|---------------------|---------------|-------------------|
+| Traditional 401(k)/IRA | Deductible | Deferred | Taxed as income |
+| Roth 401(k)/IRA | Taxed | Tax-free | Tax-free |
+| HSA | Deductible | Tax-free | Tax-free (medical) |
+| 529 Plan | Not deductible | Tax-free | Tax-free (education) |
+
+## Year-End Tax Planning Checklist
+
+- [ ] Review tax withholding - adjust if getting large refund or owing taxes
+- [ ] Maximize retirement contributions before December 31
+- [ ] Make charitable donations (consider bunching every other year)
+- [ ] Review capital gains and losses
+- [ ] Contribute to HSA if eligible
+- [ ] Use remaining FSA funds before expiration
+- [ ] Consider Roth conversion if in a low-income year
+- [ ] Gather receipts and documentation
+
+## Common Tax Mistakes to Avoid
+
+1. **Not filing on time** - Late penalties can be steep
+2. **Missing deductions** - Keep records throughout the year
+3. **Ignoring estimated taxes** - Self-employed must pay quarterly
+4. **Not adjusting withholding after life changes** - Marriage, baby, new job
+5. **Overlooking state taxes** - They can significantly impact your total tax burden
+
+Use our [Tax Calculator](/en/tax-calculator) to estimate your tax liability and plan your strategy for the year ahead.`,
+			ko: `세금 계획은 부유한 사람들만을 위한 것이 아닙니다. 누구나 기본적인 세금 개념과 전략을 이해하여 합법적으로 세금 부담을 최소화할 수 있습니다.
+
+## 세율 구간 이해하기
+
+흔한 오해는 더 높은 세율 구간으로 이동하면 모든 소득이 그 세율로 과세된다는 것입니다. 실제로 세금은 누진적입니다 - 각 구간 내의 소득만 해당 구간의 세율로 과세됩니다.
+
+**예시 (한국 근로소득세):**
+
+| 과세표준 | 세율 |
+|---------|------|
+| 1,400만원 이하 | 6% |
+| 1,400~5,000만원 | 15% |
+| 5,000~8,800만원 | 24% |
+| 8,800만~1.5억원 | 35% |
+
+연봉 6,000만원이면 전체에 24%가 적용되는 것이 아닙니다. 처음 1,400만원에는 6%, 다음 3,600만원에는 15%, 나머지에만 24%가 적용됩니다.
+
+## 주요 세금 절감 전략
+
+### 1. 퇴직연금 기여금 최대화
+- **개인연금저축**: 연 400만원까지 세액공제
+- **IRP**: 연 700만원까지 세액공제
+- 기여금 1원마다 과세 소득이 줄어듭니다
+
+### 2. 소득공제와 세액공제 활용
+연말정산에서 놓치는 공제 항목이 없는지 확인하세요:
+- 의료비 공제
+- 교육비 공제
+- 기부금 공제
+- 신용카드/체크카드 사용액 공제
+- 주택 관련 공제
+
+### 3. 절세 금융상품 활용
+- **ISA (개인종합자산관리계좌)**: 일정 금액까지 비과세
+- **연금저축**: 세액공제 + 과세이연
+- **주택청약저축**: 소득공제 혜택
+
+### 4. 소득 시기 조절
+내년에 더 낮은 세율 구간에 있을 것으로 예상되면 소득을 이연하세요.
+
+## 연말 세금 계획 체크리스트
+
+- [ ] 원천징수 검토 - 큰 환급이나 추가 납부가 있으면 조정
+- [ ] 12월 31일 전에 퇴직연금 기여금 최대화
+- [ ] 기부금 영수증 정리
+- [ ] 의료비, 교육비 영수증 확인
+- [ ] 신용카드/체크카드 사용 비율 확인
+- [ ] 주택 관련 공제 서류 준비
+
+## 흔한 세금 실수
+
+1. **기한 내 신고하지 않기** - 가산세가 클 수 있습니다
+2. **공제 항목 놓치기** - 연중 영수증을 보관하세요
+3. **생활 변화 후 원천징수 조정하지 않기** - 결혼, 출산, 이직 시
+4. **절세 상품 미활용** - 연금저축, IRP 등을 활용하세요
+
+[세금 계산기](/ko/tax-calculator)를 사용하여 세금 부담을 추정하고 계획을 세우세요.`,
+			ja: `税金計画は裕福な人だけのものではありません。基本的な税金の概念と戦略を理解することで、誰もが合法的に税負担を最小限に抑えることができます。
+
+## 税率区分の理解
+
+よくある誤解は、より高い税率区分に移動するとすべての所得がその税率で課税されるということです。実際には、税金は累進的です。各区分内の所得のみがその区分の税率で課税されます。
+
+**例（日本の所得税）：**
+
+| 課税所得 | 税率 | 控除額 |
+|---------|------|-------|
+| 195万円以下 | 5% | 0円 |
+| 195~330万円 | 10% | 97,500円 |
+| 330~695万円 | 20% | 427,500円 |
+| 695~900万円 | 23% | 636,000円 |
+| 900~1,800万円 | 33% | 1,536,000円 |
+
+## 主要な節税戦略
+
+### 1. 退職金拠出の最大化
+- **iDeCo（個人型確定拠出年金）**: 掛金全額が所得控除
+- **NISA**: 運用益が非課税
+- **小規模企業共済**: 掛金全額が所得控除
+
+### 2. 所得控除の活用
+- 医療費控除
+- 社会保険料控除
+- 生命保険料控除
+- 地震保険料控除
+- ふるさと納税（寄附金控除）
+
+### 3. ふるさと納税の活用
+実質2,000円の負担で返礼品を受け取りながら税額控除を受けられます。
+
+### 4. NISA（少額投資非課税制度）の活用
+2024年から新NISAとして:
+- つみたて投資枠: 年間120万円
+- 成長投資枠: 年間240万円
+- 非課税保有期間: 無期限
+
+## 年末の税金計画チェックリスト
+
+- [ ] 年末調整の書類を確認
+- [ ] iDeCoの掛金を最大化
+- [ ] ふるさと納税の上限を確認して実施
+- [ ] 医療費の領収書を整理（10万円超で控除対象）
+- [ ] 生命保険・地震保険の控除証明書を確認
+- [ ] 住宅ローン控除の書類準備
+
+## よくある税金の間違い
+
+1. **確定申告を忘れる** - 延滞税がかかります
+2. **控除項目の見落とし** - 年間を通じて領収書を保管
+3. **生活変化後の源泉徴収の調整忘れ** - 結婚、出産、転職時
+4. **節税制度の未活用** - iDeCo、NISA等を活用しましょう
+
+[税金計算機](/ja/tax-calculator)を使って、税負担を推定し計画を立てましょう。`,
+			zh: `税务规划不仅仅是富人的事。每个人都可以通过了解基本税务概念和策略来合法地减少税务负担。
+
+## 理解税率等级
+
+一个常见的误解是，进入更高的税率等级意味着所有收入都按该税率征税。实际上，税收是累进的——只有每个等级内的收入才按该等级的税率征税。
+
+## 主要减税策略
+
+### 1. 最大化退休金缴款
+每一元缴款都会减少您的应税收入。
+
+### 2. 充分利用扣除项目
+- 专项附加扣除（子女教育、继续教育、住房贷款利息、住房租金、赡养老人、大病医疗）
+- 商业健康保险
+- 公益捐赠
+
+### 3. 合理规划收入时间
+如果预计明年将处于较低的税率等级，可以延迟收入。
+
+### 4. 利用税收优惠政策
+- 个人养老金：每年最高12,000元，可抵扣个税
+- 商业健康保险：每年最高2,400元
+- 公益捐赠：应纳税所得额30%以内
+
+## 年度税务规划清单
+
+- [ ] 检查预扣税款是否合适
+- [ ] 确认专项附加扣除信息是否完整
+- [ ] 整理公益捐赠票据
+- [ ] 确认个人养老金缴款
+- [ ] 准备年度汇算清缴所需材料
+
+## 常见税务错误
+
+1. **未按时申报** - 滞纳金可能很高
+2. **遗漏扣除项目** - 全年保留收据
+3. **生活变化后未调整预扣税** - 结婚、生育、换工作时
+4. **忽视税收优惠** - 充分利用个人养老金等
+
+使用我们的[税务计算器](/zh/tax-calculator)估算您的税务负担并制定策略。`,
+			es: `La planificación fiscal no es solo para los ricos. Todos pueden beneficiarse de comprender los conceptos básicos.
+
+## Entender los tramos fiscales
+
+Un error común es pensar que al pasar a un tramo fiscal más alto, todos sus ingresos se gravan a esa tasa. En realidad, los impuestos son marginales.
+
+## Estrategias clave de reducción fiscal
+
+### 1. Maximizar las contribuciones de jubilación
+Cada dólar contribuido reduce su ingreso imponible.
+
+### 2. Usar la deducción estándar sabiamente
+Solo detalle si sus deducciones superan la deducción estándar.
+
+### 3. Cosechar pérdidas fiscales
+Venda inversiones con bajo rendimiento para compensar ganancias de capital.
+
+### 4. Contribuir a cuentas con ventajas fiscales
+Aproveche todas las cuentas disponibles con beneficios fiscales.
+
+## Deducciones y créditos comunes
+
+### Deducciones (reducen el ingreso imponible)
+- Intereses hipotecarios
+- Impuestos estatales y locales
+- Contribuciones caritativas
+- Intereses de préstamos estudiantiles
+
+### Créditos (reducen directamente el impuesto)
+- Crédito tributario por hijos
+- Crédito por ingreso del trabajo
+- Créditos educativos
+- Créditos energéticos
+
+## Errores fiscales comunes
+
+1. **No presentar a tiempo** - Las penalidades pueden ser severas
+2. **Perder deducciones** - Mantenga registros durante todo el año
+3. **Ignorar impuestos estimados** - Los autónomos deben pagar trimestralmente
+4. **No ajustar retenciones** - Después de matrimonio, bebé, nuevo trabajo
+
+Use nuestra [Calculadora de Impuestos](/es/tax-calculator) para estimar su responsabilidad fiscal.`
+		},
+		date: '2025-03-15',
+		category: 'finance'
+	},
+	{
+		slug: 'date-calculation-tricks',
+		title: {
+			en: 'Date Calculation Tricks for Everyday Life',
+			ko: '일상 생활에서 유용한 날짜 계산 트릭',
+			ja: '日常生活で役立つ日付計算のコツ',
+			zh: '日常生活中的日期计算技巧',
+			es: 'Trucos de cálculo de fechas para la vida diaria'
+		},
+		description: {
+			en: 'Master practical date calculations: from counting days between dates to finding deadlines, due dates, and planning events.',
+			ko: '날짜 간 일수 계산부터 마감일, 기한 찾기, 이벤트 계획까지 실용적인 날짜 계산을 마스터하세요.',
+			ja: '日付間の日数計算から締め切り、期限の算出、イベント計画まで、実用的な日付計算をマスターしましょう。',
+			zh: '掌握实用的日期计算：从计算日期之间的天数到查找截止日期和规划活动。',
+			es: 'Domine los cálculos de fechas prácticos: desde contar días hasta planificar eventos.'
+		},
+		content: {
+			en: `Date calculations come up more often than you might think. From figuring out how many days until your vacation to calculating contract deadlines, knowing a few tricks can save you time and prevent costly mistakes.
+
+## Common Date Calculation Scenarios
+
+### Days between two dates
+The most basic calculation. Simply subtract the earlier date from the later date. But watch out for:
+- **Inclusive vs. exclusive counting**: Does "from Monday to Friday" mean 4 days or 5? Legal and business contexts often differ.
+- **Calendar months vary**: February has 28-29 days; months range from 28 to 31 days.
+
+### Adding business days
+Business days exclude weekends and public holidays. A "5 business day" deadline starting on Wednesday typically means the following Wednesday, not Monday.
+
+### Calculating weeks and months
+- **Weeks**: Divide the number of days by 7
+- **Calendar months**: Same date next month (Jan 15 + 1 month = Feb 15)
+- **Edge cases**: Jan 31 + 1 month = Feb 28 (or 29 in leap years)
+
+## Mental Math Tricks for Dates
+
+### The Doomsday Algorithm (simplified)
+To find the day of the week for any date:
+1. Memorize that 4/4, 6/6, 8/8, 10/10, 12/12 all fall on the same day of the week each year (called "Doomsday")
+2. Also: 7/11 and 11/7 share this day
+3. For 2024, Doomsday is Thursday
+4. Count forward or backward from the nearest anchor date
+
+### Days in each month
+The classic knuckle trick: Make fists with both hands. Starting from the left pinky knuckle, count months on knuckles (high = 31 days) and valleys (low = 30 days or fewer). July and August both have 31 because they share the "knuckle" at the transition between hands.
+
+### Quick day-of-year calculation
+Useful for project planning. Approximate any date's position in the year:
+- Each month is roughly 30 days
+- January 1 = Day 1, February 1 = Day 32, March 1 = Day 60
+- Quick formula: (month - 1) x 30 + day (within ~3 days accuracy)
+
+## Practical Applications
+
+### Pregnancy due date
+Naegele's Rule: Add 280 days (40 weeks) to the first day of the last menstrual period. Or add 7 days to the LMP date, then add 9 months.
+
+### Lease and contract deadlines
+- "30 days notice" means exactly 30 calendar days, not one month
+- "Within 60 business days" can span 12 calendar weeks with holidays
+- Always count carefully and mark deadlines on your calendar
+
+### Travel planning
+- How many nights between check-in and check-out?
+- Business trip: How many working days at destination?
+- Jet lag recovery: Roughly 1 day per hour of time zone difference
+
+### Age calculations
+- Legal age is typically calculated to the exact date
+- In some East Asian cultures, a baby is "1 year old" at birth
+- Korean age system: Current year - birth year + 1 (being phased out)
+
+## Leap Year Rules
+
+Not every 4th year is a leap year:
+1. **Divisible by 4**: Leap year (2024, 2028)
+2. **Divisible by 100**: NOT a leap year (1900, 2100)
+3. **Divisible by 400**: IS a leap year (2000, 2400)
+
+This is why the year 2000 was a leap year but 1900 was not.
+
+## Date Calculation Pitfalls
+
+1. **Time zones**: A deadline at "midnight" - which midnight? Specify the time zone.
+2. **Daylight Saving Time**: The spring "forward" day is only 23 hours; the fall "back" day is 25 hours.
+3. **International Date Line**: Flying east from Japan to the US, you may arrive "before" you left.
+4. **Month-end dates**: "One month from January 30" is ambiguous - is it February 28 or March 1?
+
+## Tools and Tips
+
+- Use our [Date Calculator](/en/date-calculator) for accurate calculations
+- Set phone reminders for important deadlines
+- When in doubt, always use calendar days and specify explicitly
+- For legal deadlines, consult the specific statute or contract language
+
+Use our [Date Calculator](/en/date-calculator) to quickly find the number of days between any two dates or add/subtract days from a date.`,
+			ko: `날짜 계산은 생각보다 자주 필요합니다. 휴가까지 며칠 남았는지 계산하는 것부터 계약 마감일 계산까지, 몇 가지 트릭을 알면 시간을 절약하고 비용이 많이 드는 실수를 방지할 수 있습니다.
+
+## 일반적인 날짜 계산 시나리오
+
+### 두 날짜 사이의 일수
+가장 기본적인 계산입니다. 나중 날짜에서 이전 날짜를 빼면 됩니다. 하지만 주의할 점:
+- **포함 vs. 제외 카운팅**: "월요일부터 금요일까지"는 4일인가요 5일인가요?
+- **달력 월은 다양합니다**: 2월은 28-29일, 각 월은 28일에서 31일까지 다릅니다.
+
+### 영업일 추가
+영업일은 주말과 공휴일을 제외합니다. 수요일부터 시작하는 "5영업일" 기한은 보통 다음 주 수요일입니다.
+
+## 날짜에 대한 암산 트릭
+
+### 각 달의 일수
+클래식 손가락 마디 트릭: 양손 주먹을 쥐세요. 왼쪽 새끼손가락 마디부터 시작하여 마디(높은 곳 = 31일)와 골(낮은 곳 = 30일 이하)로 달을 세세요.
+
+### 빠른 연중 일수 계산
+프로젝트 계획에 유용합니다:
+- 각 달은 대략 30일
+- 1월 1일 = 1일, 2월 1일 = 32일, 3월 1일 = 60일
+- 빠른 공식: (월 - 1) x 30 + 일 (약 3일 오차 이내)
+
+## 실용적인 응용
+
+### 출산 예정일
+네겔레 법칙: 마지막 생리 첫날에 280일(40주)을 더합니다.
+
+### 임대 및 계약 마감일
+- "30일 통지"는 정확히 30일력일을 의미합니다
+- "60영업일 이내"는 공휴일 포함 시 12주 이상이 될 수 있습니다
+- 항상 주의 깊게 세고 달력에 마감일을 표시하세요
+
+### 여행 계획
+- 체크인과 체크아웃 사이 몇 박?
+- 출장: 목적지에서 근무일 며칠?
+- 시차 적응: 시간대 차이 1시간당 약 1일
+
+### 나이 계산
+- 법적 나이는 보통 정확한 날짜까지 계산됩니다
+- 한국식 나이: 현재 년도 - 출생 년도 + 1 (2023년부터 만 나이 통일)
+
+## 윤년 규칙
+
+4년마다가 모두 윤년은 아닙니다:
+1. **4로 나누어지면**: 윤년 (2024, 2028)
+2. **100으로 나누어지면**: 윤년이 아님 (1900, 2100)
+3. **400으로 나누어지면**: 윤년 (2000, 2400)
+
+## 날짜 계산 함정
+
+1. **시간대**: "자정" 마감은 어느 자정인가요? 시간대를 명시하세요.
+2. **일광 절약 시간**: 봄 "앞으로" 날은 23시간, 가을 "뒤로" 날은 25시간입니다.
+3. **월말 날짜**: "1월 30일로부터 한 달"은 모호합니다 - 2월 28일? 3월 1일?
+
+[날짜 계산기](/ko/date-calculator)를 사용하여 두 날짜 사이의 일수를 빠르게 찾거나 날짜에서 일수를 더하고 빼보세요.`,
+			ja: `日付計算は思っている以上に頻繁に必要になります。休暇まであと何日かを計算することから契約の締め切り計算まで、いくつかのコツを知っていれば時間を節約し、コストのかかるミスを防ぐことができます。
+
+## 一般的な日付計算シナリオ
+
+### 2つの日付間の日数
+最も基本的な計算です。後の日付から前の日付を引きます。注意点：
+- **包含 vs. 排他カウント**: 「月曜日から金曜日まで」は4日ですか5日ですか？
+- **月の日数は異なる**: 2月は28-29日、各月は28日から31日まで
+
+### 営業日の追加
+営業日は週末と祝日を除きます。水曜日から始まる「5営業日」の期限は、通常翌週の水曜日です。
+
+## 日付の暗算トリック
+
+### 各月の日数
+古典的な指の関節トリック：両手で拳を作ります。左の小指の関節から始めて、関節（高い = 31日）と谷（低い = 30日以下）で月を数えます。
+
+### 簡易年間日数計算
+プロジェクト計画に便利：
+- 各月は約30日
+- 1月1日 = 1日目、2月1日 = 32日目、3月1日 = 60日目
+
+## 実用的な応用
+
+### 出産予定日
+ネーゲレの法則：最終月経初日に280日（40週）を足します。
+
+### リースと契約の締め切り
+- 「30日前通知」は正確に30暦日を意味します
+- 「60営業日以内」は祝日を含めると12暦週以上になることがあります
+
+### 旅行計画
+- チェックインとチェックアウトの間は何泊？
+- 出張：目的地での勤務日数は？
+- 時差ボケ回復：時差1時間あたり約1日
+
+### 年齢計算
+- 法的年齢は通常正確な日付まで計算されます
+- 日本では「数え年」の伝統もあります
+
+## うるう年のルール
+
+4年ごとがすべてうるう年ではありません：
+1. **4で割り切れる**: うるう年（2024、2028）
+2. **100で割り切れる**: うるう年ではない（1900、2100）
+3. **400で割り切れる**: うるう年（2000、2400）
+
+[日付計算機](/ja/date-calculator)を使って、任意の2つの日付間の日数を素早く計算してください。`,
+			zh: `日期计算比您想象的更频繁。从计算假期还有多少天到计算合同截止日期，掌握一些技巧可以节省时间并避免代价高昂的错误。
+
+## 常见日期计算场景
+
+### 两个日期之间的天数
+最基本的计算。用较晚的日期减去较早的日期。但要注意：
+- **包含vs排除计数**："从周一到周五"是4天还是5天？
+- **日历月份不同**：二月有28-29天；各月从28到31天不等。
+
+### 添加工作日
+工作日不包括周末和公共假日。从周三开始的"5个工作日"期限通常是下周三。
+
+## 日期心算技巧
+
+### 每月天数
+经典的手指关节技巧：握紧双拳。从左手小指关节开始，在关节（高处=31天）和凹处（低处=30天或更少）上计数月份。
+
+### 快速年度天数计算
+- 每月约30天
+- 1月1日=第1天，2月1日=第32天，3月1日=第60天
+- 快速公式：（月-1）x 30 + 日（误差约3天）
+
+## 实际应用
+
+### 预产期
+Naegele法则：末次月经第一天加280天（40周）。
+
+### 租赁和合同截止日期
+- "30天通知"意味着确切的30个日历天
+- "60个工作日内"可能跨越12个日历周
+
+### 旅行规划
+- 入住和退房之间有几个晚上？
+- 出差：目的地有多少个工作日？
+- 倒时差恢复：每小时时差约需1天
+
+## 闰年规则
+
+并非每4年都是闰年：
+1. **能被4整除**：闰年（2024、2028）
+2. **能被100整除**：不是闰年（1900、2100）
+3. **能被400整除**：是闰年（2000、2400）
+
+使用我们的[日期计算器](/zh/date-calculator)快速计算任意两个日期之间的天数。`,
+			es: `Los cálculos de fechas surgen más a menudo de lo que piensa. Desde calcular cuántos días faltan para sus vacaciones hasta determinar plazos de contratos.
+
+## Escenarios comunes de cálculo de fechas
+
+### Días entre dos fechas
+El cálculo más básico. Simplemente reste la fecha anterior de la posterior. Pero cuidado con:
+- **Conteo inclusivo vs. exclusivo**: ¿"De lunes a viernes" son 4 o 5 días?
+- **Los meses varían**: Febrero tiene 28-29 días; los meses van de 28 a 31 días.
+
+### Agregar días hábiles
+Los días hábiles excluyen fines de semana y festivos.
+
+## Trucos de cálculo mental
+
+### Días en cada mes
+El truco clásico de los nudillos: Haga puños con ambas manos. Cuente meses en los nudillos (alto = 31 días) y valles (bajo = 30 días o menos).
+
+## Aplicaciones prácticas
+
+### Fecha de parto
+Regla de Naegele: Agregue 280 días a la última menstruación.
+
+### Plazos de arrendamiento y contratos
+- "Aviso de 30 días" significa exactamente 30 días calendario
+- "Dentro de 60 días hábiles" puede abarcar 12 semanas calendario
+
+### Planificación de viajes
+- ¿Cuántas noches entre check-in y check-out?
+- Recuperación de jet lag: aproximadamente 1 día por hora de diferencia horaria
+
+## Reglas del año bisiesto
+
+1. **Divisible por 4**: Año bisiesto (2024, 2028)
+2. **Divisible por 100**: NO es bisiesto (1900, 2100)
+3. **Divisible por 400**: SÍ es bisiesto (2000, 2400)
+
+Use nuestra [Calculadora de Fechas](/es/date-calculator) para calcular rápidamente los días entre dos fechas.`
+		},
+		date: '2025-02-01',
+		category: 'productivity'
+	},
+	{
+		slug: 'understanding-percentages-everyday-life',
+		title: {
+			en: 'Understanding Percentages in Everyday Life',
+			ko: '일상 생활에서 퍼센트 이해하기',
+			ja: '日常生活でのパーセンテージの理解',
+			zh: '理解日常生活中的百分比',
+			es: 'Comprender los porcentajes en la vida diaria'
+		},
+		description: {
+			en: 'From shopping discounts to statistics in the news, percentages are everywhere. Learn to calculate and interpret them correctly.',
+			ko: '쇼핑 할인부터 뉴스 통계까지, 퍼센트는 어디에나 있습니다. 정확하게 계산하고 해석하는 방법을 배워보세요.',
+			ja: 'ショッピングの割引からニュースの統計まで、パーセンテージはどこにでもあります。正しく計算し解釈する方法を学びましょう。',
+			zh: '从购物折扣到新闻统计，百分比无处不在。学习正确计算和解读它们。',
+			es: 'Desde descuentos hasta estadísticas, los porcentajes están en todas partes. Aprenda a calcularlos correctamente.'
+		},
+		content: {
+			en: `Percentages are one of the most practical math concepts you use daily, yet many people struggle with them. Whether you are calculating a sale discount, understanding a news statistic, or figuring out a tip, mastering percentages makes life easier.
+
+## The Basics: What Is a Percentage?
+
+A percentage is simply a fraction of 100. The word "percent" literally means "per hundred."
+
+- 50% = 50/100 = 0.5 = one half
+- 25% = 25/100 = 0.25 = one quarter
+- 10% = 10/100 = 0.10 = one tenth
+
+## Three Essential Percentage Calculations
+
+### 1. Finding a percentage of a number
+**Question**: What is 15% of $80?
+**Formula**: Number x (Percentage / 100)
+**Solution**: $80 x 0.15 = $12
+
+### 2. Finding what percentage one number is of another
+**Question**: 24 is what percent of 60?
+**Formula**: (Part / Whole) x 100
+**Solution**: (24 / 60) x 100 = 40%
+
+### 3. Finding the original number from a percentage
+**Question**: 30 is 20% of what number?
+**Formula**: Part / (Percentage / 100)
+**Solution**: 30 / 0.20 = 150
+
+## Mental Math Shortcuts for Percentages
+
+### The 10% anchor method
+Calculate 10% first (just move the decimal point left), then adjust:
+- **10%** of $85 = $8.50
+- **5%** = half of 10% = $4.25
+- **15%** = 10% + 5% = $12.75
+- **20%** = 10% x 2 = $17.00
+- **25%** = 10% x 2 + 5% = $21.25
+
+### The flip trick
+X% of Y = Y% of X. So 8% of 50 = 50% of 8 = 4. Much easier to calculate!
+
+### Round and adjust
+To find 18% of $52: Round to 20% of $50 = $10, then adjust slightly downward (actual: $9.36).
+
+## Real-World Percentage Scenarios
+
+### Shopping discounts
+A $120 jacket is 30% off:
+- Discount: $120 x 0.30 = $36
+- Sale price: $120 - $36 = $84
+- Or directly: $120 x 0.70 = $84
+
+**Stacked discounts are tricky**: 20% off then 10% off is NOT 30% off.
+- $100 x 0.80 = $80 (after 20% off)
+- $80 x 0.90 = $72 (after additional 10% off)
+- Effective discount: 28%, not 30%
+
+### Salary raises
+A 5% raise on $60,000:
+- New salary: $60,000 x 1.05 = $63,000
+- Increase: $3,000
+
+A common mistake: If you get a 10% cut then a 10% raise, you are NOT back to where you started.
+- $60,000 x 0.90 = $54,000 (after 10% cut)
+- $54,000 x 1.10 = $59,400 (after 10% raise)
+- You are still down $600!
+
+### Statistics and data interpretation
+"Crime dropped 50% from 20 incidents to 10" sounds dramatic, but the absolute numbers are small.
+
+Conversely, "prices rose 200%" means they tripled. A $5 item at 200% increase = $5 + ($5 x 2) = $15.
+
+### Compound percentage changes
+Inflation of 3% per year for 10 years is not 30% total:
+- (1.03)^10 = 1.3439
+- Actual total increase: 34.39%
+
+## Percentage vs. Percentage Points
+
+This distinction is crucial in news and finance:
+- Interest rate goes from 3% to 5% = increase of **2 percentage points** or a **66.7% increase**
+- "Unemployment dropped 2 percentage points" (from 6% to 4%) is different from "unemployment dropped 2%" (from 6% to 5.88%)
+
+## Common Percentage Mistakes
+
+1. **Confusing percentage change with percentage points**
+2. **Assuming discounts are additive** (20% + 10% is not 30%)
+3. **Forgetting the base matters** (10% of 1,000 vs 10% of 100)
+4. **Ignoring compound effects** over multiple periods
+5. **Treating percentages as absolute numbers** without context
+
+Use our [Percentage Calculator](/en/percentage) to quickly calculate any percentage problem you encounter.`,
+			ko: `퍼센트는 매일 사용하는 가장 실용적인 수학 개념 중 하나이지만, 많은 사람들이 어려워합니다. 할인 계산, 뉴스 통계 이해, 팁 계산 등 퍼센트를 마스터하면 생활이 쉬워집니다.
+
+## 기본: 퍼센트란?
+
+퍼센트는 단순히 100분의 1입니다. "퍼센트"는 문자 그대로 "100당"을 의미합니다.
+
+- 50% = 50/100 = 0.5 = 절반
+- 25% = 25/100 = 0.25 = 4분의 1
+- 10% = 10/100 = 0.10 = 10분의 1
+
+## 세 가지 필수 퍼센트 계산
+
+### 1. 숫자의 퍼센트 구하기
+**질문**: 8만원의 15%는?
+**공식**: 숫자 x (퍼센트 / 100)
+**답**: 80,000 x 0.15 = 12,000원
+
+### 2. 한 숫자가 다른 숫자의 몇 퍼센트인지 구하기
+**질문**: 24는 60의 몇 퍼센트?
+**공식**: (부분 / 전체) x 100
+**답**: (24 / 60) x 100 = 40%
+
+### 3. 퍼센트에서 원래 숫자 구하기
+**질문**: 30이 어떤 숫자의 20%라면?
+**공식**: 부분 / (퍼센트 / 100)
+**답**: 30 / 0.20 = 150
+
+## 퍼센트 암산 단축키
+
+### 10% 기준점 방법
+10%를 먼저 계산하세요(소수점을 왼쪽으로 이동):
+- 85,000원의 **10%** = 8,500원
+- **5%** = 10%의 절반 = 4,250원
+- **15%** = 10% + 5% = 12,750원
+- **20%** = 10% x 2 = 17,000원
+
+### 뒤집기 트릭
+X%의 Y = Y%의 X. 50의 8% = 8의 50% = 4. 계산이 훨씬 쉽습니다!
+
+## 실생활 퍼센트 시나리오
+
+### 쇼핑 할인
+12만원 재킷이 30% 할인:
+- 할인: 120,000 x 0.30 = 36,000원
+- 판매가: 120,000 - 36,000 = 84,000원
+
+**중복 할인은 복잡합니다**: 20% 할인 후 10% 추가 할인은 30%가 아닙니다.
+- 100,000 x 0.80 = 80,000원 (20% 할인 후)
+- 80,000 x 0.90 = 72,000원 (추가 10% 할인 후)
+- 실제 할인: 28%, 30%가 아닙니다
+
+### 연봉 인상
+6,000만원에 5% 인상:
+- 새 연봉: 6,000만원 x 1.05 = 6,300만원
+
+### 퍼센트 vs. 퍼센트포인트
+이 구별은 뉴스에서 매우 중요합니다:
+- 금리가 3%에서 5%로 = **2퍼센트포인트** 또는 **66.7% 증가**
+
+## 흔한 퍼센트 실수
+
+1. **퍼센트 변화와 퍼센트포인트 혼동**
+2. **할인이 더해진다고 가정** (20% + 10%는 30%가 아님)
+3. **기준이 중요하다는 것을 잊기** (1,000의 10% vs 100의 10%)
+4. **복리 효과 무시**
+5. **맥락 없이 퍼센트를 절대 숫자로 취급**
+
+[퍼센트 계산기](/ko/percentage)를 사용하여 퍼센트 문제를 빠르게 계산하세요.`,
+			ja: `パーセンテージは日常的に使う最も実用的な数学概念の一つですが、多くの人が苦手としています。
+
+## 基本：パーセンテージとは？
+
+パーセンテージは単に100分のいくつかです。
+
+- 50% = 50/100 = 0.5 = 半分
+- 25% = 25/100 = 0.25 = 4分の1
+- 10% = 10/100 = 0.10 = 10分の1
+
+## 3つの必須パーセンテージ計算
+
+### 1. 数のパーセンテージを求める
+**問題**: 8,000円の15%は？
+**公式**: 数 x (パーセンテージ / 100)
+**答え**: 8,000 x 0.15 = 1,200円
+
+### 2. ある数が別の数の何パーセントかを求める
+**問題**: 24は60の何パーセント？
+**答え**: (24 / 60) x 100 = 40%
+
+### 3. パーセンテージから元の数を求める
+**問題**: 30がある数の20%なら？
+**答え**: 30 / 0.20 = 150
+
+## 暗算のショートカット
+
+### 10%アンカー法
+まず10%を計算（小数点を左に移動）：
+- 8,500円の **10%** = 850円
+- **5%** = 10%の半分 = 425円
+- **15%** = 10% + 5% = 1,275円
+- **20%** = 10% x 2 = 1,700円
+
+### フリップトリック
+XのY% = YのX%。50の8% = 8の50% = 4。はるかに簡単です！
+
+## 実生活のパーセンテージシナリオ
+
+### ショッピングの割引
+12,000円のジャケットが30%オフ：
+- 割引: 12,000 x 0.30 = 3,600円
+- セール価格: 12,000 - 3,600 = 8,400円
+
+**重複割引は注意**: 20%オフの後10%オフは30%オフではありません。
+- 10,000 x 0.80 = 8,000円（20%オフ後）
+- 8,000 x 0.90 = 7,200円（追加10%オフ後）
+- 実効割引: 28%
+
+### パーセント vs. パーセントポイント
+この区別はニュースで非常に重要です：
+- 金利が3%から5%に = **2パーセントポイント**増加 または **66.7%増加**
+
+## よくあるパーセンテージの間違い
+
+1. **パーセント変化とパーセントポイントの混同**
+2. **割引が加算されると仮定**
+3. **基準が重要であることを忘れる**
+4. **複利効果の無視**
+
+[パーセンテージ計算機](/ja/percentage)を使って素早く計算してください。`,
+			zh: `百分比是您日常使用的最实用的数学概念之一，但很多人对它们感到困难。
+
+## 基础：什么是百分比？
+
+百分比就是百分之几。
+
+- 50% = 50/100 = 0.5 = 一半
+- 25% = 25/100 = 0.25 = 四分之一
+- 10% = 10/100 = 0.10 = 十分之一
+
+## 三种基本百分比计算
+
+### 1. 求一个数的百分比
+**问题**：80元的15%是多少？
+**公式**：数 x（百分比 / 100）
+**答案**：80 x 0.15 = 12元
+
+### 2. 求一个数是另一个数的百分之几
+**问题**：24是60的百分之几？
+**答案**：(24 / 60) x 100 = 40%
+
+### 3. 从百分比求原数
+**问题**：30是某个数的20%，求原数
+**答案**：30 / 0.20 = 150
+
+## 心算快捷方式
+
+### 10%锚点法
+先算10%（小数点左移一位）：
+- 85元的**10%** = 8.5元
+- **5%** = 10%的一半 = 4.25元
+- **15%** = 10% + 5% = 12.75元
+- **20%** = 10% x 2 = 17元
+
+### 翻转技巧
+X的Y% = Y的X%。50的8% = 8的50% = 4。容易多了！
+
+## 现实生活中的百分比场景
+
+### 购物折扣
+120元的夹克打7折（30%折扣）：
+- 折扣：120 x 0.30 = 36元
+- 售价：120 - 36 = 84元
+
+**叠加折扣要注意**：先打8折再打9折不等于打7折。
+- 100 x 0.80 = 80元
+- 80 x 0.90 = 72元
+- 实际折扣：28%，不是30%
+
+### 百分比 vs. 百分点
+- 利率从3%升到5% = 增加了**2个百分点**或**66.7%的增长**
+
+## 常见百分比错误
+
+1. **混淆百分比变化和百分点**
+2. **假设折扣是累加的**
+3. **忘记基数很重要**
+4. **忽视复合效应**
+
+使用我们的[百分比计算器](/zh/percentage)快速计算百分比问题。`,
+			es: `Los porcentajes son uno de los conceptos matemáticos más prácticos que usa diariamente.
+
+## Lo básico: ¿Qué es un porcentaje?
+
+Un porcentaje es simplemente una fracción de 100.
+
+## Tres cálculos esenciales de porcentaje
+
+### 1. Encontrar el porcentaje de un número
+**Pregunta**: ¿Cuánto es el 15% de $80?
+**Fórmula**: Número x (Porcentaje / 100)
+**Solución**: $80 x 0.15 = $12
+
+### 2. Encontrar qué porcentaje es un número de otro
+**Solución**: (24 / 60) x 100 = 40%
+
+### 3. Encontrar el número original
+**Solución**: 30 / 0.20 = 150
+
+## Atajos de cálculo mental
+
+### Método del ancla del 10%
+Calcule el 10% primero (mueva el punto decimal a la izquierda):
+- **10%** de $85 = $8.50
+- **5%** = mitad del 10% = $4.25
+- **15%** = 10% + 5% = $12.75
+
+### Truco del volteo
+X% de Y = Y% de X. Así que 8% de 50 = 50% de 8 = 4.
+
+## Escenarios del mundo real
+
+### Descuentos
+Una chaqueta de $120 con 30% de descuento = $84
+
+**Los descuentos apilados son engañosos**: 20% + 10% NO es 30%.
+
+### Porcentaje vs. puntos porcentuales
+La tasa sube de 3% a 5% = aumento de **2 puntos porcentuales** o **66.7% de aumento**
+
+Use nuestra [Calculadora de Porcentajes](/es/percentage) para resolver cualquier problema de porcentajes rápidamente.`
+		},
+		date: '2025-02-10',
+		category: 'education'
+	},
+	{
+		slug: 'budgeting-with-calculators',
+		title: {
+			en: 'Budgeting with Calculators: A Practical Guide',
+			ko: '계산기를 활용한 예산 관리: 실용 가이드',
+			ja: '計算機を使った予算管理：実践ガイド',
+			zh: '使用计算器进行预算管理：实用指南',
+			es: 'Presupuesto con calculadoras: una guía práctica'
+		},
+		description: {
+			en: 'Learn how to use online calculators effectively for budgeting, from the 50/30/20 rule to zero-based budgeting methods.',
+			ko: '50/30/20 규칙부터 제로 베이스 예산까지, 온라인 계산기를 효과적으로 활용한 예산 관리 방법을 배워보세요.',
+			ja: '50/30/20ルールからゼロベース予算まで、オンライン計算機を効果的に使った予算管理方法を学びましょう。',
+			zh: '从50/30/20法则到零基预算，学习如何有效使用在线计算器进行预算管理。',
+			es: 'Aprenda a usar calculadoras en línea para presupuestar, desde la regla 50/30/20 hasta presupuesto base cero.'
+		},
+		content: {
+			en: `A budget is the most powerful tool for financial health, and modern online calculators make budgeting easier than ever. Here is how to combine proven budgeting methods with calculator tools.
+
+## Why Budgeting Matters
+
+Without a budget, money has a way of disappearing. Studies show that people who budget:
+- Save 20% more than those who do not
+- Pay off debt faster
+- Feel less financial stress
+- Reach financial goals more consistently
+
+## The 50/30/20 Rule
+
+The simplest budgeting framework, popularized by Senator Elizabeth Warren:
+
+### 50% - Needs
+Essential expenses you cannot avoid:
+- Housing (rent/mortgage)
+- Utilities
+- Groceries
+- Insurance
+- Minimum debt payments
+- Transportation
+
+### 30% - Wants
+Non-essential spending that improves quality of life:
+- Dining out
+- Entertainment
+- Shopping
+- Hobbies
+- Subscriptions
+
+### 20% - Savings & Debt Repayment
+Building your financial future:
+- Emergency fund
+- Retirement contributions
+- Extra debt payments
+- Investments
+
+**Example with $5,000 monthly take-home pay:**
+
+| Category | Percentage | Amount |
+|----------|-----------|--------|
+| Needs | 50% | $2,500 |
+| Wants | 30% | $1,500 |
+| Savings | 20% | $1,000 |
+
+## Zero-Based Budgeting
+
+Every dollar gets assigned a job. Income minus expenses equals exactly zero.
+
+**Steps:**
+1. List your total monthly income
+2. List every expense category
+3. Assign specific amounts to each category
+4. Adjust until income minus all categories equals zero
+5. Track actual spending against your plan
+
+This method is more work but gives you maximum control.
+
+## Using Calculators for Budgeting
+
+### Income calculation
+Use a salary calculator to determine your actual take-home pay after taxes and deductions. This is your starting point for any budget.
+
+### Debt payoff planning
+A loan calculator helps you:
+- See total interest costs
+- Compare different payoff strategies
+- Determine how extra payments reduce your timeline
+
+### Savings projections
+A compound interest calculator shows how your savings grow over time. Seeing the future value of consistent saving is incredibly motivating.
+
+### Cost comparisons
+A percentage calculator helps compare:
+- Which discount is actually better
+- What percentage of income each expense represents
+- Year-over-year spending changes
+
+## Monthly Budget Template
+
+Use this framework and plug in your numbers:
+
+| Category | Budgeted | Actual | Difference |
+|----------|----------|--------|------------|
+| **Income** | | | |
+| Salary | $X | $X | $0 |
+| Side income | $X | $X | $0 |
+| **Needs (50%)** | | | |
+| Housing | $X | | |
+| Utilities | $X | | |
+| Groceries | $X | | |
+| Transport | $X | | |
+| Insurance | $X | | |
+| **Wants (30%)** | | | |
+| Dining out | $X | | |
+| Entertainment | $X | | |
+| Shopping | $X | | |
+| **Savings (20%)** | | | |
+| Emergency fund | $X | | |
+| Retirement | $X | | |
+| Investments | $X | | |
+
+## Five Common Budgeting Mistakes
+
+### 1. Not tracking small expenses
+A $5 daily coffee is $1,825 per year. Track everything.
+
+### 2. Forgetting irregular expenses
+Car insurance (semi-annual), holidays, birthdays. Divide annual costs by 12 and budget monthly.
+
+### 3. Being too restrictive
+A budget that allows zero fun spending will not last. Build in reasonable wants.
+
+### 4. Not adjusting for life changes
+Review and update your budget when income, expenses, or goals change.
+
+### 5. Giving up after one bad month
+A budget is a guideline, not a prison. Learn from overspending and adjust.
+
+## Getting Started Today
+
+1. Calculate your actual take-home pay using our [Salary Calculator](/en/salary-calculator)
+2. List your fixed monthly expenses
+3. Track variable spending for one month
+4. Apply the 50/30/20 rule as a starting framework
+5. Adjust percentages to fit your situation
+6. Review weekly and adjust monthly
+
+The best budget is the one you actually follow. Start simple and refine over time.`,
+			ko: `예산은 재정 건강을 위한 가장 강력한 도구이며, 현대 온라인 계산기는 예산 관리를 그 어느 때보다 쉽게 만들어줍니다.
+
+## 예산 관리가 중요한 이유
+
+예산 없이는 돈이 어디로 사라지는지 모릅니다. 연구에 따르면 예산을 세우는 사람들은:
+- 그렇지 않은 사람보다 20% 더 저축합니다
+- 빚을 더 빨리 갚습니다
+- 재정 스트레스를 덜 느낍니다
+- 재정 목표를 더 일관되게 달성합니다
+
+## 50/30/20 규칙
+
+가장 간단한 예산 프레임워크:
+
+### 50% - 필요
+피할 수 없는 필수 지출:
+- 주거 (월세/대출)
+- 공과금
+- 식료품
+- 보험
+- 최소 부채 상환
+- 교통
+
+### 30% - 원하는 것
+삶의 질을 높이는 비필수 지출:
+- 외식
+- 엔터테인먼트
+- 쇼핑
+- 취미
+- 구독 서비스
+
+### 20% - 저축 및 부채 상환
+재정적 미래 구축:
+- 비상 자금
+- 퇴직 기여금
+- 추가 부채 상환
+- 투자
+
+**월 실수령액 400만원 예시:**
+
+| 카테고리 | 비율 | 금액 |
+|---------|------|------|
+| 필요 | 50% | 200만원 |
+| 원하는 것 | 30% | 120만원 |
+| 저축 | 20% | 80만원 |
+
+## 제로 베이스 예산
+
+모든 원에 역할을 부여합니다. 수입에서 지출을 빼면 정확히 0이 됩니다.
+
+**단계:**
+1. 총 월 수입을 나열합니다
+2. 모든 지출 카테고리를 나열합니다
+3. 각 카테고리에 구체적인 금액을 배정합니다
+4. 수입에서 모든 카테고리를 뺀 값이 0이 될 때까지 조정합니다
+5. 실제 지출을 계획과 비교하여 추적합니다
+
+## 예산 관리에 계산기 활용하기
+
+### 소득 계산
+급여 계산기를 사용하여 세금과 공제 후 실제 실수령액을 확인하세요.
+
+### 부채 상환 계획
+대출 계산기로 총 이자 비용 확인, 다양한 상환 전략 비교, 추가 상환이 기간을 얼마나 줄이는지 확인할 수 있습니다.
+
+### 저축 예측
+복리 계산기로 시간에 따른 저축 증가를 확인하세요.
+
+## 5가지 흔한 예산 실수
+
+### 1. 작은 지출을 추적하지 않기
+하루 5,000원 커피는 연간 182만 5,000원입니다.
+
+### 2. 불규칙 지출 잊기
+자동차 보험(반기), 명절, 생일 등. 연간 비용을 12로 나눠 매월 예산에 반영하세요.
+
+### 3. 너무 엄격하게 하기
+재미있는 지출이 전혀 없는 예산은 오래가지 못합니다.
+
+### 4. 생활 변화에 맞게 조정하지 않기
+수입, 지출, 목표가 변할 때 예산을 검토하고 업데이트하세요.
+
+### 5. 한 달 실패 후 포기하기
+예산은 가이드라인이지 감옥이 아닙니다.
+
+## 오늘 시작하기
+
+1. [급여 계산기](/ko/salary-calculator)로 실제 실수령액 계산
+2. 고정 월 지출 나열
+3. 한 달간 변동 지출 추적
+4. 50/30/20 규칙을 시작 프레임워크로 적용
+5. 상황에 맞게 비율 조정
+6. 매주 검토, 매월 조정`,
+			ja: `予算は財務健全性のための最も強力なツールであり、現代のオンライン計算機は予算管理をかつてないほど簡単にします。
+
+## 予算管理が重要な理由
+
+予算なしでは、お金はいつの間にか消えていきます。研究によると、予算を立てている人は：
+- そうでない人より20%多く貯蓄している
+- 借金をより早く返済している
+- 財務的ストレスが少ない
+- 財務目標をより一貫して達成している
+
+## 50/30/20ルール
+
+最もシンプルな予算フレームワーク：
+
+### 50% - 必要なもの
+- 住居費
+- 光熱費
+- 食料品
+- 保険
+- 交通費
+
+### 30% - 欲しいもの
+- 外食
+- エンターテイメント
+- ショッピング
+- 趣味
+
+### 20% - 貯蓄・借金返済
+- 緊急資金
+- 退職金積立
+- 投資
+
+**手取り月収30万円の例：**
+
+| カテゴリー | 割合 | 金額 |
+|----------|------|------|
+| 必要 | 50% | 15万円 |
+| 欲しい | 30% | 9万円 |
+| 貯蓄 | 20% | 6万円 |
+
+## ゼロベース予算
+
+すべての円に役割を与えます。収入から支出を引いて正確にゼロにします。
+
+## 予算管理に計算機を活用
+
+### 収入計算
+給与計算機で税金や控除後の実際の手取りを確認しましょう。
+
+### 借金返済計画
+ローン計算機で総利息コストの確認、返済戦略の比較ができます。
+
+### 貯蓄予測
+複利計算機で時間の経過による貯蓄の成長を確認しましょう。
+
+## 5つのよくある予算の間違い
+
+1. **小さな出費を追跡しない** - 毎日500円のコーヒーは年間18万2,500円
+2. **不定期な出費を忘れる** - 年間コストを12で割って毎月予算に組み込む
+3. **厳しすぎる** - 楽しみゼロの予算は続きません
+4. **生活の変化に合わせて調整しない**
+5. **1か月の失敗で諦める**
+
+[給与計算機](/ja/salary-calculator)で実際の手取りを計算することから始めましょう。`,
+			zh: `预算是财务健康最有力的工具，现代在线计算器让预算管理比以往更容易。
+
+## 为什么预算很重要
+
+没有预算，钱不知不觉就消失了。研究表明，做预算的人：
+- 比不做的人多存20%
+- 更快还清债务
+- 财务压力更小
+- 更稳定地达到财务目标
+
+## 50/30/20法则
+
+最简单的预算框架：
+
+### 50% - 需要
+不可避免的基本支出：住房、水电、食品、保险、交通
+
+### 30% - 想要
+提升生活质量的非必需支出：外出就餐、娱乐、购物、爱好
+
+### 20% - 储蓄和还债
+建设财务未来：应急基金、退休金、投资
+
+**月净收入10,000元示例：**
+
+| 类别 | 比例 | 金额 |
+|-----|------|------|
+| 需要 | 50% | 5,000元 |
+| 想要 | 30% | 3,000元 |
+| 储蓄 | 20% | 2,000元 |
+
+## 零基预算
+
+每一分钱都有用途。收入减去支出正好等于零。
+
+## 使用计算器进行预算管理
+
+### 收入计算
+使用薪资计算器确定税后实际到手收入。
+
+### 债务偿还规划
+贷款计算器帮助您查看总利息成本、比较不同的偿还策略。
+
+### 储蓄预测
+复利计算器显示您的储蓄随时间增长的情况。
+
+## 五个常见预算错误
+
+1. **不追踪小额支出** - 每天10元的咖啡一年就是3,650元
+2. **忘记不定期支出** - 将年度费用除以12，每月预算
+3. **太过严格** - 完全没有娱乐的预算不会持久
+4. **不根据生活变化调整**
+5. **一个月失败就放弃**
+
+使用[薪资计算器](/zh/salary-calculator)计算实际到手收入，开始您的预算之旅。`,
+			es: `Un presupuesto es la herramienta más poderosa para la salud financiera, y las calculadoras en línea lo hacen más fácil que nunca.
+
+## La regla 50/30/20
+
+### 50% - Necesidades
+Gastos esenciales: vivienda, servicios, alimentos, seguros, transporte
+
+### 30% - Deseos
+Gastos no esenciales: salir a comer, entretenimiento, compras, pasatiempos
+
+### 20% - Ahorro y pago de deudas
+Construir su futuro: fondo de emergencia, jubilación, inversiones
+
+## Presupuesto base cero
+
+Cada dólar tiene un trabajo asignado. Ingresos menos gastos igual a exactamente cero.
+
+## Uso de calculadoras para presupuestar
+
+### Cálculo de ingresos
+Use una calculadora salarial para determinar su ingreso neto real.
+
+### Planificación de pago de deudas
+Una calculadora de préstamos le ayuda a ver los costos totales y comparar estrategias.
+
+### Proyecciones de ahorro
+Una calculadora de interés compuesto muestra cómo crecen sus ahorros con el tiempo.
+
+## Cinco errores comunes
+
+1. **No rastrear gastos pequeños** - Un café de $5 diario = $1,825 al año
+2. **Olvidar gastos irregulares** - Divida costos anuales entre 12
+3. **Ser demasiado restrictivo** - Un presupuesto sin diversión no durará
+4. **No ajustar ante cambios** - Revise cuando cambien ingresos o gastos
+5. **Rendirse después de un mal mes** - Es una guía, no una prisión
+
+Use nuestra [Calculadora de Salario](/es/salary-calculator) para calcular su ingreso neto real.`
+		},
+		date: '2025-01-25',
+		category: 'finance'
+	},
+	{
+		slug: 'tip-calculator-guide',
+		title: {
+			en: 'How to Use the Tip Calculator Wisely',
+			ko: '팁 계산기를 현명하게 사용하는 방법',
+			ja: 'チップ計算機を賢く使う方法',
+			zh: '如何明智地使用小费计算器',
+			es: 'Cómo usar la calculadora de propinas sabiamente'
+		},
+		description: {
+			en: 'Navigate tipping etiquette worldwide, learn how to calculate tips quickly, and understand when and how much to tip.',
+			ko: '전 세계 팁 에티켓을 탐색하고, 팁을 빠르게 계산하는 방법과 언제 얼마를 줘야 하는지 알아보세요.',
+			ja: '世界中のチップのエチケットを理解し、チップを素早く計算する方法と適切な金額を学びましょう。',
+			zh: '了解全球小费礼仪，学习如何快速计算小费，以及何时给多少小费。',
+			es: 'Navegue la etiqueta de propinas mundial, aprenda a calcular propinas rápidamente.'
+		},
+		content: {
+			en: `Tipping customs vary wildly around the world. What is generous in one country might be insulting in another. Here is your comprehensive guide to tipping, including mental math tricks for quick calculations.
+
+## Tipping by Country
+
+### United States & Canada
+Tipping is essentially mandatory for table service:
+- **Restaurants**: 15-20% (pre-tax)
+- **Bars**: $1-2 per drink or 15-20% of tab
+- **Hair salons**: 15-20%
+- **Taxi/rideshare**: 15-20%
+- **Hotel housekeeping**: $2-5 per night
+- **Food delivery**: 15-20% or minimum $3-5
+
+### Europe
+Tips are appreciated but not expected at the same level:
+- **UK**: 10-15% at restaurants (check if service charge is included)
+- **France**: Service included (service compris), round up for good service
+- **Germany**: Round up to nearest euro or add 5-10%
+- **Italy**: Cover charge (coperto) is common; small tip optional
+- **Spain**: Round up or leave small change
+
+### Asia
+- **Japan**: Do NOT tip. It can be considered rude.
+- **South Korea**: Tipping is not customary
+- **China**: Not expected, though some tourist areas accept tips
+- **Thailand**: 20-50 baht at restaurants, round up for taxis
+- **India**: 10% at restaurants
+
+### Middle East & Africa
+- **UAE/Dubai**: 10-15% (check for service charge)
+- **Egypt**: 10-15% (baksheesh culture)
+- **South Africa**: 10-15% at restaurants
+
+## Quick Mental Math for Tips
+
+### The 10% method (works anywhere)
+1. Find 10%: move the decimal point one place left
+2. For 15%: add half of 10% to the 10%
+3. For 20%: double the 10%
+
+**Example on a $67 bill:**
+- 10% = $6.70
+- 15% = $6.70 + $3.35 = $10.05
+- 20% = $6.70 x 2 = $13.40
+
+### The double-the-tax method (US)
+In many US states, sales tax is around 8%. Double it for a 16% tip - close enough to 15-20%.
+
+### Rounding for simplicity
+On a $43 bill:
+- 10% = $4.30
+- Round to $4.50 for easy math
+- 20% = $9 (double $4.50)
+- Want 15%? Split the difference: about $6.75
+
+## Splitting the Bill with Tips
+
+When dining with a group:
+
+### Equal split
+Total bill + tip, divided by number of people.
+- Bill: $200, Tip: 20% = $40
+- Total: $240 / 6 people = $40 each
+
+### Proportional split
+Each person tips on what they ordered:
+- Person A ordered $35 food, tips 20% = $7, total = $42
+- Person B ordered $65 food, tips 20% = $13, total = $78
+
+### Common issues with group tips
+- Always tip on the FULL amount, including your share
+- Avoid the "I only had a salad" trap - cover your fair share of shared items
+- Designate one person to calculate to avoid under-tipping
+
+## When to Tip More or Less
+
+### Tip more (20%+) when:
+- Service was exceptional
+- You have a large group (extra work for the server)
+- You stayed an unusually long time
+- There were special requests or dietary accommodations
+- It is a holiday
+
+### Acceptable to tip less (10-15%) when:
+- Service was notably poor (but still tip something)
+- It is counter service or takeout
+
+### Never acceptable to skip tipping entirely (in tipping cultures):
+- If you received table service, tip
+- If you cannot afford to tip, you cannot afford to eat out
+
+## Pre-Tax vs. Post-Tax Tipping
+
+In the US, the proper etiquette is to tip on the pre-tax amount:
+- Bill: $50 food + $4.50 tax = $54.50
+- 20% tip on pre-tax: $50 x 0.20 = $10
+- 20% tip on post-tax: $54.50 x 0.20 = $10.90
+
+The difference is small, but on large bills it adds up. Either is acceptable.
+
+Use our [Tip Calculator](/en/tip-calculator) to quickly calculate the right tip amount and split bills among your dining group.`,
+			ko: `팁 문화는 전 세계적으로 매우 다양합니다. 한 나라에서 관대한 것이 다른 나라에서는 무례할 수 있습니다. 빠른 계산을 위한 암산 트릭을 포함한 팁에 대한 종합 가이드입니다.
+
+## 국가별 팁 문화
+
+### 미국 & 캐나다
+테이블 서비스에서 팁은 사실상 필수입니다:
+- **레스토랑**: 15-20% (세전)
+- **바**: 음료당 $1-2 또는 탭의 15-20%
+- **미용실**: 15-20%
+- **택시/라이드쉐어**: 15-20%
+- **호텔 하우스키핑**: 1박당 $2-5
+- **음식 배달**: 15-20% 또는 최소 $3-5
+
+### 유럽
+팁은 감사하지만 같은 수준으로 기대되지 않습니다:
+- **영국**: 레스토랑에서 10-15%
+- **프랑스**: 서비스 포함, 좋은 서비스에 올림
+- **독일**: 가장 가까운 유로로 올림 또는 5-10%
+- **이탈리아**: 자릿세(coperto)가 일반적; 작은 팁은 선택
+
+### 아시아
+- **일본**: 팁을 주지 마세요. 무례하게 여겨질 수 있습니다.
+- **한국**: 팁 문화가 없습니다
+- **중국**: 기대되지 않음
+- **태국**: 레스토랑에서 20-50바트
+
+## 빠른 암산 팁 계산
+
+### 10% 방법
+1. 10% 찾기: 소수점을 왼쪽으로 한 자리 이동
+2. 15%: 10%의 절반을 10%에 더하기
+3. 20%: 10%를 두 배로
+
+**67달러 계산서 예시:**
+- 10% = $6.70
+- 15% = $6.70 + $3.35 = $10.05
+- 20% = $6.70 x 2 = $13.40
+
+## 팁 포함 계산서 나누기
+
+### 균등 분할
+총 계산서 + 팁, 인원수로 나누기
+- 계산서: $200, 팁: 20% = $40
+- 합계: $240 / 6명 = 1인당 $40
+
+### 비례 분할
+각자 주문한 것에 대해 팁:
+- A가 $35 주문, 20% 팁 = $7, 합계 = $42
+- B가 $65 주문, 20% 팁 = $13, 합계 = $78
+
+## 더 많이/적게 팁을 줄 때
+
+### 더 많이 (20%+):
+- 서비스가 탁월했을 때
+- 대규모 그룹일 때
+- 비정상적으로 오래 머물렀을 때
+- 특별 요청이나 식이 요구 사항이 있었을 때
+
+### 적게 (10-15%):
+- 서비스가 눈에 띄게 나빴을 때 (하지만 여전히 팁은 주세요)
+
+[팁 계산기](/ko/tip-calculator)를 사용하여 적절한 팁 금액을 빠르게 계산하고 식사 그룹 간에 계산서를 나누세요.`,
+			ja: `チップの習慣は世界中で大きく異なります。ある国で寛大なことが別の国では失礼になることもあります。
+
+## 国別チップ事情
+
+### アメリカ & カナダ
+テーブルサービスではチップは事実上必須：
+- **レストラン**: 15-20%（税抜き）
+- **バー**: 1ドリンク$1-2 または15-20%
+- **美容室**: 15-20%
+- **タクシー**: 15-20%
+- **ホテル客室清掃**: 1泊$2-5
+
+### ヨーロッパ
+- **イギリス**: レストランで10-15%
+- **フランス**: サービス料込み、良いサービスには切り上げ
+- **ドイツ**: 最も近いユーロに切り上げまたは5-10%
+
+### アジア
+- **日本**: チップは不要。失礼とみなされることがあります
+- **韓国**: チップの習慣なし
+- **中国**: 基本的に不要
+- **タイ**: レストランで20-50バーツ
+
+## チップの暗算方法
+
+### 10%法
+1. 10%を求める：小数点を左に1つ移動
+2. 15%：10%の半分を10%に足す
+3. 20%：10%を2倍にする
+
+**67ドルの請求書の例：**
+- 10% = $6.70
+- 15% = $6.70 + $3.35 = $10.05
+- 20% = $6.70 x 2 = $13.40
+
+## グループでの割り勘
+
+### 均等割り
+合計請求書 + チップを人数で割る
+
+### 比例割り
+各自が注文したものに対してチップを計算
+
+## 多めに/少なめにチップを渡すとき
+
+### 多め（20%以上）：
+- サービスが素晴らしかった
+- 大人数のグループ
+- 長時間滞在した
+
+### 少なめ（10-15%）：
+- サービスが明らかに悪かった（それでもチップは渡す）
+
+[チップ計算機](/ja/tip-calculator)で適切なチップ額を素早く計算してください。`,
+			zh: `小费习俗在世界各地差异很大。在一个国家慷慨的行为在另一个国家可能被视为无礼。
+
+## 各国小费文化
+
+### 美国和加拿大
+餐桌服务的小费基本上是必须的：
+- **餐厅**：15-20%（税前）
+- **酒吧**：每杯$1-2或15-20%
+- **美发沙龙**：15-20%
+- **出租车**：15-20%
+
+### 欧洲
+- **英国**：餐厅10-15%
+- **法国**：已含服务费，好服务可多给
+- **德国**：凑整或加5-10%
+
+### 亚洲
+- **日本**：不要给小费，可能被认为是无礼的
+- **韩国**：没有小费文化
+- **中国**：一般不需要
+- **泰国**：餐厅20-50泰铢
+
+## 快速心算小费
+
+### 10%法
+1. 求10%：将小数点向左移一位
+2. 15%：10%加上10%的一半
+3. 20%：10%翻倍
+
+**67美元账单示例：**
+- 10% = $6.70
+- 15% = $10.05
+- 20% = $13.40
+
+## 分账
+
+### 平均分摊
+总账单+小费，除以人数
+
+### 按比例分摊
+每人按自己点的东西计算小费
+
+使用我们的[小费计算器](/zh/tip-calculator)快速计算合适的小费金额。`,
+			es: `Las costumbres de propinas varían enormemente alrededor del mundo.
+
+## Propinas por país
+
+### Estados Unidos y Canadá
+- **Restaurantes**: 15-20% (antes de impuestos)
+- **Bares**: $1-2 por bebida
+- **Salones**: 15-20%
+- **Taxi**: 15-20%
+
+### Europa
+- **Reino Unido**: 10-15%
+- **Francia**: Servicio incluido
+- **Alemania**: Redondear o 5-10%
+
+### Asia
+- **Japón**: NO deje propina
+- **Corea**: Sin costumbre de propinas
+- **Tailandia**: 20-50 baht
+
+## Cálculo mental rápido
+
+### Método del 10%
+1. 10%: mueva el decimal una posición a la izquierda
+2. 15%: agregue la mitad del 10% al 10%
+3. 20%: duplique el 10%
+
+Use nuestra [Calculadora de Propinas](/es/tip-calculator) para calcular rápidamente la propina correcta.`
+		},
+		date: '2025-01-15',
+		category: 'lifestyle'
 	}
 ];
 

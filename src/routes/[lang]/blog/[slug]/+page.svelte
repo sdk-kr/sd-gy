@@ -49,6 +49,25 @@
 	{#if post}
 		<title>{post.title[lang] || post.title.en} - SD.gy Blog</title>
 		<meta name="description" content={post.description[lang] || post.description.en} />
+		{@html `<script type="application/ld+json">${JSON.stringify({
+			"@context": "https://schema.org",
+			"@type": "BlogPosting",
+			"headline": post.title[lang] || post.title.en,
+			"description": post.description[lang] || post.description.en,
+			"datePublished": post.date,
+			"author": { "@type": "Organization", "name": "SDKLABS" },
+			"publisher": { "@type": "Organization", "name": "SDKLABS" },
+			"mainEntityOfPage": { "@type": "WebPage", "@id": `https://sd.gy/${lang}/blog/${slug}` }
+		})}</script>`}
+		{@html `<script type="application/ld+json">${JSON.stringify({
+			"@context": "https://schema.org",
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{ "@type": "ListItem", "position": 1, "name": "Home", "item": `https://sd.gy/${lang}` },
+				{ "@type": "ListItem", "position": 2, "name": "Blog", "item": `https://sd.gy/${lang}/blog` },
+				{ "@type": "ListItem", "position": 3, "name": post.title[lang] || post.title.en, "item": `https://sd.gy/${lang}/blog/${slug}` }
+			]
+		})}</script>`}
 	{:else}
 		<title>{t.notFound} - SD.gy</title>
 	{/if}

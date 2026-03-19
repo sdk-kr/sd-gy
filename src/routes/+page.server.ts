@@ -14,5 +14,5 @@ export const load: PageServerLoad = ({ request }) => {
 		}
 	}
 
-	throw redirect(301, `/${detectedLang}`);
+	throw redirect(302, `/${detectedLang}`);
 };

@@ -86,6 +86,15 @@
 <svelte:head>
 	<title>{t('anniversary.title')} - SD.gy</title>
 	<meta name="description" content={t('anniversary.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/anniversary-calculator" />
+	<meta property="og:title" content="{t('anniversary.title')} - SD.gy" />
+	<meta property="og:description" content={t('anniversary.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/anniversary-calculator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('anniversary.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('anniversary.desc')} />
 </svelte:head>
 
 <div class="max-w-2xl mx-auto px-4 py-8">

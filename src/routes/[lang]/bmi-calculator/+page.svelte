@@ -46,6 +46,15 @@
 <svelte:head>
 	<title>{t('bmi.title')} - SD.gy</title>
 	<meta name="description" content={t('bmi.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/bmi-calculator" />
+	<meta property="og:title" content="{t('bmi.title')} - SD.gy" />
+	<meta property="og:description" content={t('bmi.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/bmi-calculator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('bmi.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('bmi.desc')} />
 </svelte:head>
 
 <div class="max-w-2xl mx-auto px-4 py-8">

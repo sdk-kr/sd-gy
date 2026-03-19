@@ -36,6 +36,15 @@
 <svelte:head>
 	<title>{t('percentage.title')} - SD.gy</title>
 	<meta name="description" content={t('percentage.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/percentage" />
+	<meta property="og:title" content="{t('percentage.title')} - SD.gy" />
+	<meta property="og:description" content={t('percentage.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/percentage" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('percentage.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('percentage.desc')} />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4 py-8">

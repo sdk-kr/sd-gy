@@ -117,6 +117,15 @@
 <svelte:head>
 	<title>{t.title} - SD.gy</title>
 	<meta name="description" content={t.description} />
+	<link rel="canonical" href="https://sd.gy/{lang}/contact" />
+	<meta property="og:title" content="{t.title} - SD.gy" />
+	<meta property="og:description" content={t.description} />
+	<meta property="og:url" content="https://sd.gy/{lang}/contact" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t.title} - SD.gy" />
+	<meta name="twitter:description" content={t.description} />
 </svelte:head>
 
 <div class="max-w-3xl mx-auto px-4 py-12">

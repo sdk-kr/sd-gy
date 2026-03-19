@@ -73,6 +73,15 @@
 <svelte:head>
 	<title>{t('currency.title')} - SD.gy</title>
 	<meta name="description" content={t('currency.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/currency-converter" />
+	<meta property="og:title" content="{t('currency.title')} - SD.gy" />
+	<meta property="og:description" content={t('currency.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/currency-converter" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('currency.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('currency.desc')} />
 </svelte:head>
 
 <div class="max-w-2xl mx-auto px-4 py-8">

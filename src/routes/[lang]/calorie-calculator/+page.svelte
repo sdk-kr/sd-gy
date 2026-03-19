@@ -33,6 +33,15 @@
 <svelte:head>
 	<title>{t('calorie.title')} - SD.gy</title>
 	<meta name="description" content={t('calorie.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/calorie-calculator" />
+	<meta property="og:title" content="{t('calorie.title')} - SD.gy" />
+	<meta property="og:description" content={t('calorie.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/calorie-calculator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('calorie.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('calorie.desc')} />
 </svelte:head>
 
 <div class="max-w-2xl mx-auto px-4 py-8">

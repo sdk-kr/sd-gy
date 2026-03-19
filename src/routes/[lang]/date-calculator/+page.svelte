@@ -49,6 +49,15 @@
 <svelte:head>
 	<title>{t('date.title')} - SD.gy</title>
 	<meta name="description" content={t('date.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/date-calculator" />
+	<meta property="og:title" content="{t('date.title')} - SD.gy" />
+	<meta property="og:description" content={t('date.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/date-calculator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('date.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('date.desc')} />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4 py-8">

@@ -35,6 +35,15 @@
 <svelte:head>
 	<title>{t.title} - SD.gy</title>
 	<meta name="description" content={t.subtitle} />
+	<link rel="canonical" href="https://sd.gy/{lang}/blog" />
+	<meta property="og:title" content="{t.title} - SD.gy" />
+	<meta property="og:description" content={t.subtitle} />
+	<meta property="og:url" content="https://sd.gy/{lang}/blog" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t.title} - SD.gy" />
+	<meta name="twitter:description" content={t.subtitle} />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4 py-12">

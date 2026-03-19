@@ -31,6 +31,15 @@
 <svelte:head>
 	<title>{t('tip.title')} - SD.gy</title>
 	<meta name="description" content={t('tip.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/tip-calculator" />
+	<meta property="og:title" content="{t('tip.title')} - SD.gy" />
+	<meta property="og:description" content={t('tip.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/tip-calculator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('tip.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('tip.desc')} />
 </svelte:head>
 
 <div class="max-w-2xl mx-auto px-4 py-8">

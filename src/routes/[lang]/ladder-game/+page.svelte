@@ -71,6 +71,15 @@
 <svelte:head>
 	<title>{t('ladder.title')} - SD.gy</title>
 	<meta name="description" content={t('ladder.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/ladder-game" />
+	<meta property="og:title" content="{t('ladder.title')} - SD.gy" />
+	<meta property="og:description" content={t('ladder.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/ladder-game" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('ladder.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('ladder.desc')} />
 </svelte:head>
 
 <div class="max-w-2xl mx-auto px-4 py-8">

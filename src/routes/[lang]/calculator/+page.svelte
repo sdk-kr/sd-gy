@@ -183,6 +183,15 @@
 <svelte:head>
 	<title>{t('calculator.title')} - SD.gy</title>
 	<meta name="description" content={t('calculator.desc')} />
+	<link rel="canonical" href="https://sd.gy/{lang}/calculator" />
+	<meta property="og:title" content="{t('calculator.title')} - SD.gy" />
+	<meta property="og:description" content={t('calculator.desc')} />
+	<meta property="og:url" content="https://sd.gy/{lang}/calculator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="SD.gy" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="{t('calculator.title')} - SD.gy" />
+	<meta name="twitter:description" content={t('calculator.desc')} />
 </svelte:head>
 
 <svelte:window on:keydown={handleKeydown} />
