@@ -5722,6 +5722,4681 @@ Use nuestra [Calculadora de Propinas](/es/tip-calculator) para calcular rápidam
 		},
 		date: '2025-01-15',
 		category: 'lifestyle'
+	},
+	{
+		slug: 'bmi-healthy-ranges',
+		title: {
+			en: 'The Complete Guide to BMI Healthy Ranges',
+			ko: 'BMI 건강 범위 완벽 가이드',
+			ja: 'BMI健康範囲の完全ガイド',
+			zh: 'BMI健康范围完全指南',
+			es: 'Guía completa de rangos saludables de IMC'
+		},
+		description: {
+			en: 'Understand BMI healthy ranges by age, gender, and ethnicity, and learn what your BMI really means for your health.',
+			ko: '연령, 성별, 인종별 BMI 건강 범위를 이해하고, BMI가 건강에 실제로 의미하는 바를 알아보세요.',
+			ja: '年齢、性別、民族別のBMI健康範囲を理解し、BMIが健康にとって本当に何を意味するかを学びましょう。',
+			zh: '了解不同年龄、性别和种族的BMI健康范围，以及BMI对健康的真正含义。',
+			es: 'Comprenda los rangos saludables de IMC por edad, género y etnia, y aprenda qué significa realmente su IMC para su salud.'
+		},
+		content: {
+			en: `Understanding your BMI healthy range is the first step toward better health management.
+
+## Standard BMI Categories
+
+| BMI Range | Classification |
+|-----------|---------------|
+| Below 18.5 | Underweight |
+| 18.5 – 24.9 | Normal weight |
+| 25.0 – 29.9 | Overweight |
+| 30.0+ | Obese |
+
+## Age-Specific Considerations
+
+### Children and Teens (2–19)
+BMI is interpreted using age- and sex-specific percentiles rather than fixed cutoffs. A child at the 85th percentile is considered overweight; the 95th percentile indicates obesity.
+
+### Adults 20–65
+The standard WHO categories above apply. However, muscle mass naturally increases into your 30s and declines after 50, so context matters.
+
+### Older Adults (65+)
+Research suggests a slightly higher BMI (23–27) may be protective for older adults, providing reserves during illness.
+
+## Gender Differences
+
+Women naturally carry more body fat than men. A BMI of 24 may represent very different body compositions in men versus women. Consider supplementing BMI with waist circumference or body fat percentage measurements.
+
+## Ethnic Variations
+
+- **Asian populations**: Health risks increase at lower BMIs. Many Asian countries use 23 as the overweight threshold.
+- **Pacific Islanders**: May have higher bone density and muscle mass, making standard cutoffs less accurate.
+
+## Beyond BMI
+
+BMI does not distinguish between fat and muscle. Athletes may have a high BMI with low body fat. Always combine BMI with:
+- Waist circumference
+- Body fat percentage
+- Blood pressure and blood work
+- Overall fitness level
+
+Use our [BMI Calculator](/en/bmi-calculator) to check your current range.`,
+			ko: `BMI 건강 범위를 이해하는 것은 더 나은 건강 관리를 위한 첫걸음입니다.
+
+## 표준 BMI 분류
+
+| BMI 범위 | 분류 |
+|----------|------|
+| 18.5 미만 | 저체중 |
+| 18.5 – 24.9 | 정상 체중 |
+| 25.0 – 29.9 | 과체중 |
+| 30.0 이상 | 비만 |
+
+## 연령별 고려사항
+
+### 소아·청소년 (2–19세)
+BMI는 고정된 기준이 아닌 연령·성별 백분위수로 해석합니다. 85백분위수 이상은 과체중, 95백분위수 이상은 비만으로 봅니다.
+
+### 성인 20–65세
+위의 표준 WHO 분류가 적용됩니다. 다만 근육량은 30대까지 자연적으로 증가하고 50대 이후 감소하므로 맥락이 중요합니다.
+
+### 고령자 (65세 이상)
+연구에 따르면 약간 높은 BMI(23–27)가 고령자에게 보호 효과가 있어, 질병 시 회복력을 제공할 수 있습니다.
+
+## 성별 차이
+
+여성은 남성보다 체지방률이 자연적으로 높습니다. BMI 24는 남녀에 따라 매우 다른 체성분을 나타낼 수 있습니다. 허리둘레나 체지방률 측정을 함께 활용하세요.
+
+## 인종별 차이
+
+- **아시아인**: 더 낮은 BMI에서도 건강 위험이 증가합니다. 많은 아시아 국가에서는 23을 과체중 기준으로 사용합니다.
+- **태평양 도서민**: 골밀도와 근육량이 높아 표준 기준이 덜 정확할 수 있습니다.
+
+## BMI를 넘어서
+
+BMI는 지방과 근육을 구분하지 못합니다. 운동선수는 체지방이 낮아도 BMI가 높을 수 있습니다. 항상 BMI와 함께 다음을 확인하세요:
+- 허리둘레
+- 체지방률
+- 혈압 및 혈액 검사
+- 전반적인 체력 수준
+
+[BMI 계산기](/ko/bmi-calculator)로 현재 범위를 확인해 보세요.`,
+			ja: `BMIの健康範囲を理解することは、より良い健康管理への第一歩です。
+
+## 標準BMIカテゴリー
+
+| BMI範囲 | 分類 |
+|---------|------|
+| 18.5未満 | 低体重 |
+| 18.5 – 24.9 | 普通体重 |
+| 25.0 – 29.9 | 過体重 |
+| 30.0以上 | 肥満 |
+
+## 年齢別の考慮事項
+
+### 小児・青年（2〜19歳）
+BMIは固定の基準値ではなく、年齢・性別のパーセンタイルで解釈します。85パーセンタイル以上は過体重、95パーセンタイル以上は肥満とされます。
+
+### 成人 20〜65歳
+上記の標準WHO分類が適用されます。ただし筋肉量は30代まで自然に増加し、50代以降減少するため、文脈が重要です。
+
+### 高齢者（65歳以上）
+研究によると、やや高めのBMI（23〜27）が高齢者にとって保護的効果があり、病気の際の回復力を提供する可能性があります。
+
+## 性別による違い
+
+女性は男性より自然に体脂肪率が高いです。BMI 24は男女で非常に異なる体組成を示す場合があります。ウエスト周囲径や体脂肪率の測定も併用しましょう。
+
+## 民族による違い
+
+- **アジア人**: より低いBMIでも健康リスクが増加します。多くのアジア諸国では23を過体重の基準としています。
+- **太平洋諸島民**: 骨密度と筋肉量が高い傾向があり、標準的な基準値の精度が低くなる場合があります。
+
+## BMIを超えて
+
+BMIは脂肪と筋肉を区別できません。アスリートは体脂肪が低くてもBMIが高い場合があります。常にBMIと併せて以下を確認してください：
+- ウエスト周囲径
+- 体脂肪率
+- 血圧と血液検査
+- 全体的な体力レベル
+
+[BMI計算機](/ja/bmi-calculator)で現在の範囲を確認しましょう。`,
+			zh: `了解BMI健康范围是更好地管理健康的第一步。
+
+## 标准BMI分类
+
+| BMI范围 | 分类 |
+|---------|------|
+| 低于18.5 | 体重过轻 |
+| 18.5 – 24.9 | 正常体重 |
+| 25.0 – 29.9 | 超重 |
+| 30.0以上 | 肥胖 |
+
+## 年龄相关考虑
+
+### 儿童和青少年（2-19岁）
+BMI使用年龄和性别特定的百分位数来解释，而非固定的临界值。第85百分位以上为超重，第95百分位以上为肥胖。
+
+### 成人 20-65岁
+适用上述标准WHO分类。但肌肉量在30多岁前自然增加，50岁后下降，因此需要结合具体情况。
+
+### 老年人（65岁以上）
+研究表明，略高的BMI（23-27）可能对老年人有保护作用，在生病时提供储备。
+
+## 性别差异
+
+女性自然比男性拥有更多体脂。BMI为24在男性和女性中可能代表非常不同的身体成分。建议结合腰围或体脂率测量。
+
+## 种族差异
+
+- **亚洲人群**：在较低的BMI下健康风险就会增加。许多亚洲国家将23作为超重标准。
+- **太平洋岛民**：可能具有更高的骨密度和肌肉量，使标准临界值不太准确。
+
+## 超越BMI
+
+BMI无法区分脂肪和肌肉。运动员可能体脂低但BMI高。始终将BMI与以下指标结合：
+- 腰围
+- 体脂率
+- 血压和血液检查
+- 整体体能水平
+
+使用我们的[BMI计算器](/zh/bmi-calculator)查看您当前的范围。`,
+			es: `Comprender su rango saludable de IMC es el primer paso hacia una mejor gestión de la salud.
+
+## Categorías estándar de IMC
+
+| Rango IMC | Clasificación |
+|-----------|--------------|
+| Menos de 18.5 | Bajo peso |
+| 18.5 – 24.9 | Peso normal |
+| 25.0 – 29.9 | Sobrepeso |
+| 30.0+ | Obesidad |
+
+## Consideraciones por edad
+
+### Niños y adolescentes (2–19)
+El IMC se interpreta usando percentiles específicos por edad y sexo. El percentil 85 indica sobrepeso; el percentil 95 indica obesidad.
+
+### Adultos 20–65
+Se aplican las categorías estándar de la OMS. Sin embargo, la masa muscular aumenta naturalmente hasta los 30 y disminuye después de los 50.
+
+### Adultos mayores (65+)
+Las investigaciones sugieren que un IMC ligeramente más alto (23–27) puede ser protector para los adultos mayores.
+
+## Más allá del IMC
+
+El IMC no distingue entre grasa y músculo. Combínelo siempre con la circunferencia de cintura y el porcentaje de grasa corporal.
+
+Use nuestra [Calculadora de IMC](/es/bmi-calculator) para verificar su rango actual.`
+		},
+		date: '2025-02-15',
+		category: 'health'
+	},
+	{
+		slug: 'calorie-deficit-weight-loss',
+		title: {
+			en: 'Calorie Deficit and Weight Loss: The Science Behind It',
+			ko: '칼로리 적자와 체중 감량: 과학적 원리',
+			ja: 'カロリー不足と減量：その背後にある科学',
+			zh: '热量缺口与减重：背后的科学',
+			es: 'Déficit calórico y pérdida de peso: la ciencia detrás'
+		},
+		description: {
+			en: 'Learn how calorie deficit works for weight loss, how to calculate your ideal deficit, and sustainable strategies.',
+			ko: '칼로리 적자가 체중 감량에 어떻게 작용하는지, 이상적인 적자량 계산법, 지속 가능한 전략을 알아보세요.',
+			ja: 'カロリー不足が減量にどう作用するか、理想的な不足量の計算方法、持続可能な戦略を学びましょう。',
+			zh: '了解热量缺口如何促进减重、如何计算理想缺口以及可持续的策略。',
+			es: 'Aprenda cómo funciona el déficit calórico, cómo calcular su déficit ideal y estrategias sostenibles.'
+		},
+		content: {
+			en: `Weight loss fundamentally comes down to one principle: consuming fewer calories than your body burns.
+
+## What Is a Calorie Deficit?
+
+A calorie deficit occurs when you eat fewer calories than your Total Daily Energy Expenditure (TDEE). Your TDEE includes:
+- **BMR (Basal Metabolic Rate)**: Calories burned at rest
+- **TEF (Thermic Effect of Food)**: Energy used to digest food
+- **NEAT**: Non-exercise activity thermogenesis
+- **EAT**: Exercise activity thermogenesis
+
+## How to Calculate Your Deficit
+
+1. **Find your TDEE**: Use a TDEE calculator or multiply your BMR by an activity factor
+2. **Set a moderate deficit**: 500 calories/day deficit ≈ 0.45 kg (1 lb) loss per week
+3. **Track consistently**: Use a food diary or app
+
+## Safe Deficit Ranges
+
+| Deficit | Weekly Loss | Best For |
+|---------|------------|----------|
+| 250 cal/day | ~0.25 kg | Slow, sustainable |
+| 500 cal/day | ~0.5 kg | Moderate pace |
+| 750 cal/day | ~0.75 kg | Faster results |
+| 1000 cal/day | ~1 kg | Short-term only |
+
+## Common Mistakes
+
+1. **Too aggressive**: Deficits over 1000 cal/day slow your metabolism
+2. **Ignoring protein**: Maintain 1.6–2.2 g/kg bodyweight to preserve muscle
+3. **Not adjusting**: As you lose weight, your TDEE decreases — recalculate monthly
+4. **Weekend overeating**: Two days of surplus can erase five days of deficit
+
+## Sustainable Strategies
+
+- Focus on nutrient-dense foods that keep you full
+- Increase daily movement (walking, stairs) to boost NEAT
+- Strength train to preserve muscle mass
+- Get 7–9 hours of sleep — poor sleep increases hunger hormones
+
+Use our [BMI Calculator](/en/bmi-calculator) to set your target weight range.`,
+			ko: `체중 감량은 근본적으로 하나의 원리로 귀결됩니다: 몸이 소모하는 것보다 적은 칼로리를 섭취하는 것입니다.
+
+## 칼로리 적자란?
+
+칼로리 적자는 총 일일 에너지 소비량(TDEE)보다 적은 칼로리를 섭취할 때 발생합니다. TDEE에는 다음이 포함됩니다:
+- **BMR (기초대사량)**: 휴식 시 소모 칼로리
+- **TEF (음식의 열 효과)**: 소화에 사용되는 에너지
+- **NEAT**: 비운동 활동 열 생산
+- **EAT**: 운동 활동 열 생산
+
+## 적자량 계산법
+
+1. **TDEE 계산**: TDEE 계산기를 사용하거나 BMR에 활동 계수를 곱하세요
+2. **적절한 적자 설정**: 하루 500칼로리 적자 ≈ 주당 약 0.45kg 감량
+3. **꾸준히 기록**: 식단 일기나 앱을 활용하세요
+
+## 안전한 적자 범위
+
+| 적자량 | 주간 감량 | 적합 대상 |
+|--------|----------|----------|
+| 250 cal/일 | ~0.25 kg | 느리고 지속 가능 |
+| 500 cal/일 | ~0.5 kg | 적당한 속도 |
+| 750 cal/일 | ~0.75 kg | 빠른 결과 |
+| 1000 cal/일 | ~1 kg | 단기간만 |
+
+## 흔한 실수
+
+1. **과도한 적자**: 1000cal/일 이상의 적자는 대사를 늦춥니다
+2. **단백질 무시**: 근육 보존을 위해 체중 kg당 1.6–2.2g 유지하세요
+3. **조정하지 않음**: 체중이 줄면 TDEE가 감소합니다 — 매월 재계산하세요
+4. **주말 과식**: 이틀의 과잉이 닷새의 적자를 무효화할 수 있습니다
+
+[BMI 계산기](/ko/bmi-calculator)로 목표 체중 범위를 설정해 보세요.`,
+			ja: `減量は基本的に一つの原則に帰結します：体が消費するよりも少ないカロリーを摂取することです。
+
+## カロリー不足とは？
+
+カロリー不足は、総日常エネルギー消費量（TDEE）より少ないカロリーを摂取するときに発生します。TDEEには以下が含まれます：
+- **BMR（基礎代謝量）**：安静時の消費カロリー
+- **TEF（食事誘発性熱産生）**：消化に使われるエネルギー
+- **NEAT**：非運動性活動熱産生
+- **EAT**：運動活動熱産生
+
+## 不足量の計算方法
+
+1. **TDEEを算出**：TDEE計算機を使用するか、BMRに活動係数を掛けます
+2. **適度な不足を設定**：1日500カロリーの不足 ≈ 週約0.45kgの減量
+3. **一貫して記録**：食事日記やアプリを活用しましょう
+
+## よくある間違い
+
+1. **過激すぎる不足**：1日1000cal以上の不足は代謝を低下させます
+2. **タンパク質の無視**：筋肉保持のため体重1kgあたり1.6〜2.2gを維持
+3. **調整しない**：体重が減るとTDEEも減少します — 毎月再計算を
+4. **週末の食べ過ぎ**：2日間の過剰が5日間の不足を帳消しにする可能性があります
+
+[BMI計算機](/ja/bmi-calculator)で目標体重範囲を設定しましょう。`,
+			zh: `减重从根本上归结为一个原则：摄入的热量少于身体消耗的热量。
+
+## 什么是热量缺口？
+
+热量缺口是指摄入的热量低于每日总能量消耗（TDEE）时产生的差额。TDEE包括：
+- **BMR（基础代谢率）**：静息状态消耗的热量
+- **TEF（食物热效应）**：消化食物所用的能量
+- **NEAT**：非运动性活动产热
+- **EAT**：运动活动产热
+
+## 如何计算缺口
+
+1. **计算TDEE**：使用TDEE计算器或将BMR乘以活动系数
+2. **设定适度缺口**：每天500卡缺口 ≈ 每周减少约0.45公斤
+3. **持续记录**：使用饮食日记或应用程序
+
+## 常见错误
+
+1. **缺口过大**：每天超过1000卡的缺口会降低代谢
+2. **忽视蛋白质**：保持每公斤体重1.6-2.2克以保留肌肉
+3. **不调整**：体重下降后TDEE也会降低——每月重新计算
+4. **周末暴食**：两天的过量可能抵消五天的缺口
+
+使用我们的[BMI计算器](/zh/bmi-calculator)设定目标体重范围。`,
+			es: `La pérdida de peso se reduce fundamentalmente a un principio: consumir menos calorías de las que quema su cuerpo.
+
+## ¿Qué es un déficit calórico?
+
+Un déficit calórico ocurre cuando come menos calorías que su Gasto Energético Diario Total (TDEE).
+
+## Rangos seguros de déficit
+
+| Déficit | Pérdida semanal | Ideal para |
+|---------|-----------------|------------|
+| 250 cal/día | ~0.25 kg | Lento y sostenible |
+| 500 cal/día | ~0.5 kg | Ritmo moderado |
+| 750 cal/día | ~0.75 kg | Resultados rápidos |
+
+## Errores comunes
+
+1. Déficit demasiado agresivo que ralentiza el metabolismo
+2. Ignorar la proteína necesaria para preservar músculo
+3. No recalcular a medida que pierde peso
+4. Comer en exceso los fines de semana
+
+Use nuestra [Calculadora de IMC](/es/bmi-calculator) para establecer su rango de peso objetivo.`
+		},
+		date: '2025-02-14',
+		category: 'health'
+	},
+	{
+		slug: 'unit-conversion-mistakes',
+		title: {
+			en: 'Common Unit Conversion Mistakes and How to Avoid Them',
+			ko: '단위 변환 흔한 실수와 피하는 법',
+			ja: '単位変換のよくある間違いと回避法',
+			zh: '常见单位换算错误及避免方法',
+			es: 'Errores comunes de conversión de unidades y cómo evitarlos'
+		},
+		description: {
+			en: 'Avoid costly unit conversion errors in cooking, travel, and science with these practical tips and examples.',
+			ko: '요리, 여행, 과학에서 발생하는 단위 변환 실수를 실용적인 팁과 예시로 방지하세요.',
+			ja: '料理、旅行、科学における単位変換ミスを実践的なヒントと例で防ぎましょう。',
+			zh: '通过实用技巧和示例避免烹饪、旅行和科学中的单位换算错误。',
+			es: 'Evite errores costosos de conversión de unidades en cocina, viajes y ciencia con estos consejos prácticos.'
+		},
+		content: {
+			en: `Unit conversion mistakes have caused everything from baking disasters to spacecraft crashes. Here is how to get them right every time.
+
+## Famous Conversion Failures
+
+### Mars Climate Orbiter (1999)
+NASA lost a $125 million spacecraft because one team used metric units while another used imperial. The orbiter entered the atmosphere at the wrong angle and disintegrated.
+
+### Gimli Glider (1983)
+An Air Canada flight ran out of fuel mid-flight because ground crew calculated fuel in pounds instead of kilograms, loading only half the needed amount.
+
+## Kitchen Conversion Pitfalls
+
+### Volume vs. Weight
+- 1 cup of flour ≠ 1 cup of sugar (by weight)
+- Flour: 1 cup ≈ 125g
+- Sugar: 1 cup ≈ 200g
+- Butter: 1 cup ≈ 227g
+
+### Temperature
+- **Fahrenheit to Celsius**: (°F - 32) × 5/9
+- Common oven temps: 350°F = 175°C, 400°F = 205°C, 450°F = 230°C
+
+## Travel Conversions
+
+### Speed
+- 60 mph ≈ 97 km/h
+- Quick estimate: multiply km/h by 0.6 for mph
+
+### Distance
+- 1 mile ≈ 1.6 km
+- Quick trick: use Fibonacci numbers — 5 miles ≈ 8 km, 8 miles ≈ 13 km
+
+### Fuel Economy
+- mpg to L/100km: divide 235 by the mpg value
+- 30 mpg ≈ 7.8 L/100km
+
+## Tips to Avoid Mistakes
+
+1. **Always state your units**: Never write just "5" — write "5 kg" or "5 lbs"
+2. **Double-check with estimation**: Does the answer make sense?
+3. **Use a calculator**: Our [Unit Converter](/en/unit-converter) eliminates manual errors
+4. **Learn anchor points**: Memorize a few key conversions as reference points`,
+			ko: `단위 변환 실수는 베이킹 실패부터 우주선 추락까지 모든 것을 초래했습니다. 매번 정확하게 하는 방법을 알아봅시다.
+
+## 유명한 변환 실패 사례
+
+### 화성 기후 궤도선 (1999)
+한 팀은 미터법을, 다른 팀은 야드파운드법을 사용해서 NASA는 1억 2,500만 달러짜리 우주선을 잃었습니다.
+
+### 김리 글라이더 (1983)
+지상 승무원이 킬로그램 대신 파운드로 연료를 계산하여 필요량의 절반만 탑재했고, 비행 중 연료가 바닥났습니다.
+
+## 주방에서의 변환 함정
+
+### 부피 vs 무게
+- 밀가루 1컵 ≠ 설탕 1컵 (무게 기준)
+- 밀가루: 1컵 ≈ 125g
+- 설탕: 1컵 ≈ 200g
+
+### 온도
+- **화씨 → 섭씨**: (°F - 32) × 5/9
+- 자주 쓰는 오븐 온도: 350°F = 175°C, 400°F = 205°C
+
+## 여행 변환
+
+### 속도
+- 60 mph ≈ 97 km/h
+- 빠른 계산: km/h에 0.6을 곱하면 대략 mph
+
+### 거리
+- 1마일 ≈ 1.6 km
+- 꿀팁: 피보나치 수열 활용 — 5마일 ≈ 8km, 8마일 ≈ 13km
+
+## 실수 방지 팁
+
+1. **항상 단위를 명시하세요**: "5"가 아니라 "5kg" 또는 "5lbs"로 쓰세요
+2. **추정으로 이중 확인**: 답이 상식적으로 맞는지 확인하세요
+3. **계산기 사용**: [단위 변환기](/ko/unit-converter)로 수동 오류를 없애세요
+4. **기준점 암기**: 몇 가지 핵심 변환을 참조점으로 외우세요`,
+			ja: `単位変換ミスは、ベーキングの失敗から宇宙船の墜落まで、あらゆる問題を引き起こしてきました。毎回正確に変換する方法を学びましょう。
+
+## 有名な変換失敗事例
+
+### 火星気候探査機（1999）
+あるチームがメートル法を、別のチームがヤード・ポンド法を使用したため、NASAは1億2500万ドルの探査機を失いました。
+
+### ギムリー・グライダー（1983）
+地上スタッフがキログラムではなくポンドで燃料を計算し、必要量の半分しか搭載しなかったため、飛行中に燃料切れとなりました。
+
+## キッチンでの変換の落とし穴
+
+### 体積 vs 重量
+- 小麦粉1カップ ≠ 砂糖1カップ（重量基準）
+- 小麦粉：1カップ ≈ 125g
+- 砂糖：1カップ ≈ 200g
+
+## 旅行での変換
+
+### 速度
+- 60 mph ≈ 97 km/h
+- 簡単な計算：km/hに0.6を掛けるとおおよそmph
+
+### 距離
+- 1マイル ≈ 1.6 km
+- コツ：フィボナッチ数列を活用 — 5マイル ≈ 8km
+
+## ミスを防ぐコツ
+
+1. **常に単位を明記**：「5」ではなく「5kg」と書く
+2. **推定で再確認**：答えが常識的に合っているか確認
+3. **計算機を使用**：[単位変換ツール](/ja/unit-converter)で手動エラーを排除
+4. **基準点を暗記**：いくつかの重要な変換を参照点として覚える`,
+			zh: `单位换算错误导致过从烘焙失败到航天器坠毁的各种问题。以下是每次都准确换算的方法。
+
+## 著名的换算失败案例
+
+### 火星气候探测器（1999）
+一个团队使用公制，另一个使用英制，NASA因此损失了1.25亿美元的探测器。
+
+### 吉姆利滑翔机（1983）
+地勤人员用磅而非千克计算燃料，只装载了所需量的一半，导致飞行途中燃料耗尽。
+
+## 厨房换算陷阱
+
+### 体积 vs 重量
+- 1杯面粉 ≠ 1杯糖（按重量）
+- 面粉：1杯 ≈ 125g
+- 糖：1杯 ≈ 200g
+
+## 旅行换算
+
+### 速度
+- 60 mph ≈ 97 km/h
+
+### 距离
+- 1英里 ≈ 1.6公里
+
+## 避免错误的技巧
+
+1. **始终标明单位**：写"5kg"而不是"5"
+2. **用估算双重检查**：答案是否合理？
+3. **使用计算器**：[单位转换器](/zh/unit-converter)消除手动错误
+4. **记住锚点**：记忆几个关键换算作为参考`,
+			es: `Los errores de conversión de unidades han causado desde desastres de repostería hasta accidentes de naves espaciales.
+
+## Fallos famosos
+
+### Orbitador Climático de Marte (1999)
+NASA perdió una nave de $125 millones porque un equipo usó unidades métricas y otro usó imperiales.
+
+## Conversiones de viaje
+
+### Velocidad
+- 60 mph ≈ 97 km/h
+- Estimación rápida: multiplique km/h por 0.6 para obtener mph
+
+### Distancia
+- 1 milla ≈ 1.6 km
+
+## Consejos para evitar errores
+
+1. Siempre indique las unidades
+2. Verifique con estimaciones
+3. Use nuestra [Herramienta de Conversión](/es/unit-converter) para eliminar errores manuales`
+		},
+		date: '2025-02-13',
+		category: 'education'
+	},
+	{
+		slug: 'age-calculator-practical-guide',
+		title: {
+			en: 'Practical Uses of an Age Calculator: Beyond Just Knowing Your Age',
+			ko: '나이 계산기 활용법: 만나이와 연나이 완벽 정리',
+			ja: '年齢計算機の実用的な活用法',
+			zh: '年龄计算器的实用用途',
+			es: 'Usos prácticos de una calculadora de edad'
+		},
+		description: {
+			en: 'Discover how age calculators help with legal requirements, milestones, Korean age vs international age, and more.',
+			ko: '법적 요건, 마일스톤, 만나이와 연나이 차이 등 나이 계산기의 다양한 활용법을 알아보세요.',
+			ja: '法的要件、マイルストーン、韓国年齢と国際年齢の違いなど、年齢計算機の活用法を紹介します。',
+			zh: '了解年龄计算器如何帮助处理法律要求、里程碑和不同年龄计算方式。',
+			es: 'Descubra cómo las calculadoras de edad ayudan con requisitos legales, hitos y diferentes sistemas de edad.'
+		},
+		content: {
+			en: `An age calculator does more than tell you how old you are. Here are practical ways it can help in everyday life.
+
+## Korean Age vs International Age
+
+Korea traditionally used a unique age system where everyone is 1 at birth and ages up on New Year's Day. Since June 2023, Korea officially adopted the international age system for legal and administrative purposes.
+
+- **International age**: Years since your birth date
+- **Korean age (traditional)**: Current year - birth year + 1
+- **Year age (연나이)**: Current year - birth year
+
+Example: Born March 15, 1990 (as of January 2025)
+- International age: 34
+- Korean age: 36
+- Year age: 35
+
+## Legal Age Requirements
+
+### Korea
+- Drinking/smoking: 19 (international age)
+- Voting: 18
+- Driver's license: 18
+- Military service: 18–28
+
+### Common worldwide milestones
+- Driving: 16–18 depending on country
+- Voting: 18 in most countries
+- Full legal adulthood: 18–21
+
+## Retirement Planning
+
+Knowing your exact age down to the day matters for:
+- Pension eligibility (Korea: National Pension at 63, increasing to 65)
+- Early retirement calculations
+- Social Security benefits timing
+
+## Other Practical Uses
+
+1. **Insurance**: Age affects premium calculations
+2. **Education**: School enrollment cutoff dates
+3. **Healthcare**: Age-specific screening schedules
+4. **Sports**: Age group classifications for competitions
+
+Use our [Age Calculator](/en/age-calculator) for precise age calculations in any system.`,
+			ko: `나이 계산기는 단순히 나이를 알려주는 것 이상의 역할을 합니다. 일상에서 활용할 수 있는 실용적인 방법들을 소개합니다.
+
+## 만나이 vs 연나이 vs 세는나이
+
+2023년 6월부터 한국은 법적·행정적 목적으로 만나이를 공식 채택했습니다. 하지만 여전히 세 가지 나이 체계를 이해해야 할 때가 있습니다.
+
+- **만나이**: 생년월일 기준 실제 나이
+- **연나이**: 올해 연도 - 출생 연도
+- **세는나이 (전통)**: 올해 연도 - 출생 연도 + 1
+
+예시: 1990년 3월 15일생 (2025년 1월 기준)
+- 만나이: 34세
+- 연나이: 35세
+- 세는나이: 36세
+
+## 법적 나이 기준
+
+### 한국
+- 음주/흡연: 만 19세
+- 선거권: 만 18세
+- 운전면허: 만 18세
+- 병역: 만 18~28세
+
+## 은퇴 계획
+
+정확한 나이 계산이 중요한 이유:
+- 국민연금 수급 연령 (현재 만 63세, 점진적으로 65세로 상향)
+- 조기 퇴직 계산
+- 퇴직금 산정
+
+## 기타 활용법
+
+1. **보험**: 나이에 따라 보험료가 달라집니다
+2. **교육**: 학교 입학 기준일 확인
+3. **건강검진**: 나이별 검진 일정
+4. **스포츠**: 연령대별 대회 분류
+
+[나이 계산기](/ko/age-calculator)로 정확한 나이를 확인해 보세요.`,
+			ja: `年齢計算機は、単に年齢を教えてくれる以上の役割があります。日常生活での実用的な活用法を紹介します。
+
+## 韓国の年齢 vs 国際年齢
+
+韓国は伝統的に独自の年齢システムを使用していましたが、2023年6月から法的・行政的目的で国際年齢を公式採用しました。
+
+- **国際年齢（満年齢）**：誕生日からの経過年数
+- **韓国式年齢（伝統）**：今年 - 生まれた年 + 1
+- **年齢（연나이）**：今年 - 生まれた年
+
+## 法的年齢要件
+
+### 日本
+- 飲酒/喫煙：20歳（2022年4月以降も20歳のまま）
+- 選挙権：18歳
+- 運転免許：18歳（普通車）
+- 成人年齢：18歳（2022年4月から引き下げ）
+
+## 退職計画
+
+正確な年齢計算が重要な理由：
+- 年金受給資格（日本：原則65歳）
+- 早期退職の計算
+- 退職金の算定
+
+## その他の活用法
+
+1. **保険**：年齢によって保険料が変わります
+2. **教育**：学校入学の基準日確認
+3. **健康診断**：年齢別の検診スケジュール
+
+[年齢計算機](/ja/age-calculator)で正確な年齢を確認しましょう。`,
+			zh: `年龄计算器不仅仅是告诉您多大了。以下是它在日常生活中的实用方法。
+
+## 不同的年龄计算方式
+
+- **国际年龄（周岁）**：从出生日期算起的年数
+- **虚岁**：出生即为1岁，每过一个春节加1岁
+- **韩国年龄**：当年 - 出生年 + 1
+
+## 法定年龄要求
+
+### 中国
+- 饮酒：18岁
+- 投票：18岁
+- 驾照：18岁（小型汽车）
+- 法定成年：18岁
+
+## 退休规划
+
+精确的年龄计算对以下方面很重要：
+- 养老金资格
+- 提前退休计算
+- 社保福利时间
+
+## 其他实用用途
+
+1. **保险**：年龄影响保费计算
+2. **教育**：入学截止日期
+3. **医疗**：年龄特定的筛查时间表
+
+使用我们的[年龄计算器](/zh/age-calculator)进行精确计算。`,
+			es: `Una calculadora de edad hace más que decirle cuántos años tiene.
+
+## Requisitos de edad legal
+
+- Conducir: 16–18 según el país
+- Votar: 18 en la mayoría de los países
+- Mayoría de edad: 18–21
+
+## Planificación de jubilación
+
+La edad exacta importa para la elegibilidad de pensiones, cálculos de jubilación anticipada y beneficios de seguridad social.
+
+## Otros usos prácticos
+
+1. **Seguros**: La edad afecta el cálculo de primas
+2. **Educación**: Fechas límite de inscripción escolar
+3. **Salud**: Programas de detección por edad
+
+Use nuestra [Calculadora de Edad](/es/age-calculator) para cálculos precisos.`
+		},
+		date: '2025-02-12',
+		category: 'lifestyle'
+	},
+	{
+		slug: 'percentage-calculation-tips',
+		title: {
+			en: 'Percentage Calculation Tips and Tricks for Everyday Life',
+			ko: '퍼센트 계산 팁과 트릭: 일상에서 바로 쓰는 법',
+			ja: 'パーセント計算のコツとテクニック',
+			zh: '日常生活中的百分比计算技巧',
+			es: 'Consejos y trucos para calcular porcentajes'
+		},
+		description: {
+			en: 'Master percentage calculations with mental math tricks for shopping discounts, tips, taxes, and more.',
+			ko: '쇼핑 할인, 팁, 세금 등에 활용할 수 있는 퍼센트 암산 트릭을 마스터하세요.',
+			ja: 'ショッピング割引、チップ、税金に使えるパーセント暗算テクニックをマスターしましょう。',
+			zh: '掌握购物折扣、小费、税费等百分比心算技巧。',
+			es: 'Domine los cálculos de porcentajes con trucos de cálculo mental para descuentos, propinas e impuestos.'
+		},
+		content: {
+			en: `Percentages are everywhere — from sales to statistics. Here are tricks to calculate them instantly.
+
+## The Flip Trick
+
+**X% of Y = Y% of X**
+
+This simple rule lets you pick the easier calculation:
+- 8% of 50 = 50% of 8 = 4
+- 4% of 75 = 75% of 4 = 3
+- 15% of 20 = 20% of 15 = 3
+
+## Building Block Method
+
+Break complex percentages into simple ones:
+
+### Finding 15%
+- 10% + 5% (half of 10%)
+- Example: 15% of 80 = 8 + 4 = 12
+
+### Finding 25%
+- Divide by 4
+- Example: 25% of 360 = 90
+
+### Finding 33%
+- Divide by 3
+- Example: 33% of 90 = 30
+
+## Shopping Discount Math
+
+### Successive Discounts
+A 20% off + 10% off coupon is NOT 30% off.
+- Original: $100
+- After 20% off: $80
+- After additional 10% off: $72
+- Total discount: 28%, not 30%
+
+### Quick Sale Price
+For X% off, calculate (100 - X)% of the price:
+- 30% off $60 → 70% of 60 → $42
+- 15% off $80 → 85% of 80 → $68
+
+## Percentage Change Formula
+
+**Change = (New - Old) / Old × 100**
+
+- Salary went from $50,000 to $55,000 → (5,000/50,000) × 100 = 10% increase
+- Price dropped from $80 to $60 → (−20/80) × 100 = 25% decrease
+
+## Common Percentage Equivalents
+
+| Fraction | Decimal | Percentage |
+|----------|---------|-----------|
+| 1/2 | 0.50 | 50% |
+| 1/3 | 0.33 | 33.3% |
+| 1/4 | 0.25 | 25% |
+| 1/5 | 0.20 | 20% |
+| 1/8 | 0.125 | 12.5% |
+| 1/10 | 0.10 | 10% |
+
+Use our [Percentage Calculator](/en/percentage-calculator) for complex calculations.`,
+			ko: `퍼센트는 세일부터 통계까지 어디에나 있습니다. 즉시 계산하는 트릭을 알아봅시다.
+
+## 뒤집기 트릭
+
+**X%의 Y = Y%의 X**
+
+더 쉬운 계산을 선택할 수 있는 간단한 규칙입니다:
+- 8%의 50 = 50%의 8 = 4
+- 4%의 75 = 75%의 4 = 3
+- 15%의 20 = 20%의 15 = 3
+
+## 빌딩 블록 방식
+
+복잡한 퍼센트를 간단한 것으로 분해하세요:
+
+### 15% 구하기
+- 10% + 5% (10%의 절반)
+- 예시: 80의 15% = 8 + 4 = 12
+
+### 25% 구하기
+- 4로 나누기
+- 예시: 360의 25% = 90
+
+## 쇼핑 할인 계산
+
+### 연속 할인
+20% 할인 + 10% 추가 할인은 30% 할인이 아닙니다.
+- 원래 가격: 10만원
+- 20% 할인 후: 8만원
+- 추가 10% 할인 후: 7만 2천원
+- 실제 할인율: 28%
+
+### 빠른 세일가 계산
+X% 할인이면 (100 - X)%를 계산:
+- 30% 할인 6만원 → 70%의 60,000 → 42,000원
+
+## 퍼센트 변화 공식
+
+**변화율 = (새 값 - 이전 값) / 이전 값 × 100**
+
+[퍼센트 계산기](/ko/percentage-calculator)로 복잡한 계산을 쉽게 하세요.`,
+			ja: `パーセントはセールから統計まであらゆるところにあります。即座に計算するテクニックを学びましょう。
+
+## 入れ替えトリック
+
+**XのY% = YのX%**
+
+より簡単な計算を選べるシンプルなルールです：
+- 50の8% = 8の50% = 4
+- 75の4% = 4の75% = 3
+
+## ビルディングブロック方式
+
+### 15%を求める
+- 10% + 5%（10%の半分）
+- 例：80の15% = 8 + 4 = 12
+
+### 25%を求める
+- 4で割る
+- 例：360の25% = 90
+
+## ショッピング割引計算
+
+### 連続割引
+20%オフ + 10%オフ = 30%オフではありません。
+- 元の価格：10,000円
+- 20%オフ後：8,000円
+- さらに10%オフ後：7,200円
+- 実際の割引率：28%
+
+## パーセント変化の公式
+
+**変化率 =（新しい値 - 古い値）/ 古い値 × 100**
+
+[パーセント計算機](/ja/percentage-calculator)で複雑な計算を簡単に。`,
+			zh: `百分比无处不在——从打折到统计。以下是即时计算的技巧。
+
+## 翻转技巧
+
+**X的Y% = Y的X%**
+
+- 50的8% = 8的50% = 4
+- 75的4% = 4的75% = 3
+
+## 积木法
+
+### 求15%
+- 10% + 5%（10%的一半）
+- 例：80的15% = 8 + 4 = 12
+
+## 购物折扣计算
+
+### 连续折扣
+打8折再打9折不等于打7折。
+- 原价：100元 → 8折后80元 → 再9折后72元
+- 实际折扣：28%
+
+## 百分比变化公式
+
+**变化率 =（新值 - 旧值）/ 旧值 × 100**
+
+使用我们的[百分比计算器](/zh/percentage-calculator)进行复杂计算。`,
+			es: `Los porcentajes están en todas partes. Aquí hay trucos para calcularlos al instante.
+
+## El truco del intercambio
+
+**X% de Y = Y% de X**
+
+- 8% de 50 = 50% de 8 = 4
+- 4% de 75 = 75% de 4 = 3
+
+## Descuentos sucesivos
+
+20% de descuento + 10% adicional NO es 30% de descuento. Es 28%.
+
+## Fórmula de cambio porcentual
+
+**Cambio = (Nuevo - Antiguo) / Antiguo × 100**
+
+Use nuestra [Calculadora de Porcentajes](/es/percentage-calculator) para cálculos complejos.`
+		},
+		date: '2025-02-11',
+		category: 'education'
+	},
+	{
+		slug: 'tip-calculator-etiquette',
+		title: {
+			en: 'Tip Calculator and Global Tipping Etiquette Guide',
+			ko: '팁 계산과 글로벌 팁 에티켓 가이드',
+			ja: 'チップ計算とグローバルチップエチケットガイド',
+			zh: '小费计算与全球小费礼仪指南',
+			es: 'Calculadora de propinas y guía de etiqueta global'
+		},
+		description: {
+			en: 'Navigate tipping customs worldwide and learn when, how much, and how to calculate tips correctly.',
+			ko: '전 세계 팁 문화를 이해하고 언제, 얼마나, 어떻게 팁을 계산하는지 알아보세요.',
+			ja: '世界のチップ文化を理解し、いつ、いくら、どう計算するかを学びましょう。',
+			zh: '了解全球小费文化，学习何时、多少、如何正确计算小费。',
+			es: 'Navegue las costumbres de propinas en todo el mundo y aprenda cuándo, cuánto y cómo calcular correctamente.'
+		},
+		content: {
+			en: `Tipping customs vary dramatically around the world. What is generous in one country can be offensive in another.
+
+## Country-by-Country Guide
+
+### United States
+- **Restaurants**: 18–22% (15% is now considered low)
+- **Bars**: $1–2 per drink or 18–20% of tab
+- **Coffee shops**: $1 or 15–20%
+- **Delivery**: 15–20% (minimum $3–5)
+- **Rideshare**: 15–20%
+
+### Japan
+- **Do NOT tip**. It can be considered rude.
+- Exceptional service? A small gift is more appropriate.
+
+### South Korea
+- Tipping is not customary.
+- Some upscale Western-style restaurants may include a service charge.
+
+### Europe
+- **UK**: 10–15%, check if service is included
+- **France**: Service compris (included); round up for good service
+- **Germany**: Round up 5–10%
+- **Italy**: Coperto (cover charge) is common; small tip optional
+- **Spain**: Round up or leave small change
+
+### Southeast Asia
+- **Thailand**: 20–50 baht at restaurants
+- **Vietnam**: Not expected but appreciated (5–10%)
+- **Singapore**: Not required; 10% service charge often included
+
+## Quick Mental Math for Tips
+
+### The Double-Tax Method (US)
+If sales tax is about 8–10%, doubling it gives roughly 16–20%.
+
+### The 10% Base Method
+1. Move the decimal left once = 10%
+2. For 15%: add half of 10% to itself
+3. For 20%: double the 10% amount
+
+### Splitting Tips
+When splitting a bill, calculate the total tip first, then divide by the number of people.
+
+Use our [Tip Calculator](/en/tip-calculator) for instant calculations.`,
+			ko: `팁 문화는 나라마다 크게 다릅니다. 한 나라에서 관대한 행동이 다른 나라에서는 무례할 수 있습니다.
+
+## 나라별 가이드
+
+### 미국
+- **레스토랑**: 18–22% (15%는 이제 적은 편)
+- **바**: 음료당 $1–2 또는 총액의 18–20%
+- **배달**: 15–20% (최소 $3–5)
+
+### 일본
+- **팁을 주지 마세요.** 무례하게 여겨질 수 있습니다.
+- 특별한 서비스? 작은 선물이 더 적절합니다.
+
+### 한국
+- 팁 문화가 없습니다.
+- 일부 고급 서양식 레스토랑에서 봉사료가 포함될 수 있습니다.
+
+### 유럽
+- **영국**: 10–15%, 서비스 포함 여부 확인
+- **프랑스**: 서비스 포함; 좋은 서비스에 올림
+- **독일**: 5–10% 올림
+
+### 동남아시아
+- **태국**: 레스토랑에서 20–50바트
+- **베트남**: 기대하진 않지만 감사히 받음 (5–10%)
+
+## 팁 암산법
+
+### 10% 기본 방식
+1. 소수점을 왼쪽으로 한 칸 이동 = 10%
+2. 15%: 10%에 그 절반을 더하기
+3. 20%: 10%를 두 배
+
+[팁 계산기](/ko/tip-calculator)로 즉시 계산해 보세요.`,
+			ja: `チップの文化は国によって大きく異なります。ある国での寛大な行為が、別の国では失礼になることもあります。
+
+## 国別ガイド
+
+### アメリカ
+- **レストラン**：18〜22%（15%は現在少ない方）
+- **バー**：ドリンク1杯につき$1〜2
+
+### 日本
+- **チップは不要**。失礼と見なされることがあります。
+
+### 韓国
+- チップの文化はありません。
+
+### ヨーロッパ
+- **イギリス**：10〜15%
+- **フランス**：サービス料込み
+- **ドイツ**：5〜10%切り上げ
+
+## チップの暗算法
+
+### 10%ベース法
+1. 小数点を左に1つ移動 = 10%
+2. 15%：10%にその半分を加える
+3. 20%：10%を2倍にする
+
+[チップ計算機](/ja/tip-calculator)で即座に計算しましょう。`,
+			zh: `小费文化在世界各地差异很大。一个国家的慷慨之举在另一个国家可能是无礼的。
+
+## 各国指南
+
+### 美国
+- **餐厅**：18-22%
+- **酒吧**：每杯饮料$1-2
+
+### 日本
+- **不要给小费**。可能被认为是不礼貌的。
+
+### 韩国
+- 没有小费文化。
+
+### 欧洲
+- **英国**：10-15%
+- **法国**：服务费已含
+- **德国**：凑整5-10%
+
+## 小费心算法
+
+### 10%基础法
+1. 小数点左移一位 = 10%
+2. 15%：10%加上其一半
+3. 20%：10%翻倍
+
+使用我们的[小费计算器](/zh/tip-calculator)即时计算。`,
+			es: `Las costumbres de propinas varían drásticamente en todo el mundo.
+
+## Guía por país
+
+### Estados Unidos: 18–22% en restaurantes
+### Japón: NO deje propina
+### Europa: Varía del 5 al 15%
+
+## Cálculo mental rápido
+
+1. Mueva el decimal a la izquierda = 10%
+2. Para 15%: sume la mitad del 10%
+3. Para 20%: duplique el 10%
+
+Use nuestra [Calculadora de Propinas](/es/tip-calculator) para cálculos instantáneos.`
+		},
+		date: '2025-02-10',
+		category: 'lifestyle'
+	},
+	{
+		slug: 'loan-payment-strategies',
+		title: {
+			en: 'Loan Payment Strategies: Snowball vs Avalanche and More',
+			ko: '대출 상환 전략 비교: 스노볼 vs 눈사태 방식',
+			ja: 'ローン返済戦略：スノーボール vs アバランチ',
+			zh: '贷款还款策略比较：滚雪球 vs 雪崩法',
+			es: 'Estrategias de pago de préstamos: bola de nieve vs avalancha'
+		},
+		description: {
+			en: 'Compare debt repayment strategies like the snowball and avalanche methods to find what works best for you.',
+			ko: '스노볼, 눈사태 등 다양한 부채 상환 전략을 비교하여 자신에게 맞는 방법을 찾아보세요.',
+			ja: 'スノーボール法やアバランチ法など、自分に最適な返済戦略を見つけましょう。',
+			zh: '比较滚雪球法和雪崩法等还债策略，找到最适合您的方法。',
+			es: 'Compare estrategias de pago como los métodos bola de nieve y avalancha para encontrar la mejor opción.'
+		},
+		content: {
+			en: `Choosing the right loan repayment strategy can save you thousands of dollars and years of payments.
+
+## The Avalanche Method
+
+Pay minimums on all debts, then put extra money toward the debt with the **highest interest rate**.
+
+**Pros**: Saves the most money on interest
+**Cons**: May take longer to see debts disappear
+
+### Example
+| Debt | Balance | Rate | Minimum |
+|------|---------|------|---------|
+| Credit Card A | $5,000 | 22% | $150 |
+| Credit Card B | $3,000 | 18% | $90 |
+| Car Loan | $12,000 | 6% | $350 |
+
+Avalanche order: Card A → Card B → Car Loan
+
+## The Snowball Method
+
+Pay minimums on all debts, then put extra money toward the debt with the **smallest balance**.
+
+**Pros**: Quick wins for motivation
+**Cons**: May pay more interest overall
+
+Snowball order: Card B → Card A → Car Loan
+
+## Avalanche vs Snowball Comparison
+
+With $700/month total budget for the above debts:
+- **Avalanche**: Debt-free in 34 months, $3,420 total interest
+- **Snowball**: Debt-free in 35 months, $3,650 total interest
+
+The difference is often smaller than people expect.
+
+## Other Strategies
+
+### Debt Consolidation
+Combine multiple debts into one loan at a lower rate. Best when:
+- Your credit score qualifies for a lower rate
+- You will not accumulate new debt
+
+### Balance Transfer
+Move high-interest debt to a 0% introductory APR card. Watch for:
+- Transfer fees (typically 3–5%)
+- When the promotional period ends
+
+### Extra Payment Strategies
+- **Bi-weekly payments**: Make half your monthly payment every two weeks (results in 13 full payments/year instead of 12)
+- **Round up**: Round your $347 payment to $400
+- **Windfalls**: Apply bonuses and tax refunds to debt
+
+Use our loan calculator to model different payoff scenarios.`,
+			ko: `올바른 대출 상환 전략을 선택하면 수백만 원을 절약하고 상환 기간을 단축할 수 있습니다.
+
+## 눈사태(Avalanche) 방식
+
+모든 부채에 최소 금액을 납부한 후, 여유 자금을 **금리가 가장 높은** 부채에 집중합니다.
+
+**장점**: 이자를 가장 많이 절약
+**단점**: 부채가 사라지는 걸 보기까지 시간이 걸릴 수 있음
+
+## 스노볼(Snowball) 방식
+
+모든 부채에 최소 금액을 납부한 후, 여유 자금을 **잔액이 가장 적은** 부채에 집중합니다.
+
+**장점**: 빠른 성취감으로 동기 부여
+**단점**: 총 이자가 더 많을 수 있음
+
+## 비교
+
+두 방법의 차이는 생각보다 작은 경우가 많습니다. 수학적으로는 눈사태 방식이 유리하지만, 스노볼 방식의 심리적 효과도 무시할 수 없습니다.
+
+## 기타 전략
+
+### 대출 통합 (대환대출)
+여러 부채를 더 낮은 금리의 하나의 대출로 통합합니다.
+
+### 추가 상환 전략
+- **격주 납부**: 월 납부금의 절반을 2주마다 납부 (연 13회 납부 효과)
+- **올림 납부**: 347,000원을 400,000원으로 올려 납부
+- **목돈 활용**: 보너스나 세금 환급을 부채 상환에 적용
+
+대출 계산기를 사용하여 다양한 상환 시나리오를 모델링해 보세요.`,
+			ja: `適切なローン返済戦略を選ぶことで、数十万円を節約し、返済期間を短縮できます。
+
+## アバランチ（雪崩）法
+
+すべての借金に最低返済額を支払い、余剰資金を**金利が最も高い**借金に集中します。
+
+**メリット**：利息を最も節約
+**デメリット**：借金が減るのを実感するまで時間がかかる
+
+## スノーボール（雪だるま）法
+
+すべての借金に最低返済額を支払い、余剰資金を**残高が最も少ない**借金に集中します。
+
+**メリット**：早い達成感でモチベーション維持
+**デメリット**：総利息が多くなる可能性
+
+## その他の戦略
+
+### 借り換え
+複数の借金をより低い金利の1つのローンにまとめます。
+
+### 追加返済戦略
+- **隔週返済**：月の返済額の半分を2週間ごとに返済（年13回の返済効果）
+- **切り上げ返済**：34,700円を40,000円に切り上げて返済
+
+ローン計算機で様々な返済シナリオをシミュレーションしましょう。`,
+			zh: `选择正确的贷款还款策略可以节省数千元并缩短还款年限。
+
+## 雪崩法
+
+在所有债务上支付最低还款额，然后将多余资金用于**利率最高**的债务。
+
+**优点**：节省最多利息
+**缺点**：可能需要更长时间才能看到债务消失
+
+## 滚雪球法
+
+在所有债务上支付最低还款额，然后将多余资金用于**余额最小**的债务。
+
+**优点**：快速的成就感带来动力
+**缺点**：可能支付更多总利息
+
+## 其他策略
+
+### 债务合并
+将多笔债务合并为一笔利率更低的贷款。
+
+### 额外还款策略
+- **双周还款**：每两周支付月还款额的一半（相当于每年多还一个月）
+- **凑整还款**：将3,470元凑整到4,000元
+
+使用贷款计算器模拟不同的还款方案。`,
+			es: `Elegir la estrategia correcta de pago puede ahorrarle miles de dólares.
+
+## Método Avalancha
+Pague los mínimos y concentre el dinero extra en la deuda con **mayor tasa de interés**.
+
+## Método Bola de Nieve
+Pague los mínimos y concentre el dinero extra en la deuda con **menor saldo**.
+
+## Comparación
+La diferencia suele ser menor de lo esperado. Matemáticamente la avalancha es mejor, pero la bola de nieve tiene un efecto psicológico valioso.
+
+## Otras estrategias
+- **Pagos quincenales**: Resulta en 13 pagos completos al año
+- **Redondear**: Redondee $347 a $400
+- **Refinanciación**: Combine deudas a una tasa más baja`
+		},
+		date: '2025-02-09',
+		category: 'finance'
+	},
+	{
+		slug: 'salary-negotiation-guide',
+		title: {
+			en: 'Salary Negotiation Guide: Know Your Worth',
+			ko: '연봉 협상 가이드: 나의 가치를 아는 법',
+			ja: '給与交渉ガイド：自分の価値を知る',
+			zh: '薪资谈判指南：了解自己的价值',
+			es: 'Guía de negociación salarial: conozca su valor'
+		},
+		description: {
+			en: 'Learn data-driven salary negotiation tactics, from researching market rates to making your counteroffer.',
+			ko: '시장 조사부터 역제안까지, 데이터 기반 연봉 협상 전략을 알아보세요.',
+			ja: '市場調査からカウンターオファーまで、データに基づく給与交渉戦略を学びましょう。',
+			zh: '从市场调研到提出反报价，学习基于数据的薪资谈判策略。',
+			es: 'Aprenda tácticas de negociación salarial basadas en datos, desde investigar tarifas hasta hacer contraofertas.'
+		},
+		content: {
+			en: `Most people leave money on the table by not negotiating their salary. Here is a systematic approach.
+
+## Step 1: Research Your Market Value
+
+Before any negotiation, know the going rate:
+- **Online tools**: Glassdoor, LinkedIn Salary, Payscale, levels.fyi
+- **Industry reports**: Robert Half, Hays salary guides
+- **Network**: Ask peers in similar roles (tactfully)
+- **Recruiters**: They know current market rates
+
+## Step 2: Calculate Your Total Compensation
+
+Salary is just one piece. Factor in:
+- Base salary
+- Bonuses (signing, annual, performance)
+- Stock options / RSUs
+- Health insurance
+- Retirement matching
+- Paid time off
+- Remote work flexibility
+- Professional development budget
+
+## Step 3: Build Your Case
+
+Quantify your contributions:
+- Revenue generated or costs saved
+- Projects delivered
+- Team/department improvements
+- Skills and certifications acquired
+
+## Step 4: The Negotiation
+
+### Timing
+- After receiving an offer (not before)
+- During annual reviews (prepare 1–2 months ahead)
+- After a major achievement
+
+### Key Tactics
+1. **Let them go first**: Do not state your number until you hear theirs
+2. **Anchor high**: Your first counter should be at the top of your range
+3. **Use precise numbers**: $73,500 sounds more researched than $75,000
+4. **Negotiate beyond salary**: If salary is fixed, negotiate signing bonus, extra PTO, or remote days
+
+### Sample Script
+"Thank you for the offer of $65,000. Based on my research of the market rate for this role and my [X years of experience / specific skills], I was expecting something in the range of $72,000–$78,000. Is there flexibility on the base salary?"
+
+## Common Mistakes
+- Accepting the first offer without negotiating
+- Giving a salary range (they will pick the bottom)
+- Making it personal rather than data-driven
+- Not having a BATNA (Best Alternative to Negotiated Agreement)
+
+Use our salary calculator to compare compensation packages.`,
+			ko: `대부분의 사람들은 연봉 협상을 하지 않아 돈을 놓칩니다. 체계적인 접근법을 알아봅시다.
+
+## 1단계: 시장 가치 조사
+
+협상 전 시세를 파악하세요:
+- **온라인 도구**: 잡코리아, 사람인, 블라인드, 크레딧잡
+- **업계 보고서**: 각종 연봉 가이드
+- **네트워크**: 비슷한 직무의 동료에게 (신중하게) 물어보기
+- **헤드헌터**: 현재 시장 시세를 잘 알고 있습니다
+
+## 2단계: 총 보상 패키지 계산
+
+연봉은 하나의 요소일 뿐입니다:
+- 기본 연봉
+- 성과급 / 인센티브
+- 스톡옵션 / RSU
+- 건강보험
+- 퇴직금 / 퇴직연금
+- 유급 휴가
+- 재택근무 유연성
+
+## 3단계: 근거 준비
+
+기여도를 수치화하세요:
+- 매출 증대 또는 비용 절감 실적
+- 완료한 프로젝트
+- 획득한 기술 및 자격증
+
+## 4단계: 협상
+
+### 핵심 전략
+1. **상대방 먼저**: 먼저 숫자를 말하지 마세요
+2. **높게 시작**: 첫 역제안은 범위의 상단으로
+3. **정확한 숫자 사용**: 5,000만원보다 4,850만원이 조사한 느낌
+4. **연봉 외 협상**: 연봉이 고정이면 사이닝 보너스, 추가 휴가, 재택근무 협상
+
+## 흔한 실수
+- 첫 제안을 협상 없이 수락하기
+- 연봉 범위를 먼저 말하기 (하한선을 선택할 것)
+- 데이터가 아닌 감정에 호소하기
+
+급여 계산기를 사용하여 보상 패키지를 비교해 보세요.`,
+			ja: `ほとんどの人は給与交渉をしないことでお金を逃しています。体系的なアプローチを学びましょう。
+
+## ステップ1：市場価値を調査
+
+交渉前に相場を把握しましょう：
+- **オンラインツール**：転職サイトの年収データ、OpenWork
+- **業界レポート**：各種給与ガイド
+- **ネットワーク**：同様の職種の同僚に（慎重に）聞く
+
+## ステップ2：総報酬パッケージの計算
+
+年収は一つの要素に過ぎません：
+- 基本給 / ボーナス / ストックオプション / 福利厚生
+
+## ステップ3：根拠の準備
+
+貢献を数値化しましょう：
+- 売上増加またはコスト削減の実績
+- 完了したプロジェクト
+
+## ステップ4：交渉
+
+### 重要な戦略
+1. **相手に先に言わせる**：自分から数字を出さない
+2. **高めから始める**：最初のカウンターは範囲の上限
+3. **正確な数字を使う**：750万円より735万円の方がリサーチ感がある
+
+給与計算機を使って報酬パッケージを比較しましょう。`,
+			zh: `大多数人因为不谈判薪资而损失金钱。以下是系统化的方法。
+
+## 第一步：研究市场价值
+
+谈判前了解行情：
+- **在线工具**：各大招聘网站薪资数据
+- **行业报告**：各类薪资指南
+- **人脉**：向类似职位的同行（委婉地）打听
+
+## 第二步：计算总薪酬包
+
+薪资只是其中一部分：基本工资、奖金、股票期权、福利等
+
+## 第三步：准备论据
+
+量化您的贡献：收入增长、成本节省、完成的项目
+
+## 第四步：谈判
+
+### 关键策略
+1. **让对方先出价**
+2. **从高处开始**
+3. **使用精确数字**：73,500比75,000更显得有调研
+
+使用薪资计算器比较薪酬方案。`,
+			es: `La mayoría de las personas pierden dinero por no negociar su salario.
+
+## Paso 1: Investigue su valor de mercado
+Use herramientas como Glassdoor y LinkedIn Salary.
+
+## Paso 2: Calcule la compensación total
+El salario es solo una pieza: bonos, acciones, seguros, vacaciones.
+
+## Paso 3: Prepare su caso
+Cuantifique sus contribuciones con datos concretos.
+
+## Paso 4: Negocie
+1. Deje que ellos hablen primero
+2. Ancle alto
+3. Use números precisos: $73,500 suena más investigado que $75,000`
+		},
+		date: '2025-02-08',
+		category: 'finance'
+	},
+	{
+		slug: 'compound-interest-explained',
+		title: {
+			en: 'Compound Interest Simply Explained: Your Money Making Money',
+			ko: '복리 쉽게 이해하기: 돈이 돈을 버는 원리',
+			ja: '複利を簡単に理解する：お金がお金を生む仕組み',
+			zh: '复利简单解释：钱生钱的原理',
+			es: 'Interés compuesto explicado simplemente: su dinero generando dinero'
+		},
+		description: {
+			en: 'A beginner-friendly guide to compound interest with visual examples and real-world scenarios.',
+			ko: '시각적 예시와 실제 시나리오로 복리를 쉽게 이해하는 초보자 가이드.',
+			ja: '視覚的な例と実際のシナリオで複利を簡単に理解する初心者ガイド。',
+			zh: '通过直观示例和实际场景轻松理解复利的入门指南。',
+			es: 'Una guía para principiantes sobre el interés compuesto con ejemplos visuales y escenarios reales.'
+		},
+		content: {
+			en: `Compound interest is often called the eighth wonder of the world. But what exactly is it, and why does it matter?
+
+## Simple vs Compound Interest
+
+Imagine you deposit $1,000 at 10% annual interest.
+
+### Simple Interest
+You earn $100 every year, always on the original $1,000.
+- Year 1: $1,100
+- Year 5: $1,500
+- Year 10: $2,000
+
+### Compound Interest
+You earn interest on your principal AND on previously earned interest.
+- Year 1: $1,100
+- Year 5: $1,611
+- Year 10: $2,594
+
+The difference: **$594 more** over 10 years, with zero extra effort.
+
+## The Three Variables That Matter
+
+### 1. Rate of Return
+Higher rates create dramatically different outcomes over time.
+
+### 2. Time
+This is the most powerful variable. Starting 10 years earlier can matter more than saving twice as much.
+
+| Start Age | Monthly Saving | Total at 65 (7% return) |
+|-----------|---------------|------------------------|
+| 25 | $200/month | $525,000 |
+| 35 | $200/month | $244,000 |
+| 35 | $400/month | $488,000 |
+
+Starting at 25 with $200/month beats starting at 35 with $400/month!
+
+### 3. Compounding Frequency
+- **Annually**: Interest added once a year
+- **Monthly**: Interest added 12 times a year
+- **Daily**: Interest added 365 times a year
+
+More frequent compounding = slightly higher returns.
+
+## The Rule of 72
+
+Quick estimation: **72 / interest rate = years to double**
+- At 6%: 72/6 = 12 years
+- At 8%: 72/8 = 9 years
+- At 12%: 72/12 = 6 years
+
+## Compound Interest Works Against You Too
+
+Credit card debt at 20% APR compounds against you. A $5,000 balance with minimum payments can take 20+ years to pay off and cost $10,000+ in interest.
+
+Use our [Compound Interest Calculator](/en/compound-interest-calculator) to see your money grow.`,
+			ko: `복리는 종종 세계 8대 불가사의라고 불립니다. 정확히 무엇이고, 왜 중요한지 알아봅시다.
+
+## 단리 vs 복리
+
+1,000만원을 연 10% 이자로 예금한다고 상상해 보세요.
+
+### 단리
+원금 1,000만원에 대해서만 매년 100만원 이자
+- 1년 후: 1,100만원
+- 5년 후: 1,500만원
+- 10년 후: 2,000만원
+
+### 복리
+원금과 이전에 받은 이자 모두에 이자가 붙음
+- 1년 후: 1,100만원
+- 5년 후: 1,611만원
+- 10년 후: 2,594만원
+
+차이: 추가 노력 없이 10년간 **594만원 더 많음**.
+
+## 중요한 3가지 변수
+
+### 1. 수익률
+높은 수익률은 시간이 지남에 따라 극적으로 다른 결과를 만듭니다.
+
+### 2. 시간
+가장 강력한 변수입니다. 10년 일찍 시작하는 것이 두 배를 저축하는 것보다 나을 수 있습니다.
+
+| 시작 나이 | 월 저축액 | 65세 시점 (연 7%) |
+|----------|---------|----------------|
+| 25세 | 20만원/월 | 약 5.25억원 |
+| 35세 | 20만원/월 | 약 2.44억원 |
+| 35세 | 40만원/월 | 약 4.88억원 |
+
+25세에 20만원이 35세에 40만원을 이깁니다!
+
+### 3. 복리 주기
+더 자주 복리 계산 = 약간 더 높은 수익
+
+## 72의 법칙
+
+빠른 추정: **72 / 이자율 = 돈이 두 배 되는 기간**
+- 6%: 72/6 = 12년
+- 8%: 72/8 = 9년
+
+## 복리는 빚에도 적용됩니다
+
+신용카드 부채의 20% 연이율도 복리로 작동합니다. 최소 납부만 하면 원금보다 이자를 더 많이 낼 수 있습니다.
+
+[복리 계산기](/ko/compound-interest-calculator)로 자산 성장을 확인해 보세요.`,
+			ja: `複利はしばしば世界の第8の不思議と呼ばれます。正確に何なのか、なぜ重要なのかを見てみましょう。
+
+## 単利 vs 複利
+
+100万円を年利10%で預金した場合：
+
+### 単利
+元本100万円に対してのみ毎年10万円の利息
+- 1年後：110万円 / 5年後：150万円 / 10年後：200万円
+
+### 複利
+元本と以前の利息の両方に利息がつく
+- 1年後：110万円 / 5年後：161万円 / 10年後：259万円
+
+## 重要な3つの変数
+
+### 1. 収益率
+### 2. 時間（最も強力）
+10年早く始めることが、2倍の額を貯めるより効果的。
+
+### 3. 複利の頻度
+より頻繁な複利計算 = わずかに高いリターン
+
+## 72の法則
+
+**72 / 金利 = お金が2倍になる年数**
+
+[複利計算機](/ja/compound-interest-calculator)で資産の成長を確認しましょう。`,
+			zh: `复利通常被称为世界第八大奇迹。让我们看看它到底是什么，为什么重要。
+
+## 单利 vs 复利
+
+假设您将10,000元存入年利率10%的账户：
+
+### 单利
+每年仅对本金10,000元产生1,000元利息
+- 1年后：11,000 / 5年后：15,000 / 10年后：20,000
+
+### 复利
+对本金和之前的利息都产生利息
+- 1年后：11,000 / 5年后：16,110 / 10年后：25,940
+
+## 重要的3个变量
+
+### 1. 回报率
+### 2. 时间（最强大的变量）
+早10年开始可能比存两倍的钱更有效。
+
+### 3. 复利频率
+更频繁的复利 = 略高的回报
+
+## 72法则
+
+**72 / 利率 = 资金翻倍的年数**
+
+使用我们的[复利计算器](/zh/compound-interest-calculator)查看资金增长。`,
+			es: `El interés compuesto a menudo se llama la octava maravilla del mundo.
+
+## Simple vs Compuesto
+
+Con $1,000 al 10% anual:
+- **Simple**: Año 10 = $2,000
+- **Compuesto**: Año 10 = $2,594
+
+## La Regla del 72
+
+**72 / tasa de interés = años para duplicar**
+- Al 6%: 12 años
+- Al 8%: 9 años
+
+Use nuestra [Calculadora de Interés Compuesto](/es/compound-interest-calculator) para ver crecer su dinero.`
+		},
+		date: '2025-02-07',
+		category: 'finance'
+	},
+	{
+		slug: 'metric-imperial-guide',
+		title: {
+			en: 'Metric vs Imperial: The Complete Conversion Guide',
+			ko: '미터법 vs 야드파운드법: 완벽 변환 가이드',
+			ja: 'メートル法 vs ヤード・ポンド法：完全変換ガイド',
+			zh: '公制 vs 英制：完整换算指南',
+			es: 'Métrico vs Imperial: guía completa de conversión'
+		},
+		description: {
+			en: 'Everything you need to know about metric and imperial systems, key conversions, and which countries use what.',
+			ko: '미터법과 야드파운드법에 대한 모든 것: 주요 변환, 사용 국가 정보.',
+			ja: 'メートル法とヤード・ポンド法の主要変換と使用国情報。',
+			zh: '关于公制和英制的一切：关键换算和各国使用情况。',
+			es: 'Todo sobre los sistemas métrico e imperial: conversiones clave y qué países usan cuál.'
+		},
+		content: {
+			en: `Only three countries have not officially adopted the metric system: the United States, Myanmar, and Liberia.
+
+## Quick Reference Conversions
+
+### Length
+| Metric | Imperial | Quick Estimate |
+|--------|----------|---------------|
+| 1 cm | 0.394 in | ~2/5 inch |
+| 1 m | 3.281 ft | ~3 ft 3 in |
+| 1 km | 0.621 mi | ~5/8 mile |
+
+### Weight
+| Metric | Imperial | Quick Estimate |
+|--------|----------|---------------|
+| 1 g | 0.035 oz | a paperclip |
+| 1 kg | 2.205 lb | ~2.2 lbs |
+| 100 kg | 220.5 lb | ~220 lbs |
+
+### Temperature
+- **0°C** = 32°F (water freezes)
+- **20°C** = 68°F (room temperature)
+- **37°C** = 98.6°F (body temperature)
+- **100°C** = 212°F (water boils)
+
+### Volume
+| Metric | Imperial | Quick Estimate |
+|--------|----------|---------------|
+| 1 mL | 0.034 fl oz | ~20 drops |
+| 1 L | 0.264 gal | ~1 quart |
+| 3.785 L | 1 gallon | ~4 liters |
+
+## Memory Tricks
+
+- **A meter** is roughly one large step
+- **A kilogram** is about 2 bags of sugar stacked (in US 1-lb bags)
+- **A liter** is slightly more than a quart
+- **30°C** is hot summer weather; **0°C** is freezing
+- For km to miles: multiply by 0.6 (or use Fibonacci: 5 km ≈ 3 mi, 8 km ≈ 5 mi)
+
+## Why the Metric System Is Simpler
+
+Everything is base-10:
+- 10 mm = 1 cm
+- 100 cm = 1 m
+- 1000 m = 1 km
+
+Compare with imperial:
+- 12 inches = 1 foot
+- 3 feet = 1 yard
+- 5,280 feet = 1 mile
+
+Use our [Unit Converter](/en/unit-converter) for instant conversions.`,
+			ko: `공식적으로 미터법을 채택하지 않은 나라는 미국, 미얀마, 라이베리아 세 곳뿐입니다.
+
+## 빠른 참조 변환표
+
+### 길이
+| 미터법 | 야드파운드법 | 빠른 추정 |
+|--------|-----------|----------|
+| 1 cm | 0.394 인치 | ~2/5 인치 |
+| 1 m | 3.281 피트 | ~3피트 3인치 |
+| 1 km | 0.621 마일 | ~5/8 마일 |
+
+### 무게
+| 미터법 | 야드파운드법 | 빠른 추정 |
+|--------|-----------|----------|
+| 1 kg | 2.205 파운드 | ~2.2 lbs |
+
+### 온도
+- **0°C** = 32°F (물이 얼음)
+- **20°C** = 68°F (실온)
+- **37°C** = 98.6°F (체온)
+- **100°C** = 212°F (물이 끓음)
+
+## 암기 트릭
+
+- **1미터**는 큰 한 걸음 정도
+- **1킬로그램**은 물 1리터의 무게
+- **30°C**는 더운 여름 날씨; **0°C**는 영하
+- km에서 마일: 0.6을 곱하세요
+
+## 미터법이 더 간단한 이유
+
+모든 것이 10진법:
+- 10 mm = 1 cm / 100 cm = 1 m / 1000 m = 1 km
+
+야드파운드법과 비교:
+- 12인치 = 1피트 / 3피트 = 1야드 / 5,280피트 = 1마일
+
+[단위 변환기](/ko/unit-converter)로 즉시 변환해 보세요.`,
+			ja: `公式にメートル法を採用していない国は、アメリカ、ミャンマー、リベリアの3か国だけです。
+
+## クイック変換表
+
+### 長さ
+| メートル法 | ヤード・ポンド法 | 簡単な目安 |
+|-----------|--------------|----------|
+| 1 cm | 0.394インチ | ~2/5インチ |
+| 1 m | 3.281フィート | ~3フィート3インチ |
+| 1 km | 0.621マイル | ~5/8マイル |
+
+### 温度
+- **0°C** = 32°F（水が凍る）
+- **20°C** = 68°F（室温）
+- **37°C** = 98.6°F（体温）
+
+## メートル法がシンプルな理由
+
+すべてが10進法：10 mm = 1 cm / 100 cm = 1 m / 1000 m = 1 km
+
+[単位変換ツール](/ja/unit-converter)で即座に変換しましょう。`,
+			zh: `只有三个国家尚未正式采用公制：美国、缅甸和利比里亚。
+
+## 快速参考换算
+
+### 长度
+| 公制 | 英制 | 快速估算 |
+|------|------|---------|
+| 1 cm | 0.394英寸 | ~2/5英寸 |
+| 1 m | 3.281英尺 | ~3英尺3英寸 |
+| 1 km | 0.621英里 | ~5/8英里 |
+
+### 温度
+- **0°C** = 32°F（水结冰）
+- **20°C** = 68°F（室温）
+- **37°C** = 98.6°F（体温）
+
+## 公制更简单的原因
+
+一切基于十进制：10 mm = 1 cm / 100 cm = 1 m / 1000 m = 1 km
+
+使用[单位转换器](/zh/unit-converter)即时换算。`,
+			es: `Solo tres países no han adoptado oficialmente el sistema métrico: EE.UU., Myanmar y Liberia.
+
+## Conversiones rápidas
+
+### Longitud
+- 1 cm = 0.394 pulgadas
+- 1 m = 3.281 pies
+- 1 km = 0.621 millas
+
+### Temperatura
+- 0°C = 32°F / 20°C = 68°F / 37°C = 98.6°F / 100°C = 212°F
+
+Use nuestro [Convertidor de Unidades](/es/unit-converter) para conversiones instantáneas.`
+		},
+		date: '2025-02-06',
+		category: 'education'
+	},
+	{
+		slug: 'date-calculation-dday-guide',
+		title: {
+			en: 'Date Calculation Tricks: D-Day, Deadlines, and Duration',
+			ko: '날짜 계산 트릭: D-day, 마감일, 기간 계산',
+			ja: '日付計算トリック：D-Day、締切、期間計算',
+			zh: '日期计算技巧：倒计时、截止日和持续时间',
+			es: 'Trucos de cálculo de fechas: cuenta regresiva, plazos y duración'
+		},
+		description: {
+			en: 'Master date calculations for project deadlines, D-day countdowns, and duration between dates.',
+			ko: '프로젝트 마감일, D-day 카운트다운, 날짜 간 기간 계산을 마스터하세요.',
+			ja: 'プロジェクトの締切、D-dayカウントダウン、日付間の期間計算をマスターしましょう。',
+			zh: '掌握项目截止日、倒计时和日期之间持续时间的计算。',
+			es: 'Domine cálculos de fechas para plazos de proyectos, cuentas regresivas y duración entre fechas.'
+		},
+		content: {
+			en: `Whether planning a wedding, tracking a project deadline, or counting down to a milestone, date calculations are essential.
+
+## D-Day Countdown
+
+D-Day counting can be confusing. Here is how it works:
+
+- **D-10**: 10 days before the event
+- **D-Day (D-0)**: The event day
+- **D+1**: One day after the event
+
+### Quick D-Day Math
+To find D-Day from today:
+1. Count the remaining days in the current month
+2. Add full months' days
+3. Add the event date's day
+
+## Business Days vs Calendar Days
+
+### Business Days
+- Monday through Friday (excluding holidays)
+- Important for: Legal deadlines, shipping estimates, project timelines
+
+### Calendar Days
+- All 7 days of the week
+- Important for: Rental agreements, insurance periods, countdown timers
+
+### Quick Estimate
+- 1 week = 5 business days = 7 calendar days
+- 1 month ≈ 22 business days ≈ 30 calendar days
+- 1 year ≈ 252 business days = 365 calendar days
+
+## Month-End Gotchas
+
+Not all months have the same days:
+- **30 days**: April, June, September, November
+- **31 days**: January, March, May, July, August, October, December
+- **28/29 days**: February
+
+Mnemonic: "Thirty days hath September, April, June, and November..."
+
+## Leap Year Rules
+
+A year is a leap year if:
+1. Divisible by 4 → YES
+2. BUT divisible by 100 → NO
+3. BUT divisible by 400 → YES
+
+- 2024: Leap year (÷4)
+- 2100: NOT a leap year (÷100 but not ÷400)
+- 2000: Leap year (÷400)
+
+## Useful Date Formulas
+
+### Weeks between dates
+Days ÷ 7 = weeks (and remainder days)
+
+### Months between dates
+Count full months, then add remaining days
+
+Use our [Date Calculator](/en/date-calculator) for precise date math.`,
+			ko: `결혼식 준비, 프로젝트 마감일 추적, 마일스톤 카운트다운 등 날짜 계산은 필수입니다.
+
+## D-Day 카운트다운
+
+D-Day 계산이 헷갈릴 수 있습니다:
+- **D-10**: 이벤트 10일 전
+- **D-Day (D-0)**: 이벤트 당일
+- **D+1**: 이벤트 다음 날
+
+## 영업일 vs 달력일
+
+### 영업일
+- 월요일~금요일 (공휴일 제외)
+- 중요한 경우: 법적 기한, 배송 예상일, 프로젝트 일정
+
+### 달력일
+- 주 7일 모두
+- 중요한 경우: 임대 계약, 보험 기간, 카운트다운 타이머
+
+### 빠른 추정
+- 1주 = 영업일 5일 = 달력일 7일
+- 1개월 ≈ 영업일 22일 ≈ 달력일 30일
+
+## 월말 주의사항
+
+모든 달의 일수가 같지 않습니다:
+- **30일**: 4월, 6월, 9월, 11월
+- **31일**: 1월, 3월, 5월, 7월, 8월, 10월, 12월
+- **28/29일**: 2월
+
+## 윤년 규칙
+
+1. 4로 나누어 떨어지면 → 윤년
+2. 단, 100으로 나누어 떨어지면 → 평년
+3. 단, 400으로 나누어 떨어지면 → 윤년
+
+[날짜 계산기](/ko/date-calculator)로 정확한 날짜 계산을 해보세요.`,
+			ja: `結婚式の準備、プロジェクトの締切管理、マイルストーンのカウントダウンなど、日付計算は不可欠です。
+
+## D-Dayカウントダウン
+
+- **D-10**：イベント10日前
+- **D-Day（D-0）**：イベント当日
+- **D+1**：イベント翌日
+
+## 営業日 vs 暦日
+
+### 営業日
+- 月曜日〜金曜日（祝日除く）
+- 1週間 = 営業日5日 / 1ヶ月 ≈ 営業日22日
+
+## うるう年のルール
+
+1. 4で割り切れる → うるう年
+2. ただし100で割り切れる → 平年
+3. ただし400で割り切れる → うるう年
+
+[日付計算機](/ja/date-calculator)で正確な日付計算をしましょう。`,
+			zh: `无论是计划婚礼、跟踪项目截止日还是倒计时里程碑，日期计算都至关重要。
+
+## 倒计时
+
+- **D-10**：活动前10天
+- **D-Day（D-0）**：活动当天
+- **D+1**：活动后一天
+
+## 工作日 vs 日历日
+
+### 工作日
+- 周一至周五（不含节假日）
+- 1周 = 5个工作日 / 1个月 ≈ 22个工作日
+
+## 闰年规则
+
+1. 能被4整除 → 闰年
+2. 但能被100整除 → 平年
+3. 但能被400整除 → 闰年
+
+使用我们的[日期计算器](/zh/date-calculator)进行精确的日期计算。`,
+			es: `Ya sea planificando una boda o rastreando un plazo de proyecto, los cálculos de fecha son esenciales.
+
+## Cuenta regresiva D-Day
+
+- **D-10**: 10 días antes del evento
+- **D-Day**: El día del evento
+
+## Días hábiles vs días calendario
+- 1 semana = 5 días hábiles = 7 días calendario
+- 1 mes ≈ 22 días hábiles
+
+## Reglas de año bisiesto
+
+1. Divisible por 4 → Sí
+2. Pero divisible por 100 → No
+3. Pero divisible por 400 → Sí
+
+Use nuestra [Calculadora de Fechas](/es/date-calculator) para cálculos precisos.`
+		},
+		date: '2025-02-05',
+		category: 'lifestyle'
+	},
+	{
+		slug: 'anniversary-milestone-guide',
+		title: {
+			en: 'Anniversary Milestone Guide: From 100 Days to Golden Years',
+			ko: '기념일 마일스톤 가이드: 100일부터 금혼식까지',
+			ja: '記念日マイルストーンガイド：100日から金婚式まで',
+			zh: '纪念日里程碑指南：从100天到金婚',
+			es: 'Guía de hitos de aniversario: de 100 días a bodas de oro'
+		},
+		description: {
+			en: 'Discover meaningful anniversary milestones including 100-day celebrations, wedding anniversaries, and creative ways to celebrate.',
+			ko: '100일 기념, 결혼기념일 등 의미 있는 기념일 마일스톤과 창의적인 기념 방법을 알아보세요.',
+			ja: '100日記念、結婚記念日など意味のある記念日マイルストーンと祝い方を紹介。',
+			zh: '了解从100天庆祝到结婚纪念日等有意义的里程碑及创意庆祝方式。',
+			es: 'Descubra hitos de aniversario significativos y formas creativas de celebrar.'
+		},
+		content: {
+			en: `From the Korean tradition of celebrating 100 days to golden wedding anniversaries, milestones mark our journeys.
+
+## Relationship Milestones
+
+### Korean Dating Culture
+- **100 days**: A major milestone! Couples exchange gifts and celebrate.
+- **200 days, 300 days**: Continued celebrations
+- **1 year (365 days)**: First anniversary
+
+### Day-Count Milestones
+- **100 days**: ~3.3 months
+- **200 days**: ~6.6 months
+- **365 days**: 1 year
+- **500 days**: ~1.4 years
+- **1,000 days**: ~2.7 years
+- **10,000 days**: ~27.4 years
+
+## Wedding Anniversary Names
+
+| Year | Traditional | Modern |
+|------|-----------|--------|
+| 1 | Paper | Clock |
+| 5 | Wood | Silverware |
+| 10 | Tin/Aluminum | Diamond jewelry |
+| 15 | Crystal | Watch |
+| 20 | China | Platinum |
+| 25 | Silver | Silver |
+| 30 | Pearl | Diamond |
+| 40 | Ruby | Ruby |
+| 50 | Gold | Gold |
+| 60 | Diamond | Diamond |
+
+## Korean Special Anniversaries
+
+- **백일잔치 (100-day feast)**: Celebrating a baby's 100th day
+- **돌잔치 (First birthday)**: Major celebration with doljabi
+- **환갑 (60th birthday)**: Traditional celebration of completing the zodiac cycle
+- **칠순 (70th birthday)**: Another major milestone
+
+## Creative Ways to Celebrate
+
+1. **Photo timeline**: Create a visual journey from day 1 to now
+2. **Letter for the future**: Write a letter to open on your next milestone
+3. **Experience over things**: Plan an activity you have never done together
+4. **Milestone jar**: Save a memory note for each milestone
+
+Use our [Date Calculator](/en/date-calculator) to find your next milestone date.`,
+			ko: `100일 기념부터 금혼식까지, 마일스톤은 우리의 여정을 기록합니다.
+
+## 연인 마일스톤
+
+### 한국 연애 문화
+- **100일**: 중요한 마일스톤! 커플들이 선물을 교환하고 축하합니다.
+- **200일, 300일**: 계속되는 기념
+- **1주년 (365일)**: 첫 번째 기념일
+
+### 일수 마일스톤
+- **100일**: 약 3.3개월
+- **200일**: 약 6.6개월
+- **500일**: 약 1.4년
+- **1,000일**: 약 2.7년
+- **10,000일**: 약 27.4년
+
+## 결혼기념일 이름
+
+| 연차 | 이름 |
+|------|------|
+| 1주년 | 지혼식 (종이) |
+| 5주년 | 목혼식 (나무) |
+| 10주년 | 석혼식 (주석) |
+| 15주년 | 수정혼식 |
+| 20주년 | 도자기혼식 |
+| 25주년 | 은혼식 |
+| 30주년 | 진주혼식 |
+| 40주년 | 루비혼식 |
+| 50주년 | 금혼식 |
+| 60주년 | 다이아몬드혼식 |
+
+## 한국 특별 기념일
+
+- **백일잔치**: 아기의 100일을 축하
+- **돌잔치**: 돌잡이와 함께하는 첫 번째 생일 잔치
+- **환갑 (60세)**: 십이지 한 바퀴를 완성한 전통 축하
+- **칠순 (70세)**: 또 다른 중요한 마일스톤
+
+## 창의적인 기념 방법
+
+1. **포토 타임라인**: 1일부터 현재까지의 시각적 여정 만들기
+2. **미래에게 쓰는 편지**: 다음 마일스톤에 열어볼 편지 쓰기
+3. **물건보다 경험**: 한 번도 함께 해보지 않은 활동 계획하기
+
+[날짜 계산기](/ko/date-calculator)로 다음 마일스톤 날짜를 확인하세요.`,
+			ja: `100日記念からゴールデンウェディングまで、マイルストーンは私たちの旅路を刻みます。
+
+## カップルのマイルストーン
+
+### 韓国のデート文化
+- **100日**：重要なマイルストーン！カップルがプレゼントを交換
+- **200日、300日**：継続的なお祝い
+- **1年（365日）**：最初の記念日
+
+### 日数マイルストーン
+- **100日**：約3.3ヶ月 / **1,000日**：約2.7年 / **10,000日**：約27.4年
+
+## 結婚記念日の名前
+
+| 年 | 名称 |
+|---|------|
+| 1年 | 紙婚式 |
+| 5年 | 木婚式 |
+| 10年 | 錫婚式 |
+| 25年 | 銀婚式 |
+| 50年 | 金婚式 |
+
+[日付計算機](/ja/date-calculator)で次のマイルストーンを確認しましょう。`,
+			zh: `从100天纪念到金婚，里程碑记录着我们的人生旅程。
+
+## 恋爱里程碑
+
+### 韩国约会文化
+- **100天**：重要的里程碑！情侣交换礼物庆祝
+- **200天、300天**：持续的庆祝
+- **1周年（365天）**：第一个纪念日
+
+## 结婚纪念日名称
+
+| 年份 | 名称 |
+|------|------|
+| 1年 | 纸婚 |
+| 5年 | 木婚 |
+| 10年 | 锡婚 |
+| 25年 | 银婚 |
+| 50年 | 金婚 |
+
+使用我们的[日期计算器](/zh/date-calculator)查找下一个里程碑日期。`,
+			es: `Desde la tradición coreana de celebrar 100 días hasta las bodas de oro, los hitos marcan nuestros viajes.
+
+## Hitos de pareja
+
+- **100 días**: ¡Un hito importante en la cultura coreana!
+- **1 año (365 días)**: Primer aniversario
+
+## Nombres de aniversario de boda
+
+| Año | Nombre |
+|-----|--------|
+| 1 | Papel |
+| 5 | Madera |
+| 10 | Estaño |
+| 25 | Plata |
+| 50 | Oro |
+
+Use nuestra [Calculadora de Fechas](/es/date-calculator) para encontrar su próximo hito.`
+		},
+		date: '2025-02-04',
+		category: 'lifestyle'
+	},
+	{
+		slug: 'tax-bracket-explained',
+		title: {
+			en: 'Tax Brackets Explained: How Progressive Taxation Really Works',
+			ko: '소득세 구간 이해하기: 누진세의 실제 작동 원리',
+			ja: '所得税区分の理解：累進課税の仕組み',
+			zh: '税率档次解析：累进税制如何运作',
+			es: 'Tramos impositivos explicados: cómo funciona la tributación progresiva'
+		},
+		description: {
+			en: 'Understand how tax brackets work, why moving to a higher bracket does not mean all your income is taxed more.',
+			ko: '세금 구간의 작동 원리와 높은 구간에 진입해도 전체 소득이 더 많이 과세되지 않는 이유를 알아보세요.',
+			ja: '税率区分の仕組みと、高い区分に入っても全所得が高い税率で課税されない理由を学びましょう。',
+			zh: '了解税率档次如何运作，以及为什么进入更高档次不意味着所有收入都被多征税。',
+			es: 'Entienda cómo funcionan los tramos impositivos y por qué subir de tramo no significa pagar más por todo su ingreso.'
+		},
+		content: {
+			en: `One of the biggest tax misconceptions: "If I earn more, I will lose money because of a higher tax bracket." This is wrong.
+
+## How Progressive Taxation Works
+
+In a progressive system, different portions of your income are taxed at different rates. Only the income WITHIN each bracket is taxed at that bracket's rate.
+
+### Example (simplified)
+| Bracket | Rate |
+|---------|------|
+| $0 – $10,000 | 10% |
+| $10,001 – $40,000 | 20% |
+| $40,001 – $85,000 | 30% |
+| $85,001+ | 40% |
+
+If you earn **$50,000**:
+- First $10,000 × 10% = $1,000
+- Next $30,000 × 20% = $6,000
+- Last $10,000 × 30% = $3,000
+- **Total tax: $10,000** (effective rate: 20%)
+
+If you earn **$50,001** (one dollar more):
+- You pay $10,000.40 in tax — only 40 cents more, NOT $20,000 (40% of everything)
+
+## Marginal vs Effective Tax Rate
+
+- **Marginal rate**: The rate on your LAST dollar earned
+- **Effective rate**: Your total tax divided by total income
+
+Your effective rate is ALWAYS lower than your marginal rate.
+
+## Korean Income Tax Brackets (2024)
+
+| Taxable Income | Rate |
+|---------------|------|
+| Up to ₩14M | 6% |
+| ₩14M – ₩50M | 15% |
+| ₩50M – ₩88M | 24% |
+| ₩88M – ₩150M | 35% |
+| ₩150M – ₩300M | 38% |
+| ₩300M – ₩500M | 40% |
+| ₩500M – ₩1B | 42% |
+| Over ₩1B | 45% |
+
+## Tax-Saving Strategies
+
+1. **Maximize deductions**: Reduce your taxable income
+2. **Retirement contributions**: Tax-deferred growth
+3. **Tax credits**: Directly reduce tax owed
+4. **Income timing**: Defer income to lower-tax years when possible
+
+Use our percentage calculator to quickly compute your effective tax rate.`,
+			ko: `가장 큰 세금 오해: "더 벌면 세금 구간이 올라가서 손해다." 이것은 틀렸습니다.
+
+## 누진세 작동 원리
+
+누진세 제도에서는 소득의 각 구간이 다른 세율로 과세됩니다. 해당 구간에 속하는 소득만 그 세율로 과세됩니다.
+
+### 예시
+연봉 5,000만원인 경우:
+- 1,400만원 × 6% = 84만원
+- 3,600만원 (1,400~5,000만원) × 15% = 540만원
+- **총 세금: 624만원** (실효세율: 약 12.5%)
+
+연봉 5,001만원인 경우:
+- 1만원 추가분에 대해서만 24% 적용 = 2,400원 추가
+- 전체 소득에 24%가 적용되는 것이 아닙니다!
+
+## 한계세율 vs 실효세율
+
+- **한계세율**: 마지막 1원에 적용되는 세율
+- **실효세율**: 총 세금 ÷ 총 소득
+
+실효세율은 항상 한계세율보다 낮습니다.
+
+## 2024년 한국 소득세 구간
+
+| 과세표준 | 세율 |
+|---------|------|
+| 1,400만원 이하 | 6% |
+| 1,400~5,000만원 | 15% |
+| 5,000~8,800만원 | 24% |
+| 8,800만원~1.5억원 | 35% |
+| 1.5억~3억원 | 38% |
+| 3억~5억원 | 40% |
+| 5억~10억원 | 42% |
+| 10억원 초과 | 45% |
+
+## 절세 전략
+
+1. **공제 최대화**: 과세소득 줄이기
+2. **연금 납입**: 세액공제 + 과세이연 효과
+3. **세액공제 활용**: 세금 직접 감면
+4. **소득 시기 조절**: 가능하면 낮은 세율 연도로 소득 이연
+
+퍼센트 계산기로 실효세율을 빠르게 계산해 보세요.`,
+			ja: `最大の税金の誤解：「もっと稼ぐと、高い税率区分に入って損をする。」これは間違いです。
+
+## 累進課税の仕組み
+
+累進課税制度では、所得の各区分が異なる税率で課税されます。その区分内の所得のみがその税率で課税されます。
+
+## 限界税率 vs 実効税率
+
+- **限界税率**：最後の1円に適用される税率
+- **実効税率**：総税額 ÷ 総所得
+
+実効税率は常に限界税率より低いです。
+
+## 日本の所得税率（2024年）
+
+| 課税所得 | 税率 |
+|---------|------|
+| 195万円以下 | 5% |
+| 195〜330万円 | 10% |
+| 330〜695万円 | 20% |
+| 695〜900万円 | 23% |
+| 900〜1,800万円 | 33% |
+| 1,800〜4,000万円 | 40% |
+| 4,000万円超 | 45% |
+
+パーセント計算機で実効税率を計算しましょう。`,
+			zh: `最大的税务误解："如果我赚得更多，因为进入更高税率档次就会亏钱。"这是错误的。
+
+## 累进税制如何运作
+
+在累进制度中，收入的不同部分按不同税率征税。只有在每个档次内的收入才按该档次的税率征税。
+
+## 边际税率 vs 有效税率
+
+- **边际税率**：对最后一元收入适用的税率
+- **有效税率**：总税额 ÷ 总收入
+
+有效税率始终低于边际税率。
+
+## 节税策略
+
+1. **最大化扣除**：减少应税收入
+2. **退休金缴款**：延税增长
+3. **税收抵免**：直接减少应纳税额
+
+使用百分比计算器快速计算您的有效税率。`,
+			es: `El mayor mito fiscal: "Si gano más, perderé dinero por un tramo más alto." Esto es falso.
+
+## Cómo funciona la tributación progresiva
+
+Solo el ingreso DENTRO de cada tramo se grava a esa tasa. Si gana un dólar más, solo ese dólar paga la tasa más alta.
+
+## Tasa marginal vs tasa efectiva
+
+- **Marginal**: La tasa sobre su último dólar ganado
+- **Efectiva**: Su impuesto total dividido por su ingreso total
+
+Su tasa efectiva es SIEMPRE menor que su tasa marginal.`
+		},
+		date: '2025-02-03',
+		category: 'finance'
+	},
+	{
+		slug: 'career-salary-benchmarks',
+		title: {
+			en: 'Career Salary Benchmarks: What You Should Be Earning',
+			ko: '직종별 연봉 벤치마크: 나는 적정 연봉을 받고 있을까?',
+			ja: '職種別年収ベンチマーク：適正年収を知る',
+			zh: '职业薪资基准：您应该赚多少',
+			es: 'Benchmarks salariales por carrera: cuánto debería ganar'
+		},
+		description: {
+			en: 'Compare salary benchmarks across industries and career levels to understand where you stand.',
+			ko: '산업별, 경력별 연봉 벤치마크를 비교하여 자신의 위치를 파악하세요.',
+			ja: '業界別・キャリアレベル別の年収ベンチマークで自分の位置を把握しましょう。',
+			zh: '比较各行业和职业级别的薪资基准，了解自己的位置。',
+			es: 'Compare benchmarks salariales entre industrias y niveles de carrera para entender su posición.'
+		},
+		content: {
+			en: `Understanding salary benchmarks helps you negotiate better and plan your career strategically.
+
+## Factors That Affect Salary
+
+### 1. Industry
+Tech, finance, and healthcare consistently pay above average. Education and nonprofit tend to pay below.
+
+### 2. Location
+Cost of living dramatically affects salaries:
+- San Francisco/New York: 40–60% above national average
+- Seoul: Higher than Korean average
+- Remote work is narrowing these gaps
+
+### 3. Experience Level
+| Level | Typical Range (multiplier of entry-level) |
+|-------|------------------------------------------|
+| Entry (0–2 years) | 1.0x |
+| Mid (3–5 years) | 1.3–1.6x |
+| Senior (6–10 years) | 1.6–2.5x |
+| Lead/Manager (10+ years) | 2.0–3.5x |
+| Director/VP | 3.0–6.0x |
+
+### 4. Skills Premium
+In-demand skills command a premium:
+- AI/ML: 20–40% premium
+- Cloud architecture: 15–30% premium
+- Data science: 15–25% premium
+- Cybersecurity: 15–25% premium
+
+## How to Research Your Benchmark
+
+1. **Use multiple sources**: No single source is perfectly accurate
+2. **Match your title AND responsibilities**: Titles vary across companies
+3. **Consider total compensation**: Base + bonus + equity + benefits
+4. **Look at recent data**: Markets shift quickly, especially in tech
+
+## When You Are Below Market
+
+If you discover you are significantly underpaid:
+1. Document your market research
+2. Prepare your achievement record
+3. Request a meeting with your manager
+4. Present data, not emotions
+5. Be ready to discuss a timeline for adjustment
+
+## When to Change Jobs for Higher Pay
+
+Job-hopping typically yields 10–20% salary increases vs 3–5% for staying. But consider:
+- Vesting schedules for stock options
+- Institutional knowledge value
+- Work-life balance at current role
+- Growth opportunities
+
+Use our salary calculator to compare offers.`,
+			ko: `연봉 벤치마크를 이해하면 더 나은 협상과 전략적 커리어 계획이 가능합니다.
+
+## 연봉에 영향을 주는 요소
+
+### 1. 산업
+IT, 금융, 의료는 꾸준히 평균 이상을 지급합니다. 교육, 비영리는 상대적으로 낮은 편입니다.
+
+### 2. 지역
+- 서울 강남/판교: 전국 평균 대비 높음
+- 지방: 서울 대비 10–30% 낮을 수 있음
+- 원격근무가 이 격차를 줄이는 중
+
+### 3. 경력 수준
+| 수준 | 일반적 범위 (신입 대비 배수) |
+|------|--------------------------|
+| 신입 (0–2년) | 1.0배 |
+| 중급 (3–5년) | 1.3–1.6배 |
+| 시니어 (6–10년) | 1.6–2.5배 |
+| 리드/매니저 (10년+) | 2.0–3.5배 |
+
+### 4. 스킬 프리미엄
+수요가 높은 기술은 프리미엄이 붙습니다:
+- AI/ML: 20–40% 프리미엄
+- 클라우드 아키텍처: 15–30% 프리미엄
+
+## 시장 가격 이하일 때
+
+저평가되고 있다면:
+1. 시장 조사 자료를 문서화하세요
+2. 성과 기록을 준비하세요
+3. 상사와 미팅을 요청하세요
+4. 감정이 아닌 데이터를 제시하세요
+
+## 이직으로 연봉 올리기
+
+이직 시 일반적으로 10–20% 인상 vs 잔류 시 3–5% 인상. 하지만 스톡옵션 베스팅, 조직 내 지식 가치, 워라밸도 고려하세요.
+
+급여 계산기를 사용하여 제안을 비교해 보세요.`,
+			ja: `年収ベンチマークを理解することで、より良い交渉と戦略的なキャリア計画が可能になります。
+
+## 年収に影響する要素
+
+### 1. 業界
+IT、金融、医療は一貫して平均以上。教育、非営利は相対的に低い傾向。
+
+### 2. 地域
+- 東京：全国平均より高い
+- リモートワークが格差を縮小中
+
+### 3. 経験レベル
+| レベル | 一般的な範囲（新卒比） |
+|-------|-------------------|
+| 新卒（0-2年） | 1.0倍 |
+| 中堅（3-5年） | 1.3-1.6倍 |
+| シニア（6-10年） | 1.6-2.5倍 |
+
+## 市場価格を下回っている場合
+
+1. 市場調査データを文書化
+2. 実績を準備
+3. 上司との面談を依頼
+4. 感情ではなくデータを提示
+
+給与計算機でオファーを比較しましょう。`,
+			zh: `了解薪资基准有助于更好地谈判和规划职业发展。
+
+## 影响薪资的因素
+
+### 1. 行业
+科技、金融、医疗一直高于平均水平。教育和非营利相对较低。
+
+### 2. 地区
+- 一线城市：高于全国平均
+- 远程工作正在缩小差距
+
+### 3. 经验水平
+| 级别 | 典型范围（入门级倍数）|
+|------|------------------|
+| 入门（0-2年）| 1.0倍 |
+| 中级（3-5年）| 1.3-1.6倍 |
+| 高级（6-10年）| 1.6-2.5倍 |
+
+## 低于市场价格时
+
+1. 记录市场调研数据
+2. 准备业绩记录
+3. 用数据而非情绪进行谈判
+
+使用薪资计算器比较报价。`,
+			es: `Entender los benchmarks salariales le ayuda a negociar mejor y planificar su carrera.
+
+## Factores que afectan el salario
+
+1. **Industria**: Tech y finanzas pagan más
+2. **Ubicación**: El costo de vida afecta dramáticamente
+3. **Experiencia**: Cada nivel multiplica el salario base
+4. **Habilidades en demanda**: AI/ML, cloud y data science tienen primas
+
+## Cuando está por debajo del mercado
+
+1. Documente su investigación de mercado
+2. Presente datos, no emociones
+3. Esté preparado para discutir un cronograma de ajuste`
+		},
+		date: '2025-02-02',
+		category: 'finance'
+	},
+	{
+		slug: 'healthy-weight-guide',
+		title: {
+			en: 'Healthy Weight Guide: Beyond the Scale',
+			ko: '건강한 체중 유지 가이드: 체중계 너머의 건강',
+			ja: '健康的な体重ガイド：体重計の先にあるもの',
+			zh: '健康体重指南：超越体重秤',
+			es: 'Guía de peso saludable: más allá de la báscula'
+		},
+		description: {
+			en: 'Learn what healthy weight really means, how to set realistic goals, and sustainable habits for maintenance.',
+			ko: '건강한 체중의 진정한 의미, 현실적인 목표 설정, 유지를 위한 지속 가능한 습관을 알아보세요.',
+			ja: '健康的な体重の本当の意味、現実的な目標設定、維持のための持続可能な習慣を学びましょう。',
+			zh: '了解健康体重的真正含义、如何设定现实目标以及可持续的维护习惯。',
+			es: 'Aprenda qué significa realmente el peso saludable, cómo establecer metas realistas y hábitos sostenibles.'
+		},
+		content: {
+			en: `Your weight is just one number among many health indicators. Here is a more complete picture.
+
+## Multiple Metrics for Health
+
+### BMI (Body Mass Index)
+Quick screening tool but does not account for muscle, bone density, or fat distribution.
+
+### Waist Circumference
+A better indicator of visceral fat (the dangerous kind):
+- **Men**: Below 102 cm (40 in) is lower risk
+- **Women**: Below 88 cm (35 in) is lower risk
+- **Asian populations**: Lower thresholds (90 cm men, 80 cm women)
+
+### Waist-to-Hip Ratio
+- **Men**: Below 0.9 is lower risk
+- **Women**: Below 0.85 is lower risk
+
+### Body Fat Percentage
+| Category | Men | Women |
+|----------|-----|-------|
+| Essential | 2–5% | 10–13% |
+| Athletic | 6–13% | 14–20% |
+| Fitness | 14–17% | 21–24% |
+| Average | 18–24% | 25–31% |
+| Obese | 25%+ | 32%+ |
+
+## Setting Realistic Goals
+
+### The 5–10% Rule
+Losing just 5–10% of body weight significantly improves health markers:
+- Blood pressure decreases
+- Blood sugar control improves
+- Cholesterol levels improve
+- Joint pain reduces
+
+### Healthy Rate of Change
+- **Weight loss**: 0.5–1 kg per week maximum
+- **Muscle gain**: 0.25–0.5 kg per month for beginners
+
+## Sustainable Habits
+
+1. **Move daily**: 150 minutes moderate activity per week
+2. **Eat mindfully**: Focus on whole foods, not calorie counting
+3. **Sleep well**: 7–9 hours; poor sleep disrupts hunger hormones
+4. **Manage stress**: Cortisol promotes fat storage
+5. **Be consistent**: Small daily habits beat extreme short-term efforts
+
+Use our [BMI Calculator](/en/bmi-calculator) as a starting point for your health journey.`,
+			ko: `체중은 여러 건강 지표 중 하나의 숫자일 뿐입니다. 더 완전한 그림을 그려봅시다.
+
+## 건강을 위한 다양한 지표
+
+### BMI (체질량지수)
+빠른 선별 도구이지만 근육, 골밀도, 지방 분포를 고려하지 않습니다.
+
+### 허리둘레
+내장지방(위험한 지방)의 더 나은 지표:
+- **남성**: 90cm 미만이 낮은 위험
+- **여성**: 85cm 미만이 낮은 위험
+
+### 체지방률
+| 분류 | 남성 | 여성 |
+|------|------|------|
+| 필수 | 2–5% | 10–13% |
+| 운동선수 | 6–13% | 14–20% |
+| 피트니스 | 14–17% | 21–24% |
+| 평균 | 18–24% | 25–31% |
+
+## 현실적인 목표 설정
+
+### 5–10% 규칙
+체중의 5–10%만 줄여도 건강 지표가 크게 개선됩니다.
+
+### 건강한 변화 속도
+- **감량**: 주당 최대 0.5–1 kg
+- **근육 증가**: 초보자 기준 월 0.25–0.5 kg
+
+## 지속 가능한 습관
+
+1. **매일 움직이기**: 주당 150분 중강도 활동
+2. **마음챙김 식사**: 칼로리 계산보다 전체 식품에 집중
+3. **잘 자기**: 7–9시간; 수면 부족은 배고픔 호르몬을 방해
+4. **스트레스 관리**: 코르티솔이 지방 저장을 촉진
+5. **꾸준함**: 작은 일상 습관이 극단적 단기 노력을 이깁니다
+
+[BMI 계산기](/ko/bmi-calculator)로 건강 여정을 시작해 보세요.`,
+			ja: `体重は多くの健康指標の中の一つの数字に過ぎません。より完全な健康の姿を見てみましょう。
+
+## 健康のための複数の指標
+
+### BMI：簡易スクリーニングツール
+### ウエスト周囲径：内臓脂肪のより良い指標
+- **男性**：85cm未満が低リスク
+- **女性**：90cm未満が低リスク
+
+### 体脂肪率
+| 分類 | 男性 | 女性 |
+|------|------|------|
+| アスリート | 6–13% | 14–20% |
+| フィットネス | 14–17% | 21–24% |
+| 平均 | 18–24% | 25–31% |
+
+## 持続可能な習慣
+
+1. 毎日運動：週150分の中強度活動
+2. マインドフルな食事
+3. 良質な睡眠：7〜9時間
+4. ストレス管理
+
+[BMI計算機](/ja/bmi-calculator)で健康の旅を始めましょう。`,
+			zh: `体重只是众多健康指标中的一个数字。让我们看看更完整的健康画面。
+
+## 多项健康指标
+
+### BMI：快速筛查工具
+### 腰围：内脏脂肪的更好指标
+- **男性**：低于90厘米为较低风险
+- **女性**：低于85厘米为较低风险
+
+### 体脂率
+| 分类 | 男性 | 女性 |
+|------|------|------|
+| 运动员 | 6-13% | 14-20% |
+| 健身 | 14-17% | 21-24% |
+| 平均 | 18-24% | 25-31% |
+
+## 可持续的习惯
+
+1. 每天运动：每周150分钟中等强度活动
+2. 正念饮食
+3. 良好睡眠：7-9小时
+4. 压力管理
+
+使用[BMI计算器](/zh/bmi-calculator)开始您的健康之旅。`,
+			es: `Su peso es solo un número entre muchos indicadores de salud.
+
+## Múltiples métricas
+
+- **IMC**: Herramienta de detección rápida
+- **Circunferencia de cintura**: Mejor indicador de grasa visceral
+- **Porcentaje de grasa corporal**: Más preciso que el IMC
+
+## La regla del 5-10%
+
+Perder solo el 5-10% del peso corporal mejora significativamente los marcadores de salud.
+
+## Hábitos sostenibles
+
+1. Moverse diariamente: 150 minutos de actividad moderada por semana
+2. Dormir bien: 7-9 horas
+3. Manejar el estrés
+
+Use nuestra [Calculadora de IMC](/es/bmi-calculator) como punto de partida.`
+		},
+		date: '2025-02-01',
+		category: 'health'
+	},
+	{
+		slug: 'currency-conversion-travel',
+		title: {
+			en: 'Currency Conversion Tips for International Travelers',
+			ko: '여행자를 위한 환율 변환 팁',
+			ja: '海外旅行者のための通貨換算ヒント',
+			zh: '国际旅行者的货币兑换技巧',
+			es: 'Consejos de conversión de moneda para viajeros internacionales'
+		},
+		description: {
+			en: 'Save money on currency exchange with these practical tips for international travel.',
+			ko: '해외여행 시 환전 비용을 절약하는 실용적인 팁을 알아보세요.',
+			ja: '海外旅行での両替費用を節約する実用的なヒントを紹介します。',
+			zh: '通过这些实用技巧在国际旅行中节省货币兑换费用。',
+			es: 'Ahorre dinero en cambio de divisas con estos consejos prácticos para viajes internacionales.'
+		},
+		content: {
+			en: `Smart currency exchange can save you hundreds of dollars on international trips.
+
+## Where to Exchange (Best to Worst)
+
+1. **ATMs abroad (debit card)**: Usually the best exchange rate
+2. **Credit cards with no foreign transaction fees**: Excellent rates
+3. **Local banks**: Decent rates, minimal fees
+4. **Online services**: Pre-order for convenience
+5. **Airport exchange**: Worst rates (10–15% markup)
+6. **Hotel exchange**: Also poor rates
+
+## Common Traps to Avoid
+
+### Dynamic Currency Conversion (DCC)
+When a merchant asks "Pay in your home currency?" — ALWAYS say NO. Their conversion rate is terrible (3–5% worse).
+
+### Airport "0% Commission" Booths
+No commission but terrible exchange rates. The spread IS the hidden fee.
+
+### Exchanging at Hotels
+Convenience tax of 5–10% compared to market rates.
+
+## Money-Saving Strategies
+
+### Before Your Trip
+- Get a travel-friendly credit card with no foreign transaction fees
+- Notify your bank about travel plans
+- Exchange a small amount for arrival needs
+
+### During Your Trip
+- Use ATMs for cash (check your bank's international withdrawal fees)
+- Pay by card when possible for better rates
+- Avoid exchanging money at tourist areas
+- Keep track of the mid-market rate to spot bad deals
+
+## Quick Mental Conversion Tricks
+
+### USD ↔ EUR
+Roughly 1:1 these days — just round slightly
+
+### USD ↔ KRW
+- $1 ≈ ₩1,350 (approximate)
+- Quick trick: Remove three zeros and adjust
+- $10 ≈ ₩13,500
+
+### USD ↔ JPY
+- $1 ≈ ¥150 (approximate)
+- Quick trick: Multiply by 150 or divide by 150
+
+Use our unit converter to check current exchange calculations.`,
+			ko: `똑똑한 환전은 해외여행에서 수십만 원을 절약할 수 있습니다.
+
+## 환전 장소 (좋은 순서)
+
+1. **해외 ATM (체크카드)**: 보통 최고의 환율
+2. **해외 수수료 없는 신용카드**: 우수한 환율
+3. **시중 은행**: 적절한 환율, 최소한의 수수료
+4. **온라인 환전**: 편의를 위해 미리 주문
+5. **공항 환전**: 최악의 환율 (10–15% 마진)
+6. **호텔 환전**: 역시 나쁜 환율
+
+## 피해야 할 함정
+
+### DCC (Dynamic Currency Conversion)
+가맹점이 "원화로 결제하시겠습니까?"라고 물으면 — 반드시 아니요! 현지 통화로 결제하세요. 그들의 환율이 3–5% 더 나쁩니다.
+
+### 공항 "수수료 0%" 부스
+수수료는 없지만 환율이 끔찍합니다. 스프레드가 숨겨진 수수료입니다.
+
+## 절약 전략
+
+### 여행 전
+- 해외 결제 수수료 없는 카드 준비
+- 은행에 해외 여행 알림
+- 도착 시 필요한 소액만 환전
+
+### 여행 중
+- 현금은 ATM 이용 (해외 인출 수수료 확인)
+- 가능하면 카드 결제 (더 나은 환율)
+- 관광지 환전소 피하기
+
+## 빠른 암산 트릭
+
+### 원 ↔ 달러
+- $1 ≈ ₩1,350 (대략)
+- 빠른 방법: 0 세 개를 지우고 조정
+
+### 원 ↔ 엔
+- ¥100 ≈ ₩900 (대략)
+- 빠른 방법: 엔에 9를 곱하고 0 하나 제거
+
+단위 변환기로 현재 환율 계산을 확인해 보세요.`,
+			ja: `賢い両替は海外旅行で何万円も節約できます。
+
+## 両替場所（良い順）
+
+1. **海外ATM（デビットカード）**：通常最良のレート
+2. **海外手数料無料のクレジットカード**：優秀なレート
+3. **銀行**：適切なレート
+4. **空港両替**：最悪のレート（10-15%のマージン）
+
+## 避けるべき罠
+
+### DCC（動的通貨変換）
+店舗が「自国通貨で支払いますか？」と聞いたら、必ず「いいえ」。現地通貨を選びましょう。
+
+## 節約戦略
+
+- 海外手数料無料のカードを準備
+- 現金はATMで引き出し
+- 観光地の両替所を避ける
+
+### 簡単な暗算
+
+- $1 ≈ ¥150（おおよそ）
+- 150を掛けるか、150で割る
+
+単位変換ツールで現在のレート計算を確認しましょう。`,
+			zh: `聪明的货币兑换可以在国际旅行中为您节省数百元。
+
+## 兑换地点（从好到差）
+
+1. **海外ATM**：通常是最好的汇率
+2. **无外币交易费的信用卡**：优秀的汇率
+3. **银行**：合适的汇率
+4. **机场兑换**：最差的汇率（10-15%加价）
+
+## 避免的陷阱
+
+### DCC（动态货币转换）
+商家问"用本国货币支付？"时，永远说不。选择当地货币。
+
+## 省钱策略
+
+- 准备无外币交易费的卡
+- 用ATM取现
+- 避免在旅游区兑换
+
+使用单位转换器检查当前汇率计算。`,
+			es: `El cambio inteligente de divisas puede ahorrarle cientos de dólares.
+
+## Dónde cambiar (de mejor a peor)
+
+1. **Cajeros en el extranjero**: Mejor tasa
+2. **Tarjetas sin cargo por transacción extranjera**: Excelentes tasas
+3. **Bancos locales**: Tasas decentes
+4. **Cambio en aeropuerto**: Peores tasas (10-15% de margen)
+
+## Trampas a evitar
+
+Cuando un comerciante pregunte "¿Pagar en su moneda local?" — SIEMPRE diga NO.
+
+Use nuestro convertidor de unidades para verificar cálculos de cambio actuales.`
+		},
+		date: '2025-01-31',
+		category: 'lifestyle'
+	},
+	{
+		slug: 'presentation-time-management',
+		title: {
+			en: 'Presentation Time Management: Delivering on Schedule',
+			ko: '프레젠테이션 시간 관리: 시간 내 완벽한 발표',
+			ja: 'プレゼンテーション時間管理：時間通りの発表',
+			zh: '演示文稿时间管理：按时完成演讲',
+			es: 'Gestión del tiempo en presentaciones: cumplir el horario'
+		},
+		description: {
+			en: 'Learn how to plan, pace, and deliver presentations within your allotted time slot.',
+			ko: '주어진 시간 내에 발표를 계획하고, 속도를 조절하며, 전달하는 방법을 알아보세요.',
+			ja: '割り当てられた時間内でプレゼンを計画し、ペース配分し、発表する方法を学びましょう。',
+			zh: '学习如何在分配的时间内规划、控制节奏和完成演讲。',
+			es: 'Aprenda a planificar, controlar el ritmo y realizar presentaciones dentro del tiempo asignado.'
+		},
+		content: {
+			en: `Going over your allotted presentation time is one of the most common and avoidable mistakes speakers make.
+
+## The Time Allocation Formula
+
+For a typical presentation, use the **60-30-10 rule**:
+- **60%**: Main content / body
+- **30%**: Opening + closing
+- **10%**: Buffer for Q&A or transitions
+
+### Example: 15-minute presentation
+- Opening: 2 minutes
+- Body: 9 minutes (3 sections × 3 minutes)
+- Closing: 2 minutes
+- Buffer: 2 minutes
+
+## Words-per-Minute Guide
+
+Average speaking speeds:
+- **Slow/deliberate**: 100–120 wpm
+- **Conversational**: 130–150 wpm
+- **Fast/energetic**: 160–180 wpm
+
+### Slide Count Guide
+| Presentation Length | Slides (approx.) |
+|--------------------|-----------------|
+| 5 minutes | 5–7 |
+| 10 minutes | 8–12 |
+| 15 minutes | 12–18 |
+| 30 minutes | 20–30 |
+| 60 minutes | 35–50 |
+
+## Pacing Techniques
+
+### The Checkpoint Method
+Mark time checkpoints in your notes:
+- "By slide 5, I should be at 5 minutes"
+- "By the case study, 10 minutes"
+
+### The Traffic Light System
+- **Green (first 70%)**: On track, full detail
+- **Yellow (70–85%)**: Check time, adjust depth
+- **Red (85–100%)**: Skip to conclusion if behind
+
+## Common Time Traps
+
+1. **Too long introductions**: Get to the point fast
+2. **Tangential stories**: Keep anecdotes brief
+3. **Reading slides**: Audiences read faster than you speak
+4. **Unplanned demos**: Always have a backup plan
+5. **Extended Q&A**: Set a firm cutoff
+
+## Practice Tips
+
+- **Record yourself**: You will discover you speak slower than you think
+- **Practice 3 times minimum**: Each run gets more efficient
+- **Practice with a timer visible**: Build time awareness
+
+Use our time calculator to plan your presentation sections.`,
+			ko: `주어진 발표 시간을 초과하는 것은 발표자가 저지르는 가장 흔하고 피할 수 있는 실수입니다.
+
+## 시간 배분 공식
+
+일반적인 발표에는 **60-30-10 규칙**을 사용하세요:
+- **60%**: 본론
+- **30%**: 도입 + 마무리
+- **10%**: Q&A 또는 전환 버퍼
+
+### 예시: 15분 발표
+- 도입: 2분
+- 본론: 9분 (3개 섹션 × 3분)
+- 마무리: 2분
+- 버퍼: 2분
+
+## 분당 글자 수 가이드
+
+평균 말하기 속도:
+- **느림/신중**: 분당 250–300자 (한국어)
+- **대화체**: 분당 300–350자
+- **빠름/에너지**: 분당 350–400자
+
+## 페이스 조절 기법
+
+### 체크포인트 방식
+노트에 시간 체크포인트를 표시:
+- "슬라이드 5에서 5분"
+- "사례 연구에서 10분"
+
+### 신호등 시스템
+- **초록 (처음 70%)**: 정상, 상세 설명
+- **노랑 (70–85%)**: 시간 확인, 깊이 조절
+- **빨강 (85–100%)**: 뒤처지면 결론으로 건너뛰기
+
+## 흔한 시간 함정
+
+1. **너무 긴 소개**: 빨리 본론으로
+2. **곁가지 이야기**: 일화는 짧게
+3. **슬라이드 읽기**: 청중이 더 빨리 읽습니다
+4. **계획에 없는 데모**: 항상 백업 플랜 준비
+
+시간 계산기로 발표 섹션을 계획해 보세요.`,
+			ja: `発表時間を超過するのは、スピーカーが犯す最も一般的で避けられるミスです。
+
+## 時間配分の公式
+
+**60-30-10ルール**：
+- **60%**：本論
+- **30%**：導入 + まとめ
+- **10%**：Q&Aまたは移行のバッファ
+
+## ペース調整テクニック
+
+### チェックポイント方式
+ノートに時間チェックポイントを記入
+
+### 信号機システム
+- **青（最初の70%）**：順調、詳細に説明
+- **黄（70-85%）**：時間確認、深さを調整
+- **赤（85-100%）**：遅れていたら結論へ
+
+## よくある時間の罠
+
+1. 長すぎる導入
+2. 脱線した話
+3. スライドの読み上げ
+
+時間計算機でプレゼンのセクションを計画しましょう。`,
+			zh: `超过分配的演讲时间是演讲者最常犯且可以避免的错误之一。
+
+## 时间分配公式
+
+**60-30-10规则**：
+- **60%**：主要内容
+- **30%**：开场 + 结尾
+- **10%**：问答或过渡缓冲
+
+## 节奏控制技巧
+
+### 检查点方法
+在笔记中标记时间检查点
+
+### 红绿灯系统
+- **绿色（前70%）**：正常，详细讲解
+- **黄色（70-85%）**：检查时间，调整深度
+- **红色（85-100%）**：如果落后就跳到结论
+
+使用时间计算器规划演讲部分。`,
+			es: `Exceder el tiempo de presentación es uno de los errores más comunes y evitables.
+
+## La fórmula de asignación de tiempo
+
+**Regla 60-30-10**:
+- **60%**: Contenido principal
+- **30%**: Apertura + cierre
+- **10%**: Buffer para Q&A
+
+## Técnicas de ritmo
+
+### Sistema de semáforo
+- **Verde (primer 70%)**: En tiempo, detalle completo
+- **Amarillo (70-85%)**: Verificar tiempo, ajustar profundidad
+- **Rojo (85-100%)**: Saltar a conclusión si va retrasado
+
+Use nuestra calculadora de tiempo para planificar las secciones de su presentación.`
+		},
+		date: '2025-01-30',
+		category: 'productivity'
+	},
+	{
+		slug: 'ladder-game-probability',
+		title: {
+			en: 'Ladder Game Probability: Is It Really Random?',
+			ko: '사다리 게임 확률 분석: 정말 공정한가?',
+			ja: 'はしごゲームの確率分析：本当にランダム？',
+			zh: '梯子游戏概率分析：真的随机吗？',
+			es: 'Probabilidad del juego de escalera: ¿es realmente aleatorio?'
+		},
+		description: {
+			en: 'Explore the mathematics behind the Korean ladder game (사다리타기) and whether it truly gives equal chances.',
+			ko: '사다리타기의 수학적 원리와 정말로 공정한 확률을 제공하는지 분석합니다.',
+			ja: '韓国のはしごゲーム（サダリタギ）の数学的原理と公平性を分析します。',
+			zh: '探索韩国梯子游戏的数学原理以及它是否真正提供公平机会。',
+			es: 'Explore las matemáticas detrás del juego de escalera coreano y si realmente da oportunidades iguales.'
+		},
+		content: {
+			en: `The Korean ladder game (사다리타기/Sadari-tagi) is a popular way to make random decisions. But how random is it?
+
+## How the Ladder Game Works
+
+1. Draw vertical lines (one per participant)
+2. Add horizontal rungs randomly between adjacent lines
+3. Each player starts at the top of a line and follows it down
+4. When hitting a rung, move horizontally to the next line, then continue down
+5. Where you end up determines your outcome
+
+## The Mathematics
+
+### Key Property: It is a Permutation
+Every ladder game produces a **permutation** — each starting position maps to exactly one ending position, and every ending position is reached by exactly one starting position. No one gets left out.
+
+### Is Every Outcome Equally Likely?
+
+With truly random rung placement: **approximately yes**, but not perfectly.
+
+- With very few rungs: Some permutations are more likely than others
+- With many rungs: The distribution approaches uniformity
+- The "identity" permutation (everyone stays in their lane) is always possible but becomes less likely with more rungs
+
+### Number of Possible Outcomes
+
+For N players, there are N! (N factorial) possible arrangements:
+- 2 players: 2 outcomes
+- 3 players: 6 outcomes
+- 4 players: 24 outcomes
+- 5 players: 120 outcomes
+
+## Practical Fairness
+
+In real-world use with a reasonable number of rungs:
+- **2 players**: Perfectly fair (always 50/50)
+- **3 players**: Very nearly fair with 5+ rungs
+- **4+ players**: Fair enough for practical purposes with sufficient rungs
+
+## Fun Facts
+
+- The ladder game is mathematically equivalent to a sequence of adjacent transpositions
+- It is used in Korea for everything from deciding who pays for lunch to assigning dormitory rooms
+- You can prove that ANY permutation can be achieved with the right rung arrangement
+
+## Tips for Fairness
+
+1. Add at least 2× as many rungs as there are players
+2. Distribute rungs randomly across the full height
+3. Have someone who is not playing draw the rungs
+4. Use a digital ladder game for true randomness
+
+Use our ladder game tool for perfectly random results.`,
+			ko: `사다리타기는 한국에서 무작위 결정을 내리는 인기 있는 방법입니다. 하지만 정말 공정할까요?
+
+## 사다리 게임 원리
+
+1. 참가자 수만큼 세로선을 그립니다
+2. 인접한 세로선 사이에 가로선(다리)을 무작위로 추가합니다
+3. 각 참가자는 세로선 맨 위에서 시작하여 아래로 내려갑니다
+4. 가로선을 만나면 옆으로 이동한 후 계속 내려갑니다
+5. 도착 지점이 결과를 결정합니다
+
+## 수학적 분석
+
+### 핵심 성질: 순열(Permutation)
+모든 사다리 게임은 **순열**을 만듭니다. 각 출발점은 정확히 하나의 도착점에 연결되고, 모든 도착점은 정확히 하나의 출발점과 연결됩니다.
+
+### 모든 결과가 동일한 확률인가?
+
+무작위 가로선 배치 시: **거의 그렇지만** 완벽하지는 않습니다.
+
+- 가로선이 매우 적으면: 일부 순열이 더 나올 확률이 높음
+- 가로선이 많으면: 분포가 균등에 가까워짐
+
+### 가능한 결과의 수
+
+N명의 참가자에 대해 N! (N 팩토리얼)가지:
+- 2명: 2가지 / 3명: 6가지 / 4명: 24가지 / 5명: 120가지
+
+## 실질적 공정성
+
+- **2명**: 완벽하게 공정 (항상 50/50)
+- **3명**: 가로선 5개 이상이면 거의 공정
+- **4명 이상**: 충분한 가로선이 있으면 실용적으로 공정
+
+## 재미있는 사실
+
+- 사다리 게임은 수학적으로 인접 전치의 연속과 동치입니다
+- 한국에서는 점심값 내기부터 기숙사 배정까지 모든 것에 사용됩니다
+- 적절한 가로선 배치로 어떤 순열이든 만들 수 있음을 증명할 수 있습니다
+
+## 공정성 팁
+
+1. 참가자 수의 2배 이상 가로선 추가
+2. 가로선을 전체 높이에 걸쳐 무작위로 분포
+3. 참가하지 않는 사람이 가로선을 그리기
+4. 디지털 사다리 게임 사용으로 완벽한 무작위성 확보
+
+사다리 게임 도구를 사용하여 완벽한 무작위 결과를 얻으세요.`,
+			ja: `韓国のはしごゲーム（사다리타기）は、ランダムな決定を下す人気の方法です。しかし本当にランダムなのでしょうか？
+
+## はしごゲームの仕組み
+
+1. 参加者の数だけ縦線を引く
+2. 隣接する縦線の間にランダムに横棒を追加
+3. 各参加者は縦線の上から下へ進む
+4. 横棒に当たったら横に移動し、続けて下へ
+
+## 数学的分析
+
+### 核心的性質：順列
+すべてのはしごゲームは**順列**を生成します。各出発点は正確に1つの到着点に対応します。
+
+### すべての結果が等しい確率？
+
+横棒が少ないと偏りがありますが、十分な数があれば均等に近づきます。
+
+## 公平性のコツ
+
+1. 参加者数の2倍以上の横棒を追加
+2. 横棒を全体の高さにわたってランダムに分布
+3. デジタル版で完全なランダム性を確保
+
+はしごゲームツールで完璧なランダム結果を得ましょう。`,
+			zh: `韩国梯子游戏是一种流行的随机决策方法。但它真的公平吗？
+
+## 梯子游戏原理
+
+1. 画出与参与者数量相同的竖线
+2. 在相邻竖线之间随机添加横杠
+3. 每个参与者从竖线顶部开始向下走
+4. 遇到横杠时横向移动，然后继续向下
+
+## 数学分析
+
+### 关键性质：排列
+每个梯子游戏产生一个**排列**——每个起点恰好对应一个终点。
+
+### 所有结果的概率相等吗？
+
+横杠少时有偏差，但足够多时趋近均匀分布。
+
+## 公平性提示
+
+1. 添加至少参与者数量2倍的横杠
+2. 使用数字版本确保完全随机
+
+使用我们的梯子游戏工具获得完美的随机结果。`,
+			es: `El juego de escalera coreano es una forma popular de tomar decisiones aleatorias. ¿Pero es realmente justo?
+
+## Cómo funciona
+
+1. Dibuje líneas verticales (una por participante)
+2. Agregue peldaños horizontales aleatoriamente
+3. Cada jugador sigue su línea hacia abajo, moviéndose horizontalmente al encontrar un peldaño
+
+## Análisis matemático
+
+Cada juego produce una **permutación**: cada posición inicial se mapea a exactamente una posición final.
+
+## Consejos de equidad
+
+1. Agregue al menos 2× más peldaños que jugadores
+2. Use una versión digital para verdadera aleatoriedad`
+		},
+		date: '2025-01-29',
+		category: 'education'
+	},
+	{
+		slug: 'body-fat-percentage-guide',
+		title: {
+			en: 'Body Fat Percentage Guide: Measuring and Understanding',
+			ko: '체지방률 가이드: 측정과 이해',
+			ja: '体脂肪率ガイド：測定と理解',
+			zh: '体脂率指南：测量与理解',
+			es: 'Guía de porcentaje de grasa corporal: medición y comprensión'
+		},
+		description: {
+			en: 'Learn about body fat percentage ranges, measurement methods, and what the numbers mean for your health.',
+			ko: '체지방률 범위, 측정 방법, 그리고 그 수치가 건강에 의미하는 바를 알아보세요.',
+			ja: '体脂肪率の範囲、測定方法、数値が健康にとって何を意味するかを学びましょう。',
+			zh: '了解体脂率范围、测量方法以及数字对健康的意义。',
+			es: 'Conozca los rangos de grasa corporal, métodos de medición y qué significan los números para su salud.'
+		},
+		content: {
+			en: `Body fat percentage is often a better health indicator than weight alone.
+
+## Body Fat Ranges
+
+### Men
+| Category | Body Fat % |
+|----------|-----------|
+| Essential fat | 2–5% |
+| Competition athlete | 6–9% |
+| Athletic | 10–13% |
+| Fitness | 14–17% |
+| Acceptable | 18–24% |
+| Obese | 25%+ |
+
+### Women
+| Category | Body Fat % |
+|----------|-----------|
+| Essential fat | 10–13% |
+| Competition athlete | 14–17% |
+| Athletic | 18–20% |
+| Fitness | 21–24% |
+| Acceptable | 25–31% |
+| Obese | 32%+ |
+
+## Measurement Methods
+
+### 1. Skinfold Calipers (±3–4% accuracy)
+- Inexpensive and portable
+- Measures subcutaneous fat at specific sites
+- Requires trained operator for consistency
+
+### 2. Bioelectrical Impedance (±3–5%)
+- Found in smart scales and handheld devices
+- Sends a small electrical current through the body
+- Affected by hydration, meal timing, and exercise
+
+### 3. DEXA Scan (±1–2%)
+- Gold standard for body composition
+- Uses low-dose X-rays
+- Also measures bone density
+- Expensive ($50–150 per scan)
+
+### 4. Navy Method (±3–4%)
+Uses body measurements:
+- **Men**: Neck and waist circumference + height
+- **Women**: Neck, waist, and hip circumference + height
+
+## Why Body Fat % Matters More Than Weight
+
+Two people at 75 kg can look completely different:
+- Person A: 15% body fat, muscular build
+- Person B: 30% body fat, sedentary
+
+BMI would classify both the same, but their health profiles are very different.
+
+## How to Reduce Body Fat
+
+1. **Maintain a moderate calorie deficit** (300–500 cal/day)
+2. **Prioritize protein** (1.6–2.2 g/kg bodyweight)
+3. **Strength train** (preserves muscle during fat loss)
+4. **Get adequate sleep** (7–9 hours)
+5. **Manage stress** (cortisol promotes fat storage)
+
+Use our [BMI Calculator](/en/bmi-calculator) as a starting reference point.`,
+			ko: `체지방률은 체중만으로는 알 수 없는 건강의 더 나은 지표입니다.
+
+## 체지방률 범위
+
+### 남성
+| 분류 | 체지방률 |
+|------|---------|
+| 필수 지방 | 2–5% |
+| 운동선수 | 6–13% |
+| 피트니스 | 14–17% |
+| 보통 | 18–24% |
+| 비만 | 25%+ |
+
+### 여성
+| 분류 | 체지방률 |
+|------|---------|
+| 필수 지방 | 10–13% |
+| 운동선수 | 14–20% |
+| 피트니스 | 21–24% |
+| 보통 | 25–31% |
+| 비만 | 32%+ |
+
+## 측정 방법
+
+### 1. 피하지방 캘리퍼 (±3–4% 정확도)
+저렴하고 휴대 가능, 특정 부위의 피하지방 측정
+
+### 2. 생체 전기 임피던스 (±3–5%)
+스마트 체중계에서 흔히 사용, 수분 상태에 영향을 받음
+
+### 3. DEXA 스캔 (±1–2%)
+체성분 분석의 골드 스탠다드, 비용이 높음 (5–15만원)
+
+### 4. 해군 방식 (±3–4%)
+신체 치수 사용: 목, 허리둘레 + 키
+
+## 체지방률이 체중보다 중요한 이유
+
+75kg인 두 사람이 완전히 다를 수 있습니다:
+- A: 체지방률 15%, 근육질
+- B: 체지방률 30%, 비활동적
+
+## 체지방 줄이기
+
+1. **적절한 칼로리 적자** (300–500 cal/일)
+2. **단백질 우선** (체중 kg당 1.6–2.2g)
+3. **근력 운동** (지방 감소 시 근육 보존)
+4. **충분한 수면** (7–9시간)
+5. **스트레스 관리**
+
+[BMI 계산기](/ko/bmi-calculator)를 참고 지점으로 활용해 보세요.`,
+			ja: `体脂肪率は体重だけでは分からない、より良い健康指標です。
+
+## 体脂肪率の範囲
+
+### 男性
+| 分類 | 体脂肪率 |
+|------|---------|
+| 必須脂肪 | 2–5% |
+| アスリート | 6–13% |
+| フィットネス | 14–17% |
+| 平均 | 18–24% |
+| 肥満 | 25%+ |
+
+### 女性
+| 分類 | 体脂肪率 |
+|------|---------|
+| 必須脂肪 | 10–13% |
+| アスリート | 14–20% |
+| フィットネス | 21–24% |
+| 平均 | 25–31% |
+| 肥満 | 32%+ |
+
+## 測定方法
+
+1. **キャリパー**（±3-4%）
+2. **生体電気インピーダンス**（±3-5%）：スマート体重計
+3. **DEXAスキャン**（±1-2%）：ゴールドスタンダード
+
+## 体脂肪を減らすには
+
+1. 適度なカロリー不足（300-500 cal/日）
+2. タンパク質優先（体重1kgあたり1.6-2.2g）
+3. 筋力トレーニング
+4. 十分な睡眠（7-9時間）
+
+[BMI計算機](/ja/bmi-calculator)を参考にしましょう。`,
+			zh: `体脂率往往是比体重更好的健康指标。
+
+## 体脂率范围
+
+### 男性
+| 分类 | 体脂率 |
+|------|--------|
+| 必需脂肪 | 2-5% |
+| 运动员 | 6-13% |
+| 健身 | 14-17% |
+| 平均 | 18-24% |
+| 肥胖 | 25%+ |
+
+### 女性
+| 分类 | 体脂率 |
+|------|--------|
+| 必需脂肪 | 10-13% |
+| 运动员 | 14-20% |
+| 健身 | 21-24% |
+| 平均 | 25-31% |
+| 肥胖 | 32%+ |
+
+## 测量方法
+
+1. **皮脂钳**（±3-4%）
+2. **生物电阻抗**（±3-5%）
+3. **DEXA扫描**（±1-2%）：金标准
+
+使用[BMI计算器](/zh/bmi-calculator)作为参考起点。`,
+			es: `El porcentaje de grasa corporal es a menudo un mejor indicador de salud que el peso solo.
+
+## Rangos de grasa corporal
+
+### Hombres: Esencial 2-5%, Atleta 6-13%, Fitness 14-17%, Promedio 18-24%
+### Mujeres: Esencial 10-13%, Atleta 14-20%, Fitness 21-24%, Promedio 25-31%
+
+## Métodos de medición
+
+1. Calibrador de pliegues (±3-4%)
+2. Impedancia bioeléctrica (±3-5%)
+3. Escaneo DEXA (±1-2%) — estándar de oro
+
+Use nuestra [Calculadora de IMC](/es/bmi-calculator) como punto de referencia inicial.`
+		},
+		date: '2025-01-28',
+		category: 'health'
+	},
+	{
+		slug: 'savings-goal-calculator',
+		title: {
+			en: 'Savings Goal Strategy: How to Reach Your Financial Targets',
+			ko: '저축 목표 달성 전략: 재정 목표에 도달하는 법',
+			ja: '貯蓄目標戦略：財務目標の達成方法',
+			zh: '储蓄目标策略：如何达到财务目标',
+			es: 'Estrategia de ahorro: cómo alcanzar sus metas financieras'
+		},
+		description: {
+			en: 'Learn how to set, plan, and achieve savings goals using smart strategies and compound interest.',
+			ko: '스마트한 전략과 복리를 활용하여 저축 목표를 설정하고 달성하는 방법을 알아보세요.',
+			ja: 'スマートな戦略と複利を活用して貯蓄目標を設定・達成する方法を学びましょう。',
+			zh: '学习如何利用智能策略和复利来设定和实现储蓄目标。',
+			es: 'Aprenda a establecer, planificar y alcanzar metas de ahorro usando estrategias inteligentes e interés compuesto.'
+		},
+		content: {
+			en: `Having a clear savings goal transforms vague intentions into actionable plans.
+
+## The SMART Savings Framework
+
+- **Specific**: "Save $10,000" not "save more money"
+- **Measurable**: Track progress monthly
+- **Achievable**: Based on your income and expenses
+- **Relevant**: Connected to a meaningful goal
+- **Time-bound**: "By December 2026"
+
+## Calculating Your Monthly Savings Need
+
+### Without Interest
+**Monthly savings = Goal amount / Months until deadline**
+
+$10,000 goal in 12 months = $833/month
+
+### With Compound Interest
+With a savings account at 4% APY:
+$10,000 goal in 12 months = ~$815/month (saved $216 in reduced contributions)
+
+The longer your timeline, the more compound interest helps.
+
+## Popular Savings Strategies
+
+### 1. Pay Yourself First
+Automate savings on payday BEFORE spending. Treat savings like a bill.
+
+### 2. The 50/30/20 Rule
+- 50% needs (housing, food, utilities)
+- 30% wants (entertainment, dining)
+- 20% savings and debt repayment
+
+### 3. The 52-Week Challenge
+- Week 1: Save $1
+- Week 2: Save $2
+- Week 52: Save $52
+- Total: $1,378
+
+### 4. Round-Up Savings
+Round every purchase up to the nearest dollar and save the difference.
+
+### 5. No-Spend Days
+Designate specific days where you spend nothing (except essential bills).
+
+## Multiple Goals Strategy
+
+Prioritize and separate:
+1. **Emergency fund** (3–6 months expenses) — top priority
+2. **High-interest debt payoff** — second priority
+3. **Short-term goals** (vacation, gadgets) — separate account
+4. **Long-term goals** (house, retirement) — investment account
+
+## Overcoming Savings Obstacles
+
+- **Irregular income?** Save a percentage, not a fixed amount
+- **Low income?** Start with any amount, even $5/week
+- **Impulse spending?** Use the 24-hour rule before non-essential purchases
+- **Unexpected expenses?** That is why an emergency fund comes first
+
+Use our compound interest calculator to project your savings growth.`,
+			ko: `명확한 저축 목표는 막연한 의도를 실행 가능한 계획으로 바꿔줍니다.
+
+## SMART 저축 프레임워크
+
+- **구체적**: "더 많이 저축"이 아니라 "1,000만원 저축"
+- **측정 가능**: 매월 진행 상황 추적
+- **달성 가능**: 수입과 지출에 기반
+- **관련성**: 의미 있는 목표와 연결
+- **기한**: "2026년 12월까지"
+
+## 월 저축 필요액 계산
+
+### 이자 없이
+**월 저축 = 목표 금액 / 남은 개월 수**
+
+12개월에 1,000만원 = 월 약 83만원
+
+### 복리 포함
+연 4% 적금 기준: 12개월에 1,000만원 = 월 약 81만원
+
+## 인기 저축 전략
+
+### 1. 선저축 후지출
+급여일에 자동 저축 설정. 저축을 고정 지출처럼 취급하세요.
+
+### 2. 50/30/20 규칙
+- 50% 필수 (주거, 식비, 공과금)
+- 30% 원하는 것 (여가, 외식)
+- 20% 저축 및 부채 상환
+
+### 3. 52주 챌린지
+- 1주차: 1,000원 / 2주차: 2,000원 / ... / 52주차: 52,000원
+- 총합: 1,378,000원
+
+### 4. 무지출 데이
+특정 요일에 필수 지출 외 아무것도 쓰지 않기
+
+## 다중 목표 전략
+
+1. **비상 자금** (3–6개월 생활비) — 최우선
+2. **고금리 부채 상환** — 두 번째
+3. **단기 목표** (여행, 전자기기) — 별도 계좌
+4. **장기 목표** (주택, 은퇴) — 투자 계좌
+
+복리 계산기를 사용하여 저축 성장을 예측해 보세요.`,
+			ja: `明確な貯蓄目標は、漠然とした意図を実行可能な計画に変えます。
+
+## SMART貯蓄フレームワーク
+
+- **具体的**：「もっと貯金」ではなく「100万円貯金」
+- **測定可能**：毎月進捗を追跡
+- **達成可能**：収入と支出に基づく
+- **期限付き**：「2026年12月まで」
+
+## 人気の貯蓄戦略
+
+### 先取り貯金
+給料日に自動貯金を設定。
+
+### 50/30/20ルール
+- 50%必要経費 / 30%欲しいもの / 20%貯蓄
+
+### 52週チャレンジ
+1週目：100円 → 52週目：5,200円 → 合計：約137,800円
+
+複利計算機で貯蓄の成長を予測しましょう。`,
+			zh: `明确的储蓄目标将模糊的意向转化为可执行的计划。
+
+## SMART储蓄框架
+
+- **具体**："存10,000元"而非"多存钱"
+- **可衡量**：每月跟踪进度
+- **可实现**：基于收入和支出
+- **有期限**："到2026年12月"
+
+## 热门储蓄策略
+
+### 先储蓄后消费
+在发工资日自动储蓄。
+
+### 50/30/20规则
+- 50%必需品 / 30%想要的 / 20%储蓄
+
+### 52周挑战
+第1周：10元 → 第52周：520元 → 总计：13,780元
+
+使用复利计算器预测储蓄增长。`,
+			es: `Tener una meta de ahorro clara transforma intenciones vagas en planes accionables.
+
+## Marco SMART
+
+- **Específico**: "Ahorrar $10,000" no "ahorrar más"
+- **Medible**: Seguir progreso mensualmente
+- **Alcanzable**: Basado en ingresos y gastos
+- **Con plazo**: "Para diciembre 2026"
+
+## Estrategias populares
+
+### Páguese primero
+Automatice el ahorro el día de pago.
+
+### Regla 50/30/20
+- 50% necesidades / 30% deseos / 20% ahorro
+
+Use nuestra calculadora de interés compuesto para proyectar el crecimiento de sus ahorros.`
+		},
+		date: '2025-01-27',
+		category: 'finance'
+	},
+	{
+		slug: 'water-intake-calculator',
+		title: {
+			en: 'Daily Water Intake: How Much Water Do You Really Need?',
+			ko: '하루 수분 섭취량 계산: 정말 물 8잔이면 충분할까?',
+			ja: '1日の水分摂取量：本当にどれくらい必要？',
+			zh: '每日水摄入量：您到底需要喝多少水？',
+			es: 'Ingesta diaria de agua: ¿cuánta agua realmente necesita?'
+		},
+		description: {
+			en: 'Calculate your ideal daily water intake based on weight, activity level, and environment.',
+			ko: '체중, 활동량, 환경에 따른 이상적인 하루 수분 섭취량을 계산하세요.',
+			ja: '体重、活動量、環境に基づく理想的な1日の水分摂取量を計算しましょう。',
+			zh: '根据体重、活动水平和环境计算理想的每日水摄入量。',
+			es: 'Calcule su ingesta ideal de agua según peso, nivel de actividad y ambiente.'
+		},
+		content: {
+			en: `The "8 glasses a day" rule is a myth. Your actual water needs depend on many factors.
+
+## How to Calculate Your Water Needs
+
+### Basic Formula
+**Body weight (kg) × 30–35 mL = daily water intake in mL**
+
+Example: 70 kg × 33 mL = 2,310 mL (~2.3 liters)
+
+### Adjustments
+Add more water for:
+- **Exercise**: +500–1000 mL per hour of exercise
+- **Hot/humid weather**: +500–750 mL
+- **High altitude**: +500 mL
+- **Pregnancy**: +300 mL
+- **Breastfeeding**: +700 mL
+- **Illness (fever/diarrhea)**: +500–1000 mL
+
+## Signs of Dehydration
+
+### Mild
+- Thirst
+- Slightly dark urine
+- Dry mouth
+- Mild headache
+
+### Moderate
+- Very dark urine
+- Decreased urination
+- Dizziness
+- Fatigue
+
+### Severe (seek medical attention)
+- No urination
+- Rapid heartbeat
+- Confusion
+
+## The Urine Color Test
+
+The simplest hydration check:
+- **Pale yellow**: Well hydrated
+- **Dark yellow**: Need more water
+- **Clear**: Possibly over-hydrated
+
+## Water Intake Tips
+
+1. **Start your day with water**: Drink 500 mL upon waking
+2. **Carry a bottle**: Visual reminder to drink
+3. **Set reminders**: Use phone alarms every 1–2 hours
+4. **Eat water-rich foods**: Cucumber (96%), watermelon (92%), oranges (87%)
+5. **Drink before meals**: Helps with portion control too
+
+## Do Other Beverages Count?
+
+- **Tea/coffee**: Yes, despite mild diuretic effect, the net hydration is positive
+- **Juice/milk**: Yes, but watch for added sugars/calories
+- **Soda**: Technically hydrates but not recommended
+- **Alcohol**: Net dehydrating — does NOT count
+
+Use our unit converter to convert between water measurement units.`,
+			ko: `"하루 물 8잔" 규칙은 근거가 부족합니다. 실제 수분 필요량은 여러 요인에 따라 달라집니다.
+
+## 수분 필요량 계산법
+
+### 기본 공식
+**체중 (kg) × 30–35 mL = 하루 수분 섭취량 (mL)**
+
+예시: 70kg × 33mL = 2,310mL (~2.3리터)
+
+### 조정 사항
+다음의 경우 추가 섭취:
+- **운동**: 운동 시간당 +500–1000 mL
+- **더운 날씨**: +500–750 mL
+- **고도가 높은 곳**: +500 mL
+- **임신**: +300 mL
+- **수유**: +700 mL
+
+## 탈수 증상
+
+### 경미
+- 갈증, 약간 진한 소변색, 입 마름
+
+### 중등도
+- 매우 진한 소변, 소변량 감소, 어지러움, 피로
+
+### 심각 (의료 도움 필요)
+- 소변 없음, 빠른 심박수, 혼란
+
+## 소변 색상 테스트
+
+가장 간단한 수분 상태 확인:
+- **연한 노란색**: 수분 충분
+- **진한 노란색**: 물 더 필요
+- **투명**: 과수분 가능성
+
+## 수분 섭취 팁
+
+1. **아침에 물로 시작**: 기상 시 500mL 마시기
+2. **물병 휴대**: 마시는 것을 시각적으로 상기
+3. **알람 설정**: 1–2시간마다 알림
+4. **수분 많은 음식 섭취**: 오이 (96%), 수박 (92%)
+5. **식사 전 물 마시기**: 과식 방지에도 도움
+
+## 다른 음료도 포함되나요?
+
+- **차/커피**: 네, 가벼운 이뇨 효과에도 불구하고 순 수분 공급은 양성
+- **주스/우유**: 네, 하지만 당분/칼로리 주의
+- **알코올**: 순 탈수 효과 — 포함되지 않음
+
+단위 변환기로 수분 측정 단위를 변환해 보세요.`,
+			ja: `「1日8杯の水」ルールは根拠が不十分です。実際の水分必要量は多くの要因によって異なります。
+
+## 水分必要量の計算
+
+### 基本公式
+**体重（kg）× 30〜35 mL = 1日の水分摂取量（mL）**
+
+例：70kg × 33mL = 2,310mL（約2.3リットル）
+
+### 調整
+- 運動：1時間あたり+500〜1000 mL
+- 暑い天候：+500〜750 mL
+
+## 脱水のサイン
+
+- 軽度：喉の渇き、やや濃い尿の色
+- 中等度：非常に濃い尿、めまい、疲労
+- 重度（医療機関を受診）：排尿なし、頻脈
+
+## 水分摂取のコツ
+
+1. 朝起きたら500mL飲む
+2. ボトルを携帯する
+3. 水分の多い食品を食べる
+
+単位変換ツールで水分の測定単位を変換しましょう。`,
+			zh: `"每天8杯水"的规则缺乏依据。实际需水量取决于许多因素。
+
+## 计算需水量
+
+### 基本公式
+**体重（kg）× 30-35 mL = 每日需水量（mL）**
+
+例：70kg × 33mL = 2,310mL（约2.3升）
+
+### 调整
+- 运动：每小时+500-1000 mL
+- 炎热天气：+500-750 mL
+
+## 脱水症状
+
+- 轻度：口渴、尿色稍深
+- 中度：尿色很深、头晕、疲劳
+- 严重（需就医）：无尿、心跳加速
+
+## 饮水技巧
+
+1. 早上起床喝500mL
+2. 随身携带水瓶
+3. 吃含水量高的食物
+
+使用单位转换器转换水量测量单位。`,
+			es: `La regla de "8 vasos al día" es un mito. Sus necesidades reales dependen de muchos factores.
+
+## Cómo calcular sus necesidades
+
+**Peso corporal (kg) × 30-35 mL = ingesta diaria en mL**
+
+Ejemplo: 70 kg × 33 mL = 2,310 mL (~2.3 litros)
+
+## Señales de deshidratación
+
+- Leve: Sed, orina ligeramente oscura
+- Moderada: Orina muy oscura, mareos
+- Severa: Sin orina, latidos rápidos (busque atención médica)
+
+## Consejos
+
+1. Comience el día con agua
+2. Lleve una botella
+3. Ponga alarmas cada 1-2 horas
+
+Use nuestro convertidor de unidades para convertir medidas de agua.`
+		},
+		date: '2025-01-26',
+		category: 'health'
+	},
+	{
+		slug: 'sleep-cycle-calculator',
+		title: {
+			en: 'Sleep Cycle Calculator: Optimize Your Sleep Quality',
+			ko: '수면 주기 계산과 최적화: 잠의 질을 높이는 법',
+			ja: '睡眠サイクル計算：睡眠の質を最適化',
+			zh: '睡眠周期计算器：优化睡眠质量',
+			es: 'Calculadora de ciclos de sueño: optimice su calidad de sueño'
+		},
+		description: {
+			en: 'Learn how sleep cycles work and calculate the best times to sleep and wake up for maximum rest.',
+			ko: '수면 주기의 원리를 이해하고, 최대한 쉬기 위한 최적의 취침/기상 시간을 계산하세요.',
+			ja: '睡眠サイクルの仕組みを理解し、最適な就寝・起床時間を計算しましょう。',
+			zh: '了解睡眠周期如何运作，计算最佳入睡和起床时间。',
+			es: 'Aprenda cómo funcionan los ciclos de sueño y calcule los mejores horarios para dormir y despertar.'
+		},
+		content: {
+			en: `Waking up groggy is often not about how long you sleep, but when you wake up within your sleep cycle.
+
+## Understanding Sleep Cycles
+
+Each cycle lasts approximately **90 minutes** and consists of:
+
+### Stage 1: Light Sleep (5–10 min)
+- Transition from wakefulness
+- Easily awakened
+- Muscle twitches
+
+### Stage 2: Light Sleep (20 min)
+- Heart rate slows
+- Body temperature drops
+- Brain produces sleep spindles
+
+### Stage 3: Deep Sleep (20–40 min)
+- Hardest to wake from
+- Body repairs and regenerates
+- Growth hormone released
+- Immune system strengthens
+
+### REM Sleep (10–60 min)
+- Vivid dreams occur
+- Brain is highly active
+- Memory consolidation
+- Emotional processing
+- Duration increases with each cycle
+
+## Optimal Sleep Timing
+
+### By Age
+| Age Group | Recommended Sleep |
+|-----------|------------------|
+| Teens (14–17) | 8–10 hours |
+| Adults (18–64) | 7–9 hours |
+| Older Adults (65+) | 7–8 hours |
+
+### Best Wake Times
+If you need to wake at 7:00 AM, count backwards in 90-minute cycles (plus ~15 minutes to fall asleep):
+
+| Bedtime | Cycles | Total Sleep |
+|---------|--------|------------|
+| 11:15 PM | 5 | 7.5 hours |
+| 9:45 PM | 6 | 9 hours |
+
+If you go to bed at 11:00 PM:
+| Wake Time | Cycles | Total Sleep |
+|-----------|--------|------------|
+| 6:30 AM | 5 | 7.5 hours |
+| 8:00 AM | 6 | 9 hours |
+
+## Tips for Better Sleep
+
+1. **Consistent schedule**: Same bedtime and wake time daily (even weekends)
+2. **Cool room**: 18–20°C (65–68°F) is optimal
+3. **Dark environment**: Use blackout curtains
+4. **No screens**: Stop blue light 1 hour before bed
+5. **Caffeine cutoff**: No caffeine after 2 PM
+6. **Wind-down routine**: 30 minutes of relaxation before bed
+
+Use our time calculator to plan your ideal sleep schedule.`,
+			ko: `아침에 개운하지 못한 것은 수면 시간이 아니라, 수면 주기의 어느 단계에서 깨느냐의 문제일 수 있습니다.
+
+## 수면 주기 이해
+
+각 주기는 약 **90분**이며 다음으로 구성됩니다:
+
+### 1단계: 얕은 수면 (5–10분)
+각성에서 수면으로 전환, 쉽게 깰 수 있음
+
+### 2단계: 얕은 수면 (20분)
+심박수 감소, 체온 하강
+
+### 3단계: 깊은 수면 (20–40분)
+가장 깨기 어려움, 신체 복구 및 재생, 성장 호르몬 분비
+
+### REM 수면 (10–60분)
+생생한 꿈, 기억 정리, 감정 처리
+
+## 최적의 수면 시간
+
+### 연령별
+| 연령대 | 권장 수면 |
+|--------|---------|
+| 청소년 (14–17) | 8–10시간 |
+| 성인 (18–64) | 7–9시간 |
+| 고령자 (65+) | 7–8시간 |
+
+### 최적의 기상 시간 계산
+오전 7시에 일어나야 한다면 (잠들기까지 약 15분 고려):
+
+| 취침 시간 | 주기 수 | 총 수면 |
+|----------|---------|---------|
+| 오후 11:15 | 5주기 | 7.5시간 |
+| 오후 9:45 | 6주기 | 9시간 |
+
+## 더 나은 수면을 위한 팁
+
+1. **일정한 스케줄**: 매일 같은 시간에 자고 일어나기
+2. **시원한 방**: 18–20°C가 최적
+3. **어두운 환경**: 암막 커튼 사용
+4. **스크린 금지**: 취침 1시간 전 블루라이트 차단
+5. **카페인 차단**: 오후 2시 이후 카페인 금지
+6. **수면 루틴**: 취침 30분 전 이완 활동
+
+시간 계산기를 사용하여 이상적인 수면 스케줄을 계획해 보세요.`,
+			ja: `朝すっきり起きられないのは、睡眠時間ではなく、睡眠サイクルのどの段階で起きるかの問題かもしれません。
+
+## 睡眠サイクルの理解
+
+各サイクルは約**90分**で構成されます：
+- ステージ1：浅い睡眠（5-10分）
+- ステージ2：浅い睡眠（20分）
+- ステージ3：深い睡眠（20-40分）— 体の修復と再生
+- REM睡眠（10-60分）— 記憶の整理
+
+## 最適な起床時間
+
+午前7時起きの場合（入眠まで約15分）：
+- 23:15就寝 → 5サイクル → 7.5時間
+- 21:45就寝 → 6サイクル → 9時間
+
+## より良い睡眠のヒント
+
+1. 一定のスケジュール
+2. 涼しい部屋（18-20°C）
+3. 暗い環境
+4. 就寝1時間前にブルーライトカット
+5. 午後2時以降カフェイン禁止
+
+時間計算機で理想的な睡眠スケジュールを計画しましょう。`,
+			zh: `早上起来昏昏沉沉往往不是睡眠时间的问题，而是在睡眠周期的哪个阶段醒来。
+
+## 了解睡眠周期
+
+每个周期约**90分钟**：
+- 第1阶段：浅睡眠（5-10分钟）
+- 第2阶段：浅睡眠（20分钟）
+- 第3阶段：深睡眠（20-40分钟）
+- REM睡眠（10-60分钟）
+
+## 最佳起床时间
+
+如果需要早上7点起床（考虑约15分钟入睡时间）：
+- 23:15入睡 → 5个周期 → 7.5小时
+- 21:45入睡 → 6个周期 → 9小时
+
+## 改善睡眠的建议
+
+1. 固定作息时间
+2. 凉爽的房间（18-20°C）
+3. 黑暗环境
+4. 睡前1小时不看屏幕
+5. 下午2点后不摄入咖啡因
+
+使用时间计算器规划理想的睡眠时间表。`,
+			es: `Despertar aturdido a menudo no se trata de cuánto duerme, sino de cuándo despierta dentro de su ciclo de sueño.
+
+## Ciclos de sueño
+
+Cada ciclo dura aproximadamente **90 minutos**:
+- Etapa 1-2: Sueño ligero
+- Etapa 3: Sueño profundo (reparación corporal)
+- REM: Sueños vívidos, consolidación de memoria
+
+## Horarios óptimos
+
+Si necesita despertar a las 7:00 AM:
+- Acostarse a las 11:15 PM → 5 ciclos → 7.5 horas
+- Acostarse a las 9:45 PM → 6 ciclos → 9 horas
+
+## Consejos
+
+1. Horario constante
+2. Habitación fresca (18-20°C)
+3. Sin pantallas 1 hora antes de dormir
+
+Use nuestra calculadora de tiempo para planificar su horario de sueño ideal.`
+		},
+		date: '2025-01-25',
+		category: 'health'
+	},
+	{
+		slug: 'walking-distance-calories',
+		title: {
+			en: 'Walking Distance and Calorie Burn: A Complete Guide',
+			ko: '걷기 거리별 칼로리 소모: 완벽 가이드',
+			ja: 'ウォーキング距離別カロリー消費ガイド',
+			zh: '步行距离与卡路里消耗完全指南',
+			es: 'Distancia caminando y quema de calorías: guía completa'
+		},
+		description: {
+			en: 'Find out how many calories you burn walking different distances and speeds, with practical tips.',
+			ko: '다양한 거리와 속도로 걸을 때 소모되는 칼로리를 알아보고 실용적인 팁을 확인하세요.',
+			ja: '様々な距離と速度で歩いたときのカロリー消費量と実用的なヒントを紹介します。',
+			zh: '了解以不同距离和速度步行时消耗的卡路里，以及实用技巧。',
+			es: 'Descubra cuántas calorías quema caminando a diferentes distancias y velocidades.'
+		},
+		content: {
+			en: `Walking is the most accessible form of exercise. Here is exactly how many calories it burns.
+
+## Calorie Burn by Distance (70 kg / 154 lb person)
+
+| Distance | Moderate (5 km/h) | Brisk (6.5 km/h) | Fast (8 km/h) |
+|----------|-------------------|-------------------|----------------|
+| 1 km | ~50 cal | ~55 cal | ~65 cal |
+| 3 km | ~150 cal | ~165 cal | ~195 cal |
+| 5 km | ~250 cal | ~275 cal | ~325 cal |
+| 10 km | ~500 cal | ~550 cal | ~650 cal |
+
+## The Simple Calorie Formula
+
+**Calories = Body weight (kg) × Distance (km) × 0.72**
+
+This gives a rough estimate for moderate-pace walking.
+
+Adjustments:
+- Brisk walking: multiply by 1.1
+- Uphill: multiply by 1.5–2.0
+- Carrying weight (backpack): multiply by 1.1–1.3
+
+## Steps to Distance Conversion
+
+Average step length varies by height:
+- **150 cm tall**: ~60 cm step → 1,667 steps/km
+- **170 cm tall**: ~70 cm step → 1,429 steps/km
+- **185 cm tall**: ~77 cm step → 1,299 steps/km
+
+### Common Step Goals
+| Steps | Approximate Distance | Calories (70 kg) |
+|-------|---------------------|------------------|
+| 5,000 | ~3.5 km | ~175 cal |
+| 7,500 | ~5.3 km | ~263 cal |
+| 10,000 | ~7.0 km | ~350 cal |
+| 15,000 | ~10.5 km | ~525 cal |
+
+## Walking for Weight Loss
+
+To lose 0.5 kg per week through walking alone:
+- Need ~500 cal/day deficit
+- That is roughly 10 km of walking per day (70 kg person)
+- More realistic: combine 5 km walking with dietary changes
+
+## Tips to Burn More Calories While Walking
+
+1. **Increase pace**: Brisk walking burns 10–20% more
+2. **Add incline**: Hills or treadmill incline
+3. **Use arms**: Pump your arms actively
+4. **Interval walking**: Alternate 3 min fast / 2 min moderate
+5. **Add weight**: Weighted vest (not ankle weights)
+6. **Walk after meals**: Improves blood sugar control too
+
+Use our unit converter for distance and calorie calculations.`,
+			ko: `걷기는 가장 접근하기 쉬운 운동 형태입니다. 정확히 얼마나 칼로리를 태우는지 알아봅시다.
+
+## 거리별 칼로리 소모 (70 kg 기준)
+
+| 거리 | 보통 (5 km/h) | 빠른 걸음 (6.5 km/h) | 빠른 보행 (8 km/h) |
+|------|-------------|---------------------|-------------------|
+| 1 km | ~50 cal | ~55 cal | ~65 cal |
+| 3 km | ~150 cal | ~165 cal | ~195 cal |
+| 5 km | ~250 cal | ~275 cal | ~325 cal |
+| 10 km | ~500 cal | ~550 cal | ~650 cal |
+
+## 간단한 칼로리 공식
+
+**칼로리 = 체중 (kg) × 거리 (km) × 0.72**
+
+조정:
+- 빠른 걸음: ×1.1
+- 오르막: ×1.5–2.0
+- 무게 휴대 (배낭): ×1.1–1.3
+
+## 걸음 수 → 거리 변환
+
+| 걸음 수 | 대략적 거리 | 칼로리 (70 kg) |
+|---------|-----------|--------------|
+| 5,000 | ~3.5 km | ~175 cal |
+| 10,000 | ~7.0 km | ~350 cal |
+| 15,000 | ~10.5 km | ~525 cal |
+
+## 걷기로 체중 감량
+
+주 0.5kg 감량을 걷기만으로:
+- 하루 ~500cal 적자 필요
+- 70kg 기준 하루 약 10km 걷기
+- 현실적 방법: 5km 걷기 + 식단 조절 병행
+
+## 더 많은 칼로리 소모 팁
+
+1. **속도 올리기**: 빠른 걸음은 10–20% 더 소모
+2. **경사 추가**: 언덕이나 트레드밀 경사
+3. **팔 사용**: 적극적으로 팔 흔들기
+4. **인터벌 걷기**: 빠르게 3분 / 보통 2분 반복
+5. **식후 걷기**: 혈당 조절에도 도움
+
+단위 변환기로 거리와 칼로리를 계산해 보세요.`,
+			ja: `ウォーキングは最もアクセスしやすい運動形態です。どれだけカロリーを消費するか見てみましょう。
+
+## 距離別カロリー消費（70 kg基準）
+
+| 距離 | 普通（5 km/h）| 速歩（6.5 km/h）|
+|------|-------------|---------------|
+| 1 km | ~50 cal | ~55 cal |
+| 5 km | ~250 cal | ~275 cal |
+| 10 km | ~500 cal | ~550 cal |
+
+## 簡単なカロリー公式
+
+**カロリー = 体重（kg）× 距離（km）× 0.72**
+
+## 歩数目標
+
+| 歩数 | おおよその距離 | カロリー（70 kg）|
+|------|-------------|---------------|
+| 5,000 | ~3.5 km | ~175 cal |
+| 10,000 | ~7.0 km | ~350 cal |
+
+## より多くのカロリーを消費するコツ
+
+1. ペースを上げる
+2. 坂道を追加
+3. 腕を積極的に振る
+4. インターバルウォーキング
+
+単位変換ツールで距離とカロリーを計算しましょう。`,
+			zh: `步行是最容易获得的运动形式。让我们看看它到底消耗多少卡路里。
+
+## 按距离计算卡路里（70 kg基准）
+
+| 距离 | 中等（5 km/h）| 快走（6.5 km/h）|
+|------|-------------|---------------|
+| 1 km | ~50 cal | ~55 cal |
+| 5 km | ~250 cal | ~275 cal |
+| 10 km | ~500 cal | ~550 cal |
+
+## 简单卡路里公式
+
+**卡路里 = 体重（kg）× 距离（km）× 0.72**
+
+## 步数目标
+
+| 步数 | 大约距离 | 卡路里（70 kg）|
+|------|---------|--------------|
+| 5,000 | ~3.5 km | ~175 cal |
+| 10,000 | ~7.0 km | ~350 cal |
+
+## 消耗更多卡路里的技巧
+
+1. 提高速度
+2. 增加坡度
+3. 积极摆臂
+4. 间歇步行
+
+使用单位转换器计算距离和卡路里。`,
+			es: `Caminar es la forma de ejercicio más accesible. Veamos exactamente cuántas calorías quema.
+
+## Calorías por distancia (70 kg)
+
+| Distancia | Moderado (5 km/h) | Rápido (6.5 km/h) |
+|-----------|-------------------|-------------------|
+| 1 km | ~50 cal | ~55 cal |
+| 5 km | ~250 cal | ~275 cal |
+| 10 km | ~500 cal | ~550 cal |
+
+## Fórmula simple
+
+**Calorías = Peso (kg) × Distancia (km) × 0.72**
+
+## Metas de pasos
+
+| Pasos | Distancia aprox. | Calorías (70 kg) |
+|-------|-----------------|-----------------|
+| 5,000 | ~3.5 km | ~175 cal |
+| 10,000 | ~7.0 km | ~350 cal |
+
+Use nuestro convertidor de unidades para cálculos de distancia y calorías.`
+		},
+		date: '2025-01-24',
+		category: 'health'
+	},
+	{
+		slug: 'mortgage-affordability',
+		title: {
+			en: 'Mortgage Affordability: How Much House Can You Afford?',
+			ko: '주택담보대출 감당 능력 분석: 얼마짜리 집을 살 수 있을까?',
+			ja: '住宅ローン: いくらの家が買える？',
+			zh: '房贷承受能力：您能买得起多少钱的房子？',
+			es: 'Asequibilidad hipotecaria: ¿cuánta casa puede pagar?'
+		},
+		description: {
+			en: 'Calculate how much home you can afford based on income, debt, and current mortgage rates.',
+			ko: '소득, 부채, 현재 대출 금리를 기반으로 감당 가능한 주택 가격을 계산하세요.',
+			ja: '収入、負債、現在のローン金利に基づいて購入可能な住宅価格を計算しましょう。',
+			zh: '根据收入、债务和当前贷款利率计算您能负担的房价。',
+			es: 'Calcule cuánta casa puede pagar según sus ingresos, deudas y tasas hipotecarias actuales.'
+		},
+		content: {
+			en: `Buying a home is likely the biggest financial decision you will make. Here is how to figure out what you can afford.
+
+## The Key Rules
+
+### 28/36 Rule
+- **28%**: Monthly housing costs should not exceed 28% of gross monthly income
+- **36%**: Total debt payments should not exceed 36% of gross monthly income
+
+### Example
+Gross monthly income: $6,000
+- Max housing cost: $6,000 × 28% = $1,680/month
+- Max total debt: $6,000 × 36% = $2,160/month
+- If you have $400/month in other debt: max housing = $1,760/month
+
+## What Is Included in "Housing Cost"?
+
+**PITI**: Principal + Interest + Taxes + Insurance
+
+| Component | Typical % of Payment |
+|-----------|---------------------|
+| Principal + Interest | 65–75% |
+| Property Tax | 10–15% |
+| Homeowner's Insurance | 3–5% |
+| PMI (if <20% down) | 5–10% |
+
+## How Down Payment Affects Affordability
+
+| Down Payment | Effect |
+|-------------|--------|
+| 5% | Requires PMI, higher monthly payments |
+| 10% | May still need PMI |
+| 20% | No PMI, lower monthly payments |
+| 30%+ | Lowest payments, strongest offer |
+
+## Korean Housing Market Considerations
+
+### LTV (Loan-to-Value) Limits
+- Regulated area: 40–50% LTV
+- Non-regulated area: Up to 70% LTV
+- This means larger down payments required in Korea
+
+### DSR (Debt Service Ratio)
+- Total debt payments must not exceed 40% of annual income
+- Includes ALL loans, not just the mortgage
+
+## Hidden Costs to Budget For
+
+1. **Closing costs**: 2–5% of purchase price
+2. **Moving expenses**: ₩500K–2M
+3. **Maintenance reserve**: 1–2% of home value annually
+4. **Furniture and appliances**: Budget varies widely
+5. **Acquisition tax**: 1–3% (Korea)
+
+## Affordability Calculator Approach
+
+1. Calculate 28% of gross monthly income
+2. Subtract property tax estimate (÷12)
+3. Subtract insurance estimate (÷12)
+4. Remaining amount = available for principal + interest
+5. Use mortgage tables to find the home price this supports
+
+Use our loan calculator to model different mortgage scenarios.`,
+			ko: `주택 구매는 아마도 인생에서 가장 큰 재정적 결정일 것입니다. 감당 가능한 금액을 파악하는 방법을 알아봅시다.
+
+## 핵심 규칙
+
+### 28/36 규칙
+- **28%**: 월 주거비가 월 총소득의 28%를 넘지 않아야 합니다
+- **36%**: 총 부채 상환금이 월 총소득의 36%를 넘지 않아야 합니다
+
+### 예시
+월 총소득: 500만원
+- 최대 주거비: 500만 × 28% = 140만원/월
+- 최대 총 부채: 500만 × 36% = 180만원/월
+
+## 한국 주택 시장 고려사항
+
+### LTV (담보인정비율)
+- 규제 지역: 40–50%
+- 비규제 지역: 최대 70%
+- 한국에서는 더 큰 자기자본이 필요합니다
+
+### DSR (총부채원리금상환비율)
+- 모든 대출의 원리금 상환액이 연소득의 40%를 넘지 않아야 함
+- 주택담보대출뿐 아니라 모든 대출 포함
+
+## 숨겨진 비용
+
+1. **취득세**: 매매가의 1–3%
+2. **중개 수수료**: 0.3–0.9%
+3. **이사 비용**: 50–200만원
+4. **수리 적립금**: 주택 가치의 연 1–2%
+5. **가구 및 가전**: 예산 폭넓음
+
+## 감당 능력 계산 방법
+
+1. 월 총소득의 28% 계산
+2. 재산세 추정치 차감
+3. 보험 추정치 차감
+4. 남은 금액 = 원금 + 이자에 사용 가능
+5. 대출 테이블로 이 금액이 지원하는 주택 가격 산출
+
+대출 계산기를 사용하여 다양한 모기지 시나리오를 모델링해 보세요.`,
+			ja: `住宅購入はおそらく人生で最大の財務決定です。購入可能な金額を把握する方法を学びましょう。
+
+## 基本ルール
+
+### 28/36ルール
+- **28%**：月々の住居費が月収の28%を超えないこと
+- **36%**：総債務返済額が月収の36%を超えないこと
+
+## 住宅費に含まれるもの
+
+元本 + 利息 + 固定資産税 + 保険
+
+## 頭金の影響
+
+| 頭金 | 効果 |
+|------|------|
+| 10% | 高い月々の支払い |
+| 20% | バランスの取れた支払い |
+| 30%+ | 最も低い支払い |
+
+## 隠れたコスト
+
+1. 仲介手数料
+2. 引っ越し費用
+3. 修繕積立金
+4. 家具・家電
+5. 不動産取得税
+
+ローン計算機で様々なシナリオをシミュレーションしましょう。`,
+			zh: `买房可能是您一生中最大的财务决定。让我们看看如何确定您能负担的金额。
+
+## 关键规则
+
+### 28/36规则
+- **28%**：每月住房成本不应超过月总收入的28%
+- **36%**：总债务还款不应超过月总收入的36%
+
+## 首付的影响
+
+| 首付 | 效果 |
+|------|------|
+| 10% | 较高月供 |
+| 20% | 平衡的月供 |
+| 30%+ | 最低月供 |
+
+## 隐藏成本
+
+1. 交易费用 / 2. 搬家费 / 3. 维修储备金 / 4. 家具家电 / 5. 契税
+
+使用贷款计算器模拟不同的房贷方案。`,
+			es: `Comprar una casa es probablemente la decisión financiera más grande que tomará.
+
+## La regla 28/36
+
+- **28%**: Costos de vivienda no deben exceder el 28% del ingreso bruto mensual
+- **36%**: Pagos totales de deuda no deben exceder el 36%
+
+## Efecto del enganche
+
+| Enganche | Efecto |
+|----------|--------|
+| 10% | Pagos mensuales más altos |
+| 20% | Pagos equilibrados |
+| 30%+ | Pagos más bajos |
+
+## Costos ocultos
+
+1. Costos de cierre (2-5%)
+2. Gastos de mudanza
+3. Reserva de mantenimiento
+4. Muebles y electrodomésticos
+
+Use nuestra calculadora de préstamos para modelar diferentes escenarios hipotecarios.`
+		},
+		date: '2025-01-23',
+		category: 'finance'
+	},
+	{
+		slug: 'inflation-purchasing-power',
+		title: {
+			en: 'Inflation and Purchasing Power: Understanding Your Money\'s Real Value',
+			ko: '인플레이션과 구매력: 내 돈의 실제 가치 이해하기',
+			ja: 'インフレと購買力：お金の本当の価値を理解する',
+			zh: '通货膨胀与购买力：了解您资金的真实价值',
+			es: 'Inflación y poder adquisitivo: entendiendo el valor real de su dinero'
+		},
+		description: {
+			en: 'Learn how inflation erodes purchasing power and strategies to protect your savings over time.',
+			ko: '인플레이션이 구매력을 어떻게 침식하는지, 저축을 보호하는 전략을 알아보세요.',
+			ja: 'インフレが購買力をどう侵食するか、貯蓄を守る戦略を学びましょう。',
+			zh: '了解通货膨胀如何侵蚀购买力以及保护储蓄的策略。',
+			es: 'Aprenda cómo la inflación erosiona el poder adquisitivo y estrategias para proteger sus ahorros.'
+		},
+		content: {
+			en: `Inflation is the silent tax that makes your money worth less every year.
+
+## How Inflation Works
+
+Inflation measures the rate at which prices increase over time. At 3% annual inflation:
+- $100 today = $97 purchasing power next year
+- $100 today = $74 purchasing power in 10 years
+- $100 today = $55 purchasing power in 20 years
+
+## The Rule of 72 for Inflation
+
+**72 / inflation rate = years for prices to double**
+
+- At 2% inflation: prices double in 36 years
+- At 3% inflation: prices double in 24 years
+- At 5% inflation: prices double in 14.4 years
+- At 7% inflation: prices double in ~10 years
+
+## Real vs Nominal Returns
+
+Your investment returns must beat inflation to actually grow your wealth.
+
+| | Nominal Return | Inflation | Real Return |
+|--|---------------|-----------|------------|
+| Savings account | 2% | 3% | -1% (losing money!) |
+| Bonds | 5% | 3% | 2% |
+| Stock market (avg) | 10% | 3% | 7% |
+
+## Inflation's Impact on Savings
+
+$100,000 in a bank account at 1% interest with 3% inflation:
+
+| Year | Nominal Value | Real Purchasing Power |
+|------|-------------|----------------------|
+| 0 | $100,000 | $100,000 |
+| 5 | $105,101 | $90,855 |
+| 10 | $110,462 | $82,535 |
+| 20 | $122,019 | $68,123 |
+
+You technically have MORE money, but it buys LESS.
+
+## Strategies to Beat Inflation
+
+### 1. Invest in Equities
+Stocks historically return 7–10% annually, outpacing inflation.
+
+### 2. Real Estate
+Property values and rents tend to rise with inflation.
+
+### 3. Inflation-Protected Securities
+- US: TIPS (Treasury Inflation-Protected Securities)
+- Korea: 물가연동국채
+
+### 4. Commodities
+Gold, oil, and agricultural products often rise with inflation.
+
+### 5. Increase Your Income
+Skills development and career advancement typically outpace inflation.
+
+## What NOT to Do
+- Keep large amounts in low-interest savings accounts
+- Stuff cash under your mattress
+- Ignore inflation when retirement planning
+- Assume past inflation rates will continue unchanged
+
+Use our percentage calculator to compute inflation-adjusted values.`,
+			ko: `인플레이션은 매년 돈의 가치를 줄이는 보이지 않는 세금입니다.
+
+## 인플레이션의 작동 원리
+
+인플레이션은 시간에 따른 물가 상승률을 측정합니다. 연 3% 인플레이션 기준:
+- 오늘의 100만원 = 내년 97만원의 구매력
+- 오늘의 100만원 = 10년 후 74만원의 구매력
+- 오늘의 100만원 = 20년 후 55만원의 구매력
+
+## 72의 법칙 (인플레이션용)
+
+**72 / 인플레이션율 = 물가가 두 배가 되는 기간**
+
+- 2% 인플레이션: 36년 만에 물가 두 배
+- 3% 인플레이션: 24년 만에 물가 두 배
+- 5% 인플레이션: 14.4년 만에 물가 두 배
+
+## 실질 수익률 vs 명목 수익률
+
+투자 수익률이 인플레이션을 이겨야 실제로 부가 늘어납니다.
+
+| | 명목 수익률 | 인플레이션 | 실질 수익률 |
+|--|-----------|----------|-----------|
+| 예금 | 2% | 3% | -1% (손실!) |
+| 채권 | 5% | 3% | 2% |
+| 주식 (평균) | 10% | 3% | 7% |
+
+## 인플레이션이 저축에 미치는 영향
+
+은행 계좌에 1억원 (이자 1%, 인플레이션 3%):
+
+| 년 | 명목 가치 | 실질 구매력 |
+|---|---------|-----------|
+| 0 | 1억원 | 1억원 |
+| 10 | 1.1억원 | 8,254만원 |
+| 20 | 1.22억원 | 6,812만원 |
+
+명목상 더 많은 돈이지만, 살 수 있는 것은 더 적습니다.
+
+## 인플레이션 대응 전략
+
+### 1. 주식 투자
+주식은 역사적으로 연 7–10% 수익, 인플레이션을 능가합니다.
+
+### 2. 부동산
+부동산 가치와 임대료는 인플레이션과 함께 상승하는 경향이 있습니다.
+
+### 3. 물가연동 증권
+물가연동국채로 인플레이션에 직접 연동된 수익 확보
+
+### 4. 소득 증가
+기술 개발과 커리어 발전이 일반적으로 인플레이션을 능가합니다.
+
+## 하지 말아야 할 것
+- 저금리 예금에 큰 금액 보관
+- 현금을 매트리스 밑에 숨기기
+- 은퇴 계획 시 인플레이션 무시
+
+퍼센트 계산기를 사용하여 인플레이션 조정 가치를 계산해 보세요.`,
+			ja: `インフレは毎年お金の価値を減らす見えない税金です。
+
+## インフレの仕組み
+
+年3%のインフレの場合：
+- 今日の100万円 = 来年97万円の購買力
+- 今日の100万円 = 10年後74万円の購買力
+
+## 72の法則（インフレ用）
+
+**72 / インフレ率 = 物価が2倍になる年数**
+- 2%：36年 / 3%：24年 / 5%：14.4年
+
+## 実質リターン vs 名目リターン
+
+| | 名目リターン | インフレ | 実質リターン |
+|--|-----------|---------|-----------|
+| 預金 | 1% | 3% | -2%（損失！）|
+| 株式（平均）| 10% | 3% | 7% |
+
+## インフレ対策
+
+1. 株式投資：歴史的に年7-10%のリターン
+2. 不動産：インフレと共に価値が上昇
+3. インフレ連動債
+4. 収入を増やす
+
+パーセント計算機でインフレ調整後の価値を計算しましょう。`,
+			zh: `通货膨胀是每年默默降低您资金价值的隐形税。
+
+## 通货膨胀如何运作
+
+年3%通胀率下：
+- 今天的100元 = 明年97元的购买力
+- 今天的100元 = 10年后74元的购买力
+
+## 72法则（通胀版）
+
+**72 / 通胀率 = 物价翻倍的年数**
+- 2%：36年 / 3%：24年 / 5%：14.4年
+
+## 实际回报 vs 名义回报
+
+| | 名义回报 | 通胀 | 实际回报 |
+|--|--------|------|--------|
+| 存款 | 2% | 3% | -1%（亏损！）|
+| 股票（平均）| 10% | 3% | 7% |
+
+## 对抗通胀的策略
+
+1. 股票投资
+2. 房地产
+3. 通胀保值债券
+4. 增加收入
+
+使用百分比计算器计算通胀调整后的价值。`,
+			es: `La inflación es el impuesto silencioso que hace que su dinero valga menos cada año.
+
+## Cómo funciona
+
+Con 3% de inflación anual:
+- $100 hoy = $74 de poder adquisitivo en 10 años
+- $100 hoy = $55 en 20 años
+
+## La Regla del 72
+
+**72 / tasa de inflación = años para que los precios se dupliquen**
+- Al 2%: 36 años / Al 3%: 24 años / Al 5%: 14.4 años
+
+## Estrategias para superar la inflación
+
+1. Invertir en acciones (históricamente 7-10% anual)
+2. Bienes raíces
+3. Valores protegidos contra la inflación
+4. Aumentar sus ingresos
+
+Use nuestra calculadora de porcentajes para calcular valores ajustados por inflación.`
+		},
+		date: '2025-01-22',
+		category: 'finance'
 	}
 ];
 
