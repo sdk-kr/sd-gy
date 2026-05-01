@@ -134,9 +134,28 @@
 	<meta property="og:url" content="https://sd.gy/{lang}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="SD.gy" />
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="SD.gy - {t('home.title')}" />
 	<meta name="twitter:description" content={t('home.subtitle')} />
+	<meta name="twitter:image" content="https://sd.gy/og-image.png" />
+	<meta property="og:image" content="https://sd.gy/og-image.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'WebSite',
+		name: 'SD.gy',
+		url: 'https://sd.gy',
+		description: 'Free everyday calculators'
+	})}</` + `script>`}
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'Organization',
+		name: 'SD.gy',
+		url: 'https://sd.gy',
+		logo: 'https://sd.gy/og-image.png',
+		sameAs: ['https://github.com/sdk-kr']
+	})}</` + `script>`}
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 py-12">
