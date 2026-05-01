@@ -10397,6 +10397,2557 @@ Use nuestra calculadora de porcentajes para calcular valores ajustados por infla
 		},
 		date: '2025-01-22',
 		category: 'finance'
+	},
+	{
+		slug: 'meal-planning-on-budget',
+		title: { en: 'Meal Planning on a Budget', ko: '예산 내 식단 계획' },
+		description: { en: 'Cut grocery costs without giving up nutrition or variety.', ko: '영양과 다양성을 포기하지 않고 식료품 비용 절감.' },
+		content: {
+			en: `Meal planning is the highest-leverage habit for cutting food costs. Without it, you buy ingredients you don't use and end up ordering takeout because nothing thaws in time.
+
+## Pick a Planning Cadence
+
+Weekly works for most households. Plan dinners explicitly; let lunches use leftovers. Pick a fixed day (Saturday morning) when you sit down with a coffee and the calendar.
+
+## Build Around Sales
+
+Check the weekly grocery flyer before deciding meals. Build dinners around what's discounted: chicken thighs at $1.99/lb means three meals featuring chicken that week.
+
+## The 5-2 Rule
+
+Plan five real dinners, leave two slots open for leftovers, takeout, or a "use what's in the fridge" night. This prevents food waste and gives flexibility for unexpected days.
+
+## Cheap Protein Anchors
+
+- Eggs: 25 cents each, complete protein, infinite recipes
+- Dried beans: 50 cents per pound, 8 servings
+- Chicken thighs: cheaper and more flavorful than breasts
+- Canned tuna and sardines: shelf-stable, omega-3
+- Tofu and tempeh: cheap when bought from Asian groceries
+
+## Bulk Staples
+
+Rice, oats, pasta, dried beans, and frozen vegetables form the cheap backbone. A $20 sack of rice lasts a single person 3+ months.
+
+## Shop the Perimeter
+
+Produce, dairy, meat, and eggs sit on the perimeter of most stores. Center aisles are mostly processed food at higher cost per nutrient. Spend 80% of grocery time and budget on the perimeter.
+
+## Track and Adjust
+
+For the first month, keep receipts and total what you spent. Most households over-spend on snacks and beverages. Cutting just those by 50% often saves $50-100/month.
+
+## Sample Week ($60-80 for two people)
+
+- Mon: rice + bean burrito bowls
+- Tue: roast chicken thighs + roasted veg
+- Wed: chicken pasta with leftover thighs
+- Thu: omelet + toast
+- Fri: tuna pasta or fried rice (fridge clean-out)
+
+For broader money management see [household budget 50/30/20](/blog/household-budget-50-30-20).`,
+			ko: `식단 계획은 식비 절감에 가장 효과적인 습관입니다. 없으면 안 쓸 재료를 사고 결국 배달을 시키게 됩니다.
+
+## 계획 주기
+
+대부분 가정에 주간이 적합. 저녁만 명시적 계획, 점심은 남은 것 활용.
+
+## 할인 중심
+
+주간 전단지 확인 후 메뉴 결정. 할인 품목 중심으로 그 주 식단 구성.
+
+## 5-2 규칙
+
+5끼 진짜 저녁 + 2끼 자유(남은 것, 배달, "냉장고 비우기"). 음식 낭비 방지와 유연성.
+
+## 저렴한 단백질 앵커
+
+- 계란
+- 말린 콩
+- 닭 허벅지
+- 캔 참치/정어리
+- 두부/템페
+
+## 대량 주식
+
+쌀, 귀리, 파스타, 콩, 냉동 채소.
+
+## 매장 둘레 쇼핑
+
+농산물, 유제품, 육류, 계란 = 둘레. 중앙 통로는 가공식품 위주.
+
+## 추적과 조정
+
+첫 달 영수증 모아 총액 계산. 간식과 음료 50% 컷이면 월 $50-100 절감.
+
+다른 자금 관리는 [household budget 50/30/20](/blog/household-budget-50-30-20) 참고.`
+		},
+		date: '2026-04-30', category: 'lifestyle'
+	},
+	{
+		slug: 'daily-water-intake-by-age',
+		title: { en: 'Daily Water Intake by Age', ko: '연령별 일일 수분 섭취량' },
+		description: { en: 'How much water you actually need varies by age, body size, and activity.', ko: '실제로 필요한 물의 양은 연령, 체격, 활동에 따라 다릅니다.' },
+		content: {
+			en: `"Drink 8 glasses a day" oversimplifies hydration. Real needs vary widely by individual.
+
+## Baseline by Age
+
+US National Academies guidelines (total water from all sources, including food):
+
+- Infants 0-6 months: 0.7 L (from milk)
+- Infants 7-12 months: 0.8 L
+- Children 1-3: 1.3 L
+- Children 4-8: 1.7 L
+- Boys 9-13: 2.4 L / Girls 9-13: 2.1 L
+- Men 14+: 3.7 L / Women 14+: 2.7 L
+
+About 20% comes from food. Pure drinking water target: roughly 2.5 L for men, 2 L for women.
+
+## Adjustments
+
+- **Hot climate or sweating**: add 0.5-1 L per hour of activity
+- **Pregnancy**: add ~0.3 L
+- **Breastfeeding**: add ~0.7 L
+- **Fever, vomiting, diarrhea**: add to replace losses
+- **High altitude**: increased respiration loses water faster
+
+## Signs You Need More
+
+- Dark yellow urine (target pale straw color)
+- Dry mouth or lips
+- Headache without other cause
+- Fatigue or dizziness
+- Less than 4-6 trips to the bathroom per day
+
+## Signs You're Drinking Too Much
+
+Hyponatremia (low blood sodium) is rare but real. Endurance athletes drinking only water during long events have died. Symptoms: nausea, confusion, swelling. Drink to thirst plus electrolytes for events over 2 hours.
+
+## Caffeine and Alcohol
+
+Both are mildly diuretic but coffee and tea still net hydrate. Alcohol nets dehydrates substantially; alternate with water.
+
+## Hydration Beyond Water
+
+- Soup and broth
+- Watermelon, cucumber, oranges (90%+ water)
+- Yogurt and milk
+- Herbal tea
+
+## Practical System
+
+- Glass of water on waking
+- Refillable bottle on desk
+- Glass with each meal
+- Extra during workouts
+
+For activity tracking see [10000 steps myth fact](/blog/10000-steps-myth-fact).`,
+			ko: `"하루 8잔" 권고는 너무 단순화. 실제 요구량은 개인차가 큽니다.
+
+## 연령별 기준 (미국 가이드, 음식 포함 총량)
+
+- 0-6개월: 0.7L
+- 1-3세: 1.3L
+- 9-13세 남: 2.4L / 여: 2.1L
+- 14세+ 남: 3.7L / 여: 2.7L
+
+음식에서 약 20%. 순수 음용수 목표: 남 약 2.5L, 여 약 2L.
+
+## 조정
+
+- 더위/땀: 활동 시간당 0.5-1L 추가
+- 임신: +0.3L
+- 수유: +0.7L
+- 발열/구토/설사: 손실 보충
+- 고도
+
+## 부족 신호
+
+- 짙은 노란색 소변
+- 입/입술 건조
+- 원인 없는 두통
+- 피로/현기증
+- 하루 4-6회 미만 화장실
+
+## 과다 신호
+
+저나트륨혈증은 드물지만 실재. 장시간 운동 시 물만 마시면 위험.
+
+## 카페인/알코올
+
+둘 다 약한 이뇨제. 커피/차는 순 수화 효과. 알코올은 탈수 효과 큼.
+
+## 물 외 수화
+
+수프, 수박/오이/오렌지(90%+ 수분), 요거트, 우유, 허브차.
+
+## 실용 시스템
+
+기상 시 한 잔, 책상에 보온병, 식사마다, 운동 중 추가.
+
+활동 추적은 [10000 steps myth fact](/blog/10000-steps-myth-fact) 참고.`
+		},
+		date: '2026-04-29', category: 'health'
+	},
+	{
+		slug: '10000-steps-myth-fact',
+		title: { en: '10,000 Steps Myth and Fact', ko: '1만보 신화와 사실' },
+		description: { en: 'Where the 10,000-step number came from and what science actually shows.', ko: '1만보 숫자의 유래와 과학이 실제로 보여주는 것.' },
+		content: {
+			en: `The 10,000-steps target is the most successful marketing campaign in fitness history. The number originated from a 1965 Japanese pedometer named "manpo-kei" — literally "10,000 steps meter." Marketing, not medicine.
+
+## What Research Actually Shows
+
+Large-scale 2019-2024 studies find:
+
+- Mortality benefits start around 4,000 steps/day
+- Steepest improvement curve between 4,000-7,500
+- Diminishing returns after 7,500-8,000 for most adults
+- Pace matters: brisk walking adds benefit beyond raw count
+- For older adults (65+), benefits plateau closer to 6,000-7,000
+
+A 2022 meta-analysis in Lancet Public Health pegged the optimal range at 8,000-10,000 for under-60, 6,000-8,000 for 60+.
+
+## What Counts
+
+A step is a step — vacuuming, walking the dog, climbing stairs all count. Tracking devices undercount housework slightly; they overcount when arms swing without locomotion.
+
+## Beyond Steps
+
+Steps measure volume, not intensity. The CDC adds:
+
+- 150 minutes/week moderate activity (brisk walking, cycling)
+- OR 75 minutes/week vigorous (running, intervals)
+- Plus 2 sessions/week strength training
+
+A sedentary office worker hitting 10,000 steps via short bursts misses most benefits compared to 8,000 with intervals.
+
+## Sitting Is the Real Risk
+
+Long sitting blocks (>2 hours) reduce insulin sensitivity even in active people. Break sitting every 30-60 minutes; a quick walk to fill water counts.
+
+## Practical Targets
+
+- Sedentary baseline: aim for 4,000-6,000
+- General health: 7,000-9,000
+- Weight loss support: 10,000+ (with calorie awareness)
+- Older adults: 6,000-8,000 with focus on pace
+
+## Tracking
+
+Phones undercount when in pockets, overcount when shaken. Wrist trackers are usually within 5%. Pedometer apps are fine for trends; do not chase exact numbers.
+
+## Behavior Change
+
+Increase by 500-1,000 steps/week, not all at once. Pair with existing habits: park farther, walk while on calls, take stairs.
+
+For desk worker mobility see [desk job stretching routine](/blog/desk-job-stretching-routine).`,
+			ko: `1만보 목표는 피트니스 마케팅 역사상 가장 성공적인 캠페인. 1965년 일본 만보계 "만포케이"에서 유래 - 마케팅이지 의학 아님.
+
+## 실제 연구
+
+2019-2024 대규모 연구:
+- 4,000보부터 사망률 혜택 시작
+- 4,000-7,500이 가장 가파른 개선
+- 7,500-8,000 이후 수확 체감
+- 속도 중요
+- 65세+ 6,000-7,000에서 플래토
+
+2022 Lancet 메타분석: 60세 미만 8,000-10,000, 60세+ 6,000-8,000.
+
+## 무엇이 카운트
+
+청소, 산책, 계단 모두 카운트.
+
+## 걸음을 넘어
+
+CDC 추가:
+- 주 150분 중강도 또는 75분 고강도
+- 주 2회 근력 운동
+
+## 앉아 있기가 진짜 위험
+
+2시간+ 연속 앉기는 인슐린 민감도 감소. 30-60분마다 끊기.
+
+## 실용 목표
+
+- 좌식 베이스라인: 4,000-6,000
+- 일반 건강: 7,000-9,000
+- 체중 감량 지원: 10,000+
+- 노인: 6,000-8,000
+
+## 행동 변화
+
+주당 500-1,000보씩 증가. 기존 습관과 페어링.
+
+데스크 근로자 모빌리티: [desk job stretching routine](/blog/desk-job-stretching-routine).`
+		},
+		date: '2026-04-28', category: 'health'
+	},
+	{
+		slug: 'intermittent-fasting-guide',
+		title: { en: 'Intermittent Fasting: Practical Guide', ko: '간헐적 단식 실용 가이드' },
+		description: { en: 'How IF works, common protocols, and who should not try it.', ko: 'IF 작동 원리, 일반적 프로토콜, 시도하지 말아야 할 사람.' },
+		content: {
+			en: `Intermittent fasting (IF) means restricting eating to specific windows. The popular interest exploded post-2015; the research has caught up with mixed but mostly positive findings.
+
+## Common Protocols
+
+- **16:8** — eat within an 8-hour window (e.g., 12-8 pm), fast 16 hours. Easiest to start.
+- **18:6** — tighter window
+- **OMAD** — one meal a day, ~22 hour fast
+- **5:2** — eat normally 5 days, 500-600 calories on 2 non-consecutive days
+- **Alternate-day** — full fast or low-cal every other day
+
+## Why People Try It
+
+- Simpler than tracking macros for many
+- Mild calorie reduction without explicit dieting
+- Fits busy mornings (skip breakfast naturally)
+- Some report sharper focus mid-fast
+
+## What Research Shows
+
+- Modest weight loss similar to calorie restriction
+- Some metabolic improvements (insulin sensitivity, fasting glucose)
+- Mixed evidence on muscle mass preservation
+- Cardiovascular markers improve in some studies, not others
+
+The picture is "useful tool, not miracle."
+
+## Who Should Avoid
+
+- Pregnant or breastfeeding
+- History of eating disorders
+- Type 1 diabetes (without medical supervision)
+- Children and teens
+- Underweight individuals
+- Anyone on medications requiring food
+
+If you take prescription medications or have any chronic condition, consult a doctor before changing your eating pattern.
+
+## How to Start
+
+1. Push breakfast 1 hour later for a week
+2. Add another hour each week
+3. Land at 16:8 over 4 weeks
+4. Maintain for at least a month before judging results
+
+## During the Fast
+
+- Water, plain coffee, plain tea: fine
+- Cream/sugar in coffee: technically breaks fast
+- Electrolytes (especially sodium and potassium): help with headaches and fatigue
+
+## During the Eating Window
+
+This is where most IF efforts fail. A 16:8 window of donuts and pizza is a 16:8 window of donuts and pizza. Eat normal meals: protein, vegetables, complex carbs.
+
+## Common Pitfalls
+
+- Overeating to compensate
+- Insufficient protein leading to muscle loss
+- Caffeine overuse to suppress hunger
+- Social isolation around meals
+
+## When to Stop
+
+- Hair thinning
+- Persistent fatigue beyond first 2 weeks
+- Disordered eating thoughts emerging
+- Loss of menstrual cycle
+- Cold intolerance
+
+For other lifestyle adjustments see [sleep debt recovery](/blog/sleep-debt-recovery).`,
+			ko: `간헐적 단식(IF)은 특정 창에서만 먹는 것. 2015년 이후 인기 폭발, 연구는 혼합되지만 대체로 긍정적.
+
+## 일반 프로토콜
+
+- 16:8 — 8시간 식사창
+- 18:6 — 더 좁은 창
+- OMAD — 하루 한 끼
+- 5:2 — 5일 정상, 2일 500-600칼로리
+- 격일 단식
+
+## 시도 이유
+
+- 매크로 추적보다 단순
+- 명시적 다이어트 없이 약한 칼로리 감소
+- 바쁜 아침에 적합
+
+## 연구 결과
+
+칼로리 제한과 비슷한 체중 감소, 일부 대사 개선.
+
+"유용한 도구, 기적 아님."
+
+## 피해야 할 사람
+
+임신/수유, 섭식 장애 이력, 1형 당뇨, 어린이/청소년, 저체중.
+
+## 시작 방법
+
+1. 1주일간 아침 1시간 미루기
+2. 매주 1시간씩 추가
+3. 4주에 16:8 도달
+4. 결과 판단 전 최소 1개월 유지
+
+## 단식 중
+
+물, 블랙 커피/차 OK. 크림/설탕은 단식 깨짐. 전해질 도움.
+
+## 흔한 함정
+
+보상 과식, 단백질 부족, 카페인 남용, 식사 사회적 고립.
+
+## 중단할 때
+
+머리카락 빠짐, 2주 후에도 지속되는 피로, 섭식 장애 사고, 월경 중단, 추위 못 견딤.
+
+다른 생활 습관: [sleep debt recovery](/blog/sleep-debt-recovery).`
+		},
+		date: '2026-04-27', category: 'health'
+	},
+	{
+		slug: 'sleep-debt-recovery',
+		title: { en: 'Sleep Debt Recovery', ko: '수면 빚 회복' },
+		description: { en: 'You cannot fully repay sleep debt with one weekend. Here is what actually helps.', ko: '주말 하루로 수면 빚을 완전히 갚을 수 없습니다. 실제로 도움되는 것.' },
+		content: {
+			en: `Cumulative sleep loss adds up faster than people realize. Six hours per night for two weeks impairs cognitive function as much as 48 hours of total sleep deprivation, per Penn State research.
+
+## What Sleep Debt Does
+
+- Reaction time: equivalent to alcohol intoxication after 17 hours awake
+- Memory consolidation: weakened
+- Immune function: reduced
+- Insulin sensitivity: drops noticeably
+- Mood and judgment: degraded
+- Long-term: linked to cardiovascular disease, diabetes, dementia
+
+## You Cannot Fully Catch Up
+
+A Saturday morning sleep-in feels great but does not fully reverse cognitive deficits. Recovery requires consistent extension over multiple weeks.
+
+## Real Recovery Plan
+
+1. Add 1-2 hours of sleep nightly for 2-3 weeks
+2. Maintain wake time within ~1 hour across days
+3. Allow ~10-14 days for sleep architecture to normalize
+4. Avoid trying to "make up" all at once on weekends — this disrupts circadian rhythm
+
+## Sleep Hygiene Basics
+
+- Same wake time every day, including weekends
+- Last caffeine before 2 pm (caffeine has a 6-hour half-life)
+- No alcohol within 3 hours of bed (it suppresses REM)
+- Cool bedroom (65-68°F / 18-20°C is optimal for most)
+- Dark room (blackout curtains or eye mask)
+- Phone out of bedroom
+
+## Naps
+
+Naps help. The science:
+- 20 minutes: cognitive boost without grogginess
+- 60-90 minutes: includes a full sleep cycle, deeper recovery
+- Avoid 30-60 minutes: wake mid-deep-sleep, feel worse
+
+Best time: 1-3 pm aligned with circadian dip.
+
+## Tracking
+
+A simple sleep log (time in bed, time asleep estimate, wake count) for 2 weeks reveals patterns. Wearables (Oura, Garmin, Apple Watch) approximate sleep stages but their accuracy varies; trends matter more than nightly precision.
+
+## When to See a Doctor
+
+- Snoring with witnessed pauses (possible sleep apnea)
+- Excessive daytime sleepiness despite 8+ hours in bed
+- Difficulty staying asleep multiple nights per week beyond 4 weeks
+- Restless legs disturbing sleep
+
+## Shift Workers and Travelers
+
+The above assumes a standard schedule. Shift work and frequent timezone change require specialized strategies; consult sleep medicine resources.
+
+For meditation and stress reduction see [meditation for beginners](/blog/meditation-for-beginners).`,
+			ko: `누적 수면 부족은 생각보다 빨리 쌓입니다. 2주간 6시간/밤은 48시간 완전 수면 박탈만큼 인지 기능 손상 (Penn State).
+
+## 수면 빚의 영향
+
+반응 시간(17시간 깨면 음주 운전 수준), 기억 통합 약화, 면역 감소, 인슐린 민감도 저하, 기분/판단력 저하, 장기적으로 심혈관 질환/당뇨/치매 연관.
+
+## 완전히 따라잡을 수 없음
+
+토요일 늦잠은 기분 좋지만 인지 결손을 완전히 되돌리지 못함.
+
+## 실제 회복 계획
+
+1. 매일 1-2시간 추가 수면, 2-3주
+2. 기상 시간 ~1시간 이내 일관성
+3. 수면 구조 정상화에 10-14일
+4. 주말에 한꺼번에 보충 시도 금지
+
+## 수면 위생
+
+매일 같은 기상 시간, 카페인 오후 2시 전, 알코올 취침 3시간 전, 시원한 침실 (18-20°C), 어두운 방, 휴대폰 침실 밖.
+
+## 낮잠
+
+20분 - 인지 부스트
+60-90분 - 깊은 회복
+30-60분 - 깊은 잠 중간에 깨서 더 나쁨
+
+최적: 오후 1-3시.
+
+## 추적
+
+단순 수면 로그 2주가 패턴 드러냄. 웨어러블은 트렌드 위주.
+
+## 의사 만날 때
+
+코골이 + 호흡 정지, 8시간 자도 졸음, 4주 이상 잠들기/유지 어려움, 수면 방해 다리 불편.
+
+명상/스트레스 감소: [meditation for beginners](/blog/meditation-for-beginners).`
+		},
+		date: '2026-04-26', category: 'health'
+	},
+	{
+		slug: 'desk-job-stretching-routine',
+		title: { en: 'Desk Job Stretching Routine', ko: '사무직 스트레칭 루틴' },
+		description: { en: 'A 10-minute routine for shoulders, hips, and back that fits any workday.', ko: '어떤 근무일에도 맞는 어깨, 엉덩이, 등 10분 루틴.' },
+		content: {
+			en: `Desk work compresses hips, rounds shoulders, and tightens neck and lower back. A daily routine prevents the chronic pain that creeps up in your 30s.
+
+## The 10-Minute Sequence
+
+Do once daily, ideally mid-afternoon when stiffness peaks.
+
+### 1. Cat-Cow (1 minute)
+
+On hands and knees. Inhale, drop belly, look up. Exhale, round spine, tuck chin. 10 slow cycles. Mobilizes the entire spine.
+
+### 2. Doorway Chest Stretch (1 minute each side)
+
+Forearm against doorway, elbow at shoulder height. Step forward gently. Opens the chest tissue that shortens from typing.
+
+### 3. Couch Stretch (1 minute each side)
+
+Kneel on a cushion facing away from a couch. Place top of foot on the seat. Tuck pelvis. Strong hip flexor stretch — most desk workers desperately need this.
+
+### 4. Pigeon Pose (1 minute each side)
+
+From all fours, bring right shin forward parallel to the front of the mat. Slide left leg back. Sink hips toward the floor. Targets glutes and outer hip.
+
+### 5. Thread the Needle (1 minute each side)
+
+From hands and knees, slide right arm under left, lower right shoulder to floor. Releases the upper back and shoulders.
+
+### 6. Forward Fold with Bent Knees (1 minute)
+
+Stand, bend knees significantly, fold forward, let hands hang. Releases lower back and hamstrings without straining.
+
+### 7. Neck Stretches (1 minute)
+
+Slow chin-to-chest, ear-to-shoulder, look-over-shoulder. Hold each 20 seconds. Tight necks cause headaches.
+
+## Throughout the Day
+
+- Set a 30-minute timer to stand and walk
+- Use voice calls as walking time
+- Set monitor at eye level to avoid neck tilt
+- Keep one foot off the floor while seated occasionally to release hip flexors
+
+## Common Mistakes
+
+- Holding stretches too briefly (under 30 seconds gains less)
+- Bouncing into stretches (use static holds)
+- Stretching cold first thing in the morning (warm up with light movement)
+- Forcing through sharp pain (sharp = stop)
+
+## Strengthening Matters Too
+
+Stretching alone does not fix desk-induced posture. Add 2x weekly basic strength: rows, deadlifts, glute bridges, planks. Strength holds the gains stretching makes.
+
+## Equipment-Free
+
+This entire routine needs no equipment. A yoga mat helps but a carpeted floor works. Total cost: zero, total time: 10 minutes.
+
+For workout planning ideas see [meditation for beginners](/blog/meditation-for-beginners) for breath work.`,
+			ko: `책상 일은 엉덩이를 압박하고 어깨를 둥글게 하고 목과 허리를 굳힙니다. 일일 루틴이 30대에 슬금슬금 오는 만성 통증을 예방.
+
+## 10분 시퀀스
+
+일일 1회, 이상적으로 오후 중반.
+
+### 1. 캣-카우 (1분)
+손과 무릎. 숨 들이쉬며 배 내리고 위 보기, 내쉬며 척추 둥글게. 10회.
+
+### 2. 도어웨이 가슴 스트레치 (좌우 각 1분)
+팔뚝을 문틀에. 앞으로 살짝. 타이핑으로 짧아진 가슴 조직 열기.
+
+### 3. 카우치 스트레치 (좌우 각 1분)
+방석에 무릎 꿇고 소파 등지기. 발등을 자리에. 강한 고관절 굴근 스트레치.
+
+### 4. 비둘기 자세 (좌우 각 1분)
+사족 자세에서 오른 정강이 앞으로 평행. 왼쪽 다리 뒤로. 둔근/외측 엉덩이.
+
+### 5. 스레드 더 니들 (좌우 각 1분)
+사족 자세에서 오른팔 왼쪽 아래로 슬라이드. 어깨 바닥. 상부 등 풀기.
+
+### 6. 무릎 굽힌 전굴 (1분)
+서서 무릎 많이 굽히고 전굴. 손 늘어뜨림. 허리/햄스트링.
+
+### 7. 목 스트레치 (1분)
+턱→가슴, 귀→어깨, 어깨 너머 보기. 각 20초.
+
+## 하루 종일
+
+- 30분 타이머로 서기/걷기
+- 음성 통화는 걷는 시간
+- 모니터 눈높이로
+- 가끔 한 발 바닥에서 떼기
+
+## 흔한 실수
+
+너무 짧게 잡기, 반동, 아침 아무것도 안 한 상태에서 스트레칭, 날카로운 통증 무시.
+
+## 근력도 중요
+
+스트레칭만으로 자세 안 고침. 주 2회 기본 근력: 로우, 데드리프트, 글루트 브릿지, 플랭크.
+
+## 장비 없음
+
+요가 매트 도움되지만 카펫 바닥도 OK. 총 비용 0, 총 시간 10분.
+
+호흡 작업: [meditation for beginners](/blog/meditation-for-beginners).`
+		},
+		date: '2026-04-25', category: 'health'
+	},
+	{
+		slug: 'vitamin-d-deficiency-signs',
+		title: { en: 'Vitamin D Deficiency Signs', ko: '비타민 D 결핍 신호' },
+		description: { en: 'Recognize symptoms of low vitamin D and what to do about it.', ko: '낮은 비타민 D 증상 인지와 대처법.' },
+		content: {
+			en: `Vitamin D deficiency affects roughly 1 billion people worldwide. Modern indoor life and sunscreen use have created a deficiency epidemic across all latitudes.
+
+## Why It Matters
+
+Vitamin D regulates calcium absorption and bone health, modulates immune function, supports muscle strength, and influences mood. Severe deficiency causes rickets in children and osteomalacia in adults.
+
+## Common Signs
+
+- Persistent fatigue
+- Bone or muscle pain
+- Frequent infections
+- Slow wound healing
+- Hair thinning
+- Low mood, particularly seasonal
+- Muscle weakness, especially in legs
+
+These symptoms are nonspecific — many things cause them. Vitamin D deficiency is one possibility worth testing for.
+
+## Who Is at Risk
+
+- Living above 35° latitude in winter (limited UVB)
+- Darker skin (more melanin reduces synthesis)
+- Older adults (skin synthesizes less)
+- Heavy sunscreen use
+- Mostly indoor work and recreation
+- Obesity (D is fat-soluble and sequestered)
+- GI conditions reducing fat absorption (Crohn's, celiac)
+- Some medications (steroids, some seizure meds)
+
+## Testing
+
+A simple blood test measures 25-hydroxyvitamin D. US/EU guidelines:
+
+- Deficient: under 20 ng/mL (50 nmol/L)
+- Insufficient: 20-30 ng/mL
+- Sufficient: 30-50 ng/mL
+- High: above 100 ng/mL (rare without supplements)
+
+Test in late winter for the lowest expected reading.
+
+## Sources
+
+- **Sunlight**: 10-30 minutes midday on bare arms and legs, 2-3x weekly. Less effective in winter at high latitudes.
+- **Fatty fish**: salmon, mackerel, sardines (400-1000 IU per serving)
+- **Egg yolks** and liver (modest amounts)
+- **Fortified foods**: milk, plant milks, cereal
+- **Supplements**: D3 (cholecalciferol) is more effective than D2
+
+## Supplementation
+
+- Maintenance: 1,000-2,000 IU daily for most adults
+- Correcting deficiency: 5,000-10,000 IU daily for 8-12 weeks under supervision, then maintenance
+- Take with a fatty meal for absorption
+
+The 4,000 IU/day "tolerable upper limit" is conservative; recent evidence supports higher safety margins. Above 10,000 IU long-term, monitor blood levels.
+
+## When to See a Doctor
+
+- Suspected deficiency despite supplementation
+- Bone pain or fractures with low impact
+- Unexplained muscle weakness
+- Children with bowed legs or growth concerns
+
+Self-supplementing is generally safe at 1,000-2,000 IU; higher doses warrant testing first.
+
+## Cofactors
+
+D works with magnesium and K2. A diet light in leafy greens and nuts may need magnesium supplementation alongside D.
+
+For broader nutrition see [meal planning on budget](/blog/meal-planning-on-budget).`,
+			ko: `비타민 D 결핍은 전 세계 약 10억 명에 영향. 현대 실내 생활과 자외선 차단제 사용으로 모든 위도에서 결핍 유행.
+
+## 중요한 이유
+
+칼슘 흡수와 골 건강, 면역 조절, 근력, 기분 영향. 심한 결핍은 아동에게 구루병, 성인에게 골연화증.
+
+## 흔한 신호
+
+- 지속적 피로
+- 뼈/근육 통증
+- 잦은 감염
+- 느린 상처 치유
+- 머리카락 가늘어짐
+- 우울 (특히 계절성)
+- 근력 약화 (특히 다리)
+
+비특이적 증상이지만 검사 가치 있음.
+
+## 위험군
+
+35° 위도 이상 거주, 어두운 피부, 노인, 자외선 차단제 다용, 실내 위주, 비만, 위장 흡수 장애, 일부 약물.
+
+## 검사
+
+25-수산화비타민 D 혈액 검사:
+- 결핍: 20 ng/mL 미만
+- 부족: 20-30
+- 충분: 30-50
+- 과다: 100 이상
+
+겨울 말 검사가 가장 낮은 예상 수치.
+
+## 공급원
+
+- 햇빛: 정오 팔다리 노출 10-30분, 주 2-3회
+- 지방 어류: 연어, 고등어, 정어리
+- 계란 노른자, 간
+- 강화 식품
+- 보충제: D3 (콜레칼시페롤)
+
+## 보충
+
+- 유지: 일일 1,000-2,000 IU
+- 결핍 교정: 8-12주 일일 5,000-10,000 IU 감독 하에
+- 지방 식사와 함께
+
+## 의사 만날 때
+
+보충 후에도 결핍 의심, 가벼운 충격에 골절, 원인 모를 근력 약화.
+
+## 보조 인자
+
+D는 마그네슘, K2와 작동.
+
+영양 일반: [meal planning on budget](/blog/meal-planning-on-budget).`
+		},
+		date: '2026-04-24', category: 'health'
+	},
+	{
+		slug: 'protein-intake-by-goal',
+		title: { en: 'Protein Intake by Goal', ko: '목표별 단백질 섭취' },
+		description: { en: 'How much protein you actually need depends on whether you train, age, and goals.', ko: '실제 필요한 단백질은 훈련 여부, 나이, 목표에 따라 다릅니다.' },
+		content: {
+			en: `The 0.8g/kg RDA is the minimum to prevent deficiency. Optimal intake for most goals is significantly higher.
+
+## Targets by Goal
+
+| Situation | Grams per kg bodyweight | Per pound |
+|-----------|-------------------------|-----------|
+| Sedentary minimum (RDA) | 0.8 | 0.36 |
+| General health | 1.0-1.2 | 0.45-0.55 |
+| Active lifestyle | 1.2-1.6 | 0.55-0.73 |
+| Strength training | 1.6-2.2 | 0.73-1.0 |
+| Cutting (preserve muscle) | 1.8-2.4 | 0.82-1.1 |
+| Older adults (sarcopenia prevention) | 1.2-1.6 | 0.55-0.73 |
+
+For a 70 kg (154 lb) lifter targeting muscle gain, that's 112-154g daily.
+
+## Why More Than RDA
+
+- Muscle protein synthesis maximizes around 1.6 g/kg
+- Higher protein supports recovery from training
+- Older adults need more to maintain muscle (anabolic resistance)
+- Cutting calories without raising protein causes muscle loss
+
+## Per-Meal Distribution
+
+Spread intake across 3-5 meals at 25-40g each. Single doses above ~40g show diminishing per-meal anabolic returns. The "anabolic window" post-workout is far wider than the legacy 30-minute claim.
+
+## Best Sources
+
+| Source | Protein per serving |
+|--------|---------------------|
+| Chicken breast (4 oz) | 35g |
+| Greek yogurt (1 cup) | 20g |
+| Cottage cheese (1 cup) | 28g |
+| Eggs (3 large) | 18g |
+| Lentils (1 cup cooked) | 18g |
+| Tofu (4 oz) | 12g |
+| Whey protein (1 scoop) | 24g |
+
+## Plant-Based
+
+Plant proteins are usually lower in leucine, the trigger amino acid for muscle synthesis. Compensate with:
+
+- Slightly higher total intake (10-20% more)
+- Combine sources across the day (rice + beans, etc.)
+- Add tofu, tempeh, seitan, and legume-heavy meals
+- Consider pea or soy protein supplements
+
+## Health Concerns
+
+For healthy kidneys, 1.6-2.4 g/kg is well-tolerated long-term. Existing kidney disease requires medical guidance on protein intake. Hydrate adequately and increase fiber to balance.
+
+## Practical System
+
+- Target a protein source at every meal
+- Use a tracking app for one week to baseline (most people undercount)
+- Add a protein shake post-workout if intake falls short
+- Prep protein in bulk: roast chicken, hard-boil eggs, cook lentils on Sunday
+
+## Cost
+
+Cheap high-protein:
+- Eggs: ~$0.25 per 6g
+- Chicken thighs (sale): ~$0.30 per 35g
+- Lentils: ~$0.20 per 18g
+- Greek yogurt (store brand): ~$1 per 20g
+
+For meal prep see [lunch meal prep guide](/blog/lunch-meal-prep-guide).`,
+			ko: `0.8g/kg RDA는 결핍 방지 최소량. 대부분 목표에서 최적은 훨씬 더 높음.
+
+## 목표별 목표량
+
+| 상황 | g/kg 체중 |
+|-----|---------|
+| 좌식 RDA | 0.8 |
+| 일반 건강 | 1.0-1.2 |
+| 활동적 생활 | 1.2-1.6 |
+| 근력 운동 | 1.6-2.2 |
+| 컷팅 (근육 유지) | 1.8-2.4 |
+| 노인 (근감소 예방) | 1.2-1.6 |
+
+70kg 리프터가 근육 증가 목표 = 112-154g/일.
+
+## RDA 이상의 이유
+
+근단백 합성 최대화 1.6 g/kg, 회복 지원, 노인 근육 유지, 컷팅 시 근손실 방지.
+
+## 식사별 분배
+
+3-5끼에 25-40g씩. 식사당 ~40g 초과 시 동화 수확 체감.
+
+## 최고 공급원
+
+| 공급원 | 1회분 단백질 |
+|------|-----------|
+| 닭가슴살(4oz) | 35g |
+| 그릭요거트(1컵) | 20g |
+| 코티지 치즈(1컵) | 28g |
+| 계란(3개) | 18g |
+| 렌틸(1컵) | 18g |
+| 두부(4oz) | 12g |
+| 웨이 프로틴(1스쿱) | 24g |
+
+## 식물성
+
+류신 낮음. 보상: 10-20% 더 섭취, 콩+쌀 조합, 두부/템페/세이탄.
+
+## 건강 우려
+
+건강한 신장에 1.6-2.4 g/kg 장기 OK. 신장병은 의료 지도.
+
+## 실용 시스템
+
+매끼 단백질, 1주 추적 (대부분 과소 평가), 부족하면 셰이크.
+
+식단 준비: [lunch meal prep guide](/blog/lunch-meal-prep-guide).`
+		},
+		date: '2026-04-23', category: 'health'
+	},
+	{
+		slug: 'screen-time-management',
+		title: { en: 'Screen Time Management', ko: '스크린 타임 관리' },
+		description: { en: 'Reduce mindless scrolling and reclaim hours per week.', ko: '무의식적 스크롤 감소, 주당 몇 시간 회수.' },
+		content: {
+			en: `The average smartphone user spends 4-5 hours daily on their phone. Most can recover 1-3 of those hours per week with simple changes.
+
+## Audit First
+
+Both iOS Screen Time and Android Digital Wellbeing track per-app usage and pickups. Look at:
+
+- Total daily screen time
+- Top 3 apps consuming time
+- Number of pickups per day (often 100+)
+- Notifications received
+
+The numbers shock most people on first review.
+
+## High-Leverage Changes
+
+### 1. Disable notifications by default
+
+Whitelist only what genuinely needs your attention: calls, texts, calendar. Everything else: off. This cuts pickups by 50%+ for most people.
+
+### 2. Move attention apps to a folder on a second screen
+
+Out of sight is mostly out of mind. Social and news apps off the home screen reduce reflexive opening.
+
+### 3. Grayscale mode
+
+iOS Settings → Accessibility → Display → Color Filters → Grayscale. The phone becomes visually less appealing. Many users report 20-30% time reduction.
+
+### 4. Bedroom-free phone
+
+Charge the phone in another room. Use a $10 alarm clock. Saves morning and evening scroll loops.
+
+### 5. App timers
+
+Most platforms let you set per-app daily limits. They are easy to bypass, but the friction itself reduces use.
+
+## What Replaces the Time
+
+You will not naturally fill recovered time well. Plan replacement activities:
+- A book on the nightstand instead of the phone
+- Walking shoes by the door
+- Hobby supplies visible
+
+Boredom triggers app opening; alternatives must be more visible than the phone.
+
+## For Kids
+
+Same principles, much stricter. Recommendations vary, but most pediatric guidance suggests:
+- Under 18 months: video calls only
+- 2-5 years: under 1 hour daily of high-quality content with adult co-viewing
+- 6+: consistent limits, no devices in bedrooms
+
+Modeling matters more than rules. Kids whose parents are on phones constantly absorb the same patterns.
+
+## Work Phone vs Personal
+
+If your job requires constant phone availability, separate work and personal devices. The cost of a second cheap phone is repaid in attention and sleep.
+
+## Streaming and TV
+
+Screen time isn't only phones. TV streaming auto-play, "next episode in 5 seconds," and infinite scrolls follow the same dopamine logic. Disable autoplay where possible.
+
+## When to Get Help
+
+If reducing screen time causes physical anxiety or you cannot sustain even modest changes for a week, behavioral therapy or counseling helps. Tech addiction is recognized clinically and treatable.
+
+For broader habits see [digital detox strategies](/blog/digital-detox-strategies).`,
+			ko: `평균 스마트폰 사용자는 일일 4-5시간. 대부분 간단한 변경으로 주당 1-3시간 회수 가능.
+
+## 먼저 감사
+
+iOS 스크린 타임, Android 디지털 웰빙으로 앱별 사용량과 픽업 추적.
+
+## 고레버리지 변경
+
+### 1. 알림 기본 비활성화
+실제 필요한 것만 화이트리스트.
+
+### 2. 주의 앱을 두 번째 화면 폴더로
+시야에서 멀어지면 마음에서 멀어짐.
+
+### 3. 그레이스케일 모드
+iOS 설정 → 접근성 → 디스플레이 → 컬러 필터 → 그레이스케일.
+
+### 4. 침실 휴대폰 금지
+다른 방에서 충전. $10 알람 시계.
+
+### 5. 앱 타이머
+바이패스 쉬워도 마찰 자체가 사용 감소.
+
+## 시간 대체
+
+회수한 시간을 자연스럽게 잘 채우지 못함. 대체 활동 계획.
+- 머리맡 책
+- 문 앞 걷기 신발
+- 보이는 취미 용품
+
+## 아이들
+
+훨씬 엄격. 18개월 미만 영상 통화만, 2-5세 양질 콘텐츠 1시간 미만, 6+ 일관된 한도.
+
+모델링이 규칙보다 중요.
+
+## 도움 필요할 때
+
+스크린 타임 감소가 신체 불안 유발하거나 1주도 유지 못하면 행동 치료 도움.
+
+광범위한 습관: [digital detox strategies](/blog/digital-detox-strategies).`
+		},
+		date: '2026-04-22', category: 'lifestyle'
+	},
+	{
+		slug: 'meditation-for-beginners',
+		title: { en: 'Meditation for Beginners', ko: '명상 입문' },
+		description: { en: 'Start a sustainable practice without spiritual baggage or apps you forget.', ko: '영적 부담이나 잊어버리는 앱 없이 지속 가능한 연습 시작.' },
+		content: {
+			en: `Meditation has more peer-reviewed evidence than most lifestyle interventions for stress, focus, and sleep. The barrier for beginners is usually framing, not technique.
+
+## What Meditation Actually Is
+
+Repeatedly bringing attention back to a chosen anchor (breath, body sensation, sound). Each return is a "rep." Wandering mind is not failure — noticing the wander and returning IS the practice.
+
+## A 5-Minute Starter
+
+1. Sit upright in any comfortable position
+2. Close eyes or soften gaze downward
+3. Notice the breath without controlling it
+4. Each time mind wanders, gently return to breath
+5. Continue for 5 minutes
+
+That's it. There is no "good" or "bad" session.
+
+## Common Beginner Frustrations
+
+- "I can't stop thinking" — that is not the goal. The goal is noticing thoughts, not eliminating them.
+- "I keep falling asleep" — meditate sitting upright, eyes slightly open, earlier in the day.
+- "Five minutes feels long" — start with 2 minutes for a week.
+- "Nothing's happening" — benefits accumulate over weeks, not single sessions.
+
+## Building the Habit
+
+- Same time daily anchors the practice
+- Right after waking or before bed are common
+- Stack with existing habits: after coffee, before email
+- 5 minutes daily beats 30 minutes weekly
+
+## Tools That Help
+
+- **Headspace, Calm, Insight Timer**: guided sessions and timers
+- **Plain timer**: skip apps once you have the basic practice
+- **Meditation cushion or chair**: posture matters less than people think; comfortable enough to sit still works
+
+## Beyond Breath
+
+After a few weeks, expand:
+
+- Body scan: attention through body parts
+- Loving-kindness: directed phrases (may you be well, etc.)
+- Open awareness: noticing whatever arises
+- Walking meditation: same attention, mobile
+
+## What the Evidence Shows
+
+8-12 week studies on Mindfulness-Based Stress Reduction (MBSR) consistently show:
+- Reduced cortisol
+- Lower self-reported anxiety
+- Improved attention markers
+- Better sleep quality
+- Modest blood pressure reduction
+
+Effects are real but modest. Meditation is not a substitute for therapy or medication when those are needed.
+
+## When to Seek a Teacher
+
+If you experience:
+- Resurfacing trauma
+- Dissociation
+- Persistent confusion about practice
+
+A qualified teacher (Vipassana centers, MBSR programs, secular trauma-informed teachers) helps. Meditation can surface buried material; not all practices are appropriate for all people unsupervised.
+
+## Ten-Minute Goal
+
+Most research used 20-45 minute daily sessions. Realistic for many people: 10 minutes daily, sustained for 6 months. That delivers most of the documented benefits.
+
+For broader stress reduction see [digital detox strategies](/blog/digital-detox-strategies).`,
+			ko: `명상은 스트레스, 집중, 수면에 대해 대부분 라이프스타일 개입보다 더 많은 동료 검토 증거가 있습니다.
+
+## 실제로 무엇인가
+
+선택한 앵커(호흡, 신체 감각, 소리)에 주의를 반복적으로 되돌리는 것. 각 복귀가 "반복". 방황은 실패 아님 - 알아차리고 돌아오는 것이 연습.
+
+## 5분 스타터
+
+1. 편한 자세로 똑바로 앉기
+2. 눈 감거나 시선 부드럽게 아래로
+3. 호흡을 통제하지 않고 알아차림
+4. 마음이 방황할 때마다 부드럽게 호흡으로 복귀
+5. 5분 지속
+
+## 흔한 초보 좌절
+
+- "생각을 멈출 수 없다" - 목표 아님
+- "자꾸 잠든다" - 똑바로 앉기, 눈 살짝 뜨기, 이른 시간
+- "5분이 길게 느껴진다" - 1주일 2분으로 시작
+- "아무것도 안 일어난다" - 혜택은 주 단위로 누적
+
+## 습관 구축
+
+매일 같은 시간, 기상 직후 또는 취침 전, 기존 습관과 스택, 일일 5분 > 주 30분.
+
+## 도움 도구
+
+Headspace, Calm, Insight Timer. 기본 연습 후엔 단순 타이머.
+
+## 호흡을 넘어
+
+몇 주 후 확장: 보디 스캔, 자비 명상, 열린 알아차림, 걷기 명상.
+
+## 증거
+
+8-12주 MBSR 연구: 코르티솔 감소, 불안 감소, 주의 향상, 수면 개선, 약간의 혈압 감소.
+
+## 교사 찾을 때
+
+트라우마 재발, 해리, 연습 혼란 시 자격 있는 교사.
+
+광범위한 스트레스 감소: [digital detox strategies](/blog/digital-detox-strategies).`
+		},
+		date: '2026-04-21', category: 'health'
+	},
+	{
+		slug: 'digital-detox-strategies',
+		title: { en: 'Digital Detox Strategies', ko: '디지털 디톡스 전략' },
+		description: { en: 'Practical ways to reduce screen dependence without quitting tech entirely.', ko: '기술을 완전히 그만두지 않고 화면 의존을 줄이는 실용적 방법.' },
+		content: {
+			en: `Total digital detox sounds nice and is unrealistic for most working adults. The useful version is structured reduction with clear rules.
+
+## Define What Counts
+
+"Detox" is fuzzy. Pick 2-3 specific behaviors to limit:
+
+- Social media on weekdays
+- Phone in bed
+- Work email after 6 pm
+- News before noon
+
+Vague goals fail. Specific behaviors succeed.
+
+## Time-Based Detoxes
+
+- **Phone-free first hour**: morning sets the day's attention pattern
+- **Phone-free last hour**: better sleep, less anxiety
+- **One full day per week**: pick a weekend day, communicate to family/colleagues
+- **Vacation actual offline**: out-of-office reply that reroutes everything
+
+## Friction-Based Tactics
+
+- Logout of social apps after each use
+- Delete apps from phone, use browser only (much higher friction)
+- Greyscale display
+- Dumb phone for weekends or evenings
+
+## Environmental Setup
+
+- Charge phone outside bedroom
+- Hidden charger in a drawer at home
+- Visible book/hobby supplies as alternative
+- Walking shoes by the door
+
+## Replacement Activities
+
+The biggest detox failure is leaving a behavioral vacuum. Plan what fills the time:
+
+- Reading list (paper or e-reader, no notifications)
+- A regular walk
+- Cooking from a recipe (slow phone-free zone)
+- Calling a friend by voice
+- Hobby with a tactile component (knitting, woodworking, music)
+
+## Communicate Boundaries
+
+Tell people what to expect: "I check messages once at noon and once at 5." Most people respect explicit boundaries; few respect vague ones.
+
+## Re-Onboarding Carefully
+
+After a successful detox, the urge is to immediately re-install everything. Instead, add back one app at a time over weeks. Notice which apps actually improve life and which were filling a void.
+
+## Measure Honestly
+
+Both iOS and Android show daily averages. Pick a baseline week, target a 30% reduction, review weekly. Numbers cut through self-deception.
+
+## Common Pitfalls
+
+- All-or-nothing detox lasting 3 days then full relapse
+- Replacing one app with another (Twitter for Reddit, etc.)
+- Detox while keeping notifications on (defeats the point)
+- Not informing close people who then worry
+
+## The Real Goal
+
+Not zero screens. Better screens — used intentionally, on your schedule, for activities you'd consciously choose. The internet is not the enemy; reactive use is.
+
+For attention training see [meditation for beginners](/blog/meditation-for-beginners) and screen audits in [screen time management](/blog/screen-time-management).`,
+			ko: `완전한 디지털 디톡스는 멋지게 들리지만 대부분 직장인에게 비현실적. 유용한 버전은 명확한 규칙의 구조화된 감소.
+
+## 무엇이 카운트인지 정의
+
+"디톡스"는 모호. 2-3개 구체적 행동 제한:
+- 평일 소셜
+- 침대에서 휴대폰
+- 오후 6시 후 회사 메일
+- 정오 전 뉴스
+
+## 시간 기반
+
+- 첫 시간 폰 없음
+- 마지막 시간 폰 없음
+- 주 1회 전일
+- 휴가 진짜 오프라인
+
+## 마찰 기반
+
+소셜 앱 매번 로그아웃, 앱 삭제 브라우저만, 그레이스케일, 주말/저녁 더미폰.
+
+## 환경 설정
+
+침실 밖 충전, 서랍 숨겨진 충전기, 보이는 책/취미, 문 앞 걷기 신발.
+
+## 대체 활동
+
+행동 공백이 디톡스 최대 실패 원인. 시간 채울 계획.
+
+## 경계 소통
+
+"정오와 오후 5시에 메시지 확인." 명시적 경계는 존중됨, 모호한 것은 아님.
+
+## 신중한 재온보딩
+
+성공적 디톡스 후 즉시 모두 재설치 충동. 대신 주 단위로 한 앱씩.
+
+## 흔한 함정
+
+3일 전부 → 완전 재발, 한 앱을 다른 앱으로 대체, 알림 켠 채 디톡스.
+
+## 진짜 목표
+
+0 스크린 아닌 더 나은 스크린. 의도적, 본인 일정에, 의식적 선택 활동.
+
+주의 훈련: [meditation for beginners](/blog/meditation-for-beginners), 감사: [screen time management](/blog/screen-time-management).`
+		},
+		date: '2026-04-20', category: 'lifestyle'
+	},
+	{
+		slug: 'household-budget-50-30-20',
+		title: { en: 'Household Budget: The 50/30/20 Rule', ko: '가계 예산: 50/30/20 규칙' },
+		description: { en: 'Allocate after-tax income across needs, wants, and savings the simple way.', ko: '필수, 선택, 저축으로 세후 소득을 단순하게 배분.' },
+		content: {
+			en: `The 50/30/20 rule is the most beginner-friendly budget framework. After-tax income splits into three buckets that cover most financial bases.
+
+## The Three Buckets
+
+- **50% Needs** — housing, utilities, groceries, insurance, transportation, minimum debt payments
+- **30% Wants** — dining out, subscriptions, hobbies, vacations
+- **20% Savings + Debt** — retirement, emergency fund, debt principal beyond minimums
+
+If after-tax income is $5,000/month: $2,500 needs, $1,500 wants, $1,000 savings.
+
+## What Counts as a Need
+
+A strict definition helps avoid lifestyle inflation:
+- Roof over head (rent or mortgage P&I)
+- Power, water, internet
+- Basic groceries (not premium delivery)
+- Insurance (health, auto, home)
+- Required transportation
+- Minimum debt payments
+
+A new car payment is a want disguised as a need for many people.
+
+## When 50/30/20 Doesn't Fit
+
+- High cost of living areas: needs may consume 60%+, requiring tighter wants or higher savings rate later
+- Aggressive debt payoff: temporary 50/20/30 (more to debt) until cleared
+- High earners: savings can rightfully exceed 20%; the rule is a floor, not a ceiling
+- Variable income: average over 3 months for budget purposes
+
+## Tracking System
+
+The rule fails without tracking. Options:
+
+- **Apps**: Monarch, Empower, YNAB, Copilot — automatic categorization
+- **Spreadsheet**: monthly columns, category rows, manual entry
+- **Pen and paper**: works for simple finances and high attention
+
+Pick the system you'll actually use. The best budget is the one you maintain.
+
+## Automate the 20%
+
+Treat savings like a bill: automatic transfer the day after payday. Money you don't see in checking doesn't get spent.
+
+Order:
+1. 401(k) to employer match
+2. Emergency fund (high-yield savings)
+3. Roth IRA
+4. Back to 401(k) toward max
+5. Taxable brokerage if maxed out
+
+## Monthly Review
+
+15-30 minutes monthly to:
+- Compare actual vs target percentages
+- Identify drift in any category
+- Adjust automated transfers if income changed
+- Note one thing to fix next month
+
+## Common Failures
+
+- Forgetting irregular expenses (insurance premiums, car registration, gifts)
+- Underestimating "small" recurring costs (subscriptions add up)
+- All-or-nothing budgeting that collapses after one bad month
+- Tracking but never reviewing
+
+## Beyond the Rule
+
+50/30/20 is a starting point. Strong personal finance progresses to:
+- Tax-advantaged account optimization
+- Specific savings buckets (house, car, sabbatical)
+- Investment policy statement
+- Estate planning basics
+
+For credit and debt see [credit card rewards optimization](/blog/credit-card-rewards-optimization).`,
+			ko: `50/30/20 규칙은 가장 초보자 친화적 예산 프레임워크. 세후 소득을 3개 버킷으로 분할.
+
+## 3개 버킷
+
+- 50% 필수 - 주거, 공과금, 식료품, 보험, 교통, 최소 부채
+- 30% 원함 - 외식, 구독, 취미, 휴가
+- 20% 저축+부채 - 은퇴, 비상금, 최소 초과 부채 원금
+
+세후 $5,000/월 = $2,500 필수, $1,500 원함, $1,000 저축.
+
+## 필수 정의
+
+지붕, 전기/수도/인터넷, 기본 식료품, 보험, 필수 교통, 최소 부채. 새 차 할부는 종종 위장된 원함.
+
+## 안 맞을 때
+
+높은 생계비 지역, 공격적 부채 상환, 고소득자, 가변 소득.
+
+## 추적 시스템
+
+앱: Monarch, Empower, YNAB. 스프레드시트. 펜과 종이.
+
+실제 유지할 시스템 선택.
+
+## 20% 자동화
+
+급여일 다음날 자동 이체. 순서:
+1. 401(k) 매칭
+2. 비상금
+3. Roth IRA
+4. 401(k) 최대
+5. 과세 브로커리지
+
+## 월간 검토
+
+15-30분: 실제 vs 목표 비율, 표류 식별, 자동 이체 조정, 다음 달 수정 사항.
+
+## 흔한 실패
+
+비정기 지출 망각, 작은 반복 비용 과소평가, 한 번의 나쁜 달 후 붕괴, 추적만 하고 검토 없음.
+
+신용/부채: [credit card rewards optimization](/blog/credit-card-rewards-optimization).`
+		},
+		date: '2026-04-19', category: 'finance'
+	},
+	{
+		slug: 'car-loan-vs-cash',
+		title: { en: 'Car Loan vs Cash: Math and Practical Considerations', ko: '자동차 대출 vs 현금: 수학과 실용적 고려' },
+		description: { en: 'When financing makes sense and when paying cash wins long term.', ko: '대출이 의미 있을 때와 현금이 장기적으로 이기는 경우.' },
+		content: {
+			en: `The buy-with-cash crowd and finance-everything crowd both oversimplify. The right answer depends on rates, your savings rate, and the alternative use of cash.
+
+## The Pure Math
+
+If a car loan is 6% and you have $30,000 cash, the question is: can the $30,000 reliably earn more than 6% net of tax elsewhere?
+
+- Stocks expected return: ~7% real long term, but volatile
+- High-yield savings (2026): 4-5% nominal
+- Bonds: 4-5% nominal
+
+Adjusting for tax (most investment returns taxed) and the certainty difference (loan is guaranteed cost, investment return is not), borrowing at 6% to invest in stocks at 7% expected is a thin margin with real downside risk.
+
+## Where Cash Clearly Wins
+
+- Loan rate is high (7%+)
+- You don't max retirement accounts (those returns beat car-loan-arbitrage)
+- You'd otherwise spend the cash anyway
+- Job uncertainty (debt is fragile, cash is flexible)
+
+## Where Financing Can Make Sense
+
+- Promotional 0% APR (manufacturer subsidy)
+- Loan rate well below your safe investment rate (rare in 2026)
+- Cash protects emergency fund or retirement contributions
+- Strong income stability
+
+## The Hidden Cost of Cash
+
+Draining your emergency fund or retirement contributions to "save interest" is usually a worse trade than the loan interest. Taking $30k from a Roth IRA forfeits decades of tax-free growth.
+
+## Reasonable Hybrid
+
+If a 36-month $30,000 loan at 5%:
+- Total interest: ~$2,400
+- Or pay 50% down, finance 50% over 36 months: total interest ~$1,200, monthly payment ~$450, retain $15k cash for safety net
+
+## Total Cost of Ownership
+
+Loan interest is a fraction of car ownership cost:
+- Depreciation (largest)
+- Insurance
+- Fuel/electricity
+- Maintenance
+- Registration
+- Tires every 4-5 years
+
+Spending less on the car itself dwarfs cash-vs-loan optimization. A used $15,000 car beats a new $40,000 car for total cost over 10 years.
+
+## Avoid
+
+- Long-term loans (72+ months) — guaranteed underwater for 4+ years
+- Rolling negative equity from previous car into new loan
+- Being "talked into" extras at financing desk (gap insurance, extended warranty often poor value)
+
+## Practical Steps
+
+1. Get pre-approved through your bank/credit union before stepping on a lot
+2. Compare dealer financing only after pre-approval; sometimes they beat your bank
+3. Ignore monthly payment focus; compare total cost
+4. Keep loan term as short as comfortable
+
+For broader debt management see [household budget 50/30/20](/blog/household-budget-50-30-20).
+
+**Educational only. Not financial advice.**`,
+			ko: `현금 매수파와 모두 융자파 모두 과단순화. 정답은 금리, 저축률, 현금의 대체 용도에 달림.
+
+## 순수 수학
+
+대출 6%, 현금 $30,000 = 그 $30,000이 세후 6% 넘게 안정적으로 벌 수 있나?
+
+- 주식 기대 수익: ~7% 장기 실질, 변동성 큼
+- 고이율 저축(2026): 4-5%
+- 채권: 4-5%
+
+세금과 확실성 차이 조정 후 6% 빌려 7% 기대 주식 투자는 얇은 마진.
+
+## 현금 명확 승리
+
+대출 7%+, 은퇴 계좌 미최대, 어차피 쓸 돈, 직업 불안정.
+
+## 융자 의미 있을 때
+
+프로모션 0% APR, 대출 금리가 안전 투자 금리보다 훨씬 낮음, 비상금/은퇴 보호, 강한 소득 안정.
+
+## 현금의 숨겨진 비용
+
+비상금/은퇴 기여 비우는 것은 대출 이자보다 나쁜 거래.
+
+## 합리적 하이브리드
+
+50% 다운, 50% 36개월 융자.
+
+## 총 소유 비용
+
+대출 이자는 차 소유 비용의 일부:
+- 감가상각 (가장 큼)
+- 보험
+- 연료/전기
+- 유지보수
+- 등록
+- 타이어
+
+차 자체에 덜 쓰는 것이 현금-vs-융자 최적화보다 큼.
+
+## 피할 것
+
+장기 대출(72+개월), 부정 자본 이월, 융자 데스크 추가 옵션.
+
+## 실용 단계
+
+1. 매장 가기 전 은행/신용조합 사전 승인
+2. 사전 승인 후 딜러 융자 비교
+3. 월 납입금 초점 무시, 총 비용 비교
+4. 대출 기간 가능한 짧게
+
+광범위한 부채 관리: [household budget 50/30/20](/blog/household-budget-50-30-20).
+
+**Educational only. Not financial advice.**`
+		},
+		date: '2026-04-18', category: 'finance'
+	},
+	{
+		slug: 'credit-card-rewards-optimization',
+		title: { en: 'Credit Card Rewards Optimization', ko: '신용카드 리워드 최적화' },
+		description: { en: 'Earn more rewards without paying interest or chasing complicated point schemes.', ko: '이자 없이, 복잡한 포인트 스킴 없이 더 많은 리워드 적립.' },
+		content: {
+			en: `Credit card rewards are real money — averaging 1-3% back on spending — but only if you avoid the interest trap. Carry a balance and the math reverses violently.
+
+## Prerequisites
+
+- Pay statement balance in full every month
+- No annual fees you cannot justify with rewards
+- Enough discipline to avoid spending more for rewards
+
+If any of these fail, plain debit is better.
+
+## Card Categories
+
+- **Flat 1.5-2% cash back**: simple, no thinking, baseline option
+- **Category bonus**: 3-6% on groceries/gas/dining, 1% elsewhere
+- **Travel rewards**: points convertible to flights/hotels at 1-3¢/point
+- **Sign-up bonuses**: $200-1,000 for spending $500-5,000 in 3 months
+
+## Three-Card Setup
+
+A common optimization:
+
+1. **Daily driver flat 2% card** — for any spend without category bonus
+2. **Category card** — 3-6% on your top category (often groceries or gas)
+3. **Travel card with bonus** — for trips, only if you actually travel
+
+Adding more cards rarely beats this with the time spent.
+
+## Sign-Up Bonus Strategy
+
+A $750 bonus on $4,000 in 3 months is real. Plan around natural large expenses (insurance premium, tax payment, planned home repair) that you'd pay anyway. Never manufacture spending to hit a bonus.
+
+## What to Avoid
+
+- Carrying a balance: 22%+ APR wipes years of rewards
+- Cash advances: high fee + immediate interest, no grace period
+- "Rewards" cards with annual fees you don't recoup
+- Foreign transaction fees: 3% per swipe abroad
+- Store cards with 25%+ APR
+- Letting unused points expire
+
+## Annual Fees Math
+
+A $95 annual fee makes sense if rewards exceed $95 + the rewards from a no-fee alternative.
+
+\`\`\`
+Premium card: 3% on $20,000 dining = $600, fee $95, net $505
+No-fee 2% card: $400 on same spend
+Difference: $105 in favor of premium
+\`\`\`
+
+If the premium card's bonus categories don't fit your actual spend, the no-fee card wins.
+
+## Travel Optimization
+
+If you fly 4+ times per year on the same airline, a co-branded card with status perks (free checked bag, priority boarding) often beats generic 2% cash back through avoided fees alone.
+
+International travel: pick a no-foreign-transaction-fee card.
+
+## Tracking
+
+Most issuers offer year-end summaries. Check yours; many people earn less than they think because of category mismatches.
+
+## Building Credit Through Cards
+
+Cards used and paid off monthly build the credit history that determines mortgage rates. The rewards are secondary. For score improvement see [credit score improvement](https://sdk.bz/blog/credit-score-improvement) (cross-site reference).
+
+## Not for Everyone
+
+If using cards triggers overspending, switch to debit or cash. The 2% reward is worthless against a 30% spending increase.
+
+**Educational only. Not financial advice.**`,
+			ko: `신용카드 리워드는 실제 돈 - 지출의 평균 1-3% - 단, 이자 함정 피해야 함.
+
+## 전제 조건
+
+매월 명세서 전액 납부, 정당화 못하는 연회비 없음, 리워드 위해 더 쓰지 않을 규율.
+
+이 중 하나라도 실패하면 데빗이 낫다.
+
+## 카드 카테고리
+
+- 플랫 1.5-2% 캐시백
+- 카테고리 보너스 3-6%
+- 여행 리워드
+- 사인업 보너스 $200-1,000
+
+## 3-카드 설정
+
+1. 일일 2% 카드
+2. 상위 카테고리 보너스
+3. 여행 카드 (실제 여행 시만)
+
+## 사인업 전략
+
+자연스러운 큰 지출(보험료, 세금, 계획된 수리)에 맞춤. 보너스 위해 지출 만들지 말 것.
+
+## 피할 것
+
+잔액 보유(22%+ APR), 현금 서비스, 보전 못하는 연회비, 해외 거래 수수료(3%), 25%+ 매장 카드, 만료된 포인트.
+
+## 연회비 수학
+
+\`\`\`
+프리미엄: 식당 $20,000에 3% = $600, 수수료 $95, 순 $505
+무수수료 2%: $400
+차이 $105 프리미엄 우위
+\`\`\`
+
+## 여행 최적화
+
+같은 항공사 연 4회+ 항공 시 공동 브랜드 카드. 국제: 해외 수수료 없는 카드.
+
+## 모두에게 맞는 건 아님
+
+카드가 과소비 유발하면 데빗/현금. 2% 리워드는 30% 지출 증가에 무가치.
+
+**Educational only. Not financial advice.**`
+		},
+		date: '2026-04-17', category: 'finance'
+	},
+	{
+		slug: 'subscription-fatigue-cleanup',
+		title: { en: 'Subscription Fatigue Cleanup', ko: '구독 피로 정리' },
+		description: { en: 'Most households leak $50-200/month to forgotten subscriptions. Find and fix.', ko: '대부분 가정은 잊혀진 구독에 월 $50-200 새고 있습니다.' },
+		content: {
+			en: `Recurring billing is the most profitable invention in modern commerce. The same psychology that ignores a $9.99 monthly charge would refuse a $120 annual one. Audits recover real money.
+
+## Why It Adds Up
+
+The average US household spends $200-300/month on subscriptions, often without realizing the total. Streaming, software, cloud storage, gym, news, app premium tiers, meal kits, beauty boxes, recurring shipments.
+
+## Find Them All
+
+Three sources catch most:
+
+1. **Bank/credit card statements**: search 12 months of statements for recurring charges
+2. **App store subscriptions**: iOS Settings → [Name] → Subscriptions; Google Play → Profile → Payments → Subscriptions
+3. **Email search**: "subscription," "renewal," "membership" in inbox
+
+Paid tools (Rocket Money, Bobby) automate this. The free version of most is sufficient for one-time audit.
+
+## Cancel Liberally
+
+Default decision: cancel. If you need it, you'll re-subscribe. Most people don't.
+
+Easier to cancel:
+- Streaming services with no contract
+- Apps with self-serve cancellation
+
+Harder (intentionally):
+- Gyms — often require in-person or certified mail
+- Cable bundles — multiple-call dance with retention agents
+- "Free trial" subscriptions that activated
+- Software with auto-renewal
+
+For these, set a calendar reminder for the day before renewal so you have time to cancel.
+
+## Negotiate Rather Than Cancel
+
+For services you genuinely use:
+- Phone plan: every 12 months, call competitors then your provider
+- Internet: same; loyalty discounts evaporate after promo periods
+- Insurance: shop annually; auto and home rates vary widely
+- Gym: ask for retention pricing before canceling
+
+10-30 minute calls often save hundreds annually.
+
+## Bundle vs Separate
+
+- Streaming bundles (Disney+/Hulu/ESPN+) often save vs separate
+- Cell + internet bundles vary; calculate per-line cost separately
+- Microsoft 365 family plan splits across 6 people, costs $10/month total
+
+## Annual vs Monthly
+
+Annual plans save 15-20% but lock you in. Trade-off:
+- Use frequently: annual
+- Trying it out: monthly first, switch to annual at renewal
+
+## Frame Differently
+
+Convert monthly to annual:
+- $9.99/month = $120/year
+- $14.99/month = $180/year
+- $50/month = $600/year
+
+The annual number triggers different evaluation than monthly.
+
+## Auto-Renewal Defense
+
+Where possible:
+- Use a virtual card number (privacy.com, some banks) that you can pause
+- Set credit card alerts for any recurring charge above $5
+- Calendar each renewal date
+
+## Watch For
+
+- "Free with subscription" services in places like Amazon Prime that cost real money
+- App tiers that auto-upgraded
+- "Premium" tiers added during product updates
+- Family members with separate subscriptions for the same service
+
+## After the Cleanup
+
+Recovered $100/month is $1,200/year. Direct it to: emergency fund, retirement, debt, or genuinely better expenses than the canceled subscriptions.
+
+For broader budgeting see [household budget 50/30/20](/blog/household-budget-50-30-20).`,
+			ko: `반복 결제는 현대 상거래의 가장 수익성 있는 발명. 월 $9.99는 무시하지만 연 $120은 거부할 같은 심리.
+
+## 누적 이유
+
+미국 평균 가정 월 $200-300 구독. 스트리밍, 소프트웨어, 클라우드 스토리지, 헬스장, 뉴스, 앱 프리미엄, 밀키트.
+
+## 모두 찾기
+
+1. 은행/카드 명세서 12개월
+2. 앱스토어 구독 (iOS 설정, Google Play)
+3. 이메일 검색 ("subscription," "renewal")
+
+도구: Rocket Money, Bobby.
+
+## 자유롭게 해지
+
+기본 결정: 해지. 필요하면 다시 가입.
+
+쉬운 것: 스트리밍, 자가 해지 앱.
+어려운 것: 헬스장, 케이블, 무료 체험 활성화, 자동 갱신 SW.
+
+어려운 것은 갱신 전날 캘린더 알림.
+
+## 해지 대신 협상
+
+전화 플랜, 인터넷, 보험, 헬스장 - 매년 경쟁사 비교 후 협상. 10-30분 전화로 연 수백 달러 절약.
+
+## 번들 vs 개별
+
+스트리밍 번들, 셀+인터넷, Microsoft 365 가족 플랜.
+
+## 연간 vs 월간
+
+연간 15-20% 절감하지만 락인. 자주 사용 = 연간, 시도 = 월간.
+
+## 다르게 프레임
+
+월 $9.99 = 연 $120. 연 숫자가 다른 평가 트리거.
+
+## 자동 갱신 방어
+
+가상 카드 번호, 카드 알림 ($5+ 반복), 캘린더 갱신일.
+
+## 정리 후
+
+회수 $100/월 = $1,200/년. 비상금, 은퇴, 부채, 더 나은 지출로 전환.
+
+광범위한 예산: [household budget 50/30/20](/blog/household-budget-50-30-20).`
+		},
+		date: '2026-04-16', category: 'finance'
+	},
+	{
+		slug: 'gas-vs-electric-car-cost',
+		title: { en: 'Gas vs Electric Car: Total Cost Comparison', ko: '가솔린 vs 전기차: 총 비용 비교' },
+		description: { en: 'The 5-10 year economics of EVs vs ICE vehicles in 2026.', ko: '2026년 EV vs ICE 차량 5-10년 경제성.' },
+		content: {
+			en: `Sticker prices favor gas; total ownership often favors electric. The truth depends heavily on local electricity rates, gas prices, mileage, and tax incentives.
+
+## Purchase Price
+
+In 2026:
+- Comparable new EV: $5,000-10,000 more than ICE counterpart
+- Used EV market has matured: 3-year-old EVs depreciated heavily
+- Federal tax credit: up to $7,500 for qualifying new EVs (income and source caps apply)
+- State and utility incentives vary
+
+After incentives, many comparable EVs are within $2-3k of ICE — sometimes lower.
+
+## Fuel Cost
+
+- ICE 30 mpg car driving 12,000 miles/year at $3.50/gal: $1,400/year
+- EV at 3.5 miles/kWh, 12,000 miles/year at $0.15/kWh: $515/year
+- Annual savings: ~$885
+
+If you charge at home overnight on lower rates ($0.08/kWh), EV cost can drop below $300/year.
+
+## Maintenance
+
+- EVs have ~20 moving parts in the drivetrain vs hundreds in ICE
+- No oil changes
+- No spark plugs, timing belts, transmission service
+- Brake wear lower (regenerative braking)
+- Tires wear faster (heavier vehicles, instant torque)
+
+Typical 5-year savings: $1,500-3,000.
+
+## Insurance
+
+EVs cost slightly more to insure on average — higher repair costs and battery replacement risk. Differential narrowing as repair networks mature. Get quotes for actual models.
+
+## Battery Replacement
+
+The largest unknown. Most current EV batteries warrantied 8 years/100,000 miles to 70-80% capacity. Real-world degradation under normal use is slower than feared.
+
+Out-of-warranty replacement: $5,000-15,000 depending on pack size. Used pack salvage and refurbishment is a growing market.
+
+## Resale Value
+
+Historical EV depreciation was steep. By 2026 it has normalized for major brands; first-gen and discontinued models still suffer.
+
+## Charging Logistics
+
+The honest question: do you have home charging? If yes, EV math is favorable. If no, public charging at $0.30-0.50/kWh erodes most savings.
+
+For apartments without dedicated parking, ICE often wins on convenience even if cost is higher.
+
+## Climate and Range
+
+- Cold weather reduces range 20-40%
+- Towing range drops dramatically
+- Long road trips require route planning around chargers (much easier in 2026 than 2020)
+
+For 90% of driving (commuting, errands), modern EV range (250-400 miles) covers comfortably.
+
+## Five-Year Total Cost Sketch
+
+\`\`\`
+Comparable cars, 12k miles/year, home charging, $35k purchase
+Gas:      Purchase + $7k fuel + $3k maintenance + $1k oil/tires = ~$46k
+Electric: Purchase + $3k charging + $1k maintenance = ~$39k
+Net:      EV ~$7k cheaper over 5 years
+\`\`\`
+
+Add or subtract incentives, charging access, climate. Without home charging, the math reverses.
+
+## Used Market Sweet Spot
+
+3-year-old EV with 80% battery health at half the new price often beats both new EV and used ICE on total cost over 5-7 years.
+
+For broader transportation cost see [car loan vs cash](/blog/car-loan-vs-cash).`,
+			ko: `구매가는 가솔린 유리, 총 소유 비용은 종종 전기 유리. 진실은 지역 전기 요금, 가솔린 가격, 주행거리, 세금 인센티브에 크게 의존.
+
+## 구매가
+
+2026년:
+- 동급 신규 EV: ICE 대비 $5,000-10,000 더
+- 3년차 중고 EV 감가상각 큼
+- 연방 세금 크레딧: 적격 신규 EV 최대 $7,500
+- 주/유틸리티 인센티브 다양
+
+인센티브 후 종종 ICE의 $2-3k 이내.
+
+## 연료비
+
+- ICE 30mpg 12,000마일 $3.50/gal: $1,400/년
+- EV 3.5마일/kWh $0.15/kWh: $515/년
+- 절감: ~$885
+
+야간 저렴 요금 $0.08/kWh = $300 미만.
+
+## 유지보수
+
+EV 드라이브트레인 ~20 부품 vs ICE 수백. 오일 교환 없음, 점화 플러그/타이밍 벨트/변속기 서비스 없음. 브레이크 마모 적음. 타이어 마모 빠름.
+
+5년 절감: $1,500-3,000.
+
+## 보험
+
+EV 평균 약간 더 비쌈. 수리 네트워크 성숙으로 격차 축소.
+
+## 배터리 교체
+
+최대 미지수. 현재 EV 배터리 8년/100,000마일 70-80% 용량 보증. 실제 열화 우려보다 느림. 보증 외 교체: $5,000-15,000.
+
+## 충전 물류
+
+솔직한 질문: 가정 충전 가능? Yes면 유리. No면 공공 충전 $0.30-0.50/kWh로 절감 잠식.
+
+## 기후와 항속
+
+- 추위에서 항속 20-40% 감소
+- 견인 시 급감
+- 장거리 여행 충전소 경로 계획
+
+90% 주행(통근, 심부름)에는 현대 EV 항속(250-400마일) 충분.
+
+## 5년 총 비용
+
+\`\`\`
+12k마일/년, 가정 충전, $35k 구매
+가솔린: 구매 + $7k 연료 + $3k 유지보수 + $1k = ~$46k
+전기: 구매 + $3k 충전 + $1k 유지보수 = ~$39k
+순: EV ~$7k 저렴
+\`\`\`
+
+가정 충전 없으면 수학 역전.
+
+## 중고 스위트 스팟
+
+3년차 EV 배터리 80% 건강도, 신규의 절반 가격이 종종 5-7년 총 비용에서 신규 EV와 중고 ICE 모두 이김.
+
+광범위한 교통 비용: [car loan vs cash](/blog/car-loan-vs-cash).`
+		},
+		date: '2026-04-15', category: 'lifestyle'
+	},
+	{
+		slug: 'buying-vs-renting-tiebreaker',
+		title: { en: 'Buying vs Renting: The Tiebreaker', ko: '매수 vs 임대: 타이브레이커' },
+		description: { en: 'Beyond the "throwing money away" myth: when each actually wins.', ko: '"돈 버린다" 신화를 넘어: 각각이 실제 이기는 때.' },
+		content: {
+			en: `"Renting is throwing money away" assumes the alternative — buying — has no comparable losses. It does. The real question is which loses less for your specific situation.
+
+## What Both Cost
+
+Renting:
+- Monthly rent
+- Security deposit (recoverable)
+- Renter's insurance
+- Moving costs every few years
+
+Buying:
+- Down payment (locked in equity)
+- Mortgage interest (mostly lost in early years)
+- Property taxes (lost forever)
+- Insurance
+- Maintenance (1-3% of home value annually)
+- HOA fees (where applicable)
+- Closing costs (~3-5% buying, ~6-7% selling)
+- Opportunity cost of down payment
+
+A common surprise: in many markets, monthly cost of owning (PITI + maintenance) exceeds equivalent rent.
+
+## The 5% Rule
+
+A simple shortcut: annual cost of owning is roughly 5% of home value (1% maintenance + 1% taxes + 3% mortgage interest after deduction). Annual cost of renting is the annual rent.
+
+\`\`\`
+Home worth $500,000 → ~$25,000/year owning cost
+Equivalent rent → if below $2,083/month, renting wins on this metric
+\`\`\`
+
+This ignores appreciation and equity build-up. With those:
+
+- Long-term price appreciation: ~3-4% nationally, varies wildly by metro
+- Equity build-up via principal payments: meaningful after year 7+
+
+## When Buying Wins
+
+- Stable for 5-7+ years (closing costs amortize over time)
+- Local market with reasonable rent-to-price ratio
+- You'd otherwise spend the cash on consumption
+- Forced savings via principal payments matters more than alternatives
+- You value modifications and stability of staying put
+
+## When Renting Wins
+
+- Career flexibility and likely moves
+- Local market overheated (price way ahead of rent)
+- Down payment would be better invested elsewhere
+- You don't want maintenance responsibility
+- Major life changes likely (kids, marriage, divorce, job)
+
+## The Opportunity Cost
+
+A $100,000 down payment invested in stocks at 7% real return over 30 years grows to ~$760,000. The same down payment in home equity captures appreciation but also locks you in.
+
+The math is closer than most narratives suggest, especially in expensive metros.
+
+## Hidden Costs of Owning
+
+Big-ticket items most renters don't budget for:
+- Roof: $10,000-25,000 every 20-25 years
+- HVAC: $8,000-15,000 every 15-20 years
+- Major plumbing: $5,000-20,000
+- Foundation issues: $5,000-50,000
+- Landscaping and yard work
+
+Self-inflicted: kitchen and bathroom remodels rarely return their cost.
+
+## Hidden Costs of Renting
+
+- Annual rent increases (often 3-8% in tight markets)
+- No control over landlord decisions (sale, non-renewal, rule changes)
+- Limited customization
+- No equity capture if local market appreciates
+
+## Practical Decision Framework
+
+1. Estimate years in current city → fewer than 5 favors renting
+2. Compare monthly cost of equivalent home (rent vs PITI + maintenance)
+3. Consider opportunity cost of down payment
+4. Evaluate non-financial factors (stability, control, flexibility)
+5. Run a buy vs rent calculator (NYT calculator is a good starting point)
+
+## What Most People Miss
+
+The biggest swing variable is how long you stay. Buy and stay 10+ years: ownership usually wins. Buy and sell within 4 years: closing costs alone often make it a loss.
+
+For broader money decisions see [household budget 50/30/20](/blog/household-budget-50-30-20).
+
+**Educational only. Not financial advice.**`,
+			ko: `"임대는 돈 버리는 것"은 대안인 매수에 비교 가능한 손실이 없다고 가정. 실제로 있음.
+
+## 양쪽 비용
+
+임대: 월세, 보증금, 임차인 보험, 몇 년마다 이사.
+매수: 다운, 모기지 이자, 재산세, 보험, 유지보수(1-3%/년), HOA, 클로징 비용, 다운의 기회비용.
+
+## 5% 규칙
+
+연 소유 비용 ≈ 주택가 5%. 연 임대료가 그 이하면 임대 우위.
+
+\`\`\`
+$500,000 주택 → ~$25,000/년 소유 비용
+월 $2,083 미만 임대면 임대 우위
+\`\`\`
+
+이는 가치 상승과 자본 축적 무시.
+
+## 매수 우위
+
+5-7년+ 안정, 합리적 임대-가격 비율 시장, 어차피 소비할 현금, 강제 저축, 거주 안정성.
+
+## 임대 우위
+
+경력 유연성, 과열 시장, 다운페이먼트 더 좋은 투자 가능, 유지보수 책임 거부, 큰 인생 변화.
+
+## 기회비용
+
+$100,000 다운페이먼트 30년 7% 주식 = ~$760,000. 같은 금액 주택 자본은 가치 상승 잡지만 잠금.
+
+## 매수 숨겨진 비용
+
+지붕 $10-25k (20-25년), HVAC $8-15k (15-20년), 주요 배관 $5-20k, 기초 $5-50k.
+
+## 임대 숨겨진 비용
+
+연 임대료 인상(3-8%), 임대주 결정에 통제권 없음, 제한된 커스터마이징, 자본 축적 없음.
+
+## 실용 결정 프레임워크
+
+1. 현재 도시 거주 연수 추정 → 5년 미만 = 임대
+2. 동급 주택 월 비용 비교
+3. 다운의 기회비용 고려
+4. 비재정 요인 평가
+5. NYT 계산기 활용
+
+## 대부분 놓치는 것
+
+가장 큰 변수는 거주 기간. 10년+ = 보통 소유 우위. 4년 이내 매도 = 클로징 비용만으로도 손실.
+
+광범위한 자금 결정: [household budget 50/30/20](/blog/household-budget-50-30-20).
+
+**Educational only. Not financial advice.**`
+		},
+		date: '2026-04-14', category: 'finance'
+	},
+	{
+		slug: 'holiday-budget-planning',
+		title: { en: 'Holiday Budget Planning', ko: '연휴 예산 계획' },
+		description: { en: 'Holiday spending sneaks up. Plan now to avoid the January credit card hangover.', ko: '연휴 지출은 슬금슬금 옵니다. 1월 신용카드 숙취를 피하려면 지금 계획.' },
+		content: {
+			en: `The average US household spends $1,000-1,500 in November-December alone on gifts, travel, food, and decoration. Without planning, that hits the credit card and rolls into the new year as 22% interest.
+
+## The Annual Sinking Fund
+
+Save monthly, spend annually:
+
+\`\`\`
+Annual holiday budget: $1,200
+Monthly set-aside: $100
+\`\`\`
+
+Automate transfer to a separate savings account on the 1st of each month. By November, the money is there.
+
+## Set the Total First
+
+Decide the entire holiday budget before any specific list:
+- Gifts (the biggest line)
+- Travel
+- Food and entertaining
+- Decorations
+- Charitable giving
+- Tipping (service providers, doormen)
+
+Total = your hard cap. Allocate from there.
+
+## Per-Person Gift Limits
+
+- Immediate family: typical range varies widely; $50-150
+- Extended family: $20-50
+- Friends: $20-40
+- Coworkers: $10-25 if expected; otherwise zero
+- Service providers: $20-100 by relationship and norm
+
+Write down every recipient with a number next to their name. Total against budget.
+
+## Honest Conversations
+
+If your budget can't sustain everyone, talk to family and close friends about scaling down:
+
+- Adult sibling gift exchange instead of buying for everyone
+- Drawing names (Secret Santa) within larger groups
+- Experience gifts instead of stuff
+- Charity donation in lieu of gifts
+
+Most people are relieved when someone else suggests this first.
+
+## Travel Reality Check
+
+Holiday flights spike 30-100% above normal. Tactics:
+- Book in August-September for December
+- Fly Christmas Eve or Christmas Day (cheaper than days around)
+- Drive if under 8 hours
+- Negotiate work-from-elsewhere rather than competing for narrow vacation slots
+
+## Food and Hosting
+
+A holiday meal for 8-10 people runs $150-300 if you cook, $400+ if you cater or eat out.
+
+- Potluck splits cost across guests
+- Make ahead reduces stress and last-minute expensive runs
+- Buy alcohol on sale weeks before
+- Stick to one signature dish + sides
+
+## Decorations and Cards
+
+- Reuse multi-year decorations
+- LED lights cost less to run
+- Send digital cards or skip; the cost-to-impact is poor
+- Real trees vs artificial: artificial wins after 4-5 years
+
+## Tracking During the Season
+
+Keep a running log on phone of every holiday-related purchase. The "I haven't spent that much" feeling is reliably wrong without data.
+
+## After the Season
+
+In January:
+- Review what you actually spent vs budget
+- Adjust next year's monthly transfer
+- Note categories that overshot
+- Pay off any credit card balance immediately
+
+## Year-Round Gift Buying
+
+Buy gifts throughout the year when items go on sale and ideas occur. Stash in a "gift closet." November-December becomes wrapping, not shopping.
+
+## Lower-Stress Alternatives
+
+- Family gift exchange limit: $25
+- Hand-made gifts from a hobby
+- Time gifts: certificates for cooking dinner, babysitting, repairs
+- Charitable donation in someone's name
+
+These often land better than a $100 retail gift, while costing 1/4 as much.
+
+For broader budgeting see [household budget 50/30/20](/blog/household-budget-50-30-20).`,
+			ko: `미국 평균 가정은 11-12월에만 선물, 여행, 음식, 장식에 $1,000-1,500 지출. 계획 없이는 신용카드로, 새해 22% 이자로 넘어감.
+
+## 연간 적립 펀드
+
+매월 저축, 매년 지출:
+\`\`\`
+연 연휴 예산: $1,200
+월 적립: $100
+\`\`\`
+
+매월 1일 별도 저축 계좌로 자동 이체.
+
+## 총액 먼저 설정
+
+특정 리스트 전 전체 예산 결정:
+- 선물 (가장 큼)
+- 여행
+- 음식과 접대
+- 장식
+- 자선
+- 팁
+
+총 = 하드 캡.
+
+## 1인당 선물 한도
+
+직계 가족 $50-150, 친척 $20-50, 친구 $20-40, 동료 $10-25, 서비스 제공자 $20-100.
+
+수신자 옆에 숫자 적기.
+
+## 솔직한 대화
+
+예산이 모두 지속 못하면 축소:
+- 성인 형제 선물 교환
+- 시크릿 산타
+- 경험 선물
+- 선물 대신 자선 기부
+
+## 여행 현실 점검
+
+연휴 항공권 30-100% 급등.
+- 12월용 8-9월 예약
+- 크리스마스 이브/당일 비행
+- 8시간 미만이면 운전
+
+## 음식과 호스팅
+
+8-10인 연휴 식사 직접 요리 $150-300, 케이터링 $400+. 포트럭 비용 분산.
+
+## 장식과 카드
+
+여러 해 재사용, LED 조명, 디지털 카드 또는 생략, 인공 트리(4-5년 후 우위).
+
+## 시즌 중 추적
+
+휴대폰에 연휴 관련 구매 누적 기록.
+
+## 시즌 후
+
+1월 검토, 다음 해 월 이체 조정, 초과 카테고리 메모, 카드 잔액 즉시 상환.
+
+## 연중 선물 구매
+
+세일 시 연중 구매, "선물 옷장" 보관. 11-12월은 포장만.
+
+## 저스트레스 대안
+
+가족 교환 $25 한도, 손수 제작, 시간 선물 (저녁 요리 쿠폰, 베이비시팅), 자선 기부.
+
+광범위한 예산: [household budget 50/30/20](/blog/household-budget-50-30-20).`
+		},
+		date: '2026-04-13', category: 'finance'
+	},
+	{
+		slug: 'lunch-meal-prep-guide',
+		title: { en: 'Lunch Meal Prep Guide', ko: '점심 도시락 준비 가이드' },
+		description: { en: 'Save $30-50/week and eat better with 90 minutes of Sunday prep.', ko: '일요일 90분 준비로 주 $30-50 절약과 더 나은 식사.' },
+		content: {
+			en: `Buying lunch out averages $12-18 in 2026. Five days = $60-90/week, $3,000-4,500/year. Meal prep cuts this 70% with 90 minutes weekly.
+
+## The Format That Works
+
+Avoid five identical meals. The fastest way to quit is boredom.
+
+A flexible system:
+- 1 bulk grain (rice, quinoa, pasta)
+- 1 bulk protein (chicken, beans, tofu)
+- 2-3 vegetables (one roasted, one raw, one quick-pickled)
+- 1-2 sauces or dressings
+
+Mix and match into 5 different combinations across the week.
+
+## The 90-Minute Sunday
+
+Sample timeline:
+
+- 0:00 — preheat oven, start grain on stove
+- 0:10 — chop vegetables for roasting, season
+- 0:20 — vegetables in oven (30-40 min)
+- 0:25 — start protein (sheet-pan chicken, instant pot beans)
+- 0:35 — make sauce/dressing
+- 0:45 — wash and prep raw vegetables (cut, store separately)
+- 1:00 — assemble 5 lunch containers
+- 1:30 — clean kitchen
+
+## Container System
+
+Glass containers with snap lids beat plastic for longevity and microwave safety. Buy 7 of one size for consistency. Stainless steel works for travel where breakage is a risk.
+
+## Sample Combinations
+
+\`\`\`
+Base: brown rice + roasted chicken thighs + broccoli + carrots
+Mon: rice bowl with peanut sauce + carrots
+Tue: chicken salad with greens + sliced cucumber
+Wed: chicken-veg fried rice (reheat)
+Thu: lettuce wraps with chicken + sauce
+Fri: chicken broth bowl with rice and any leftover veg
+\`\`\`
+
+## What Doesn't Work
+
+- Sandwiches prepared 4 days ahead (sog)
+- Salads with dressing pre-applied (wilt)
+- Dishes that need a delicate texture (pasta gets gummy reheated)
+
+## What Holds Up
+
+- Grain bowls assembled at lunchtime from prepped components
+- Stews and chilis (often better day 2)
+- Roasted vegetables
+- Hard-cooked eggs
+- Rice and quinoa
+
+## Freeze for Variety
+
+Cook a double batch of curry, soup, or chili every other Sunday. Freeze half in single portions. By month 3, you have a rotating bench of 5-8 different lunches in the freezer.
+
+## Cost Math
+
+\`\`\`
+Bought lunch: $14 × 5 = $70/week
+Prepped lunch: ~$15-25/week
+Savings: $45-55/week × 50 weeks = $2,250-2,750/year
+\`\`\`
+
+That's a real vacation, fully funded.
+
+## Health Bonus
+
+Restaurant lunches average 30-50% more calories and 2-3x the sodium. Prepped lunches you control. Most people who switch lose 5-10 pounds in the first 6 months without trying.
+
+## Common Failure Points
+
+- Sunday burnout from too-ambitious prep — keep it 90 minutes max
+- Same meal Monday-Friday — boredom kills
+- Forgetting to actually pack it — set the bag by the door Sunday night
+- Skipping the wash-and-cut for raw veg — defeats the convenience
+
+## When You Skip a Week
+
+It happens. Don't restart from scratch with elaborate plans; do a 30-minute mini-prep:
+- Boil dozen eggs
+- Cook rice
+- Buy pre-washed greens, fruit, and a rotisserie chicken
+
+Imperfect prep beats no prep.
+
+For broader food savings see [meal planning on budget](/blog/meal-planning-on-budget).`,
+			ko: `2026년 외부 점심 평균 $12-18. 주 5일 = $60-90/주, 연 $3,000-4,500. 도시락 준비로 70% 절감, 주 90분.
+
+## 작동하는 포맷
+
+5번 동일 식사 피하기 - 권태가 그만두는 가장 빠른 길.
+
+유연 시스템:
+- 1개 대량 곡물
+- 1개 대량 단백질
+- 2-3개 채소
+- 1-2개 소스/드레싱
+
+5가지 조합으로 믹스 매치.
+
+## 90분 일요일
+
+- 0:00 오븐 예열, 곡물 시작
+- 0:10 로스트용 채소 손질
+- 0:20 채소 오븐
+- 0:25 단백질 시작
+- 0:35 소스 만들기
+- 0:45 생채소 손질
+- 1:00 5개 도시락 조립
+- 1:30 청소
+
+## 용기 시스템
+
+뚜껑 있는 유리가 플라스틱보다 오래 가고 전자레인지 안전. 동일 사이즈 7개.
+
+## 샘플 조합
+
+\`\`\`
+베이스: 현미 + 닭 허벅지 + 브로콜리 + 당근
+월: 땅콩 소스 라이스 보울 + 당근
+화: 닭 샐러드 + 오이
+수: 치킨-야채 볶음밥
+목: 상추쌈
+금: 닭 육수 보울
+\`\`\`
+
+## 작동 안 함
+
+미리 준비한 샌드위치(눅눅), 드레싱 발린 샐러드(시들), 섬세한 식감(파스타 재가열).
+
+## 잘 되는 것
+
+조립식 그레인 보울, 스튜/칠리, 로스트 채소, 삶은 계란, 쌀/퀴노아.
+
+## 다양성을 위한 냉동
+
+격주 더블 배치 카레/수프/칠리. 절반 1인분씩 냉동. 3개월 후 5-8가지 회전.
+
+## 비용 수학
+
+\`\`\`
+사 먹는 점심: $14 × 5 = $70/주
+준비 점심: ~$15-25/주
+절감: $45-55/주 × 50주 = $2,250-2,750/년
+\`\`\`
+
+## 건강 보너스
+
+레스토랑 점심 평균 칼로리 30-50% 더, 나트륨 2-3배.
+
+## 흔한 실패점
+
+야망적 준비로 일요일 번아웃, 월-금 같은 식사, 도시락 챙기기 망각, 생채소 컷 건너뛰기.
+
+광범위한 식비 절약: [meal planning on budget](/blog/meal-planning-on-budget).`
+		},
+		date: '2026-04-12', category: 'lifestyle'
+	},
+	{
+		slug: 'minimalism-financial-impact',
+		title: { en: 'Minimalism: Financial Impact', ko: '미니멀리즘: 재정적 영향' },
+		description: { en: 'Owning less changes the math on income, savings, and life choices.', ko: '덜 소유하면 소득, 저축, 인생 선택의 수학이 바뀝니다.' },
+		content: {
+			en: `Minimalism is often pitched as aesthetic. The bigger story is financial. Each expensive thing you skip changes the income required to support your life.
+
+## The Cost of Stuff
+
+Owning costs more than buying:
+- Storage (square footage)
+- Maintenance
+- Insurance
+- Mental load (the more you own, the more you manage)
+- Replacement cycles
+
+A 1,500 sq ft house full of stuff costs more to operate than 1,000 sq ft selectively furnished.
+
+## The Income Required
+
+Every $100/month of recurring expense requires roughly $30,000 invested at 4% withdrawal rate to fund forever. Two car payments, a storage unit, three streaming services, and a fitness app: $400/month = $120,000 of capital you don't need to accumulate if you cut them.
+
+## The Compounding Side
+
+Every $500 you don't spend, invested in a low-cost index fund at 7%, becomes:
+- $1,000 in 10 years
+- $2,000 in 20 years
+- $4,000 in 30 years
+
+A $5,000 unnecessary annual expense (subscriptions, premium upgrades, things you bought and didn't use) compounds to $500,000 over 30 years.
+
+## What Minimalism Is Not
+
+- Asceticism — owning what you use is fine; owning what fills space is the issue
+- A specific aesthetic — Instagram minimalism is just expensive minimalism
+- A one-time purge — it's an ongoing decision filter
+- Antagonism toward all consumption
+
+## Practical Filters
+
+Before any non-trivial purchase:
+- Will I use this monthly? Weekly? Daily?
+- Where exactly will it live?
+- What am I willing to remove to make space?
+- If I waited 30 days, would I still want it?
+
+The 30-day rule alone eliminates most regret purchases.
+
+## Areas of High Leverage
+
+- **Vehicles**: each car beyond what you use is $5,000-10,000/year of total cost
+- **Square footage**: rent or mortgage scales linearly
+- **Subscriptions**: easy to add, hard to notice
+- **Wardrobe**: most people wear 20% of clothes 80% of time
+- **Hobby gear**: kits often cost more than developing the skill
+
+## Areas Where Less Doesn't Help
+
+- Tools you use regularly — buy quality, maintain them
+- Books you actually read
+- Fitness equipment you use weekly
+- Quality cookware (lasts decades)
+
+The point is intention, not abstinence.
+
+## Decluttering Approach
+
+Pick a category, not a room. Clothes, books, kitchen gadgets, paperwork. Tackle one category fully before moving on. Marie Kondo's order works because it builds confidence.
+
+For each item:
+- Used in last 12 months? Keep
+- Replace it for free in 20 minutes? Discard
+- Sentimental but unused? Photo it, then donate
+- "Might need someday"? Box for 6 months; if untouched, donate
+
+## Selling vs Donating
+
+Time spent selling at $5-30 per item often exceeds the value of the time. Reserve selling for items above $100. Donate the rest.
+
+## Financial Trajectory Change
+
+A household that drops $500/month in unnecessary expenses and invests it for 20 years adds $250,000+ to retirement assets. The math is mechanical.
+
+## When Minimalism Crosses Into Cheapness
+
+- Refusing to spend money on health
+- Skipping maintenance that costs more later
+- Avoiding gifts and shared meals over small dollars
+- Trading time for money in inefficient ways
+
+The goal is alignment between spending and what you actually value, not minimum total spending.
+
+For broader financial frameworks see [household budget 50/30/20](/blog/household-budget-50-30-20).`,
+			ko: `미니멀리즘은 종종 미학으로 홍보. 더 큰 이야기는 재정. 건너뛰는 비싼 것 하나하나가 인생을 지탱하는 데 필요한 소득을 바꿈.
+
+## 물건의 비용
+
+소유는 구매보다 더 들음: 보관, 유지보수, 보험, 정신적 부담, 교체 주기.
+
+물건 가득한 1,500 sq ft 주택이 선택적 1,000 sq ft보다 운영비 큼.
+
+## 필요 소득
+
+매월 $100 반복 지출 = 4% 인출률에 약 $30,000 투자 필요. 차 두 대 할부, 창고, 3개 스트리밍, 피트니스 앱: $400/월 = 잘라내면 축적 불필요한 $120,000 자본.
+
+## 복리 측면
+
+쓰지 않은 $500 7% 인덱스 펀드 투자:
+- 10년에 $1,000
+- 20년에 $2,000
+- 30년에 $4,000
+
+연 $5,000 불필요 지출은 30년에 $500,000으로 복리.
+
+## 미니멀리즘이 아닌 것
+
+금욕 아님, 특정 미학 아님(인스타그램 미니멀리즘은 비싼 미니멀리즘), 일회성 정리 아님, 모든 소비 적대 아님.
+
+## 실용 필터
+
+비중 있는 구매 전:
+- 매월? 매주? 매일 사용?
+- 정확히 어디 살 것?
+- 무엇을 치울 의향?
+- 30일 기다려도 여전히 원할까?
+
+30일 규칙만으로 후회 구매 대부분 제거.
+
+## 고레버리지 영역
+
+차량 (각 차량 연 $5,000-10,000), 평수, 구독, 옷장(80% 시간 20% 옷), 취미 장비.
+
+## 덜이 도움 안 되는 영역
+
+정기 사용 도구, 실제 읽는 책, 주간 사용 운동 장비, 양질 조리도구.
+
+## 정리 접근
+
+방이 아닌 카테고리. 옷, 책, 주방 도구, 서류. 한 카테고리 완전히 끝내고 다음.
+
+각 항목:
+- 12개월 이내 사용? 유지
+- 20분에 무료로 교체? 폐기
+- 감정적이지만 미사용? 사진 후 기부
+- "언젠가 필요"? 6개월 박스, 안 만지면 기부
+
+## 매도 vs 기부
+
+$5-30 항목 매도 시간이 종종 가치 초과. $100 이상만 매도, 나머지는 기부.
+
+## 재정 궤적 변화
+
+월 $500 불필요 지출 줄이고 20년 투자 = 은퇴 자산 $250,000+ 추가.
+
+## 미니멀리즘이 인색함이 될 때
+
+건강 지출 거부, 나중에 더 들 유지보수 건너뛰기, 작은 돈 위해 선물/공유 식사 피함.
+
+광범위한 재정 프레임워크: [household budget 50/30/20](/blog/household-budget-50-30-20).`
+		},
+		date: '2026-04-11', category: 'lifestyle'
 	}
 ];
 
