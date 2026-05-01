@@ -2,6 +2,95 @@
 	import { page } from '$app/stores';
 	import type { Locale } from '$lib/i18n';
 	import { common } from '$lib/i18n/translations';
+	import ToolContent from '$lib/components/ToolContent.svelte';
+
+	const toolContent = {
+		about: {
+			en: 'The age calculator finds your exact age in years, months, and days from your date of birth. It also shows total days lived, weeks, and months, plus the number of days until your next birthday. Useful for legal forms, retirement planning, school enrollment, or simple curiosity.',
+			ko: '나이 계산기는 생년월일을 기준으로 만 나이를 연·월·일 단위로 정확히 계산합니다. 살아온 총 일수, 주, 개월 수와 다음 생일까지 남은 일수도 함께 보여 줍니다. 한국에서는 2023년부터 만 나이가 공식 표준이 되었으며, 이 도구는 그 기준을 따릅니다.',
+			ja: '年齢計算機は、生年月日から正確な年齢を年・月・日単位で算出します。総日数、週数、月数、次の誕生日までの日数も表示されます。各種申請、進学、退職計画などに便利です。',
+			zh: '年龄计算器根据出生日期计算精确的年、月、日年龄，并显示总天数、周数、月数以及距离下一个生日的天数。适用于法律文件、入学、退休规划等场景。'
+		},
+		howTo: {
+			en: [
+				'Enter your date of birth using the date picker.',
+				'The calculator instantly shows your age in years, months, and days.',
+				'Review the totals for days, weeks, and months you have lived.',
+				'Check the date and countdown for your next birthday.',
+				'Change the date to compare ages of family members or friends.'
+			],
+			ko: [
+				'생년월일을 날짜 선택기로 입력합니다.',
+				'연·월·일 단위의 만 나이가 즉시 계산되어 표시됩니다.',
+				'살아온 총 일수, 주, 개월 수를 함께 확인합니다.',
+				'다음 생일 날짜와 남은 일수를 확인합니다.',
+				'날짜를 바꿔 가족이나 친구의 나이를 비교해 볼 수 있습니다.'
+			],
+			ja: [
+				'日付選択で生年月日を入力します。',
+				'年・月・日単位の年齢が即座に表示されます。',
+				'総日数・週数・月数を確認します。',
+				'次の誕生日までの日数を確認します。',
+				'日付を変えて家族や友人の年齢を比較できます。'
+			],
+			zh: [
+				'使用日期选择器输入出生日期。',
+				'年、月、日年龄会立即显示。',
+				'查看总天数、周数和月数。',
+				'查看距离下一个生日的天数。',
+				'更换日期以比较家人或朋友的年龄。'
+			]
+		},
+		useCases: {
+			en: [
+				'Filling in legal documents that require exact age.',
+				'Tracking a child\'s precise age for school or vaccinations.',
+				'Planning birthdays and milestone celebrations.',
+				'Calculating retirement, pension, or insurance eligibility.',
+				'Comparing ages between two people for relationships or genealogy.'
+			],
+			ko: [
+				'정확한 만 나이가 필요한 법률·행정 서류 작성.',
+				'아이의 개월 수까지 정확한 나이로 학교·예방접종 일정 관리.',
+				'생일 및 기념일 계획.',
+				'국민연금, 노령연금, 보험 가입 자격 확인.',
+				'가족·지인 간 나이 차이 계산.'
+			],
+			ja: [
+				'正確な年齢が必要な行政書類の記入。',
+				'子供の月齢に応じた予防接種や入園手続き。',
+				'誕生日や記念日の計画。',
+				'年金や保険の加入資格確認。',
+				'家族や知人との年齢差の計算。'
+			],
+			zh: [
+				'填写需要精确年龄的法律文件。',
+				'追踪儿童精确月龄以安排接种或入学。',
+				'规划生日和重要纪念日。',
+				'查询养老金或保险资格。',
+				'比较家人或朋友间的年龄差。'
+			]
+		},
+		faq: {
+			en: [
+				{ q: 'Does this calculate Korean "age" or international age?', a: 'It uses the international (full-year) age standard, which is now also the official standard in Korea since 2023.' },
+				{ q: 'Why is the day count off by one near my birthday?', a: 'The calculation is based on local time. Time zone differences between your device and birth location may cause a one-day shift.' },
+				{ q: 'Can I calculate the age of someone who has passed away?', a: 'Use the date calculator instead — enter the birth date and the date of death to find the exact lifespan.' },
+				{ q: 'Is leap day (Feb 29) handled correctly?', a: 'Yes. In non-leap years, the birthday rolls over on March 1 for age increment purposes.' }
+			],
+			ko: [
+				{ q: '한국식 나이가 계산되나요, 만 나이가 계산되나요?', a: '국제 표준인 만 나이를 계산합니다. 한국에서도 2023년부터 만 나이가 공식 기준입니다.' },
+				{ q: '생일 즈음에 일수가 하루씩 다르게 나옵니다.', a: '기기 로컬 시간 기준으로 계산하기 때문에, 출생지와 시간대가 다르면 하루 정도 차이가 날 수 있습니다.' },
+				{ q: '돌아가신 분의 나이도 계산할 수 있나요?', a: '이 도구는 오늘 기준으로 계산합니다. 두 날짜 차이가 필요하면 날짜 계산기를 이용하세요.' },
+				{ q: '윤년(2월 29일) 생일도 정확히 계산되나요?', a: '네, 평년에는 3월 1일에 한 살을 더하는 방식으로 처리합니다.' }
+			]
+		},
+		related: [
+			{ href: '/date-calculator', label: { en: 'Date Calculator', ko: '날짜 계산기', ja: '日付計算機', zh: '日期计算器' } },
+			{ href: '/anniversary-calculator', label: { en: 'Anniversary Calculator', ko: '기념일 계산기', ja: '記念日計算機', zh: '纪念日计算器' } },
+			{ href: '/career-calculator', label: { en: 'Career Calculator', ko: '경력 계산기', ja: 'キャリア計算機', zh: '工龄计算器' } }
+		]
+	};
 
 	$: lang = ($page.params.lang || 'en') as Locale;
 	$: t = (key: string) => common[lang]?.[key] || common['en'][key] || key;
@@ -137,4 +226,6 @@
 			</div>
 		</div>
 	</div>
+
+	<ToolContent {lang} content={toolContent} />
 </div>

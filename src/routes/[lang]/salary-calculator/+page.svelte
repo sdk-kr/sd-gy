@@ -2,6 +2,95 @@
 	import { page } from '$app/stores';
 	import type { Locale } from '$lib/i18n';
 	import { common } from '$lib/i18n/translations';
+	import ToolContent from '$lib/components/ToolContent.svelte';
+
+	const toolContent = {
+		about: {
+			en: 'A Korean salary calculator for 2026 that converts your gross monthly pay into estimated take-home pay. It deducts the four major social insurance contributions (national pension, health, long-term care, employment) plus income tax and local income tax, accounting for dependents and children. Provided for educational purposes only — not financial, tax, or legal advice.',
+			ko: '2026년 기준 한국 급여 계산기입니다. 월 총급여(세전)에서 4대보험(국민연금, 건강보험, 장기요양, 고용보험)과 근로소득세, 지방소득세를 공제해 실수령액을 추정합니다. 부양가족 수와 20세 이하 자녀 수에 따른 인적공제와 자녀세액공제도 반영합니다. 본 도구는 교육 목적의 정보 제공이며 금융·세무·법률 자문이 아닙니다.',
+			ja: '2026年基準の韓国給与計算機です。月額総支給額から国民年金・健康保険・長期療養保険・雇用保険、所得税、地方所得税を控除して手取り額を推定します。扶養家族数や20歳以下の子女数に応じた人的控除・子女税額控除も反映します。本ツールは教育目的の情報提供であり、金融・税務・法律助言ではありません。',
+			zh: '2026 年韩国工资计算器。从月度税前收入中扣除四大社会保险（国民年金、健康保险、长期护理保险、雇佣保险）以及综合所得税与地方所得税，估算实际到手工资。同时考虑赡养家属和 20 岁以下子女的扣除项目。本工具仅供教育参考，不构成金融、税务或法律建议。'
+		},
+		howTo: {
+			en: [
+				'Enter your gross monthly salary in KRW.',
+				'Set the non-taxable portion (e.g., meal allowance up to ₩200,000).',
+				'Set the number of dependents (yourself counts as 1).',
+				'Set the number of children under 20 for the child tax credit.',
+				'Read the net (take-home) salary and the deduction breakdown.'
+			],
+			ko: [
+				'세전 월급(원)을 입력합니다.',
+				'비과세 항목(식대 등 최대 20만 원) 금액을 입력합니다.',
+				'부양가족 수를 입력합니다(본인 포함 1명).',
+				'20세 이하 자녀 수를 입력해 자녀세액공제를 반영합니다.',
+				'실수령액과 항목별 공제 내역을 확인합니다.'
+			],
+			ja: [
+				'税引前の月給（ウォン）を入力します。',
+				'非課税項目（食事手当など最大20万ウォン）を入力します。',
+				'扶養家族数を入力します（本人を含めて1名以上）。',
+				'20歳以下の子女数を入力すると子女税額控除が反映されます。',
+				'手取り額と控除内訳を確認します。'
+			],
+			zh: [
+				'输入税前月薪（韩元）。',
+				'输入非课税部分（如餐补最高 20 万韩元）。',
+				'输入赡养家属人数（包含本人）。',
+				'输入 20 岁以下子女数以适用子女税额扣除。',
+				'查看实际到手工资及各项扣除明细。'
+			]
+		},
+		useCases: {
+			en: [
+				'Estimating take-home pay before accepting a Korean job offer.',
+				'Checking how a raise actually affects your monthly cash.',
+				'Comparing salary structures with and without meal allowances.',
+				'Planning a family budget around a known net income.',
+				'Verifying your payslip against the standard deduction rates.'
+			],
+			ko: [
+				'이직 제안을 받았을 때 실수령액 추정.',
+				'연봉 인상이 실제 월 실수령액에 미치는 영향 확인.',
+				'식대 비과세 적용 여부에 따른 차이 비교.',
+				'실수령액 기준 가계 예산 계획.',
+				'급여명세서의 공제 항목을 표준 요율과 대조.'
+			],
+			ja: [
+				'転職オファー時の手取り額試算。',
+				'昇給が実際の手取りにどう影響するかを確認。',
+				'食事手当の有無による給与構造の比較。',
+				'手取りベースでの家計予算計画。',
+				'給与明細の控除項目を標準料率と照合。'
+			],
+			zh: [
+				'接受韩国职位前估算实际到手工资。',
+				'查看加薪后月度现金的实际变化。',
+				'比较是否包含餐补的薪资结构。',
+				'按净收入规划家庭预算。',
+				'核对工资单上的扣除项目是否合理。'
+			]
+		},
+		faq: {
+			en: [
+				{ q: 'Are these the latest 2026 rates?', a: 'Yes, but Korean social insurance rates can change mid-year via government notice. Verify with the National Tax Service or 4대보험 사이트 for the latest values.' },
+				{ q: 'Why does my actual payslip differ slightly?', a: 'Year-end tax settlement, additional deductions (insurance, donations, housing), and bonus rules can shift the monthly tax. This tool gives a baseline estimate.' },
+				{ q: 'Does this support self-employed or freelance taxes?', a: 'No. The calculator targets salaried workers under the standard payroll system. Self-employed taxes use different forms.' },
+				{ q: 'Is this legal or tax advice?', a: 'No. Always consult a licensed tax accountant (세무사) or your HR department for binding figures.' }
+			],
+			ko: [
+				{ q: '2026년 최신 요율이 맞나요?', a: '네, 다만 4대보험 요율은 연중 고시로 바뀔 수 있습니다. 정확한 값은 국세청이나 4대보험 사이트에서 확인하세요.' },
+				{ q: '실제 급여명세서와 약간 다릅니다.', a: '연말정산, 추가 소득공제(보험·기부·주택), 상여 규정 등이 매월 세금에 영향을 줍니다. 이 도구는 표준 추정치를 제공합니다.' },
+				{ q: '프리랜서나 사업소득도 계산되나요?', a: '아닙니다. 이 도구는 근로소득자(직장인) 기준입니다. 사업소득은 별도 신고 양식과 세율을 따릅니다.' },
+				{ q: '이 결과가 법률·세무 자문인가요?', a: '아닙니다. 정확한 금액은 세무사나 회사 인사팀에 확인하세요.' }
+			]
+		},
+		related: [
+			{ href: '/tax-calculator', label: { en: 'Tax Calculator', ko: '세금 계산기', ja: '税金計算機', zh: '税金计算器' } },
+			{ href: '/career-calculator', label: { en: 'Career Calculator', ko: '경력 계산기', ja: 'キャリア計算機', zh: '工龄计算器' } },
+			{ href: '/loan-calculator', label: { en: 'Loan Calculator', ko: '대출 계산기', ja: 'ローン計算機', zh: '贷款计算器' } }
+		]
+	};
 
 	$: lang = ($page.params.lang || 'en') as Locale;
 	$: t = (key: string) => common[lang]?.[key] || common['en'][key] || key;
@@ -342,4 +431,6 @@
 			<p class="mt-3 text-xs text-gray-500 dark:text-dark-500">{t('salary.disclaimer')}</p>
 		</div>
 	</div>
+
+	<ToolContent {lang} content={toolContent} />
 </div>

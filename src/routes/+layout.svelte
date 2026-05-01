@@ -15,6 +15,10 @@
 	$: currentLang = $page.params.lang as Locale || 'en';
 	$: basePath = `/${currentLang}`;
 
+	// AdSense 정책 준수: 법적/정보 페이지에서는 광고 노출 안함
+	const noAdPaths = ['/privacy', '/terms', '/about', '/contact', '/faq'];
+	$: showFooterAd = !noAdPaths.some(p => $page.url.pathname.includes(p));
+
 	let showLangMenu = false;
 	let showServicesMenu = false;
 
@@ -203,10 +207,12 @@
 		<slot />
 	</main>
 
-	<!-- AdSense - Footer Ad -->
-	<div class="max-w-5xl mx-auto px-4 py-4">
-		<AdSense type="horizontal" />
-	</div>
+	<!-- AdSense - Footer Ad (법적 페이지 제외) -->
+	{#if showFooterAd}
+		<div class="max-w-5xl mx-auto px-4 py-4">
+			<AdSense type="horizontal" />
+		</div>
+	{/if}
 
 	<footer class="bg-gray-50 dark:bg-dark-900 border-t border-gray-200 dark:border-dark-700 px-4 py-8">
 		<div class="max-w-7xl mx-auto">

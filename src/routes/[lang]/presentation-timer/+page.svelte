@@ -2,7 +2,96 @@
 	import { page } from '$app/stores';
 	import type { Locale } from '$lib/i18n';
 	import AdSense from '$lib/components/AdSense.svelte';
+	import ToolContent from '$lib/components/ToolContent.svelte';
 	import { onDestroy } from 'svelte';
+
+	const toolContent = {
+		about: {
+			en: 'Estimate how long your presentation will take by pasting the script. The tool counts words (English) or characters (Korean / Japanese / Chinese), then applies a slow / normal / fast speaking rate. Add slide transition time, then practice with the live countdown timer. Helpful for keeping conference talks, lectures, or speeches within their allotted time.',
+			ko: '발표 원고를 붙여넣으면 예상 발표 시간을 계산합니다. 영어는 단어 수, 한국어·일본어·중국어는 글자 수를 기준으로 느림/보통/빠름의 말하기 속도를 적용합니다. 슬라이드별 소요 시간도 포함할 수 있고, 실시간 카운트다운 타이머로 연습할 수 있습니다. 학회 발표, 강의, 연설 등 정해진 시간에 맞춰야 하는 상황에 유용합니다.',
+			ja: '原稿を貼り付けるだけで発表時間を見積もります。英語は単語数、日本語・韓国語・中国語は文字数を基準にゆっくり／普通／速いの3段階の話速を適用します。スライド時間も加算でき、リアルタイムのカウントダウンで練習できます。学会発表、講義、スピーチなど時間制限がある場面に便利です。',
+			zh: '粘贴讲稿即可估算演讲时长。英文按单词数、中日韩按字符数计算，并支持慢 / 正常 / 快三档语速。可加入幻灯片时间，并通过倒计时器进行实战练习。适合学术演讲、课程、致辞等需要严格控时的场合。'
+		},
+		howTo: {
+			en: [
+				'Paste your speech text into the box (or check "manual" to enter a count).',
+				'Choose word-counting (English) or character-counting (CJK).',
+				'Pick a speaking speed: slow, normal, or fast.',
+				'Optionally add the number of slides and minutes per slide.',
+				'Read the estimated total, then start the timer to practice.'
+			],
+			ko: [
+				'발표 텍스트를 입력란에 붙여넣습니다(또는 "직접 입력" 체크).',
+				'영어는 단어, 한국어·일본어·중국어는 글자 모드를 선택합니다.',
+				'느림/보통/빠름 중 발표 속도를 선택합니다.',
+				'필요하면 슬라이드 수와 슬라이드당 시간을 추가합니다.',
+				'예상 시간을 확인하고 타이머로 실제 연습을 시작합니다.'
+			],
+			ja: [
+				'スピーチテキストを貼り付けます（または「手動入力」をチェック）。',
+				'英語は単語、日本語・韓国語・中国語は文字モードを選びます。',
+				'ゆっくり／普通／速いから話速を選びます。',
+				'必要に応じてスライド数と1枚あたりの時間を追加します。',
+				'推定時間を確認し、タイマーで練習を開始します。'
+			],
+			zh: [
+				'粘贴讲稿到输入框（或勾选"手动输入"）。',
+				'英文选单词模式，中日韩选字符模式。',
+				'选择慢 / 正常 / 快的语速。',
+				'可选填入幻灯片数量和每张时长。',
+				'查看预计时长，然后开始计时进行练习。'
+			]
+		},
+		useCases: {
+			en: [
+				'Trimming a conference talk to fit a 20-minute slot.',
+				'Practicing a wedding toast or graduation speech.',
+				'Coaching students for debate or oral exams.',
+				'Pacing a podcast script segment to a target length.',
+				'Estimating sermon, lecture, or storytime duration.'
+			],
+			ko: [
+				'학회 발표를 20분 시간에 맞춰 분량 조정.',
+				'결혼식 축사나 졸업 연설 사전 연습.',
+				'학생들의 토론·구술시험 대비 코칭.',
+				'팟캐스트 스크립트 분량을 목표 시간에 맞추기.',
+				'설교, 강의, 동화 구연 시간 추정.'
+			],
+			ja: [
+				'学会発表を20分枠に合わせて調整。',
+				'結婚式の祝辞や卒業スピーチの練習。',
+				'生徒のディベートや口述試験のコーチング。',
+				'ポッドキャスト原稿の長さ調整。',
+				'説教、講義、読み聞かせの時間見積もり。'
+			],
+			zh: [
+				'调整学术演讲以契合 20 分钟时段。',
+				'练习婚礼祝词或毕业致辞。',
+				'指导学生准备辩论或口试。',
+				'按目标时长调整播客脚本片段。',
+				'估算讲道、讲座或故事时间。'
+			]
+		},
+		faq: {
+			en: [
+				{ q: 'Why does the timer differ from my actual delivery?', a: 'Speaking rates vary by speaker, language, and content. Use the estimate as a baseline and adjust based on your own pace.' },
+				{ q: 'What rates does the tool use?', a: 'Slow ~100 wpm / 200 cpm, normal ~130 / 270, fast ~160 / 340. Real-world averages are similar.' },
+				{ q: 'Should I count CJK characters or English words?', a: 'Match the language: characters for Korean/Japanese/Chinese, words for English. Mixing texts? Use the dominant language.' },
+				{ q: 'Can I save settings between visits?', a: 'No, the tool does not store data. Reload starts a fresh session.' }
+			],
+			ko: [
+				{ q: '실제 발표 시간과 차이가 나는 이유는?', a: '말하기 속도는 사람·언어·내용에 따라 다릅니다. 추정치를 기준으로 자신의 페이스에 맞게 조정하세요.' },
+				{ q: '어떤 속도 기준을 사용하나요?', a: '느림 약 100단어/분(200자/분), 보통 약 130(270), 빠름 약 160(340)입니다. 실제 평균과 비슷한 수준입니다.' },
+				{ q: '한국어 발표는 글자 수와 단어 수 중 무엇으로 세야 하나요?', a: '한국어·일본어·중국어는 글자 모드를, 영어는 단어 모드를 선택하세요. 혼용 시에는 주된 언어를 기준으로 합니다.' },
+				{ q: '설정이 저장되나요?', a: '아닙니다. 페이지를 새로고침하면 초기 상태로 돌아갑니다.' }
+			]
+		},
+		related: [
+			{ href: '/calculator', label: { en: 'Calculator', ko: '계산기', ja: '計算機', zh: '计算器' } },
+			{ href: '/date-calculator', label: { en: 'Date Calculator', ko: '날짜 계산기', ja: '日付計算機', zh: '日期计算器' } },
+			{ href: '/ladder-game', label: { en: 'Ladder Game', ko: '사다리타기', ja: 'あみだくじ', zh: '梯子游戏' } }
+		]
+	};
 
 	$: lang = ($page.params.lang || 'en') as Locale;
 
@@ -381,4 +470,6 @@
 	<div class="mt-8">
 		<AdSense type="horizontal" />
 	</div>
+
+	<ToolContent {lang} content={toolContent} />
 </div>

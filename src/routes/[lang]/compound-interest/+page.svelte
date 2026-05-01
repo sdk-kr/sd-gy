@@ -2,6 +2,95 @@
 	import { page } from '$app/stores';
 	import type { Locale } from '$lib/i18n';
 	import { common } from '$lib/i18n/translations';
+	import ToolContent from '$lib/components/ToolContent.svelte';
+
+	const toolContent = {
+		about: {
+			en: 'Compound interest is "interest on interest" — earnings are added to the principal, then earn more interest on the new total. This calculator uses the standard formula A = P(1 + r/n)^(nt) and lets you adjust principal, annual rate, time, and compounding frequency. Results are for educational purposes only and are not financial advice; actual returns vary with taxes, fees, and inflation.',
+			ko: '복리는 "이자에 또 이자가 붙는" 방식으로, 발생한 이자를 원금에 더한 뒤 다시 이자가 계산됩니다. 이 계산기는 표준 공식 A = P(1 + r/n)^(nt)을 사용하며, 원금·연이율·기간·복리 주기를 자유롭게 조정할 수 있습니다. 본 도구는 교육 목적의 정보 제공이며 금융 자문이 아닙니다. 실제 수익은 세금, 수수료, 물가상승률 등에 따라 달라집니다.',
+			ja: '複利は「利息に利息がつく」仕組みで、発生した利息を元本に加え、新しい合計に対して再び利息が計算されます。この計算機は標準式 A = P(1 + r/n)^(nt) を用い、元本、年利、期間、複利頻度を自由に調整できます。本ツールは教育目的の情報提供で、金融助言ではありません。実際の収益は税金や手数料、インフレ等で変動します。',
+			zh: '复利意为"利息再生利息"——产生的利息加入本金，下一期就用新的总额计算利息。本计算器使用标准公式 A = P(1 + r/n)^(nt)，可调整本金、年利率、期限和复利频次。本工具仅供教育参考，不构成金融建议。实际收益受税费、通胀等因素影响。'
+		},
+		howTo: {
+			en: [
+				'Enter your starting principal amount.',
+				'Set the expected annual interest rate as a percentage.',
+				'Choose the investment period in years.',
+				'Pick how often interest compounds (annually, monthly, daily, etc.).',
+				'Read the future value, total interest earned, and principal/interest split.'
+			],
+			ko: [
+				'초기 투자 원금을 입력합니다.',
+				'예상 연이율(%)을 입력합니다.',
+				'투자 기간(년)을 선택합니다.',
+				'복리 주기를 선택합니다(연·반기·분기·월·일).',
+				'미래 가치, 총 이자, 원금·이자 비율을 확인합니다.'
+			],
+			ja: [
+				'元本を入力します。',
+				'想定年利（%）を入力します。',
+				'投資期間（年）を選びます。',
+				'複利頻度を選びます（年・半年・四半期・月・日）。',
+				'将来価値、合計利息、元本と利息の割合を確認します。'
+			],
+			zh: [
+				'输入初始本金。',
+				'输入预期年利率（%）。',
+				'选择投资期限（年）。',
+				'选择复利频次（年/半年/季/月/日）。',
+				'查看未来值、累计利息以及本金与利息的比例。'
+			]
+		},
+		useCases: {
+			en: [
+				'Estimating long-term growth of savings or retirement accounts.',
+				'Comparing investment products with different compounding frequencies.',
+				'Visualizing the power of starting to invest earlier in life.',
+				'Setting financial goals like a down payment or college fund.',
+				'Sanity-checking returns advertised by banks or investment apps.'
+			],
+			ko: [
+				'예적금이나 연금 계좌의 장기 성장 추정.',
+				'복리 주기가 다른 금융 상품 비교.',
+				'일찍 투자를 시작했을 때의 효과 시각화.',
+				'주택 자금, 학자금 등 재무 목표 설정.',
+				'은행·증권사가 광고하는 수익률을 검증.'
+			],
+			ja: [
+				'貯蓄や年金口座の長期成長を試算。',
+				'複利頻度の異なる金融商品を比較。',
+				'早期投資の効果を可視化。',
+				'住宅頭金や教育資金などの目標設定。',
+				'銀行や投資アプリの広告利回りを検証。'
+			],
+			zh: [
+				'估算储蓄或退休账户的长期增长。',
+				'比较不同复利频次的金融产品。',
+				'直观展示早投资的复利效应。',
+				'设定首付、教育金等理财目标。',
+				'核对银行或投资应用宣传的收益率。'
+			]
+		},
+		faq: {
+			en: [
+				{ q: 'Does this account for taxes and inflation?', a: 'No. The calculator shows nominal growth before taxes, fees, and inflation. Real purchasing power may be lower than the displayed number.' },
+				{ q: 'Why does daily compounding only slightly beat monthly?', a: 'For typical interest rates, the difference between monthly and daily compounding is small once n exceeds 12. Continuous compounding is the theoretical upper bound.' },
+				{ q: 'Can I model regular monthly contributions?', a: 'This tool computes a single lump-sum scenario. For recurring deposits, multiply each deposit\'s future value separately or use a dedicated savings calculator.' },
+				{ q: 'Is this financial advice?', a: 'No. It is an educational illustration of compound math. Consult a licensed financial advisor before making investment decisions.' }
+			],
+			ko: [
+				{ q: '세금이나 물가상승률이 반영되나요?', a: '아닙니다. 세전·수수료 전·물가 반영 전 명목 수익만 보여 줍니다. 실제 구매력은 표시 금액보다 낮을 수 있습니다.' },
+				{ q: '일복리가 월복리보다 크게 차이나지 않는 이유?', a: '일반적인 금리 수준에서는 n이 12를 넘으면 차이가 매우 작아집니다. 이론상 최대치는 연속복리입니다.' },
+				{ q: '매월 적립금도 계산할 수 있나요?', a: '이 도구는 단일 일시금 시나리오만 계산합니다. 정기 적립을 반영하려면 각 회차의 미래 가치를 따로 더하거나 적립식 계산기를 사용하세요.' },
+				{ q: '이 결과가 금융 자문인가요?', a: '아닙니다. 복리의 수학적 원리를 보여 주는 교육용 자료입니다. 실제 투자 결정 전에 공인 재무상담사와 상담하세요.' }
+			]
+		},
+		related: [
+			{ href: '/loan-calculator', label: { en: 'Loan Calculator', ko: '대출 계산기', ja: 'ローン計算機', zh: '贷款计算器' } },
+			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트 계산기', ja: 'パーセント計算', zh: '百分比' } },
+			{ href: '/currency-converter', label: { en: 'Currency Converter', ko: '환율 변환', ja: '通貨換算', zh: '货币换算' } }
+		]
+	};
 
 	$: lang = ($page.params.lang || 'en') as Locale;
 	$: t = (key: string) => common[lang]?.[key] || common['en'][key] || key;
@@ -164,4 +253,6 @@
 			<li><strong>t</strong> = {t('compound.years')}</li>
 		</ul>
 	</div>
+
+	<ToolContent {lang} content={toolContent} />
 </div>
