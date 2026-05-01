@@ -89,6 +89,10 @@
 			{ href: '/loan-calculator', label: { en: 'Loan Calculator', ko: '대출 계산기', ja: 'ローン計算機', zh: '贷款计算器' } },
 			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트 계산기', ja: 'パーセント計算', zh: '百分比' } },
 			{ href: '/currency-converter', label: { en: 'Currency Converter', ko: '환율 변환', ja: '通貨換算', zh: '货币换算' } }
+		],
+		externalRefs: [
+			{ href: 'https://www.investopedia.com/terms/c/compoundinterest.asp', label: 'Investopedia: Compound Interest' },
+			{ href: 'https://www.sec.gov/about/reports-publications/investor-publications/compound-interest-calculator', label: 'SEC: Compound Interest Calculator' }
 		]
 	};
 
@@ -254,5 +258,17 @@
 		</ul>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Compound Interest Calculator"
+		toolUrl="https://sd.gy/{lang}/compound-interest"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Compound Interest Calculator', url: `https://sd.gy/${lang}/compound-interest` }
+		]}
+		content={toolContent}
+	/>
 </div>

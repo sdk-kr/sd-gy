@@ -89,6 +89,10 @@
 			{ href: '/tax-calculator', label: { en: 'Tax Calculator', ko: '세금 계산기', ja: '税金計算機', zh: '税金计算器' } },
 			{ href: '/career-calculator', label: { en: 'Career Calculator', ko: '경력 계산기', ja: 'キャリア計算機', zh: '工龄计算器' } },
 			{ href: '/loan-calculator', label: { en: 'Loan Calculator', ko: '대출 계산기', ja: 'ローン計算機', zh: '贷款计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://www.bls.gov/oes/', label: 'BLS: Occupational Employment Statistics' },
+			{ href: 'https://www.investopedia.com/terms/s/salary.asp', label: 'Investopedia: Salary' }
 		]
 	};
 
@@ -432,5 +436,17 @@
 		</div>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Salary Calculator"
+		toolUrl="https://sd.gy/{lang}/salary-calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Salary Calculator', url: `https://sd.gy/${lang}/salary-calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>

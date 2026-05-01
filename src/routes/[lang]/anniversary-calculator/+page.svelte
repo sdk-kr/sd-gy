@@ -89,6 +89,10 @@
 			{ href: '/date-calculator', label: { en: 'Date Calculator', ko: '날짜 계산기', ja: '日付計算機', zh: '日期计算器' } },
 			{ href: '/age-calculator', label: { en: 'Age Calculator', ko: '나이 계산기', ja: '年齢計算機', zh: '年龄计算器' } },
 			{ href: '/career-calculator', label: { en: 'Career Calculator', ko: '경력 계산기', ja: 'キャリア計算機', zh: '工龄计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://en.wikipedia.org/wiki/Anniversary', label: 'Anniversary - Wikipedia' },
+			{ href: 'https://www.timeanddate.com/date/', label: 'Time and Date: Date Calculators' }
 		]
 	};
 
@@ -240,5 +244,17 @@
 		{/if}
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Anniversary Calculator"
+		toolUrl="https://sd.gy/{lang}/anniversary-calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Anniversary Calculator', url: `https://sd.gy/${lang}/anniversary-calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>

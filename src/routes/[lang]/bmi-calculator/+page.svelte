@@ -89,6 +89,10 @@
 			{ href: '/calorie-calculator', label: { en: 'Calorie Calculator', ko: '칼로리 계산기', ja: 'カロリー計算機', zh: '卡路里计算器' } },
 			{ href: '/calculator', label: { en: 'Calculator', ko: '계산기', ja: '計算機', zh: '计算器' } },
 			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트', ja: 'パーセント', zh: '百分比' } }
+		],
+		externalRefs: [
+			{ href: 'https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight', label: 'WHO: Obesity and overweight' },
+			{ href: 'https://www.cdc.gov/healthyweight/assessing/bmi/index.html', label: 'CDC: About Adult BMI' }
 		]
 	};
 
@@ -238,5 +242,17 @@
 		</div>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="BMI Calculator"
+		toolUrl="https://sd.gy/{lang}/bmi-calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'BMI Calculator', url: `https://sd.gy/${lang}/bmi-calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>

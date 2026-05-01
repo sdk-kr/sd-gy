@@ -89,6 +89,10 @@
 			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트 계산기', ja: 'パーセント計算', zh: '百分比' } },
 			{ href: '/loan-calculator', label: { en: 'Loan Calculator', ko: '대출 계산기', ja: 'ローン計算機', zh: '贷款计算器' } },
 			{ href: '/compound-interest', label: { en: 'Compound Interest', ko: '복리 계산기', ja: '複利計算機', zh: '复利计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://en.wikipedia.org/wiki/Calculator', label: 'Calculator - Wikipedia' },
+			{ href: 'https://en.wikipedia.org/wiki/Order_of_operations', label: 'Order of operations - Wikipedia' }
 		]
 	};
 
@@ -336,5 +340,17 @@
 		</div>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Calculator"
+		toolUrl="https://sd.gy/{lang}/calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Calculator', url: `https://sd.gy/${lang}/calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>

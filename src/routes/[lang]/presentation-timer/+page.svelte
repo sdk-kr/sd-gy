@@ -90,6 +90,10 @@
 			{ href: '/calculator', label: { en: 'Calculator', ko: '계산기', ja: '計算機', zh: '计算器' } },
 			{ href: '/date-calculator', label: { en: 'Date Calculator', ko: '날짜 계산기', ja: '日付計算機', zh: '日期计算器' } },
 			{ href: '/ladder-game', label: { en: 'Ladder Game', ko: '사다리타기', ja: 'あみだくじ', zh: '梯子游戏' } }
+		],
+		externalRefs: [
+			{ href: 'https://en.wikipedia.org/wiki/Presentation', label: 'Presentation - Wikipedia' },
+			{ href: 'https://hbr.org/2013/06/how-to-give-a-killer-presentation', label: 'HBR: How to Give a Killer Presentation' }
 		]
 	};
 
@@ -471,5 +475,17 @@
 		<AdSense type="horizontal" />
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Presentation Timer"
+		toolUrl="https://sd.gy/{lang}/presentation-timer"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Presentation Timer', url: `https://sd.gy/${lang}/presentation-timer` }
+		]}
+		content={toolContent}
+	/>
 </div>

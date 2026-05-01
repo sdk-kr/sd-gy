@@ -89,6 +89,10 @@
 			{ href: '/bmi-calculator', label: { en: 'BMI Calculator', ko: 'BMI 계산기', ja: 'BMI計算機', zh: 'BMI 计算器' } },
 			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트 계산기', ja: 'パーセント計算', zh: '百分比' } },
 			{ href: '/calculator', label: { en: 'Calculator', ko: '계산기', ja: '計算機', zh: '计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://www.who.int/news-room/fact-sheets/detail/healthy-diet', label: 'WHO: Healthy diet' },
+			{ href: 'https://www.dietaryguidelines.gov/', label: 'Dietary Guidelines for Americans' }
 		]
 	};
 
@@ -237,5 +241,17 @@
 		<p class="text-sm text-gray-600 dark:text-dark-400">{t('calorie.infoText')}</p>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Calorie Calculator"
+		toolUrl="https://sd.gy/{lang}/calorie-calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Calorie Calculator', url: `https://sd.gy/${lang}/calorie-calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>

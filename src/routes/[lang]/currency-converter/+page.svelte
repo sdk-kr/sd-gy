@@ -90,6 +90,10 @@
 			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트 계산기', ja: 'パーセント計算', zh: '百分比' } },
 			{ href: '/loan-calculator', label: { en: 'Loan Calculator', ko: '대출 계산기', ja: 'ローン計算機', zh: '贷款计算器' } },
 			{ href: '/compound-interest', label: { en: 'Compound Interest', ko: '복리 계산기', ja: '複利計算機', zh: '复利计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://www.iso.org/iso-4217-currency-codes.html', label: 'ISO 4217 Currency Codes' },
+			{ href: 'https://www.xe.com/currencyconverter/', label: 'XE Currency Converter' }
 		]
 	};
 
@@ -261,5 +265,17 @@
 		<p class="text-sm text-gray-600 dark:text-dark-400">{t('currency.infoText')}</p>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Currency Converter"
+		toolUrl="https://sd.gy/{lang}/currency-converter"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Currency Converter', url: `https://sd.gy/${lang}/currency-converter` }
+		]}
+		content={toolContent}
+	/>
 </div>

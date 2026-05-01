@@ -89,6 +89,10 @@
 			{ href: '/calculator', label: { en: 'Calculator', ko: '계산기', ja: '計算機', zh: '计算器' } },
 			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트 계산기', ja: 'パーセント計算', zh: '百分比' } },
 			{ href: '/presentation-timer', label: { en: 'Presentation Timer', ko: '프레젠테이션 타이머', ja: 'プレゼンタイマー', zh: '演讲计时器' } }
+		],
+		externalRefs: [
+			{ href: 'https://en.wikipedia.org/wiki/Ghost_Leg', label: 'Ghost Leg (Ladder Game) - Wikipedia' },
+			{ href: 'https://en.wikipedia.org/wiki/Random_number_generation', label: 'Random number generation - Wikipedia' }
 		]
 	};
 
@@ -305,7 +309,19 @@
 		{/if}
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Ladder Game"
+		toolUrl="https://sd.gy/{lang}/ladder-game"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Ladder Game', url: `https://sd.gy/${lang}/ladder-game` }
+		]}
+		content={toolContent}
+	/>
 </div>
 
 <style>

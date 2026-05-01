@@ -89,6 +89,10 @@
 			{ href: '/salary-calculator', label: { en: 'Salary Calculator', ko: '급여 계산기', ja: '給与計算機', zh: '薪资计算器' } },
 			{ href: '/percentage', label: { en: 'Percentage', ko: '퍼센트 계산기', ja: 'パーセント計算', zh: '百分比' } },
 			{ href: '/currency-converter', label: { en: 'Currency Converter', ko: '환율 변환', ja: '通貨換算', zh: '货币换算' } }
+		],
+		externalRefs: [
+			{ href: 'https://www.irs.gov/', label: 'IRS: Internal Revenue Service' },
+			{ href: 'https://www.investopedia.com/terms/i/incometax.asp', label: 'Investopedia: Income Tax' }
 		]
 	};
 
@@ -263,5 +267,17 @@
 		<p class="text-sm text-gray-600 dark:text-dark-400">{t('tax.disclaimerText')}</p>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Tax Calculator"
+		toolUrl="https://sd.gy/{lang}/tax-calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Tax Calculator', url: `https://sd.gy/${lang}/tax-calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>

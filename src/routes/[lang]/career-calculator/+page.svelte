@@ -89,6 +89,10 @@
 			{ href: '/date-calculator', label: { en: 'Date Calculator', ko: '날짜 계산기', ja: '日付計算機', zh: '日期计算器' } },
 			{ href: '/age-calculator', label: { en: 'Age Calculator', ko: '나이 계산기', ja: '年齢計算機', zh: '年龄计算器' } },
 			{ href: '/salary-calculator', label: { en: 'Salary Calculator', ko: '급여 계산기', ja: '給与計算機', zh: '薪资计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://www.bls.gov/ooh/', label: 'BLS: Occupational Outlook Handbook' },
+			{ href: 'https://en.wikipedia.org/wiki/Career', label: 'Career - Wikipedia' }
 		]
 	};
 
@@ -255,5 +259,17 @@
 		</div>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Career Calculator"
+		toolUrl="https://sd.gy/{lang}/career-calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Career Calculator', url: `https://sd.gy/${lang}/career-calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>

@@ -89,6 +89,10 @@
 			{ href: '/calculator', label: { en: 'Calculator', ko: '계산기', ja: '計算機', zh: '计算器' } },
 			{ href: '/loan-calculator', label: { en: 'Loan Calculator', ko: '대출 계산기', ja: 'ローン計算機', zh: '贷款计算器' } },
 			{ href: '/compound-interest', label: { en: 'Compound Interest', ko: '복리 계산기', ja: '複利計算機', zh: '复利计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://en.wikipedia.org/wiki/Percentage', label: 'Percentage - Wikipedia' },
+			{ href: 'https://www.mathsisfun.com/percentage.html', label: 'Math is Fun: Percentages' }
 		]
 	};
 
@@ -261,5 +265,17 @@
 		</div>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Percentage Calculator"
+		toolUrl="https://sd.gy/{lang}/percentage"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Percentage Calculator', url: `https://sd.gy/${lang}/percentage` }
+		]}
+		content={toolContent}
+	/>
 </div>

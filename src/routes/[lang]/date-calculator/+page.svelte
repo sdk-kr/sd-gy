@@ -89,6 +89,10 @@
 			{ href: '/age-calculator', label: { en: 'Age Calculator', ko: '나이 계산기', ja: '年齢計算機', zh: '年龄计算器' } },
 			{ href: '/anniversary-calculator', label: { en: 'Anniversary Calculator', ko: '기념일 계산기', ja: '記念日計算機', zh: '纪念日计算器' } },
 			{ href: '/career-calculator', label: { en: 'Career Calculator', ko: '경력 계산기', ja: 'キャリア計算機', zh: '工龄计算器' } }
+		],
+		externalRefs: [
+			{ href: 'https://en.wikipedia.org/wiki/ISO_8601', label: 'ISO 8601 - Wikipedia' },
+			{ href: 'https://www.timeanddate.com/date/', label: 'Time and Date: Date Calculators' }
 		]
 	};
 
@@ -257,5 +261,17 @@
 		</div>
 	</div>
 
-	<ToolContent {lang} content={toolContent} />
+	<ToolContent
+		{lang}
+		toolName="Date Calculator"
+		toolUrl="https://sd.gy/{lang}/date-calculator"
+		lastUpdated="2026-04-30"
+		category="Daily Calculator"
+		breadcrumb={[
+			{ name: 'Home', url: `https://sd.gy/${lang}` },
+			{ name: 'Tools', url: `https://sd.gy/${lang}` },
+			{ name: 'Date Calculator', url: `https://sd.gy/${lang}/date-calculator` }
+		]}
+		content={toolContent}
+	/>
 </div>
