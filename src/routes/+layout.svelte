@@ -255,6 +255,10 @@
 					</a>
 				</div>
 			</div>
+			<div class="border-t border-gray-200 dark:border-dark-700 pt-4 text-xs text-gray-500 dark:text-dark-500 leading-relaxed">
+				<p>SD.gy — Free everyday calculators. Operated by SDK Co., Ltd.</p>
+				<p>Contact: <a href="mailto:contact@sd.gy" class="hover:underline">contact@sd.gy</a></p>
+			</div>
 		</div>
 	</footer>
 </div>
