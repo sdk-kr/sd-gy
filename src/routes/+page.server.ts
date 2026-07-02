@@ -1,18 +1,7 @@
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
-const supportedLangs = ['ko', 'ja', 'zh', 'es', 'pt', 'de', 'fr', 'hi'];
-
-export const load: PageServerLoad = ({ request }) => {
-	const acceptLanguage = request.headers.get('accept-language') || '';
-	let detectedLang = 'en';
-
-	for (const lang of supportedLangs) {
-		if (acceptLanguage.includes(lang)) {
-			detectedLang = lang;
-			break;
-		}
-	}
-
-	throw redirect(302, `/${detectedLang}`);
+// 언어 자동 감지 리다이렉트는 크롤러 혼란을 유발하므로 /en 고정 301 (언어는 헤더의 셀렉터로 전환)
+export const load: PageServerLoad = () => {
+	throw redirect(301, '/en');
 };

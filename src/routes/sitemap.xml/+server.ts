@@ -4,7 +4,8 @@ import { getAllBlogPosts } from '$lib/data/blog-posts';
 export const prerender = true;
 
 const SITE = 'https://sd.gy';
-const LANGS = ['en', 'ko', 'ja', 'zh', 'es', 'pt', 'de', 'fr', 'hi'];
+// es/pt/de/fr/hi는 영어 fallback 상태 → 번역 완료 전까지 sitemap 제외 (중복 콘텐츠 방지)
+const LANGS = ['en', 'ko', 'ja', 'zh'];
 
 const PAGES = [
 	'',
@@ -30,7 +31,6 @@ const PAGES = [
 	'/terms',
 	'/contact',
 	'/faq',
-	'/guide',
 	'/blog',
 	...getAllBlogPosts().map(p => `/blog/${p.slug}`)
 ];
