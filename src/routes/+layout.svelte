@@ -15,6 +15,10 @@
 	$: currentLang = $page.params.lang as Locale || 'en';
 	$: basePath = `/${currentLang}`;
 
+	// es/pt/de/fr/hi는 아직 영어 fallback 콘텐츠 → 중복 색인 방지 (번역 완료 전까지)
+	const indexedLocales: Locale[] = ['en', 'ko', 'ja', 'zh'];
+	$: isFallbackLocale = !indexedLocales.includes(currentLang);
+
 	// AdSense 정책 준수: 법적/정보 페이지에서는 광고 노출 안함
 	const noAdPaths = ['/privacy', '/terms', '/about', '/contact', '/faq'];
 	$: showFooterAd = !noAdPaths.some(p => $page.url.pathname.includes(p));
@@ -65,7 +69,10 @@
 <svelte:head>
 	<!-- Canonical -->
 	<link rel="canonical" href="https://sd.gy{$page.url.pathname}" />
-	{#each locales as loc}
+	{#if isFallbackLocale}
+		<meta name="robots" content="noindex, follow" />
+	{/if}
+	{#each indexedLocales as loc}
 		<link rel="alternate" hreflang={loc} href="https://sd.gy/{loc}{$page.url.pathname.replace(/^\/(en|ko|ja|zh|es|pt|de|fr|hi)/, '')}" />
 	{/each}
 	<link rel="alternate" hreflang="x-default" href="https://sd.gy/en{$page.url.pathname.replace(/^\/(en|ko|ja|zh|es|pt|de|fr|hi)/, '')}" />

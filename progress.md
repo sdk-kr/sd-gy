@@ -24,3 +24,16 @@
 ### 미완료/개선 여지
 - sdk-bz와 javascript.ac에 cross-site 도메인 링크 없음 (자체 사이트 링크는 있음)
 - 향후 다른 사이트 도구로의 cross-site markdown 링크 보강 권장
+
+## 2026-07-02 세션: ja/zh 번역 백필 (AdSense 중복 콘텐츠 대응)
+
+### 완료
+- sd-gy 5개 도구 페이지 guideSections(3섹션 × heading/body) + toolContent.faq에 ja/zh 완역 추가:
+  bmi-calculator, percentage, loan-calculator, compound-interest, currency-converter
+  (about/howTo/useCases/related는 이미 ja/zh 보유 → 스킵)
+- sdk-is 7개 도구 페이지(json, base64, regex, uuid, hash, jwt, password): guideSections + howTo/useCases/faq/related ja/zh 완역
+- sdk-is 홈: longCopyJa/longCopyZh 추가 + lc 선택자 4-locale로 확장 (sd-gy 홈 패턴과 동일)
+- 양 리포 about 페이지, sd-gy 홈은 이미 ja/zh 완비 → 변경 없음
+- 검증: 양 리포 `npx svelte-check --threshold error` — 우리가 수정한 파일에는 에러 0.
+  기존 에러(sdk-is 2건: blog/[slug], guide / sd-gy 12건: privacy, terms, faq, contact, blog, about, layout, ToolContent 등 Locale 인덱싱)는 이번 수정과 무관한 기존 이슈.
+- 원칙 준수: en/ko 원문 무변경(마지막 키 뒤 콤마 추가만), es/pt/de/fr/hi 미추가, 커밋/빌드 없음
