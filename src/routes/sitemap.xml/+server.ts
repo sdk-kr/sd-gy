@@ -1,11 +1,12 @@
 import type { RequestHandler } from './$types';
-import { getAllBlogPosts } from '$lib/data/blog-posts';
 
 export const prerender = true;
 
 const SITE = 'https://sd.gy';
 // es/pt/de/fr/hi는 영어 fallback 상태 → 번역 완료 전까지 sitemap 제외 (중복 콘텐츠 방지)
-const LANGS = ['en', 'ko', 'ja', 'zh'];
+// ja/zh도 2026-10-16 전수 측정에서 67%·67%가 400단어 미만(중앙값 222·220단어)으로
+// en/ko 대비 번역본이 크게 짧아 제외했다. 번역이 보강되면 다시 추가한다.
+const LANGS = ['en', 'ko'];
 
 const PAGES = [
 	'',
@@ -30,9 +31,7 @@ const PAGES = [
 	'/privacy',
 	'/terms',
 	'/contact',
-	'/faq',
-	'/blog',
-	...getAllBlogPosts().map(p => `/blog/${p.slug}`)
+	'/faq'
 ];
 
 export const GET: RequestHandler = async () => {
