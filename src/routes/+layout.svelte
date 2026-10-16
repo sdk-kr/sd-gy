@@ -16,8 +16,14 @@
 	$: basePath = `/${currentLang}`;
 
 	// es/pt/de/fr/hi는 아직 영어 fallback 콘텐츠 → 중복 색인 방지 (번역 완료 전까지)
-	const indexedLocales: Locale[] = ['en', 'ko', 'ja', 'zh'];
+	// ja/zh도 2026-10-16 전수 측정에서 67%·67%가 400단어 미만으로 en/ko 대비 크게 짧아 제외.
+	const indexedLocales: Locale[] = ['en', 'ko'];
 	$: isFallbackLocale = !indexedLocales.includes(currentLang);
+
+	// blog 264편은 2026-07 라운드에서 최신 8편만 확장했고 나머지는 얇다(중앙값 325단어,
+	// en 기준으로도 439단어). 사용자에게는 그대로 제공하되 색인 대상에서만 제외한다.
+	$: pathWithoutLocale = $page.url.pathname.replace(/^\/(en|ko|ja|zh|es|pt|de|fr|hi)/, '');
+	$: isNoindexSection = pathWithoutLocale === '/blog' || pathWithoutLocale.startsWith('/blog/');
 
 	// AdSense 정책 준수: 법적/정보 페이지에서는 광고 노출 안함
 	const noAdPaths = ['/privacy', '/terms', '/about', '/contact', '/faq'];
@@ -69,7 +75,7 @@
 <svelte:head>
 	<!-- Canonical -->
 	<link rel="canonical" href="https://sd.gy{$page.url.pathname}" />
-	{#if isFallbackLocale}
+	{#if isFallbackLocale || isNoindexSection}
 		<meta name="robots" content="noindex, follow" />
 	{/if}
 	{#each indexedLocales as loc}
