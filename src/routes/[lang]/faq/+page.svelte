@@ -6,7 +6,7 @@
 
 	const SITE_NAME = 'SD.gy';
 	const SITE_DOMAIN = 'sd.gy';
-	const CONTACT_EMAIL = 'contact@sd.gy';
+	const CONTACT_EMAIL = 'contact@sdklabs.org';
 
 	const content = {
 		en: {
@@ -59,7 +59,7 @@
 				{
 					heading: 'Legal & Responsibility',
 					faqs: [
-						{ q: 'Who is responsible for the site?', a: `${SITE_NAME} is operated by SDK Co., Ltd., a Korean software company (business registration 871-81-03242). Operator details and contact info are on our About and Contact pages.` },
+						{ q: 'Who is responsible for the site?', a: `${SITE_NAME} is operated by SDKLabs Co., Ltd., a Korean software company (business registration 424-86-03401). Operator details and contact info are on our About and Contact pages.` },
 						{ q: `Can the results of a ${SITE_NAME} calculator be used as professional advice?`, a: `No. Our calculators provide informational estimates only. They are not financial, legal, medical, or other professional advice. Talk to a qualified professional for decisions that materially affect your life.` },
 						{ q: 'Can I use the site to teach a class or write an article?', a: 'Absolutely. Linking to calculators and guides is encouraged. We just ask that you do not screenshot the entire page and re-host it as your own.' }
 					]
@@ -116,7 +116,7 @@
 				{
 					heading: '법적·책임',
 					faqs: [
-						{ q: '사이트의 책임자는 누구인가요?', a: `${SITE_NAME}은 한국 소프트웨어 회사 SDK Co., Ltd.(사업자등록번호 871-81-03242)가 운영합니다. 운영자 정보와 연락처는 소개·문의 페이지에 있습니다.` },
+						{ q: '사이트의 책임자는 누구인가요?', a: `${SITE_NAME}은 한국 소프트웨어 회사 주식회사 에스디케이랩스(사업자등록번호 424-86-03401)가 운영합니다. 운영자 정보와 연락처는 소개·문의 페이지에 있습니다.` },
 						{ q: `${SITE_NAME} 계산기의 결과를 전문 자문으로 사용해도 되나요?`, a: `아니요. 우리 계산기는 정보성 추정치만 제공합니다. 금융·법률·의료·기타 전문 자문이 아닙니다. 삶에 실질적 영향을 미치는 결정은 자격 있는 전문가와 상의하세요.` },
 						{ q: '강의나 기사에서 사이트를 사용해도 되나요?', a: `물론입니다. 계산기와 가이드로 링크를 거는 것은 권장 사항입니다. 페이지 전체를 캡처해 자기 콘텐츠처럼 재호스팅하지만 말아 주세요.` }
 					]
@@ -173,7 +173,7 @@
 				{
 					heading: '法務と責任',
 					faqs: [
-						{ q: 'サイトの責任者は誰ですか？', a: `${SITE_NAME} は韓国のソフトウェア会社 SDK Co., Ltd.（事業者登録番号 871-81-03242）が運営しています。` },
+						{ q: 'サイトの責任者は誰ですか？', a: `${SITE_NAME} は韓国のソフトウェア会社 SDKLabs Co., Ltd.（事業者登録番号 424-86-03401）が運営しています。` },
 						{ q: `${SITE_NAME} 計算機の結果を専門アドバイスとして使えますか？`, a: `いいえ。当社の計算機は情報目的の概算を提供するのみで、金融、法律、医療等の専門アドバイスではありません。重要な決定は資格ある専門家にご相談ください。` },
 						{ q: '授業や記事でサイトを使えますか？', a: `もちろんです。計算機やガイドへのリンクは推奨です。ページ全体をスクリーンショットして自分のものとして再ホストすることだけはご遠慮ください。` }
 					]
@@ -230,7 +230,7 @@
 				{
 					heading: '法律与责任',
 					faqs: [
-						{ q: '网站由谁负责？', a: `${SITE_NAME} 由韩国软件公司 SDK Co., Ltd.（营业执照编号 871-81-03242）运营。运营者信息与联系方式见关于和联系页面。` },
+						{ q: '网站由谁负责？', a: `${SITE_NAME} 由韩国软件公司 SDKLabs Co., Ltd.（营业执照编号 424-86-03401）运营。运营者信息与联系方式见关于和联系页面。` },
 						{ q: `${SITE_NAME} 计算器的结果可以作为专业建议吗？`, a: `不可以。我们的计算器仅提供信息性估算，不构成金融、法律、医疗或其他专业建议。重大决策请咨询合格专业人士。` },
 						{ q: '可以在课堂或文章中使用本网站吗？', a: `当然。鼓励链接到计算器与指南。请不要把整页截图后再以自己的内容名义重新发布。` }
 					]

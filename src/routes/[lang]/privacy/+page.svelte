@@ -6,12 +6,11 @@
 
 	const SITE_NAME = 'SD.gy';
 	const SITE_DOMAIN = 'sd.gy';
-	const CONTACT_EMAIL = 'contact@sd.gy';
-	const COMPANY_NAME = 'SDK Co., Ltd.';
-	const BUSINESS_NUMBER = '871-81-03242';
-	const ECOMMERCE_NUMBER = '2024-고양일산서-1820';
-	const COMPANY_ADDRESS = '제주특별자치도 제주시 남성로 127, 4층';
-	const COMPANY_ADDRESS_EN = '4F, 127 Namseong-ro, Jeju-si, Jeju Special Self-Governing Province, Republic of Korea';
+	const CONTACT_EMAIL = 'contact@sdklabs.org';
+	const COMPANY_NAME = '주식회사 에스디케이랩스 (SDKLabs Co., Ltd.)';
+	const BUSINESS_NUMBER = '424-86-03401';
+	const COMPANY_ADDRESS = '서울특별시 서초구 태봉로 60, 542호';
+	const COMPANY_ADDRESS_EN = '#542, 60 Taebong-ro, Seocho-gu, Seoul, Republic of Korea';
 	const EFFECTIVE_DATE = '2024-01-15';
 	const LAST_UPDATED = '2026-05-02';
 
@@ -85,7 +84,6 @@ In the unlikely event of a breach affecting personal data, we will notify the Pe
 
 - Operator: ${COMPANY_NAME}
 - Business Registration Number: ${BUSINESS_NUMBER}
-- E-Commerce Registration Number: ${ECOMMERCE_NUMBER}
 - Address: ${COMPANY_ADDRESS_EN} (${COMPANY_ADDRESS})
 - Personal Information Protection Officer: SDK Privacy Team
 - Contact: ${CONTACT_EMAIL}
@@ -174,7 +172,6 @@ We treat all privacy communications as a priority and aim to acknowledge them wi
 
 - 운영자: ${COMPANY_NAME}
 - 사업자등록번호: ${BUSINESS_NUMBER}
-- 통신판매업 신고번호: ${ECOMMERCE_NUMBER}
 - 주소: ${COMPANY_ADDRESS}
 - 개인정보 보호 책임자: SDK 개인정보 보호팀
 - 연락처: ${CONTACT_EMAIL}
@@ -264,7 +261,6 @@ https://adssettings.google.com からはいつでも設定を変更できます�
 
 - 運営者: ${COMPANY_NAME}
 - 事業者登録番号: ${BUSINESS_NUMBER}
-- 通信販売業申告番号: ${ECOMMERCE_NUMBER}
 - 住所: ${COMPANY_ADDRESS}
 - 個人情報保護責任者: SDK プライバシーチーム
 - 連絡先: ${CONTACT_EMAIL}
@@ -354,7 +350,6 @@ https://adssettings.google.com からはいつでも設定を変更できます�
 
 - 运营者：${COMPANY_NAME}
 - 营业执照编号：${BUSINESS_NUMBER}
-- 电子商务备案编号：${ECOMMERCE_NUMBER}
 - 地址：${COMPANY_ADDRESS}
 - 联系方式：${CONTACT_EMAIL}
 

@@ -6,12 +6,11 @@
 
 	const SITE_NAME = 'SD.gy';
 	const SITE_DOMAIN = 'sd.gy';
-	const CONTACT_EMAIL = 'contact@sd.gy';
-	const COMPANY_NAME = 'SDK Co., Ltd.';
-	const BUSINESS_NUMBER = '871-81-03242';
-	const ECOMMERCE_NUMBER = '2024-고양일산서-1820';
-	const COMPANY_ADDRESS = '제주특별자치도 제주시 남성로 127, 4층';
-	const COMPANY_ADDRESS_EN = '4F, 127 Namseong-ro, Jeju-si, Jeju Special Self-Governing Province, Republic of Korea';
+	const CONTACT_EMAIL = 'contact@sdklabs.org';
+	const COMPANY_NAME = '주식회사 에스디케이랩스 (SDKLabs Co., Ltd.)';
+	const BUSINESS_NUMBER = '424-86-03401';
+	const COMPANY_ADDRESS = '서울특별시 서초구 태봉로 60, 542호';
+	const COMPANY_ADDRESS_EN = '#542, 60 Taebong-ro, Seocho-gu, Seoul, Republic of Korea';
 
 	const translations = {
 		en: {
@@ -46,8 +45,6 @@
 			focusArea: 'Developer tools, calculators, free utilities',
 			businessNumberLabel: 'Business Registration',
 			businessNumberValue: BUSINESS_NUMBER,
-			ecommerceNumberLabel: 'E-Commerce Registration',
-			ecommerceNumberValue: ECOMMERCE_NUMBER,
 			addressLabel: 'Address',
 			addressValue: COMPANY_ADDRESS_EN,
 
@@ -142,8 +139,6 @@
 			focusArea: '개발자 도구, 계산기, 무료 유틸리티',
 			businessNumberLabel: '사업자등록번호',
 			businessNumberValue: BUSINESS_NUMBER,
-			ecommerceNumberLabel: '통신판매업 신고번호',
-			ecommerceNumberValue: ECOMMERCE_NUMBER,
 			addressLabel: '주소',
 			addressValue: COMPANY_ADDRESS,
 
@@ -238,8 +233,6 @@
 			focusArea: '開発者ツール、計算機、無料ユーティリティ',
 			businessNumberLabel: '事業者登録番号',
 			businessNumberValue: BUSINESS_NUMBER,
-			ecommerceNumberLabel: '通信販売業申告番号',
-			ecommerceNumberValue: ECOMMERCE_NUMBER,
 			addressLabel: '住所',
 			addressValue: COMPANY_ADDRESS,
 
@@ -334,8 +327,6 @@
 			focusArea: '开发者工具、计算器、免费实用工具',
 			businessNumberLabel: '营业执照编号',
 			businessNumberValue: BUSINESS_NUMBER,
-			ecommerceNumberLabel: '电子商务备案编号',
-			ecommerceNumberValue: ECOMMERCE_NUMBER,
 			addressLabel: '地址',
 			addressValue: COMPANY_ADDRESS,
 
@@ -448,10 +439,6 @@
 			<div>
 				<dt class="text-xs text-primary-500 uppercase tracking-wide mb-1">{t.businessNumberLabel}</dt>
 				<dd class="text-gray-900 dark:text-dark-100 font-semibold">{t.businessNumberValue}</dd>
-			</div>
-			<div>
-				<dt class="text-xs text-primary-500 uppercase tracking-wide mb-1">{t.ecommerceNumberLabel}</dt>
-				<dd class="text-gray-900 dark:text-dark-100 font-semibold">{t.ecommerceNumberValue}</dd>
 			</div>
 			<div>
 				<dt class="text-xs text-primary-500 uppercase tracking-wide mb-1">{t.addressLabel}</dt>
