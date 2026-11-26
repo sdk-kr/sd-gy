@@ -6,12 +6,11 @@
 
 	const SITE_NAME = 'SD.gy';
 	const SITE_DOMAIN = 'sd.gy';
-	const CONTACT_EMAIL = 'contact@sd.gy';
-	const COMPANY_NAME = 'SDK Co., Ltd.';
-	const BUSINESS_NUMBER = '871-81-03242';
-	const ECOMMERCE_NUMBER = '2024-고양일산서-1820';
-	const COMPANY_ADDRESS = '제주특별자치도 제주시 남성로 127, 4층';
-	const COMPANY_ADDRESS_EN = '4F, 127 Namseong-ro, Jeju-si, Jeju Special Self-Governing Province, Republic of Korea';
+	const CONTACT_EMAIL = 'contact@sdklabs.org';
+	const COMPANY_NAME = '주식회사 에스디케이랩스 (SDKLabs Co., Ltd.)';
+	const BUSINESS_NUMBER = '424-86-03401';
+	const COMPANY_ADDRESS = '서울특별시 서초구 태봉로 60, 542호';
+	const COMPANY_ADDRESS_EN = '#542, 60 Taebong-ro, Seocho-gu, Seoul, Republic of Korea';
 	const EFFECTIVE_DATE = '2024-01-15';
 	const LAST_UPDATED = '2026-05-02';
 
@@ -27,7 +26,7 @@
 				{ title: 'Article 1 (Purpose)', content: `The purpose of these Terms is to define the rights, obligations, and responsibilities of the Company and the User in connection with the use of the Service. Any matter not stipulated herein shall be governed by the relevant Korean laws (including the Act on the Consumer Protection in Electronic Commerce, the Act on Promotion of Information and Communications Network Utilisation and Information Protection, and the Personal Information Protection Act), industry practice, and applicable international law.` },
 				{ title: 'Article 2 (Definitions)', content: `For the purpose of these Terms:
 
-- **"Company"** means ${COMPANY_NAME}, a Korean corporation with business registration number ${BUSINESS_NUMBER} and e-commerce registration number ${ECOMMERCE_NUMBER}.
+- **"Company"** means ${COMPANY_NAME}, a Korean corporation with business registration number ${BUSINESS_NUMBER}.
 - **"Service"** means the websites, applications, APIs, content, everyday calculators, and any related materials made available by the Company at ${SITE_DOMAIN}.
 - **"User"** means any individual or entity that accesses or uses the Service, whether as a guest visitor or as a logged-in user.
 - **"Content"** means any text, images, data, audio, video, design, layout, branding, software, and other materials made available through the Service.
@@ -117,7 +116,6 @@ ${SERVICE_ITEMS_EN.map(i => `- ${i}`).join('\n')}
 
 Operator: ${COMPANY_NAME}
 Business Registration: ${BUSINESS_NUMBER}
-E-Commerce Registration: ${ECOMMERCE_NUMBER}
 Address: ${COMPANY_ADDRESS_EN}` }
 			]
 		},
@@ -130,7 +128,7 @@ Address: ${COMPANY_ADDRESS_EN}` }
 				{ title: '제1조 (목적)', content: `본 약관은 서비스 이용과 관련하여 회사와 이용자 간의 권리·의무·책임 사항을 규정함을 목적으로 합니다. 본 약관에 명시되지 아니한 사항은 전자상거래 등에서의 소비자보호에 관한 법률, 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법 등 관련 법령 및 일반 상관례를 따릅니다.` },
 				{ title: '제2조 (정의)', content: `본 약관에서 사용하는 용어의 정의는 다음과 같습니다.
 
-- **"회사"**: ${SITE_NAME}을 운영하는 대한민국 법인 ${COMPANY_NAME}(사업자등록번호 ${BUSINESS_NUMBER}, 통신판매업 신고번호 ${ECOMMERCE_NUMBER}).
+- **"회사"**: ${SITE_NAME}을 운영하는 대한민국 법인 ${COMPANY_NAME}(사업자등록번호 ${BUSINESS_NUMBER}).
 - **"서비스"**: 회사가 ${SITE_DOMAIN} 도메인에서 제공하는 웹사이트, 애플리케이션, API, 콘텐츠, 일상 계산기 및 관련 자료 일체.
 - **"이용자"**: 게스트 방문자 또는 로그인 이용자로서 서비스에 접속·이용하는 모든 개인 또는 단체.
 - **"콘텐츠"**: 서비스 내에서 제공되는 글, 이미지, 데이터, 음성, 영상, 디자인, 레이아웃, 브랜드, 소프트웨어 등 일체의 자료.
@@ -213,7 +211,6 @@ Address: ${COMPANY_ADDRESS_EN}` }
 
 운영자: ${COMPANY_NAME}
 사업자등록번호: ${BUSINESS_NUMBER}
-통신판매업 신고번호: ${ECOMMERCE_NUMBER}
 주소: ${COMPANY_ADDRESS}` }
 			]
 		},
@@ -226,7 +223,7 @@ Address: ${COMPANY_ADDRESS_EN}` }
 				{ title: '第1条（目的）', content: `本規約は、本サービスの利用に関する当社と利用者の権利義務および責任事項を定めることを目的とします。本規約に定めのない事項については、電子商取引等における消費者保護に関する法律、情報通信網利用促進および情報保護等に関する法律、個人情報保護法等関連法令および一般商慣習に従います。` },
 				{ title: '第2条（定義）', content: `本規約で使用する用語の定義:
 
-- **「当社」**: ${SITE_NAME} を運営する大韓民国法人 ${COMPANY_NAME}（事業者登録番号 ${BUSINESS_NUMBER}、通信販売業申告番号 ${ECOMMERCE_NUMBER}）。
+- **「当社」**: ${SITE_NAME} を運営する大韓民国法人 ${COMPANY_NAME}（事業者登録番号 ${BUSINESS_NUMBER}）。
 - **「本サービス」**: 当社が ${SITE_DOMAIN} ドメインで提供するウェブサイト、アプリケーション、API、コンテンツ、日常の計算機および関連資料一式。
 - **「利用者」**: ゲスト訪問者またはログイン利用者として本サービスにアクセス・利用するすべての個人または団体。
 - **「コンテンツ」**: 本サービスを通じて提供される文章、画像、データ、音声、映像、デザイン、レイアウト、ブランド、ソフトウェア等の一切の素材。
@@ -309,7 +306,6 @@ Address: ${COMPANY_ADDRESS_EN}` }
 
 運営者: ${COMPANY_NAME}
 事業者登録番号: ${BUSINESS_NUMBER}
-通信販売業申告番号: ${ECOMMERCE_NUMBER}
 住所: ${COMPANY_ADDRESS}` }
 			]
 		},
@@ -322,7 +318,7 @@ Address: ${COMPANY_ADDRESS_EN}` }
 				{ title: '第一条（目的）', content: `本条款旨在就本服务的使用规定本公司与用户之间的权利、义务及责任。本条款未作规定的事项，适用《电子商务等领域消费者保护法》《信息通信网利用促进及信息保护等法》《个人信息保护法》等大韩民国相关法律法规及一般商业惯例。` },
 				{ title: '第二条（定义）', content: `本条款使用术语的定义如下：
 
-- **"本公司"**：运营 ${SITE_NAME} 的大韩民国法人 ${COMPANY_NAME}（营业执照编号 ${BUSINESS_NUMBER}，电子商务备案编号 ${ECOMMERCE_NUMBER}）。
+- **"本公司"**：运营 ${SITE_NAME} 的大韩民国法人 ${COMPANY_NAME}（营业执照编号 ${BUSINESS_NUMBER}）。
 - **"本服务"**：本公司在 ${SITE_DOMAIN} 域名下提供的网站、应用程序、API、内容、日常计算器及相关资料的整体。
 - **"用户"**：以访客或登录身份访问、使用本服务的任何个人或机构。
 - **"内容"**：通过本服务提供的文字、图像、数据、音频、视频、设计、版式、品牌、软件等所有素材。
@@ -405,7 +401,6 @@ Address: ${COMPANY_ADDRESS_EN}` }
 
 运营者：${COMPANY_NAME}
 营业执照编号：${BUSINESS_NUMBER}
-电子商务备案编号：${ECOMMERCE_NUMBER}
 地址：${COMPANY_ADDRESS}` }
 			]
 		}
